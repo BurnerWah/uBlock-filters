@@ -10,9 +10,18 @@
 
 ! -- SITE-SPECIFIC FILTERS --
 
+! bandcamp.com
+bandcamp.com##.corpbanner
+
 ! github.com
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
+
+! npmjs.com
+npmjs.com##div[data-promotion-spot="below-header"]
+
+! pypi.org
+pypi.org###sticky-notifications
 
 ! reddit.com
 reddit.com##.premium-banner-outer
