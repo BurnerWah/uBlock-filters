@@ -12,6 +12,12 @@
 
 ! -- SITE-SPECIFIC FILTERS --
 
+! arstechnica.com
+arstechnica.com##^.ad
+arstechnica.com##^#recommendations-footer
+arstechnica.com##.xrail
+||arstechnica.com/hotzones/src/ads.js$xhr,1p
+
 ! bandcamp.com
 bandcamp.com##.corpbanner
 
