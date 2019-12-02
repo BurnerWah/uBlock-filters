@@ -7,6 +7,8 @@
 
 ! -- UNIVERSAL FILTERS --
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
+||instant.page^$script
+||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
 
 ! -- SITE-SPECIFIC FILTERS --
 
