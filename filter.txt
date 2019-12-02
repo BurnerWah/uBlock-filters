@@ -1,0 +1,19 @@
+! Title: Jaden's uBlock filters
+! Expires: 1 week
+! Description: Supplemental filters targeting uBlock origin
+! Homepage: https://github.com/YaBoiBurner/uBlock-filters
+! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
+! vim:ft=ublock
+
+! -- UNIVERSAL FILTERS --
+||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
+
+! -- SITE-SPECIFIC FILTERS --
+
+! github.com
+github.com##a[href^="git-client://clone?repo="]
+github.com##a[href^="x-github-client://openRepo/"]
+
+! reddit.com
+reddit.com##.premium-banner-outer
+||www.redditstatic.com/gold/premium/premium-title.png$image,domain=reddit.com
