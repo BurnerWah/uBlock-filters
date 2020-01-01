@@ -1,8 +1,8 @@
 ! Title: Jaden's uBlock filters
 ! Expires: 1 week
 ! Description: Supplemental filters targeting uBlock origin
-! Homepage: https://github.com/YaBoiBurner/uBlock-filters
-! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
+! Homepage: https://gitlab.com/YaBoiBurner/uBlock-filters
+! Licence: https://gitlab.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
 ! vim:ft=ublock
 
 ! -- UNIVERSAL FILTERS --
