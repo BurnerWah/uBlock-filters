@@ -6,9 +6,35 @@
 ! vim:ft=ublock
 
 ! -- UNIVERSAL FILTERS --
+/wp-content/plugins/easy-affiliate-links/*$script,1p
+/wp-content/plugins/instagram-feed/*$script,1p
+/wp-content/plugins/socialsnap-pro/*$script,1p
+/x-kinja-static/assets/new-client/ads.*$script,1p
+/x-kinja-static/assets/new-client/runtime~ads.*$script,1p
+/x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
+/x-kinja-static/assets/new-client/trackers.*$script,1p
+/x-kinja-static/assets/new-client/vendors~ads.*$script,1p
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
+||clickhole.com/api/videoupload/video/byIds$xhr
+||i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_264,q_80,w_470/*$image
 ||instant.page^$script
+||kinja.com/api/profile/accountwithtoken$script
 ||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
+||x.kinja-static.com/assets/new-client/ads-outstreamNativeView.*$script
+||x.kinja-static.com/assets/new-client/ads-outstreamNativeView~specialSection.*$script
+||x.kinja-static.com/assets/new-client/category-stream~second-scroll.*$script
+||x.kinja-static.com/assets/new-client/customHeader~header.$script
+||x.kinja-static.com/assets/new-client/header.$script
+||x.kinja-static.com/assets/new-client/header~search.$script
+||x.kinja-static.com/assets/new-client/header~second-scroll.$script
+||x.kinja-static.com/assets/new-client/header~second-scroll~subscribe.$script
+||x.kinja-static.com/assets/new-client/header~second-scroll~top-bar.*$script
+||x.kinja-static.com/assets/new-client/initSubscribePopover.*$script
+||x.kinja-static.com/assets/new-client/recent-video.*$script
+||x.kinja-static.com/assets/new-client/second-scroll.*$script
+||x.kinja-static.com/assets/new-client/second-scroll~special-sections-editor.*$script
+||x.kinja-static.com/assets/new-client/subscribe.*$script
+||x.kinja-static.com/assets/new-client/top-bar.$script
 
 ! -- SITE-SPECIFIC FILTERS --
 
