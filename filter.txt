@@ -71,6 +71,24 @@ arstechnica.com##.xrail
 bandcamp.com###email-intake
 bandcamp.com##.corpbanner
 
+! derpibooru.org
+derpibooru.org##^#imagespns
+
+! furaffinity.net
+furaffinity.net###donation_list
+
+! furrylife.online
+furrylife.online#@#.cShareLink
+
+! genius.com
+genius.com##apple-music-player
+genius.com##recirculated-content
+
+! humblebundle.com
+humblebundle.com##.image-grid-view
+humblebundle.com##.mosaic-section
+humblebundle.com###site-xpromo-banner
+
 ! github.com
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
@@ -78,8 +96,21 @@ github.com##a[href^="x-github-client://openRepo/"]
 ! itch.io
 itch.io##.youtube_banner
 
+! merriam-webster.com
+merriam-webster.com###recirc-bar-footer
+merriam-webster.com###subscribe-overlay
+
+! nexusmods.com
+nexusmods.com##.premium-block
+nexusmods.com##.rj-supporter-wrapper
+nexusmods.com###rj-logo-social .rj-social-wrapper
+nexusmods.com###rj-vortex
+
 ! npmjs.com
 npmjs.com##div[data-promotion-spot="below-header"]
+
+! opencritic.com
+opencritic.com##app-advertisement
 
 ! pypi.org
 pypi.org###sticky-notifications
@@ -87,6 +118,16 @@ pypi.org###sticky-notifications
 ! reddit.com
 reddit.com##.premium-banner-outer
 ||www.redditstatic.com/gold/premium/premium-title.png$image,domain=reddit.com
+
+! sofurry.com
+sofurry.com##^#sf-ads
+
+! torrentz2.eu + mirrors
+torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.downurls > dl:has([href="/lorem2/xyy/"])
+torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.onToleratds
+
+! twofactorauth.org
+twofactorauth.org##.facebook-button
 
 ! uncensorpat.ch
 uncensorpat.ch###ad-panel-bottom
