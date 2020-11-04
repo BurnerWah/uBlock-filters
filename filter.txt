@@ -36,7 +36,30 @@
 ||x.kinja-static.com/assets/new-client/subscribe.*$script
 ||x.kinja-static.com/assets/new-client/top-bar.$script
 
+! -- STRICT BLOCKING OF ENTIRE SITES ---
+
+! - Spam, scams, etc. -
+! Try to make shre this doesn't have any redundancies with easylist
+||betterhelp.com^
+||donkeyfun.net^
+||joy-penguin.com^
+
+! - Concerning content/management -
+! Documentation for this should probably be kept on a wiki or something like that
+||artcamp.com^$important
+||donthugcacti.com^$important
+||ib.metapix.net^$important
+||inkbunny.net^$important
+||kiwifarms.net^$important
+||marapets.com^$important
+||nookazon.com^$important
+||reference.pictures^$important
+||teespring.com^$important
+
 ! -- SITE-SPECIFIC FILTERS --
+
+! apkmirror.com
+apkmirror.com##.promotedApp
 
 ! arstechnica.com
 arstechnica.com##^.ad
@@ -45,11 +68,15 @@ arstechnica.com##.xrail
 ||arstechnica.com/hotzones/src/ads.js$xhr,1p
 
 ! bandcamp.com
+bandcamp.com###email-intake
 bandcamp.com##.corpbanner
 
 ! github.com
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
+
+! itch.io
+itch.io##.youtube_banner
 
 ! npmjs.com
 npmjs.com##div[data-promotion-spot="below-header"]
@@ -60,3 +87,11 @@ pypi.org###sticky-notifications
 ! reddit.com
 reddit.com##.premium-banner-outer
 ||www.redditstatic.com/gold/premium/premium-title.png$image,domain=reddit.com
+
+! uncensorpat.ch
+uncensorpat.ch###ad-panel-bottom
+uncensorpat.ch###ad-panel-top
+
+! uquiz.com
+uquiz.com##.show.trending_header
+uquiz.com##.side_bar
