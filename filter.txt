@@ -6,22 +6,15 @@
 ! vim:ft=ublock
 
 ! -- UNIVERSAL FILTERS --
-/wp-content/plugins/easy-affiliate-links/*$script,1p
-/wp-content/plugins/instagram-feed/*$script,1p
-/wp-content/plugins/socialsnap-pro/*$script,1p
-/x-kinja-static/assets/new-client/ads.*$script,1p
-/x-kinja-static/assets/new-client/runtime~ads.*$script,1p
+/wp-content/plugins/easy-affiliate-links/*
+/wp-content/plugins/instagram-feed/*
+/wp-content/plugins/socialsnap-pro/*
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
-/x-kinja-static/assets/new-client/trackers.*$script,1p
-/x-kinja-static/assets/new-client/vendors~ads.*$script,1p
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
 ||clickhole.com/api/videoupload/video/byIds$xhr
 ||i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_264,q_80,w_470/*$image
-||instant.page^$script
 ||kinja.com/api/profile/accountwithtoken$script
 ||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
-||x.kinja-static.com/assets/new-client/ads-outstreamNativeView.*$script
-||x.kinja-static.com/assets/new-client/ads-outstreamNativeView~specialSection.*$script
 ||x.kinja-static.com/assets/new-client/category-stream~second-scroll.*$script
 ||x.kinja-static.com/assets/new-client/customHeader~header.$script
 ||x.kinja-static.com/assets/new-client/header.$script
@@ -69,7 +62,6 @@ arstechnica.com##.xrail
 
 ! bandcamp.com
 bandcamp.com###email-intake
-bandcamp.com##.corpbanner
 
 ! derpibooru.org
 derpibooru.org##^#imagespns
@@ -113,16 +105,11 @@ itch.io##.youtube_banner
 limetorrents.info###rightbar div:has-text(Advertisements)
 
 ! merriam-webster.com
-merriam-webster.com###recirc-bar-footer
-merriam-webster.com###subscribe-overlay
 
 ! metabattle.com
 metabattle.com###blockerEnabled
 metabattle.com##^script:has-text(getCookie('premiumMessage'))
 ||metabattle.com/ads.js$script,1p
-
-! myanimelist.net
-myanimelist.net##.btn-mal-service
 
 ! nexusmods.com
 nexusmods.com##.premium-block
@@ -132,9 +119,6 @@ nexusmods.com###rj-vortex
 
 ! npmjs.com
 npmjs.com##div[data-promotion-spot="below-header"]
-
-! opencritic.com
-opencritic.com##app-advertisement
 
 ! pypi.org
 pypi.org###sticky-notifications
@@ -160,9 +144,6 @@ twofactorauth.org##.facebook-button
 uncensorpat.ch###ad-panel-bottom
 uncensorpat.ch###ad-panel-top
 
-! urbandictionary.com
-urbandictionary.com##.mug-ad
-
 ! uquiz.com
 uquiz.com##.show.trending_header
 uquiz.com##.side_bar
@@ -170,3 +151,36 @@ uquiz.com##.side_bar
 ! xda-developers.com
 forum.xda-developers.com##.xdaforumnews.widget
 forum.xda-developers.com##.xdanews.widget
+
+! -- UNIMPORTANT/REDUNDANT FILTERS --
+! This is for filters that are redundant with a list that uBlock provides, but
+! leaves off by default.
+! Anything redundant with a filter that is on by default should be removed.
+! Additionally, anything redundant with a uBlock filter should be removed.
+!
+! - adguard-annoyance -
+bleepingcomputer.com##.bc_news_letter_sidebar
+kotaku.com###newsletterPromoModule
+merriam-webster.com###recirc-bar-footer
+myanimelist.net##.btn-mal-service
+readthedocs.io##.keep-us-sustainable
+urbandictionary.com##.mug-ad
+userstyles.org##.android_button_banner
+userstyles.org##.android_button_button
+userstyles.org##.walking
+youtube.com##.ytp-cards-teaser
+
+! - fanboy-annoyance -
+amazon.com###nav-upnav
+bandcamp.com##.corpbanner
+dropbox.com###top-notification-bar-container
+eu.usatoday.com##.banner
+kotaku.com##.js_commerce-inset-permalink
+kotaku.com##.js_modal_exit_intent
+theverge.com###newsletter-signup-short-form
+
+! - adguard-annoyance & fanboy-annoyance -
+merriam-webster.com###subscribe-overlay
+tapas.io###gdpr-cookie-message
+userstyles.org##.NotificationLine
+vox.com###newsletter-signup-short-form
