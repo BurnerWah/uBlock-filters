@@ -6,15 +6,19 @@
 ! vim:ft=ublock
 
 ! -- UNIVERSAL FILTERS --
+/wp-content/plugins/abc-analytics/*
 /wp-content/plugins/easy-affiliate-links/*
 /wp-content/plugins/instagram-feed/*
 /wp-content/plugins/socialsnap-pro/*
+/wp-content/plugins/super-socializer/js/front/facebook/*$important
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
+
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
 ||clickhole.com/api/videoupload/video/byIds$xhr
 ||i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_264,q_80,w_470/*$image
 ||kinja.com/api/profile/accountwithtoken$script
 ||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
+||static.parastorage.com/services/chat-worker/*
 ||x.kinja-static.com/assets/new-client/category-stream~second-scroll.*$script
 ||x.kinja-static.com/assets/new-client/customHeader~header.$script
 ||x.kinja-static.com/assets/new-client/header.$script
@@ -65,6 +69,25 @@ bandcamp.com###email-intake
 
 ! derpibooru.org
 derpibooru.org##^#imagespns
+
+! fandom.com, wikia.org
+! There's a lot to filter here (including stuff that I haven't tested in a while)
+fandom.com,wikia.org###WikiaBar
+fandom.com,wikia.org###WikiaTopAds
+fandom.com,wikia.org###articleComments
+fandom.com,wikia.org##.wds-global-navigation__links
+fandom.com,wikia.org##.wds-global-navigation__start-a-wiki
+fandom.com,wikia.org##.wds-global-navigation__user-menu
+fandom.com,wikia.org##.wikia-photogallery-add
+fandom.com,wikia.org##^script:has-text(function trackPageView)
+fandom.com,wikia.org##^script:has-text(var ads)
+fandom.com,wikia.org##^script:has-text(wikia_beacon_id)
+||wikia.nocookie.net/spotlightsimagestemporary/*$image,important
+||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
+||fandom.com/wikia.php?controller=RecirculationApi$xhr
+||services.fandom.com/knowledge-graph/affiliates/*$xhr
+@@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
+@@||fandom.com/load.php?*&modules=geo-*.js$script,1p
 
 ! furaffinity.net
 furaffinity.net###donation_list
@@ -180,6 +203,7 @@ kotaku.com##.js_modal_exit_intent
 theverge.com###newsletter-signup-short-form
 
 ! - adguard-annoyance & fanboy-annoyance -
+dropbox.com###eu-cookie-bar
 merriam-webster.com###subscribe-overlay
 tapas.io###gdpr-cookie-message
 userstyles.org##.NotificationLine
