@@ -80,9 +80,19 @@ furaffinity.net###donation_list
 ! furrylife.online
 furrylife.online#@#.cShareLink
 
+! gamebanana.com
+gamebanana.com##.AdTagModule
+
+! gamingonlinux.com
+gamingonlinux.com##.btn-google.btn-auth
+
 ! genius.com
 genius.com##apple-music-player
 genius.com##recirculated-content
+
+! housepetscomic.com
+housepetscomic.com##.popmake
+||housepetscomic.com/wp-content/plugins/popup-maker/*$script,1p
 
 ! humblebundle.com
 humblebundle.com##.image-grid-view
@@ -93,12 +103,26 @@ humblebundle.com###site-xpromo-banner
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
 
+! independent.co.uk
+independent.co.uk##.sticky-video
+
 ! itch.io
 itch.io##.youtube_banner
+
+! limetorrents.info
+limetorrents.info###rightbar div:has-text(Advertisements)
 
 ! merriam-webster.com
 merriam-webster.com###recirc-bar-footer
 merriam-webster.com###subscribe-overlay
+
+! metabattle.com
+metabattle.com###blockerEnabled
+metabattle.com##^script:has-text(getCookie('premiumMessage'))
+||metabattle.com/ads.js$script,1p
+
+! myanimelist.net
+myanimelist.net##.btn-mal-service
 
 ! nexusmods.com
 nexusmods.com##.premium-block
@@ -122,6 +146,9 @@ reddit.com##.premium-banner-outer
 ! sofurry.com
 sofurry.com##^#sf-ads
 
+! steamdb.info
+steamdb.info##.panel-social
+
 ! torrentz2.eu + mirrors
 torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.downurls > dl:has([href="/lorem2/xyy/"])
 torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.onToleratds
@@ -133,6 +160,13 @@ twofactorauth.org##.facebook-button
 uncensorpat.ch###ad-panel-bottom
 uncensorpat.ch###ad-panel-top
 
+! urbandictionary.com
+urbandictionary.com##.mug-ad
+
 ! uquiz.com
 uquiz.com##.show.trending_header
 uquiz.com##.side_bar
+
+! xda-developers.com
+forum.xda-developers.com##.xdaforumnews.widget
+forum.xda-developers.com##.xdanews.widget
