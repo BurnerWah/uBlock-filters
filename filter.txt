@@ -40,11 +40,13 @@
 ||betterhelp.com^
 ||donkeyfun.net^
 ||joy-penguin.com^
+||lincolnproject.us^
 
 ! - Concerning content/management -
-! Documentation for this should probably be kept on a wiki or something like that
+||aogami.soup.io^$important
 ||artcamp.com^$important
 ||donthugcacti.com^$important
+||ganyiao.com^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
 ||kiwifarms.net^$important
@@ -52,6 +54,7 @@
 ||nookazon.com^$important
 ||reference.pictures^$important
 ||teespring.com^$important
+||thexenoforge.wixsite.com^$important
 
 ! -- SITE-SPECIFIC FILTERS --
 
@@ -73,8 +76,11 @@ derpibooru.org##^#imagespns
 ! fandom.com, wikia.org
 ! There's a lot to filter here (including stuff that I haven't tested in a while)
 fandom.com,wikia.org###WikiaBar
+fandom.com,wikia.org###WikiaRailWrapper
 fandom.com,wikia.org###WikiaTopAds
 fandom.com,wikia.org###articleComments
+fandom.com,wikia.org##.page-header__contribution
+fandom.com,wikia.org##.wds-global-footer
 fandom.com,wikia.org##.wds-global-navigation__links
 fandom.com,wikia.org##.wds-global-navigation__start-a-wiki
 fandom.com,wikia.org##.wds-global-navigation__user-menu
@@ -86,6 +92,7 @@ fandom.com,wikia.org##^script:has-text(wikia_beacon_id)
 ||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
 ||fandom.com/wikia.php?controller=RecirculationApi$xhr
 ||services.fandom.com/knowledge-graph/affiliates/*$xhr
+||services.fandom.com/recommendations/*$xhr
 @@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
 @@||fandom.com/load.php?*&modules=geo-*.js$script,1p
 
@@ -113,6 +120,17 @@ housepetscomic.com##.popmake
 humblebundle.com##.image-grid-view
 humblebundle.com##.mosaic-section
 humblebundle.com###site-xpromo-banner
+
+! imgur.com
+imgur.com##.BottomRecirc
+imgur.com##.CommentsList
+imgur.com##.Footer-wrapper
+imgur.com##.Gallery-EngagementBar
+imgur.com##.Gallery-Sidebar
+imgur.com##.ProfileNavbar-loggedOut
+imgur.com##.Searchbar
+||api.imgur.com/comment/v1/comments$xhr,1p
+||api.imgur.com/post/v1/posts$xhr,1p
 
 ! github.com
 github.com##a[href^="git-client://clone?repo="]
