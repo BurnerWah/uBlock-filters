@@ -45,16 +45,25 @@
 ! - Concerning content/management -
 ||aogami.soup.io^$important
 ||artcamp.com^$important
+||bizymouse.com^$important
+||canine.equipment^$important
 ||donthugcacti.com^$important
+||exotic-erotics.com^$important
 ||ganyiao.com^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
+||jeffreytoobin.com^$important
 ||kiwifarms.net^$important
 ||marapets.com^$important
+||marzipansmilktea.wixsite.com^$important
 ||nookazon.com^$important
+||parler.com^$important
 ||reference.pictures^$important
+||tailbait.pw^$important
+||technicallyfox.com^$important
 ||teespring.com^$important
 ||thexenoforge.wixsite.com^$important
+||twintailcreations.com^$important
 
 ! -- SITE-SPECIFIC FILTERS --
 
