@@ -65,6 +65,9 @@
 ||thexenoforge.wixsite.com^$important
 ||twintailcreations.com^$important
 
+! - Shitty news sites -
+||cnn.com^$1p
+
 ! -- SITE-SPECIFIC FILTERS --
 
 ! apkmirror.com
