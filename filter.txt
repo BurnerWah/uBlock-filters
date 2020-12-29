@@ -45,6 +45,7 @@
 ! - Concerning content/management -
 ||aogami.soup.io^$important
 ||artcamp.com^$important
+||benbankas.com^$important
 ||bizymouse.com^$important
 ||canine.equipment^$important
 ||donthugcacti.com^$important
@@ -59,11 +60,13 @@
 ||nookazon.com^$important
 ||parler.com^$important
 ||reference.pictures^$important
+||siamusic.net^$important
 ||tailbait.pw^$important
 ||technicallyfox.com^$important
 ||teespring.com^$important
 ||thexenoforge.wixsite.com^$important
 ||twintailcreations.com^$important
+||wild---life.com^$important
 
 ! - Shitty news sites -
 ||cnn.com^$1p
