@@ -50,7 +50,6 @@
 ||bizymouse.com^$important
 ||canine.equipment^$important
 ||donthugcacti.com^$important
-||exotic-erotics.com^$important
 ||ganyiao.com^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
@@ -67,6 +66,7 @@
 ||teespring.com^$important
 ||thexenoforge.wixsite.com^$important
 ||twintailcreations.com^$important
+||weredog.co.uk^$important
 ||wild---life.com^$important
 
 ! - Shitty news sites -
