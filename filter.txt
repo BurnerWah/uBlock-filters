@@ -49,6 +49,7 @@
 ||benbankas.com^$important
 ||bizymouse.com^$important
 ||canine.equipment^$important
+||celebritiesbutbald.com^$important
 ||donthugcacti.com^$important
 ||ganyiao.com^$important
 ||ib.metapix.net^$important
