@@ -51,10 +51,13 @@
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
 ||donthugcacti.com^$important
+||gab.com^$important
 ||ganyiao.com^$important
+||helpsyria.carrd.co^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
 ||jeffreytoobin.com^$important
+||justfurus.weebly.com^$important
 ||kiwifarms.net^$important
 ||marapets.com^$important
 ||marzipansmilktea.wixsite.com^$important
@@ -62,12 +65,16 @@
 ||parler.com^$important
 ||reference.pictures^$important
 ||siamusic.net^$important
+||syria.carrd.co^$important
 ||tailbait.pw^$important
 ||technicallyfox.com^$important
 ||teespring.com^$important
+||thedonald.win^$important
 ||thexenoforge.wixsite.com^$important
 ||twintailcreations.com^$important
+||washingtontimes.com^$important
 ||weredog.co.uk^$important
+||wikifur.com^$important
 ||wild---life.com^$important
 
 ! - Shitty news sites -
