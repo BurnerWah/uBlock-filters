@@ -62,6 +62,7 @@
 ||marapets.com^$important
 ||marzipansmilktea.wixsite.com^$important
 ||nookazon.com^$important
+||nypost.com^$important
 ||parler.com^$important
 ||reference.pictures^$important
 ||siamusic.net^$important
