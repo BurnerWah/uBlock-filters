@@ -59,11 +59,13 @@
 ||jeffreytoobin.com^$important
 ||justfurus.weebly.com^$important
 ||kiwifarms.net^$important
+||lookleft.us^$important
 ||marapets.com^$important
 ||marzipansmilktea.wixsite.com^$important
 ||nookazon.com^$important
 ||nypost.com^$important
 ||parler.com^$important
+||peppercoyote.bandcamp.com^$important
 ||reference.pictures^$important
 ||siamusic.net^$important
 ||syria.carrd.co^$important
