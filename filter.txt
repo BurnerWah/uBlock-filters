@@ -48,6 +48,7 @@
 ||artcamp.com^$important
 ||benbankas.com^$important
 ||bizymouse.com^$important
+||blenderguru.com^$important
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
 ||donthugcacti.com^$important
