@@ -41,6 +41,8 @@
 ||donkeyfun.net^
 ||joy-penguin.com^
 ||lincolnproject.us^
+||teechip.com^
+||teechip.us^
 ||tw33tr.com^
 
 ! - Concerning content/management -
@@ -53,6 +55,7 @@
 ||celebritiesbutbald.com^$important
 ||donthugcacti.com^$important
 ||gab.com^$important
+||gamexplain.com^$important
 ||ganyiao.com^$important
 ||helpsyria.carrd.co^$important
 ||ib.metapix.net^$important
@@ -61,6 +64,7 @@
 ||justfurus.weebly.com^$important
 ||kiwifarms.net^$important
 ||lookleft.us^$important
+||madefuryou.com^$important
 ||marapets.com^$important
 ||marzipansmilktea.wixsite.com^$important
 ||nookazon.com^$important
@@ -69,6 +73,7 @@
 ||peppercoyote.bandcamp.com^$important
 ||reference.pictures^$important
 ||siamusic.net^$important
+||syberwuff.com^$important
 ||syria.carrd.co^$important
 ||tailbait.pw^$important
 ||technicallyfox.com^$important
