@@ -85,6 +85,7 @@
 ||weredog.co.uk^$important
 ||wikifur.com^$important
 ||wild---life.com^$important
+||wildabandon.com^$important
 
 ! - Shitty news sites -
 ||cnn.com^$1p
