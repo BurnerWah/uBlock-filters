@@ -54,6 +54,7 @@
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
 ||donthugcacti.com^$important
+||furfest.org^$important
 ||gab.com^$important
 ||gamexplain.com^$important
 ||ganyiao.com^$important
