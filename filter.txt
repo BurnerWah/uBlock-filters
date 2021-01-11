@@ -53,6 +53,7 @@
 ||blenderguru.com^$important
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
+||dailywire.com^$important
 ||donthugcacti.com^$important
 ||furfest.org^$important
 ||gab.com^$important
