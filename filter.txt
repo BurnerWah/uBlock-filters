@@ -66,6 +66,7 @@
 ||justfurus.weebly.com^$important
 ||kiwifarms.net^$important
 ||lookleft.us^$important
+||lp.org^$important
 ||madefuryou.com^$important
 ||marapets.com^$important
 ||marzipansmilktea.wixsite.com^$important
