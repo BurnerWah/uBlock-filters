@@ -53,6 +53,7 @@
 ||blenderguru.com^$important
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
+||commissionpaperwings.weebly.com^$important
 ||dailywire.com^$important
 ||donthugcacti.com^$important
 ||furfest.org^$important
@@ -65,6 +66,7 @@
 ||jeffreytoobin.com^$important
 ||justfurus.weebly.com^$important
 ||kiwifarms.net^$important
+||ko-fi.com/paperwings^$important
 ||lookleft.us^$important
 ||lp.org^$important
 ||madefuryou.com^$important
@@ -72,9 +74,12 @@
 ||marzipansmilktea.wixsite.com^$important
 ||nookazon.com^$important
 ||nypost.com^$important
+||paperwings.store^$important
 ||parler.com^$important
+||patreon.com/paperwings^$important
 ||peppercoyote.bandcamp.com^$important
 ||reference.pictures^$important
+||rodscontracts.com^$important
 ||siamusic.net^$important
 ||syberwuff.com^$important
 ||syria.carrd.co^$important
@@ -89,6 +94,7 @@
 ||wikifur.com^$important
 ||wild---life.com^$important
 ||wildabandon.com^$important
+||wolfjlupus.com^$important
 
 ! - Shitty news sites -
 ||cnn.com^$1p
