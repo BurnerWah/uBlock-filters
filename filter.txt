@@ -56,6 +56,7 @@
 ||commissionpaperwings.weebly.com^$important
 ||dailywire.com^$important
 ||donthugcacti.com^$important
+||furaffinity.net^$important
 ||furfest.org^$important
 ||gab.com^$important
 ||gamexplain.com^$important
