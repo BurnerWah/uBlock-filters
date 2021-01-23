@@ -51,6 +51,7 @@
 ||benbankas.com^$important
 ||bizymouse.com^$important
 ||blenderguru.com^$important
+||boundingintocomics.com^$important
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
 ||commissionpaperwings.weebly.com^$important
@@ -61,6 +62,9 @@
 ||gab.com^$important
 ||gamexplain.com^$important
 ||ganyiao.com^$important
+||garyvarvel.com^$important
+||gog.com^$important
+||grrrgraphics.com^$important
 ||helpsyria.carrd.co^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
