@@ -65,6 +65,8 @@
 ||garyvarvel.com^$important
 ||gog.com^$important
 ||grrrgraphics.com^$important
+||hanszimmer.com^$important
+||hanszimmerlive.com^$important
 ||helpsyria.carrd.co^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
@@ -79,7 +81,6 @@
 ||marzipansmilktea.wixsite.com^$important
 ||nookazon.com^$important
 ||nypost.com^$important
-||nytimes.com^$important
 ||paperwings.store^$important
 ||parler.com^$important
 ||patreon.com/paperwings^$important
@@ -104,6 +105,8 @@
 
 ! - Shitty news sites -
 ||cnn.com^$1p
+||lx.com^$1p
+||nytimes.com^$1p
 
 ! -- SITE-SPECIFIC FILTERS --
 
