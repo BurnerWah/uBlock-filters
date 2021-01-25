@@ -79,6 +79,7 @@
 ||marzipansmilktea.wixsite.com^$important
 ||nookazon.com^$important
 ||nypost.com^$important
+||nytimes.com^$important
 ||paperwings.store^$important
 ||parler.com^$important
 ||patreon.com/paperwings^$important
