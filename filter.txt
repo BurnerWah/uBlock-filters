@@ -48,6 +48,7 @@
 ! - Concerning content/management -
 ||aogami.soup.io^$important
 ||artcamp.com^$important
+||awooassociation.org^$important
 ||benbankas.com^$important
 ||bizymouse.com^$important
 ||blenderguru.com^$important
@@ -57,6 +58,7 @@
 ||commissionpaperwings.weebly.com^$important
 ||dailywire.com^$important
 ||donthugcacti.com^$important
+||fangcon.com^$important
 ||furaffinity.net^$important
 ||furfest.org^$important
 ||gab.com^$important
@@ -84,6 +86,8 @@
 ||paperwings.store^$important
 ||parler.com^$important
 ||patreon.com/paperwings^$important
+||peacewolf.carrd.co^$important
+||peacewolfcreations.com^$important
 ||peppercoyote.bandcamp.com^$important
 ||reference.pictures^$important
 ||rodscontracts.com^$important
@@ -91,6 +95,7 @@
 ||syberwuff.com^$important
 ||syria.carrd.co^$important
 ||tailbait.pw^$important
+||tailsandtornadoes.org^$important
 ||technicallyfox.com^$important
 ||teespring.com^$important
 ||thedonald.win^$important
