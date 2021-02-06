@@ -46,19 +46,24 @@
 ||tw33tr.com^
 
 ! - Concerning content/management -
+||americancoinstash.com^$important
 ||aogami.soup.io^$important
 ||artcamp.com^$important
 ||awooassociation.org^$important
+||bbcgossip.com^$important
 ||benbankas.com^$important
 ||bizymouse.com^$important
 ||blenderguru.com^$important
 ||boundingintocomics.com^$important
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
+||chedot.com^$important
 ||commissionpaperwings.weebly.com^$important
 ||dailywire.com^$important
+||disclose.tv^$important
 ||donthugcacti.com^$important
 ||fangcon.com^$important
+||fox10phoenix.com^$important
 ||furaffinity.net^$important
 ||furfest.org^$important
 ||gab.com^$important
@@ -69,6 +74,7 @@
 ||grrrgraphics.com^$important
 ||hanszimmer.com^$important
 ||hanszimmerlive.com^$important
+||helleborusflos.carrd.co^$important
 ||helpsyria.carrd.co^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
@@ -89,6 +95,8 @@
 ||peacewolf.carrd.co^$important
 ||peacewolfcreations.com^$important
 ||peppercoyote.bandcamp.com^$important
+||peta.org^$important
+||quillette.com^$important
 ||reference.pictures^$important
 ||rodscontracts.com^$important
 ||siamusic.net^$important
@@ -99,8 +107,12 @@
 ||technicallyfox.com^$important
 ||teespring.com^$important
 ||thedonald.win^$important
+||theguardian.com^$important
+||theworldnews.net^$important
 ||thexenoforge.wixsite.com^$important
+||tiny-conductor.tumblr.com^$important
 ||twintailcreations.com^$important
+||upi.com^$important
 ||washingtontimes.com^$important
 ||weredog.co.uk^$important
 ||wikifur.com^$important
@@ -110,8 +122,10 @@
 
 ! - Shitty news sites -
 ||cnn.com^$1p
+||ft.com^$important
 ||lx.com^$1p
 ||nytimes.com^$1p
+||politico.com^$1p
 
 ! -- SITE-SPECIFIC FILTERS --
 
