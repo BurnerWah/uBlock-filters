@@ -3,7 +3,6 @@
 ! Description: Supplemental filters targeting uBlock origin
 ! Homepage: https://gitlab.com/YaBoiBurner/uBlock-filters
 ! Licence: https://gitlab.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
-! vim:ft=ublock
 
 ! -- UNIVERSAL FILTERS --
 /wp-content/plugins/abc-analytics/*
@@ -99,6 +98,7 @@
 ||quillette.com^$important
 ||reference.pictures^$important
 ||rodscontracts.com^$important
+||serioustransvibes.com^$important
 ||siamusic.net^$important
 ||syberwuff.com^$important
 ||syria.carrd.co^$important
@@ -297,3 +297,5 @@ merriam-webster.com###subscribe-overlay
 tapas.io###gdpr-cookie-message
 userstyles.org##.NotificationLine
 vox.com###newsletter-signup-short-form
+
+! vim:ft=ublock
