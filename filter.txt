@@ -59,9 +59,13 @@
 ||chedot.com^$important
 ||commissionpaperwings.weebly.com^$important
 ||dailywire.com^$important
+||deck.new^$important
 ||disclose.tv^$important
+||doc.new^$important
 ||donthugcacti.com^$important
+||exitmouse.rocks^$important
 ||fangcon.com^$important
+||form.new^$important
 ||fox10phoenix.com^$important
 ||furaffinity.net^$important
 ||furfest.org^$important
@@ -81,11 +85,13 @@
 ||justfurus.weebly.com^$important
 ||kiwifarms.net^$important
 ||ko-fi.com/paperwings^$important
+||linuxreviews.org^$important
 ||lookleft.us^$important
 ||lp.org^$important
 ||madefuryou.com^$important
 ||marapets.com^$important
 ||marzipansmilktea.wixsite.com^$important
+||newscientist.com^$important
 ||nookazon.com^$important
 ||nypost.com^$important
 ||paperwings.store^$important
@@ -99,6 +105,7 @@
 ||reference.pictures^$important
 ||rodscontracts.com^$important
 ||serioustransvibes.com^$important
+||sheet.new^$important
 ||siamusic.net^$important
 ||syberwuff.com^$important
 ||syria.carrd.co^$important
@@ -124,7 +131,9 @@
 ||cnn.com^$1p
 ||ft.com^$important
 ||lx.com^$1p
+||nypost.com^$1p
 ||nytimes.com^$1p
+||oneangrygamer.net^$1p
 ||politico.com^$1p
 
 ! -- SITE-SPECIFIC FILTERS --
