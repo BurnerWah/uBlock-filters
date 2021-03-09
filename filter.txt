@@ -132,6 +132,23 @@
 ||wildabandon.com^$important
 ||wolfjlupus.com^$important
 
+! - Shitty news sites -
+||bbc.co.uk^$1p
+||bbc.com^$1p
+||cnn.com^$1p
+||dailymail.co.uk^$1p
+||ft.com^$1p
+||lx.com^$1p
+||nypost.com^$1p
+||nytimes.com^$1p
+||politico.com^$1p
+||the-sun.com^$1p
+||theguardian.co.uk^$1p
+||theguardian.com^$1p
+||thescottishsun.co.uk^$1p
+||thesun.co.uk^$1p
+||thesun.ie^$1p
+
 ! - Opinionated filters -
 ||battle.net^
 ||blizzard.com^
@@ -166,23 +183,6 @@
 ||starcraft2.com^
 ||website.new^
 ||worldofwarcraft.com^
-
-! - Shitty news sites -
-||bbc.co.uk^$1p
-||bbc.com^$1p
-||cnn.com^$1p
-||dailymail.co.uk^$1p
-||ft.com^$1p
-||lx.com^$1p
-||nypost.com^$1p
-||nytimes.com^$1p
-||politico.com^$1p
-||the-sun.com^$1p
-||theguardian.co.uk^$1p
-||theguardian.com^$1p
-||thescottishsun.co.uk^$1p
-||thesun.co.uk^$1p
-||thesun.ie^$1p
 
 ! -- SITE-SPECIFIC FILTERS --
 
