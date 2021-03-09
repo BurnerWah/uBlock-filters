@@ -5,6 +5,13 @@
 ! Licence: https://gitlab.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
 
 ! -- UNIVERSAL FILTERS --
+/amp-ads-
+/amp-auto-ads-
+/amp-facebook-
+/amp-google-assistant-assistjs-
+/amp-sticky-ad-
+/amp-story-auto-ads-
+/amp-story-auto-analytics-
 /wp-content/plugins/abc-analytics/*
 /wp-content/plugins/easy-affiliate-links/*
 /wp-content/plugins/instagram-feed/*
@@ -45,6 +52,7 @@
 ||tw33tr.com^
 
 ! - Concerning content/management -
+||alexgleason.me^$important
 ||americancoinstash.com^$important
 ||aogami.soup.io^$important
 ||artcamp.com^$important
@@ -54,23 +62,15 @@
 ||bizymouse.com^$important
 ||blenderguru.com^$important
 ||boundingintocomics.com^$important
-||cal.new^$important
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
 ||chedot.com^$important
 ||commissionpaperwings.weebly.com^$important
 ||dailywire.com^$important
-||deck.new^$important
 ||disclose.tv^$important
-||doc.new^$important
-||docs.new^$important
-||document.new^$important
-||documents.new^$important
 ||donthugcacti.com^$important
 ||exitmouse.rocks^$important
 ||fangcon.com^$important
-||form.new^$important
-||forms.new^$important
 ||fox10phoenix.com^$important
 ||furaffinity.net^$important
 ||furfest.org^$important
@@ -86,10 +86,8 @@
 ||helpsyria.carrd.co^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
-||jam.new^$important
 ||jeffreytoobin.com^$important
 ||justfurus.weebly.com^$important
-||keep.new^$important
 ||kiwifarms.net^$important
 ||ko-fi.com/paperwings^$important
 ||linuxreviews.org^$important
@@ -98,13 +96,10 @@
 ||madefuryou.com^$important
 ||marapets.com^$important
 ||marzipansmilktea.wixsite.com^$important
-||meet.new^$important
-||meeting.new^$important
 ||newscientist.com^$important
 ||nookazon.com^$important
-||note.new^$important
-||notes.new^$important
 ||nypost.com^$important
+||oneangrygamer.net^$important
 ||paperwings.store^$important
 ||parler.com^$important
 ||patreon.com/paperwings^$important
@@ -112,21 +107,11 @@
 ||peacewolfcreations.com^$important
 ||peppercoyote.bandcamp.com^$important
 ||peta.org^$important
-||presentation.new^$important
 ||quillette.com^$important
 ||reference.pictures^$important
 ||rodscontracts.com^$important
-||script.new^$important
 ||serioustransvibes.com^$important
-||sheet.new^$important
-||sheets.new^$important
 ||siamusic.net^$important
-||site.new^$important
-||sites.new^$important
-||slide.new^$important
-||slides.new^$important
-||spreadsheet.new^$important
-||spreadsheets.new^$important
 ||syberwuff.com^$important
 ||syria.carrd.co^$important
 ||tailbait.pw^$important
@@ -141,21 +126,63 @@
 ||twintailcreations.com^$important
 ||upi.com^$important
 ||washingtontimes.com^$important
-||website.new^$important
 ||weredog.co.uk^$important
 ||wikifur.com^$important
 ||wild---life.com^$important
 ||wildabandon.com^$important
 ||wolfjlupus.com^$important
 
+! - Opinionated filters -
+||battle.net^
+||blizzard.com^
+||cal.new^
+||deck.new^
+||diablo3.com^
+||doc.new^
+||docs.new^
+||document.new^
+||documents.new^
+||form.new^
+||forms.new^
+||jam.new^
+||keep.new^
+||meet.new^
+||meeting.new^
+||new.meet^
+||note.new^
+||notes.new^
+||playhearthstone.com^
+||playoverwatch.com^
+||presentation.new^
+||script.new^
+||sheet.new^
+||sheets.new^
+||site.new^
+||sites.new^
+||slide.new^
+||slides.new^
+||spreadsheet.new^
+||spreadsheets.new^
+||starcraft2.com^
+||website.new^
+||worldofwarcraft.com^
+
 ! - Shitty news sites -
+||bbc.co.uk^$1p
+||bbc.com^$1p
 ||cnn.com^$1p
-||ft.com^$important
+||dailymail.co.uk^$1p
+||ft.com^$1p
 ||lx.com^$1p
 ||nypost.com^$1p
 ||nytimes.com^$1p
-||oneangrygamer.net^$1p
 ||politico.com^$1p
+||the-sun.com^$1p
+||theguardian.co.uk^$1p
+||theguardian.com^$1p
+||thescottishsun.co.uk^$1p
+||thesun.co.uk^$1p
+||thesun.ie^$1p
 
 ! -- SITE-SPECIFIC FILTERS --
 
@@ -242,6 +269,10 @@ independent.co.uk##.sticky-video
 
 ! itch.io
 itch.io##.youtube_banner
+
+! jackbox.tv
+jackbox.tv##.slick
+jackbox.tv##.slick-track
 
 ! limetorrents.info
 limetorrents.info###rightbar div:has-text(Advertisements)
