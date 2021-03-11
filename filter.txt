@@ -74,6 +74,7 @@
 ||fox10phoenix.com^$important
 ||furaffinity.net^$important
 ||furfest.org^$important
+||furryartpro.com^$important
 ||gab.com^$important
 ||gamexplain.com^$important
 ||ganyiao.com^$important
@@ -150,8 +151,13 @@
 ||thesun.ie^$1p
 
 ! - Opinionated filters -
+||3lau.com^$1p
+||alexiscstudio.com^$1p
 ||battle.net^
+||beeple-collect.com^$1p
+||beeple-crap.com^$1p
 ||blizzard.com^
+||boysnoize.com^$1p
 ||cal.new^
 ||deck.new^
 ||diablo3.com^
@@ -161,13 +167,18 @@
 ||documents.new^
 ||form.new^
 ||forms.new^
+||gemini.com^$1p
 ||jam.new^
+||jnsilva.com^$1p
 ||keep.new^
+||killeracid.com^$1p
+||meatcanyon.shop^$1p
 ||meet.new^
 ||meeting.new^
 ||new.meet^
 ||note.new^
 ||notes.new^
+||odesza.com^$1p
 ||playhearthstone.com^
 ||playoverwatch.com^
 ||presentation.new^
@@ -178,11 +189,21 @@
 ||sites.new^
 ||slide.new^
 ||slides.new^
+||slimesunday.com^$1p
+||spaceyacht.net^$1p
 ||spreadsheet.new^
 ||spreadsheets.new^
+||ssx3lau.art^$1p
 ||starcraft2.com^
+||steveaoki.com^$1p
+||thankyoux.com^$1p
+||todayodious.com^$1p
 ||website.new^
 ||worldofwarcraft.com^
+
+! - Disabled due to sites being useful as a reference -
+! ||niftygateway.com^$1p
+! ||superrare.co^$1p
 
 ! -- SITE-SPECIFIC FILTERS --
 
