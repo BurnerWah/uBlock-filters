@@ -140,6 +140,7 @@
 ||cnn.com^$1p
 ||dailymail.co.uk^$1p
 ||ft.com^$1p
+||itsfoss.com^$1p
 ||lx.com^$1p
 ||nypost.com^$1p
 ||nytimes.com^$1p
