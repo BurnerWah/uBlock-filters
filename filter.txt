@@ -70,6 +70,7 @@
 ||dailywire.com^$important
 ||disclose.tv^$important
 ||donthugcacti.com^$important
+||dreamkeeperscomic.com^$important
 ||exitmouse.rocks^$important
 ||fangcon.com^$important
 ||fox10phoenix.com^$important
@@ -86,6 +87,7 @@
 ||hanszimmerlive.com^$important
 ||helleborusflos.carrd.co^$important
 ||helpsyria.carrd.co^$important
+||iankelling.org^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
 ||jeffreytoobin.com^$important
@@ -112,6 +114,7 @@
 ||quillette.com^$important
 ||reference.pictures^$important
 ||rodscontracts.com^$important
+||sacanime.com^$important
 ||serioustransvibes.com^$important
 ||siamusic.net^$important
 ||syberwuff.com^$important
