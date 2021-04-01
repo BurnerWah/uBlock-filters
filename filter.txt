@@ -113,6 +113,7 @@
 ||peta.org^$important
 ||quillette.com^$important
 ||reference.pictures^$important
+||repology.org^$important
 ||rodscontracts.com^$important
 ||sacanime.com^$important
 ||serioustransvibes.com^$important
