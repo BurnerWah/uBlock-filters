@@ -53,6 +53,7 @@
 
 ! - Concerning content/management -
 ||alexgleason.me^$important
+||amdmi3.ru^$important
 ||americancoinstash.com^$important
 ||aogami.soup.io^$important
 ||artcamp.com^$important
@@ -166,6 +167,7 @@
 ||boysnoize.com^$1p
 ||cal.new^
 ||deck.new^
+||defectivebydesign.org^$1p
 ||diablo3.com^
 ||doc.new^
 ||docs.new^
@@ -173,11 +175,14 @@
 ||documents.new^
 ||form.new^
 ||forms.new^
+||fsf.org^$1p
 ||gemini.com^$1p
+||gnu.org^$1p
 ||jam.new^
 ||jnsilva.com^$1p
 ||keep.new^
 ||killeracid.com^$1p
+||libreplanet.org^$1p
 ||meatcanyon.shop^$1p
 ||meet.new^
 ||meeting.new^
