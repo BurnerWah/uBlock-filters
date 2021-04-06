@@ -138,6 +138,7 @@
 ||wild---life.com^$important
 ||wildabandon.com^$important
 ||wolfjlupus.com^$important
+||slbtty.info^$important
 
 ! - Shitty news sites -
 ||bbc.co.uk^$1p
@@ -150,6 +151,7 @@
 ||nypost.com^$1p
 ||nytimes.com^$1p
 ||politico.com^$1p
+||rt.com^$1p
 ||the-sun.com^$1p
 ||theguardian.co.uk^$1p
 ||theguardian.com^$1p
@@ -166,6 +168,7 @@
 ||blizzard.com^
 ||boysnoize.com^$1p
 ||cal.new^
+||cnx.srht.site^
 ||deck.new^
 ||defectivebydesign.org^$1p
 ||diablo3.com^
@@ -177,8 +180,11 @@
 ||forms.new^
 ||fsf.org^$1p
 ||gemini.com^$1p
+||gnu.io^
 ||gnu.org^$1p
+||gnusocial.network^
 ||jam.new^
+||jami.net^
 ||jnsilva.com^$1p
 ||keep.new^
 ||killeracid.com^$1p
@@ -211,6 +217,7 @@
 ||todayodious.com^$1p
 ||website.new^
 ||worldofwarcraft.com^
+||zrythm.org^
 
 ! - Disabled due to sites being useful as a reference -
 ! ||niftygateway.com^$1p
