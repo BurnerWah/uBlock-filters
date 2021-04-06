@@ -188,6 +188,7 @@
 ||jnsilva.com^$1p
 ||keep.new^
 ||killeracid.com^$1p
+||libreboot.org^
 ||libreplanet.org^$1p
 ||meatcanyon.shop^$1p
 ||meet.new^
@@ -211,6 +212,7 @@
 ||spreadsheet.new^
 ||spreadsheets.new^
 ||ssx3lau.art^$1p
+||stallmansupport.org^
 ||starcraft2.com^
 ||steveaoki.com^$1p
 ||thankyoux.com^$1p
