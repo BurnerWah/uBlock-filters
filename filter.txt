@@ -154,6 +154,7 @@
 ||the-sun.com^$1p
 ||theguardian.co.uk^$1p
 ||theguardian.com^$1p
+||thehill.com^$1p
 ||thescottishsun.co.uk^$1p
 ||thesun.co.uk^$1p
 ||thesun.ie^$1p
