@@ -52,6 +52,7 @@
 ||tw33tr.com^
 
 ! - Concerning content/management -
+||4thwavenow.com^$important
 ||alexgleason.me^$important
 ||amdmi3.ru^$important
 ||americancoinstash.com^$important
@@ -64,10 +65,13 @@
 ||blenderguru.com^$important
 ||blick.ch^$important
 ||boundingintocomics.com^$important
+||breitbart.com^$important
 ||canine.equipment^$important
 ||celebritiesbutbald.com^$important
 ||chedot.com^$important
+||christianpost.com^$important
 ||commissionpaperwings.weebly.com^$important
+||dailycaller.com^$important
 ||dailywire.com^$important
 ||disclose.tv^$important
 ||donthugcacti.com^$important
@@ -88,10 +92,12 @@
 ||hanszimmerlive.com^$important
 ||helleborusflos.carrd.co^$important
 ||helpsyria.carrd.co^$important
+||heritage.org^$important
 ||iankelling.org^$important
 ||ib.metapix.net^$important
 ||inkbunny.net^$important
 ||jeffreytoobin.com^$important
+||jessesingal.com^$important
 ||justfurus.weebly.com^$important
 ||kiwifarms.net^$important
 ||ko-fi.com/paperwings^$important
@@ -119,25 +125,31 @@
 ||sacanime.com^$important
 ||serioustransvibes.com^$important
 ||siamusic.net^$important
+||slbtty.info^$important
 ||syberwuff.com^$important
 ||syria.carrd.co^$important
 ||tailbait.pw^$important
 ||tailsandtornadoes.org^$important
 ||technicallyfox.com^$important
 ||teespring.com^$important
+||theblaze.com^$important
 ||thedonald.win^$important
+||thefederalist.com^$important
 ||theguardian.com^$important
+||thepostmillennial.com^$important
+||theralphretort.com^$important
 ||theworldnews.net^$important
 ||thexenoforge.wixsite.com^$important
 ||tiny-conductor.tumblr.com^$important
 ||twintailcreations.com^$important
+||unherd.com^$important
 ||upi.com^$important
+||vdare.com^$important
 ||washingtontimes.com^$important
 ||weredog.co.uk^$important
 ||wild---life.com^$important
 ||wildabandon.com^$important
 ||wolfjlupus.com^$important
-||slbtty.info^$important
 
 ! - Shitty news sites -
 ||bbc.co.uk^$1p
@@ -180,6 +192,7 @@
 ||forms.new^
 ||fsf.org^$1p
 ||gemini.com^$1p
+||giltroy.com^
 ||gnu.io^
 ||gnu.org^$1p
 ||gnusocial.network^
