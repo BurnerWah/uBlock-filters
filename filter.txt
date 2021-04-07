@@ -134,7 +134,6 @@
 ||upi.com^$important
 ||washingtontimes.com^$important
 ||weredog.co.uk^$important
-||wikifur.com^$important
 ||wild---life.com^$important
 ||wildabandon.com^$important
 ||wolfjlupus.com^$important
