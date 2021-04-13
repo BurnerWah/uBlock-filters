@@ -53,6 +53,7 @@
 
 ! - Concerning content/management -
 ||4thwavenow.com^$important
+||genasys.com^$important
 ||alexgleason.me^$important
 ||amdmi3.ru^$important
 ||americancoinstash.com^$important
@@ -166,6 +167,7 @@
 ||ft.com^$1p
 ||itsfoss.com^$1p
 ||lx.com^$1p
+||nymag.com^
 ||nypost.com^$1p
 ||nytimes.com^$1p
 ||politico.com^$1p
