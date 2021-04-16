@@ -1,0 +1,39 @@
+! Title: Nuclear Anti-Facebook
+! Description: An expremely aggressive anti-facebook filter.
+! Expires: 4 weeks
+! Homepage: https://github.com/YaBoiBurner/uBlock-filters
+! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
+!
+! Warning
+! This filter will break things.
+! I will not respond to issues about broken things.
+! Breaking things is the entire point of this filter.
+! Hence why it's called "Nuclear Anti-Facebook."
+!
+! I'll maybe make an exclusion if there's a safety concern stemming from a filter.
+
+||cdninstagram.com^$important
+||facebook-web-clients.appspot.com^$important
+||facebook.com.edgekey.net^$important
+||facebook.com.edgesuite.net^$important
+||facebook.com^$important
+||facebook.net.edgekey.net^$important
+||facebook.net^$important
+||facebookcorewwwi.onion^$important
+||fb.com^$important
+||fb.me^$important
+||fbcdn-photos-*.akamaihd.net^$important
+||fbcdn-profile-*.akamaihd.net^$important
+||fbcdn-sphotos-*.akamaihd.net^$important
+||fbcdn.com^$important
+||fbcdn.net^$important
+||fbexternal-*.akamaihd.net^$important
+||fbsbx.com.online-metrix.net^$important
+||fbsbx.com^$important
+||instagram.com^$important
+||instagramstatic-*.akamaihd.net.edgesuite.net^$important
+||instagramstatic-*.akamaihd.net^$important
+||tfbnw.net^$important
+||whatsapp.com^$important
+
+! vim:ft=ublock
