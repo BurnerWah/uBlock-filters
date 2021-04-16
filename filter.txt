@@ -53,30 +53,42 @@
 ||teechip.us^
 ||tw33tr.com^
 
-! - Concerning content/management -
+! - CORE FILTERS -
+! These can be anything from just not okay, to heavily opinionated stuff.
 ||4thwavenow.com^$important
 ||alexgleason.me^$important
 ||americancoinstash.com^
 ||aogami.soup.io^$important
 ||artcamp.com^
+||battle.net^
+||bbc.co.uk^$1p
+||bbc.com^$1p
 ||bbcgossip.com^
+||beeple-collect.com^
+||beeple-crap.com^
 ||benbankas.com^$important
 ||bizymouse.com^
 ||blenderguru.com^
 ||blick.ch^
+||blizzard.com^
 ||boundingintocomics.com^
 ||breitbart.com^$important
 ||canine.equipment^$important
 ||chedot.com^
 ||christianpost.com^$important
+||cnn.com^$1p
 ||commissionpaperwings.weebly.com^
 ||conservapedia.com^$important
 ||dailycaller.com^$important
+||dailymail.co.uk^$1p
 ||dailywire.com^$important
+||diablo3.com^
 ||disclose.tv^
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
 ||fox10phoenix.com^
+||fsf.org^
+||ft.com^$1p
 ||furaffinity.net^
 ||furryartpro.com^
 ||gab.com^$important
@@ -84,6 +96,8 @@
 ||ganyiao.com^
 ||garyvarvel.com^$important
 ||genasys.com^
+||gnu.org^
+||gog.com^
 ||grrrgraphics.com^$important
 ||hannity.com^$important
 ||hanszimmer.com^
@@ -93,21 +107,27 @@
 ||iankelling.org^$important
 ||ib.metapix.net^
 ||inkbunny.net^
+||itsfoss.com^$1p
+||jami.net^
 ||jeffreytoobin.com^$important
 ||jessesingal.com^$important
 ||justfurus.weebly.com^
 ||kiwifarms.net^
 ||ko-fi.com/paperwings^
+||libreboot.org^
 ||linuxreviews.org^
 ||lookleft.us^
 ||lp.org^
+||lx.com^$1p
 ||marapets.com^
 ||marzipansmilktea.wixsite.com^
 ||nationalreview.com^$important
 ||naturalnews.com^$important
 ||newscientist.com^$important
 ||nookazon.com^
+||nymag.com^
 ||nypost.com^$important
+||nytimes.com^$1p
 ||oneangrygamer.net^$important
 ||paperwings.store^
 ||parler.com^$important
@@ -117,26 +137,39 @@
 ||peppercoyote.bandcamp.com^
 ||peta.org^
 ||phyllisschlafly.com^$important
+||playhearthstone.com^
+||playoverwatch.com^
+||politico.com^$1p
 ||quillette.com^$important
 ||reference.pictures^
+||repology.org^
 ||rodscontracts.com^$important
+||rt.com^$1p
 ||sacanime.com^
 ||serioustransvibes.com^
 ||siamusic.net^
 ||spectator.org^$important
 ||stallman.org^
+||stallmansupport.org^
+||starcraft2.com^
 ||syberwuff.com^
 ||tailbait.pw^
 ||technicallyfox.com^
 ||teespring.com^
+||the-sun.com^$1p
 ||theamericanconservative.com^$important
+||theatlantic.com^$1p
 ||theblaze.com^$important
 ||thedonald.win^$important
 ||thefederalist.com^$important
 ||theguardian.co.uk^
 ||theguardian.com^
+||thehill.com^$1p
 ||thepostmillennial.com^$important
 ||theralphretort.com^$important
+||thescottishsun.co.uk^$1p
+||thesun.co.uk^$1p
+||thesun.ie^$1p
 ||theworldnews.net^$important
 ||thexenoforge.wixsite.com^
 ||tiny-conductor.tumblr.com^
@@ -152,58 +185,30 @@
 ||wild---life.com^
 ||wnd.com^$important
 ||wolfjlupus.com^
-
-! - Shitty news sites -
-||bbc.co.uk^$1p
-||bbc.com^$1p
-||cnn.com^$1p
-||dailymail.co.uk^$1p
-||ft.com^$1p
-||itsfoss.com^$1p
-||lx.com^$1p
-||nymag.com^
-||nytimes.com^$1p
-||politico.com^$1p
-||rt.com^$1p
-||the-sun.com^$1p
-||theatlantic.com^$1p
-||thehill.com^$1p
-||thescottishsun.co.uk^$1p
-||thesun.co.uk^$1p
-||thesun.ie^$1p
+||worldofwarcraft.com^
 
 ! - Opinionated filters -
 ||3lau.com^$1p
 ||alexiscstudio.com^$1p
-||battle.net^
-||beeple-collect.com^$1p
-||beeple-crap.com^$1p
-||blizzard.com^
 ||boysnoize.com^$1p
 ||cal.new^
 ||cnx.srht.site^
 ||deck.new^
 ||defectivebydesign.org^
-||diablo3.com^
 ||doc.new^
 ||docs.new^
 ||document.new^
 ||documents.new^
 ||form.new^
 ||forms.new^
-||fsf.org^
 ||gemini.com^$1p
 ||giltroy.com^
 ||gnu.io^
-||gnu.org^
 ||gnusocial.network^
-||gog.com^
 ||jam.new^
-||jami.net^
 ||jnsilva.com^$1p
 ||keep.new^
 ||killeracid.com^$1p
-||libreboot.org^
 ||libreplanet.org^
 ||meatcanyon.shop^$1p
 ||meet.new^
@@ -212,10 +217,7 @@
 ||note.new^
 ||notes.new^
 ||odesza.com^$1p
-||playhearthstone.com^
-||playoverwatch.com^
 ||presentation.new^
-||repology.org^
 ||script.new^
 ||sheet.new^
 ||sheets.new^
@@ -229,13 +231,10 @@
 ||spreadsheet.new^
 ||spreadsheets.new^
 ||ssx3lau.art^$1p
-||stallmansupport.org^
-||starcraft2.com^
 ||steveaoki.com^$1p
 ||thankyoux.com^$1p
 ||todayodious.com^$1p
 ||website.new^
-||worldofwarcraft.com^
 ||zrythm.org^
 
 ! - Disabled due to sites being useful as a reference -
@@ -281,9 +280,6 @@ fandom.com,wikia.org##^script:has-text(wikia_beacon_id)
 ||services.fandom.com/recommendations/*$xhr
 @@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
 @@||fandom.com/load.php?*&modules=geo-*.js$script,1p
-
-! furaffinity.net
-furaffinity.net###donation_list
 
 ! furrylife.online
 furrylife.online#@#.cShareLink
@@ -334,8 +330,6 @@ jackbox.tv##.slick-track
 
 ! limetorrents.info
 limetorrents.info###rightbar div:has-text(Advertisements)
-
-! merriam-webster.com
 
 ! metabattle.com
 metabattle.com###blockerEnabled
