@@ -173,6 +173,7 @@
 ||politico.com^$1p
 ||rt.com^$1p
 ||the-sun.com^$1p
+||theatlantic.com^$1p
 ||theguardian.co.uk^$1p
 ||theguardian.com^$1p
 ||thehill.com^$1p
