@@ -5,16 +5,24 @@
 ! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
 
 ! -- UNIVERSAL FILTERS --
+/amp-addthis-
 /amp-ads-
 /amp-auto-ads-
 /amp-facebook-
 /amp-google-assistant-assistjs-
+/amp-instagram-
+/amp-onetap-google-
+/amp-pinterest-
+/amp-skimlinks-
+/amp-social-share-
 /amp-sticky-ad-
 /amp-story-auto-ads-
 /amp-story-auto-analytics-
 /wp-content/plugins/abc-analytics/*
 /wp-content/plugins/easy-affiliate-links/*
 /wp-content/plugins/instagram-feed/*
+/wp-content/plugins/jnews-like/*
+/wp-content/plugins/jnews-weather/*
 /wp-content/plugins/socialsnap-pro/*
 /wp-content/plugins/super-socializer/js/front/facebook/*$important
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
@@ -87,6 +95,7 @@
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
 ||fox10phoenix.com^
+||foxnews.com^
 ||fsf.org^
 ||ft.com^$1p
 ||furaffinity.net^
@@ -127,7 +136,9 @@
 ||nookazon.com^
 ||nymag.com^
 ||nypost.com^$important
-||nytimes.com^$1p
+||nyt.com^
+||nytimes.com^
+||nytimes.map.fastly.net^
 ||oneangrygamer.net^$important
 ||paperwings.store^
 ||parler.com^$important
