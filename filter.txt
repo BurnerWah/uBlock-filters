@@ -56,10 +56,13 @@
 ||helpsyria.carrd.co^
 ||joy-penguin.com^
 ||lincolnproject.us^
+||momentgay.com^
+||momentgirl.com^
 ||syria.carrd.co^
 ||teechip.com^
 ||teechip.us^
 ||tw33tr.com^
+||yeshentai.com^
 
 ! - CORE FILTERS -
 ! These can be anything from just not okay, to heavily opinionated stuff.
