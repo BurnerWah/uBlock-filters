@@ -12,6 +12,7 @@
 !
 ! I'll maybe make an exclusion if there's a safety concern stemming from a filter.
 
+||*-facebook-production-*.intellum.com^$important
 ||cdninstagram.com^$important
 ||facebook-web-clients.appspot.com^$important
 ||facebook.com.edgekey.net^$important
@@ -19,8 +20,10 @@
 ||facebook.com^$important
 ||facebook.net.edgekey.net^$important
 ||facebook.net^$important
+||facebookblueprint.com^$important
 ||facebookcorewwwi.onion^$important
 ||fb.com^$important
+||fb.gg^$important
 ||fb.me^$important
 ||fbcdn-photos-*.akamaihd.net^$important
 ||fbcdn-profile-*.akamaihd.net^$important
@@ -33,7 +36,12 @@
 ||instagram.com^$important
 ||instagramstatic-*.akamaihd.net.edgesuite.net^$important
 ||instagramstatic-*.akamaihd.net^$important
+||messengerkids.com^$important
+||novi.com^$important
+||ocul.us^$important
+||oculus.com^$important
 ||tfbnw.net^$important
 ||whatsapp.com^$important
+||workplace.com^$important
 
 ! vim:ft=ublock

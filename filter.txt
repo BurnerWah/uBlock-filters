@@ -248,6 +248,7 @@
 ||steveaoki.com^$1p
 ||thankyoux.com^$1p
 ||todayodious.com^$1p
+||web.dev^
 ||website.new^
 ||zrythm.org^
 
