@@ -1,0 +1,9 @@
+! Title: Burner's mobile uBlock filters
+! Expires: 1 week
+! Description: Supplemental filters targeting uBlock origin & mobile devices.
+! Homepage: https://github.com/YaBoiBurner/uBlock-filters
+! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
+
+duckduckgo.com##.open-in-app
+
+! vim:ft=ublock

@@ -1,4 +1,4 @@
-! Title: Jaden's uBlock filters
+! Title: Burner's uBlock filters
 ! Expires: 1 week
 ! Description: Supplemental filters targeting uBlock origin
 ! Homepage: https://github.com/YaBoiBurner/uBlock-filters
@@ -118,6 +118,7 @@
 ||heritage.org^$important
 ||iankelling.org^$important
 ||ib.metapix.net^
+||ign.com^
 ||inkbunny.net^
 ||itsfoss.com^$1p
 ||jami.net^
