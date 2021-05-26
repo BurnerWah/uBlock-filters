@@ -99,6 +99,7 @@
 ||dreamkeeperscomic.com^
 ||fox10phoenix.com^
 ||foxnews.com^
+||freenode.net^$important
 ||fsf.org^
 ||ft.com^$1p
 ||furaffinity.net^
@@ -119,6 +120,7 @@
 ||iankelling.org^$important
 ||ib.metapix.net^
 ||ign.com^
+||independent.co.uk^
 ||inkbunny.net^
 ||itsfoss.com^$1p
 ||jami.net^
@@ -192,6 +194,7 @@
 ||twintailcreations.com^
 ||unherd.com^$important
 ||upi.com^
+||vaush.gg^$important
 ||vdare.com^$important
 ||washingtonexaminer.com^$important
 ||washingtontimes.com^$important
