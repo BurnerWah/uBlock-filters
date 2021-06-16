@@ -102,7 +102,6 @@
 ||freenode.net^$important
 ||fsf.org^
 ||ft.com^$1p
-||furaffinity.net^
 ||furryartpro.com^
 ||gab.com^$important
 ||gamexplain.com^
