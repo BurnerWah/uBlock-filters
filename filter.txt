@@ -90,6 +90,7 @@
 ||cnn.com^$1p
 ||commissionpaperwings.weebly.com^
 ||conservapedia.com^$important
+||cracked.com^
 ||dailycaller.com^$important
 ||dailymail.co.uk^$1p
 ||dailywire.com^$important
@@ -191,6 +192,7 @@
 ||thexenoforge.wixsite.com^
 ||tiny-conductor.tumblr.com^
 ||tpusa.com^$important
+||tsr.games^$important
 ||twintailcreations.com^
 ||unherd.com^$important
 ||upi.com^
