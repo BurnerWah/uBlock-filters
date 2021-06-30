@@ -122,6 +122,7 @@
 ||ign.com^
 ||independent.co.uk^
 ||inkbunny.net^
+||internetrevolution.co^
 ||itsfoss.com^$1p
 ||jami.net^
 ||jeffreytoobin.com^$important
@@ -157,9 +158,12 @@
 ||playhearthstone.com^
 ||playoverwatch.com^
 ||politico.com^$1p
+||postdates.*.amazonaws.com^
+||postdates.co^
 ||quillette.com^$important
 ||reference.pictures^
 ||repology.org^
+||roadtrip.fm^
 ||rodscontracts.com^$important
 ||rskemono.com^
 ||rt.com^$1p
@@ -321,7 +325,6 @@ housepetscomic.com##.popmake
 
 ! humblebundle.com
 humblebundle.com##.image-grid-view
-humblebundle.com##.mosaic-section
 humblebundle.com###site-xpromo-banner
 
 ! imgur.com
