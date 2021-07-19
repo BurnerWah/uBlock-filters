@@ -71,6 +71,7 @@
 ||americancoinstash.com^
 ||aogami.soup.io^$important
 ||artcamp.com^
+||audacityteam.org^$important
 ||battle.net^
 ||bbc.co.uk^$1p
 ||bbc.com^$1p
@@ -137,6 +138,9 @@
 ||lx.com^$1p
 ||marapets.com^
 ||marzipansmilktea.wixsite.com^
+||mu.se^$important
+||museclass.com^$important
+||musescore.com^$important
 ||nationalreview.com^$important
 ||naturalnews.com^$important
 ||newscientist.com^$important
@@ -171,6 +175,7 @@
 ||serioustransvibes.com^
 ||siamusic.net^
 ||spectator.org^$important
+||staffpad.net^$important
 ||stallman.org^
 ||stallmansupport.org^
 ||starcraft2.com^
@@ -198,6 +203,7 @@
 ||tpusa.com^$important
 ||tsr.games^$important
 ||twintailcreations.com^
+||ultimate-guitar.com^$important
 ||unherd.com^$important
 ||upi.com^
 ||vaush.gg^$important
