@@ -83,6 +83,7 @@
 ||blenderguru.com^
 ||blick.ch^
 ||blizzard.com^
+||bostondynamics.com^
 ||boundingintocomics.com^
 ||breitbart.com^$important
 ||canine.equipment^$important
@@ -111,6 +112,7 @@
 ||garyvarvel.com^$important
 ||genasys.com^
 ||gnu.org^
+||goblfc.org^
 ||gog.com^
 ||grrrgraphics.com^$important
 ||hannity.com^$important
@@ -138,6 +140,7 @@
 ||lx.com^$1p
 ||marapets.com^
 ||marzipansmilktea.wixsite.com^
+||messenger.com^
 ||mu.se^$important
 ||museclass.com^$important
 ||musescore.com^$important
@@ -162,6 +165,7 @@
 ||playhearthstone.com^
 ||playoverwatch.com^
 ||politico.com^$1p
+||poodlewise.com^
 ||postdates.*.amazonaws.com^
 ||postdates.co^
 ||quillette.com^$important

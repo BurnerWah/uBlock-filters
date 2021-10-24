@@ -9,6 +9,7 @@
 0.0.0.0 app.nytimes.com
 0.0.0.0 archive.nytimes.com
 0.0.0.0 bizymouse.com
+0.0.0.0 bostondynamics.com
 0.0.0.0 calendar.nytimes.com
 0.0.0.0 community.nytimes.com
 0.0.0.0 documents.nytimes.com
@@ -43,6 +44,7 @@
 0.0.0.0 peacewolf.carrd.co
 0.0.0.0 peacewolfcreations.com
 0.0.0.0 peppercoyote.bandcamp.com
+0.0.0.0 poodlewise.com
 0.0.0.0 projects.nytimes.com
 0.0.0.0 q.nytimes.com
 0.0.0.0 qc.ib.metapix.net
@@ -64,9 +66,11 @@
 0.0.0.0 video.nytimes.com
 0.0.0.0 wap.nytimes.com
 0.0.0.0 wild---life.com
+0.0.0.0 www.bostondynamics.com
 0.0.0.0 www.nyt.com
 0.0.0.0 www.nytimes.com
 0.0.0.0 www.oneangrygamer.net
+0.0.0.0 www.poodlewise.com
 0.0.0.0 www2.nytimes.com
 
 # vim:ft=hostconf
