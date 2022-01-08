@@ -75,8 +75,9 @@
 ||artcamp.com^
 ||audacityteam.org^$important
 ||battle.net^
-||bbc.co.uk^$1p
+||bbc.co.uk^
 ||bbc.com^$1p
+||bbcamerica.com^
 ||bbcgossip.com^
 ||beeple-collect.com^
 ||beeple-crap.com^
@@ -95,6 +96,7 @@
 ||christianpost.com^$important
 ||cnn.com^$1p
 ||cnx.srht.site^
+||coinmarketcap.com^
 ||commissionpaperwings.weebly.com^
 ||conservapedia.com^$important
 ||cracked.com^
@@ -103,6 +105,7 @@
 ||dailywire.com^$important
 ||deck.new^
 ||defectivebydesign.org^
+||defibit.io^
 ||diablo3.com^
 ||disclose.tv^
 ||doc.new^
@@ -111,13 +114,15 @@
 ||documents.new^
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
+||earncryptointerest.com^
+||flipsidecrypto.com^
 ||form.new^
 ||forms.new^
 ||fox10phoenix.com^
 ||foxnews.com^
 ||freenode.net^$important
 ||fsf.org^
-||ft.com^$1p
+! ||ft.com^$1p
 ||furryartpro.com^
 ||gab.com^$important
 ||gamexplain.com^
@@ -184,6 +189,7 @@
 ||nytimes.map.fastly.net^
 ||odesza.com^$1p
 ||oneangrygamer.net^$important
+||pancakeswap.finance^
 ||paperwings.store^
 ||parler.com^$important
 ||patreon.com/paperwings^
@@ -259,6 +265,7 @@
 ||thexenoforge.wixsite.com^
 ||tiny-conductor.tumblr.com^
 ||todayodious.com^$1p
+||tokeninsight.com^
 ||tpusa.com^$important
 ||tsr.games^$important
 ||twintailcreations.com^
@@ -299,10 +306,14 @@ derpibooru.org##^#imagespns
 
 ! fandom.com, wikia.org
 ! There's a lot to filter here (including stuff that I haven't tested in a while)
+fandom.com,wikia.org###WikiaArticleFooter
 fandom.com,wikia.org###WikiaBar
+fandom.com,wikia.org###WikiaFooter
+fandom.com,wikia.org###WikiaNotifications
 fandom.com,wikia.org###WikiaRailWrapper
 fandom.com,wikia.org###WikiaTopAds
 fandom.com,wikia.org###articleComments
+fandom.com,wikia.org##.createpage.wds-is-secondary.wds-button
 fandom.com,wikia.org##.page-header__contribution
 fandom.com,wikia.org##.wds-global-footer
 fandom.com,wikia.org##.wds-global-navigation__links
@@ -312,13 +323,18 @@ fandom.com,wikia.org##.wikia-photogallery-add
 fandom.com,wikia.org##^script:has-text(function trackPageView)
 fandom.com,wikia.org##^script:has-text(var ads)
 fandom.com,wikia.org##^script:has-text(wikia_beacon_id)
-||wikia.nocookie.net/spotlightsimagestemporary/*$image,important
+fandom.com,wikia.org##a[data-tracking="discuss"]
+||fandom.com/f$xhr
 ||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
 ||fandom.com/wikia.php?controller=RecirculationApi$xhr
+||services.fandom.com/discussion/*$xhr
 ||services.fandom.com/knowledge-graph/affiliates/*$xhr
 ||services.fandom.com/recommendations/*$xhr
+||wikia.nocookie.net/spotlightsimagestemporary/*$image,important
 @@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
 @@||fandom.com/load.php?*&modules=geo-*.js$script,1p
+fandom.com,wikia.org##.page__right-rail
+fandom.com,wikia.org##a.share-button
 
 ! furrylife.online
 furrylife.online#@#.cShareLink
