@@ -116,6 +116,7 @@
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
 ||earncryptointerest.com^
+||fivethirtyeight.com^
 ||flipsidecrypto.com^
 ||form.new^
 ||forms.new^
