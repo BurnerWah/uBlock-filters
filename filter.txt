@@ -163,6 +163,7 @@
 ||libreplanet.org^
 ||linuxreviews.org^
 ||lookleft.us^
+||losangeles.cbslocal.com^
 ||lp.org^
 ||lx.com^$1p
 ||marapets.com^
