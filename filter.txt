@@ -92,6 +92,7 @@
 ||breitbart.com^$important
 ||cal.new^
 ||canine.equipment^$important
+||cbsla.com^
 ||chedot.com^
 ||christianpost.com^$important
 ||cnn.com^$1p
@@ -122,7 +123,6 @@
 ||foxnews.com^
 ||freenode.net^$important
 ||fsf.org^
-! ||ft.com^$1p
 ||furryartpro.com^
 ||gab.com^$important
 ||gamexplain.com^
@@ -286,6 +286,7 @@
 ||worldofwarcraft.com^
 ||zrythm.org^
 
+! ||ft.com^$1p
 
 ! -- SITE-SPECIFIC FILTERS --
 
