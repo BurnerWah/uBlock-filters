@@ -65,7 +65,6 @@
 ||yeshentai.com^
 
 ! - CORE FILTERS -
-! These can be anything from just not okay, to heavily opinionated stuff.
 ||3lau.com^$1p
 ||4thwavenow.com^$important
 ||alexgleason.me^$important
@@ -242,6 +241,7 @@
 ||substack.com^
 ||superrare.co^
 ||syberwuff.com^
+||tabletopsimulator.com^$important
 ||tailbait.pw^
 ||technicallyfox.com^
 ||teespring.com^
