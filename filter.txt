@@ -134,7 +134,6 @@
 ||gnu.io^
 ||gnu.org^
 ||gnusocial.network^
-||goblfc.org^
 ||gog.com^
 ||grrrgraphics.com^$important
 ||hannity.com^$important
@@ -207,6 +206,7 @@
 ||postdates.*.amazonaws.com^
 ||postdates.co^
 ||presentation.new^
+||protocol.com^
 ||quillette.com^$important
 ||rarible.com^
 ||reference.pictures^
