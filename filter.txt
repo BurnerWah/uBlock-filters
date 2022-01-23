@@ -67,11 +67,15 @@
 ! - CORE FILTERS -
 ||3lau.com^$1p
 ||4thwavenow.com^$important
+||888.link^
+||888^
 ||alexgleason.me^$important
 ||alexiscstudio.com^$1p
 ||americancoinstash.com^
 ||aogami.soup.io^$important
 ||artcamp.com^
+||artstation.com/miles-df^
+||artstation.com/users/miles-df^
 ||audacityteam.org^$important
 ||battle.net^
 ||bbc.co.uk^
@@ -81,10 +85,14 @@
 ||beeple-collect.com^
 ||beeple-crap.com^
 ||benbankas.com^$important
+||bitcoin.link^
+||bitcoin^
 ||bizymouse.com^
 ||blenderguru.com^
 ||blick.ch^
 ||blizzard.com^
+||blockchain.link^
+||blockchain^
 ||bostondynamics.com^
 ||boundingintocomics.com^
 ||boysnoize.com^$1p
@@ -96,13 +104,19 @@
 ||christianpost.com^$important
 ||cnn.com^$1p
 ||cnx.srht.site^
+||coin.link^
+||coin^
 ||coinmarketcap.com^
 ||commissionpaperwings.weebly.com^
 ||conservapedia.com^$important
 ||cracked.com^
+||crypto.link^
+||crypto^
 ||dailycaller.com^$important
 ||dailymail.co.uk^$1p
 ||dailywire.com^$important
+||dao.link^
+||dao^
 ||deck.new^
 ||defectivebydesign.org^
 ||defibit.io^
@@ -115,10 +129,13 @@
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
 ||earncryptointerest.com^
+||ethereum-magicians.org^
+||ethereum.org^
 ||fivethirtyeight.com^
 ||flipsidecrypto.com^
 ||form.new^
 ||forms.new^
+||foundation.app^
 ||fox10phoenix.com^
 ||foxnews.com^
 ||freenode.net^$important
@@ -147,7 +164,6 @@
 ||independent.co.uk^
 ||inkbunny.net^
 ||internetrevolution.co^
-||itsfoss.com^$1p
 ||jam.new^
 ||jami.net^
 ||jeffreytoobin.com^$important
@@ -171,13 +187,17 @@
 ||meet.new^
 ||meeting.new^
 ||messenger.com^
+||miles-df.artstation.com^
 ||mu.se^$important
 ||museclass.com^$important
 ||musescore.com^$important
 ||nationalreview.com^$important
 ||naturalnews.com^$important
+||neowin.net^
 ||new.meet^
 ||newscientist.com^$important
+||nft.link^
+||nft^
 ||niftygateway.com^
 ||nookazon.com^
 ||note.new^
@@ -273,9 +293,12 @@
 ||twintailcreations.com^
 ||ultimate-guitar.com^$important
 ||unherd.com^$important
+||unstoppable.io^
 ||upi.com^
 ||vaush.gg^$important
 ||vdare.com^$important
+||wallet.link^
+||wallet^
 ||washingtonexaminer.com^$important
 ||washingtontimes.com^$important
 ||washtimes.com^$important
@@ -286,6 +309,10 @@
 ||wnd.com^$important
 ||wolfjlupus.com^
 ||worldofwarcraft.com^
+||x.link^
+||x^
+||zil.link^
+||zil^
 ||zrythm.org^
 
 ! ||ft.com^$1p
@@ -418,6 +445,9 @@ steamdb.info##.panel-social
 ! torrentz2.eu + mirrors
 torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.downurls > dl:has([href="/lorem2/xyy/"])
 torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.onToleratds
+
+! twitter.com
+||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr
 
 ! twofactorauth.org
 twofactorauth.org##.facebook-button
