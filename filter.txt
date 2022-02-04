@@ -119,6 +119,7 @@
 ||cnx.srht.site^
 ||coin.link^
 ||coin^
+||coindesk.com^
 ||coinmarketcap.com^
 ||commissionpaperwings.weebly.com^
 ||conservapedia.com^$important
@@ -166,11 +167,12 @@
 ||garyvarvel.com^$important
 ||gemini.com^
 ||genasys.com^
+||gethitpiece.com^
+||gfinityesports.com^
 ||giltroy.com^
 ||gnu.io^
 ||gnu.org^
 ||gnusocial.network^
-||gog.com^
 ||grrrgraphics.com^$important
 ||gun.eco^
 ||hannity.com^$important
@@ -178,6 +180,7 @@
 ||hanszimmerlive.com^
 ||helleborusflos.carrd.co^
 ||heritage.org^$important
+||hitpiece.com^
 ||iankelling.org^$important
 ||ib.metapix.net^
 ||ign.com^
@@ -347,6 +350,7 @@
 ||zeronet.io^
 ||zil.link^
 ||zil^
+||zora.co^
 ||zrythm.org^
 
 ! ||ft.com^$1p
