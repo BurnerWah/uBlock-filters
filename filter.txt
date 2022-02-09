@@ -70,8 +70,10 @@
 ||888.link^
 ||888^
 ||abracadabra.money^
+||acala.network^
 ||alexgleason.me^$important
 ||alexiscstudio.com^$1p
+||allchainbridge.com^
 ||americancoinstash.com^
 ||aogami.soup.io^$important
 ||arpie.gg^
@@ -100,6 +102,8 @@
 ||blizzard.com^
 ||blockchain.link^
 ||blockchain^
+||blockchainforclimate.org^
+||blockfolio.com^
 ||blockstack.org^
 ||bluestacks.com^
 ||bostondynamics.com^
@@ -120,6 +124,7 @@
 ||coin.link^
 ||coin^
 ||coindesk.com^
+||coingecko.com^
 ||coinmarketcap.com^
 ||commissionpaperwings.weebly.com^
 ||conservapedia.com^$important
@@ -127,6 +132,7 @@
 ||crypto.link^
 ||crypto^
 ||cryptocves.com^
+||cryptorod.io^
 ||dailycaller.com^$important
 ||dailymail.co.uk^$1p
 ||dailywire.com^$important
@@ -145,17 +151,20 @@
 ||dreamkeeperscomic.com^
 ||earncryptointerest.com^
 ||embarklabs.io^
+||equalityhumanrights.com^
 ||ethereum-magicians.org^
 ||ethereum.org^
+||eurus.network^
 ||fivethirtyeight.com^
 ||flipsidecrypto.com^
+||flooz.trade^
 ||form.new^
 ||forms.new^
 ||foundation.app^
 ||fox10phoenix.com^
 ||foxnews.com^
 ||fredboat.com^
-||freenode.net^$important
+||freenode.net^
 ||freqtrade.io^
 ||fsf.org^
 ||furryartpro.com^
@@ -197,6 +206,7 @@
 ||killeracid.com^$1p
 ||kiwifarms.net^
 ||ko-fi.com/paperwings^
+||kusama.network^
 ||libreboot.org^
 ||libreplanet.org^
 ||linuxreviews.org^
@@ -223,6 +233,8 @@
 ||newscientist.com^$important
 ||nft.link^
 ||nft^
+||nftmusic.stream^
+||nfttrader.io^
 ||niftygateway.com^
 ||nookazon.com^
 ||note.new^
@@ -249,6 +261,7 @@
 ||playoverwatch.com^
 ||politico.com^$1p
 ||politics.co.uk^
+||polkadot.network^
 ||poodlewise.com^
 ||postdates.*.amazonaws.com^
 ||postdates.co^
@@ -256,6 +269,7 @@
 ||protocol.com^
 ||quillette.com^$important
 ||rarible.com^
+||reclaimthenet.org^
 ||reference.pictures^
 ||repology.org^
 ||roadtrip.fm^
@@ -264,12 +278,15 @@
 ||rskemono.com^
 ||rt.com^$1p
 ||sacanime.com^
+||sahillavingia.com^
 ||scanate.co^
 ||screenrant.com^
 ||script.new^
 ||serioustransvibes.com^
+||shaqsfunhouse.com^
 ||sheet.new^
 ||sheets.new^
+||shl.capital^
 ||sia.tech^
 ||siamusic.net^
 ||site.new^
@@ -291,6 +308,7 @@
 ||steveaoki.com^$1p
 ||substack.com^
 ||superrare.co^
+||swft.pro^
 ||syberwuff.com^
 ||tabletopsimulator.com^$important
 ||tailbait.pw^
@@ -320,10 +338,12 @@
 ||todayodious.com^$1p
 ||tokeninsight.com^
 ||tpusa.com^$important
+||traderjoexyz.com^
 ||tsr.games^$important
 ||twintailcreations.com^
 ||ultimate-guitar.com^$important
 ||unherd.com^$important
+||uniswap.org^
 ||unstoppable.io^
 ||upi.com^
 ||vaush.gg^$important
@@ -335,6 +355,7 @@
 ||washingtontimes.com^$important
 ||washtimes.com^$important
 ||web.dev^
+||web3.foundation^
 ||website.new^
 ||weeb.sh^
 ||weredog.co.uk^
@@ -352,8 +373,6 @@
 ||zil^
 ||zora.co^
 ||zrythm.org^
-
-! ||ft.com^$1p
 
 ! -- SITE-SPECIFIC FILTERS --
 
