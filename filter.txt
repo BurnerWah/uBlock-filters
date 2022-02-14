@@ -111,7 +111,6 @@
 ||boundingintocomics.com^
 ||boysnoize.com^$1p
 ||breitbart.com^$important
-||cal.new^
 ||canine.equipment^$important
 ||carl.gg^
 ||cbsla.com^
@@ -138,15 +137,10 @@
 ||dailywire.com^$important
 ||dao.link^
 ||dao^
-||deck.new^
 ||defectivebydesign.org^
 ||defibit.io^
 ||diablo3.com^
 ||disclose.tv^
-||doc.new^
-||docs.new^
-||document.new^
-||documents.new^
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
 ||earncryptointerest.com^
@@ -158,8 +152,6 @@
 ||fivethirtyeight.com^
 ||flipsidecrypto.com^
 ||flooz.trade^
-||form.new^
-||forms.new^
 ||foundation.app^
 ||fox10phoenix.com^
 ||foxnews.com^
@@ -167,6 +159,7 @@
 ||freenode.net^
 ||freqtrade.io^
 ||fsf.org^
+||fullmoonphotostudios.com^
 ||furryartpro.com^
 ||gab.com^$important
 ||game.tv^
@@ -196,13 +189,11 @@
 ||independent.co.uk^
 ||inkbunny.net^
 ||internetrevolution.co^
-||jam.new^
 ||jami.net^
 ||jeffreytoobin.com^$important
 ||jessesingal.com^$important
 ||jnsilva.com^$1p
 ||justfurus.weebly.com^
-||keep.new^
 ||killeracid.com^$1p
 ||kiwifarms.net^
 ||ko-fi.com/paperwings^
@@ -218,18 +209,17 @@
 ||marzipansmilktea.wixsite.com^
 ||mayormcgee.com^
 ||meatcanyon.shop^$1p
-||meet.new^
-||meeting.new^
 ||messenger.com^
 ||miles-df.artstation.com^
+||mtgdao.org^
 ||mu.se^$important
 ||museclass.com^$important
 ||musescore.com^$important
 ||nationalreview.com^$important
 ||naturalnews.com^$important
+||nbcnewyork.com^
 ||neowin.net^
 ||nest.land^
-||new.meet^
 ||newscientist.com^$important
 ||nft.link^
 ||nft^
@@ -237,8 +227,6 @@
 ||nfttrader.io^
 ||niftygateway.com^
 ||nookazon.com^
-||note.new^
-||notes.new^
 ||now.gg^
 ||nymag.com^
 ||nypost.com^$important
@@ -265,7 +253,6 @@
 ||poodlewise.com^
 ||postdates.*.amazonaws.com^
 ||postdates.co^
-||presentation.new^
 ||protocol.com^
 ||quillette.com^$important
 ||rarible.com^
@@ -281,25 +268,16 @@
 ||sahillavingia.com^
 ||scanate.co^
 ||screenrant.com^
-||script.new^
 ||serioustransvibes.com^
 ||shaqsfunhouse.com^
-||sheet.new^
-||sheets.new^
 ||shl.capital^
 ||sia.tech^
 ||siamusic.net^
-||site.new^
-||sites.new^
 ||slbtty.info^
-||slide.new^
-||slides.new^
 ||slimesunday.com^$1p
 ||solana.com^
 ||spaceyacht.net^$1p
 ||spectator.org^$important
-||spreadsheet.new^
-||spreadsheets.new^
 ||ssx3lau.art^$1p
 ||staffpad.net^$important
 ||stallman.org^
@@ -313,8 +291,8 @@
 ||tabletopsimulator.com^$important
 ||tailbait.pw^
 ||technicallyfox.com^
-||teespring.com^
 ||telegraph.co.uk^
+||tether.to^
 ||thankyoux.com^$1p
 ||the-sun.com^$1p
 ||theamericanconservative.com^$important
@@ -356,7 +334,6 @@
 ||washtimes.com^$important
 ||web.dev^
 ||web3.foundation^
-||website.new^
 ||weeb.sh^
 ||weredog.co.uk^
 ||wild---life.com^
@@ -372,7 +349,6 @@
 ||zil.link^
 ||zil^
 ||zora.co^
-||zrythm.org^
 
 ! -- SITE-SPECIFIC FILTERS --
 
