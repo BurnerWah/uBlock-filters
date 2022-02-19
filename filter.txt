@@ -76,6 +76,7 @@
 ||allchainbridge.com^
 ||americancoinstash.com^
 ||aogami.soup.io^$important
+||aquatifur.com^
 ||arpie.gg^
 ||artcamp.com^
 ||artstation.com/miles-df^
@@ -127,6 +128,7 @@
 ||coinmarketcap.com^
 ||commissionpaperwings.weebly.com^
 ||conservapedia.com^$important
+||corgievents.com^
 ||cracked.com^
 ||crypto.link^
 ||crypto^
@@ -139,6 +141,7 @@
 ||dao^
 ||defectivebydesign.org^
 ||defibit.io^
+||denfur.org^
 ||diablo3.com^
 ||disclose.tv^
 ||donthugcacti.com^
@@ -176,6 +179,7 @@
 ||gnu.org^
 ||gnusocial.network^
 ||grrrgraphics.com^$important
+||gsfurcon.com^
 ||gun.eco^
 ||hannity.com^$important
 ||hanszimmer.com^
@@ -235,6 +239,7 @@
 ||nytimes.map.fastly.net^
 ||odesza.com^$1p
 ||oneangrygamer.net^$important
+||painteddesertfc.com^
 ||pancakeswap.finance^
 ||paperwings.store^
 ||parler.com^$important
@@ -250,6 +255,7 @@
 ||politico.com^$1p
 ||politics.co.uk^
 ||polkadot.network^
+||ponyvilleciderfest.com^
 ||poodlewise.com^
 ||postdates.*.amazonaws.com^
 ||postdates.co^
@@ -273,6 +279,7 @@
 ||shl.capital^
 ||sia.tech^
 ||siamusic.net^
+||sincitymurrcon.com^
 ||slbtty.info^
 ||slimesunday.com^$1p
 ||solana.com^
@@ -336,6 +343,7 @@
 ||web3.foundation^
 ||weeb.sh^
 ||weredog.co.uk^
+||whinnycity.com^
 ||wild---life.com^
 ||wnd.com^$important
 ||wolfjlupus.com^
