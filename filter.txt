@@ -160,6 +160,7 @@
 ||ethereum-magicians.org^
 ||ethereum.org^
 ||eurus.network^
+||farbeyondthe.world^
 ||farbeyondtheworld.com^
 ||fivethirtyeight.com^
 ||flipsidecrypto.com^
@@ -251,6 +252,9 @@
 ||nytimes.map.fastly.net^
 ||odesza.com^$1p
 ||oneangrygamer.net^$important
+||opera.com^
+||operacdn.com^
+||opr.as^
 ||ownrwallet.com^
 ||painteddesertfc.com^
 ||pancakeswap.finance^
