@@ -154,11 +154,13 @@
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
 ||earncryptointerest.com^
+||echoesofarcane.itch.io^
 ||embarklabs.io^
 ||equalityhumanrights.com^
 ||ethereum-magicians.org^
 ||ethereum.org^
 ||eurus.network^
+||farbeyondtheworld.com^
 ||fivethirtyeight.com^
 ||flipsidecrypto.com^
 ||flooz.trade^
