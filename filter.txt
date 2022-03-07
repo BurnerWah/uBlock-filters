@@ -71,12 +71,14 @@
 ||888^
 ||abracadabra.money^
 ||acala.network^
+||alchemymerch.com^
 ||alexgleason.me^$important
 ||alexiscstudio.com^$1p
 ||allchainbridge.com^
 ||americancoinstash.com^
 ||aogami.soup.io^$important
 ||aquatifur.com^
+||argent.xyz^
 ||arpie.gg^
 ||artcamp.com^
 ||artstation.com/miles-df^
@@ -85,6 +87,7 @@
 ||arwiki.wiki^
 ||audacityteam.org^$important
 ||ayana.io^
+||bancor.network^
 ||battle.net^
 ||bbc.co.uk^
 ||bbc.com^$1p
@@ -94,9 +97,11 @@
 ||beeple-crap.com^
 ||benbankas.com^$important
 ||bigchaindb.com^
+||binance.us^
 ||bitcoin.link^
 ||bitcoin^
 ||bitcoincore.org^
+||bitfinex.com^
 ||bizymouse.com^
 ||blenderguru.com^
 ||blick.ch^
@@ -105,6 +110,7 @@
 ||blockchain^
 ||blockchainforclimate.org^
 ||blockfolio.com^
+||blockreward.app^
 ||blockstack.org^
 ||bluestacks.com^
 ||bostondynamics.com^
@@ -133,6 +139,7 @@
 ||crypto.link^
 ||crypto^
 ||cryptocves.com^
+||cryptomator.org^
 ||cryptorod.io^
 ||dailycaller.com^$important
 ||dailymail.co.uk^$1p
@@ -160,9 +167,9 @@
 ||foxnews.com^
 ||fredboat.com^
 ||freenode.net^
+||freerobux.best^
 ||freqtrade.io^
 ||fsf.org^
-||fullmoonphotostudios.com^
 ||furryartpro.com^
 ||gab.com^$important
 ||game.tv^
@@ -191,6 +198,7 @@
 ||ib.metapix.net^
 ||ign.com^
 ||independent.co.uk^
+||infura.io^
 ||inkbunny.net^
 ||internetrevolution.co^
 ||jami.net^
@@ -198,6 +206,7 @@
 ||jessesingal.com^$important
 ||jnsilva.com^$1p
 ||justfurus.weebly.com^
+||keplr.app^
 ||killeracid.com^$1p
 ||kiwifarms.net^
 ||ko-fi.com/paperwings^
@@ -230,6 +239,7 @@
 ||nftmusic.stream^
 ||nfttrader.io^
 ||niftygateway.com^
+||nomadiconvention.org^
 ||nookazon.com^
 ||now.gg^
 ||nymag.com^
@@ -239,6 +249,7 @@
 ||nytimes.map.fastly.net^
 ||odesza.com^$1p
 ||oneangrygamer.net^$important
+||ownrwallet.com^
 ||painteddesertfc.com^
 ||pancakeswap.finance^
 ||paperwings.store^
@@ -248,6 +259,7 @@
 ||peacewolfcreations.com^
 ||peppercoyote.bandcamp.com^
 ||peta.org^
+||phantom.app^
 ||phyllisschlafly.com^$important
 ||piggy.gg^
 ||playhearthstone.com^
@@ -261,6 +273,7 @@
 ||postdates.co^
 ||protocol.com^
 ||quillette.com^$important
+||rainbow.me^
 ||rarible.com^
 ||reclaimthenet.org^
 ||reference.pictures^
@@ -324,14 +337,17 @@
 ||tokeninsight.com^
 ||tpusa.com^$important
 ||traderjoexyz.com^
+||trustwallet.com^
 ||tsr.games^$important
 ||twintailcreations.com^
 ||ultimate-guitar.com^$important
 ||unherd.com^$important
 ||uniswap.org^
 ||unstoppable.io^
+||uphold.com^
 ||upi.com^
 ||vaush.gg^$important
+||vcc.exchange^
 ||vdare.com^$important
 ||verto.exchange^
 ||wallet.link^
@@ -352,6 +368,7 @@
 ||worldofwarcraft.com^
 ||x.link^
 ||x^
+||xooa.com^
 ||yagpdb.xyz^
 ||zeronet.io^
 ||zil.link^
