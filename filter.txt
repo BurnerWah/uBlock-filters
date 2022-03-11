@@ -327,6 +327,7 @@
 
 ! apkmirror.com
 apkmirror.com##.promotedApp
+apkmirror.com##^script:has-text(.fontBlue)
 
 ! arstechnica.com
 arstechnica.com##^.ad
