@@ -70,6 +70,8 @@
 ||alchemymerch.com^
 ||alexgleason.me^$important
 ||alexiscstudio.com^$1p
+||annapurna.pictures^
+||annapurnainteractive.com^
 ||aogami.soup.io^$important
 ||aquatifur.com^
 ||argent.xyz^
@@ -99,6 +101,7 @@
 ||boundingintocomics.com^
 ||boysnoize.com^$1p
 ||breitbart.com^$important
+||buzzly.art^
 ||canine.equipment^$important
 ||carl.gg^
 ||cbsla.com^
@@ -112,6 +115,8 @@
 ||conservapedia.com^$important
 ||corgievents.com^
 ||cracked.com^
+||cyberghostvpn.com^
+||cyberghostvpnapp.com^
 ||d23.com^
 ||d23expo.com^
 ||dailycaller.com^$important
@@ -138,6 +143,7 @@
 ||echoesofarcane.itch.io^
 ||embarklabs.io^
 ||equalityhumanrights.com^
+||expressvpn.com^
 ||farbeyondthe.world^
 ||farbeyondtheworld.com^
 ||fivethirtyeight.com^
@@ -147,6 +153,7 @@
 ||freenode.net^
 ||freerobux.best^
 ||fsf.org^
+||funomena.com^
 ||furryartpro.com^
 ||gab.com^$important
 ||game.tv^
@@ -181,6 +188,7 @@
 ||jessesingal.com^$important
 ||jnsilva.com^$1p
 ||justfurus.weebly.com^
+||kenart.net^
 ||keplr.app^
 ||killeracid.com^$1p
 ||kiwifarms.net^
@@ -198,6 +206,7 @@
 ||meatcanyon.shop^$1p
 ||messenger.com^
 ||miles-df.artstation.com^
+||mountains.studio^
 ||mtgdao.org^
 ||mu.se^$important
 ||museclass.com^$important
@@ -209,6 +218,8 @@
 ||newscientist.com^$important
 ||nomadiconvention.org^
 ||nookazon.com^
+||nordvpn.com^
+||norton.com^
 ||now.gg^
 ||nymag.com^
 ||nypost.com^$important
@@ -239,7 +250,9 @@
 ||poodlewise.com^
 ||postdates.*.amazonaws.com^
 ||postdates.co^
+||privateinternetaccess.com^
 ||protocol.com^
+||purevpn.com^
 ||quillette.com^$important
 ||rainbow.me^
 ||rarible.com^
@@ -315,11 +328,13 @@
 ||weredog.co.uk^
 ||whinnycity.com^
 ||wild---life.com^
+||winamp.com^
 ||wnd.com^$important
 ||wolfjlupus.com^
 ||worldofwarcraft.com^
 ||xooa.com^
 ||yagpdb.xyz^
+||zenmate.com^
 ||zeronet.io^
 ||zora.co^
 
