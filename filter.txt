@@ -67,6 +67,7 @@
 ! - CORE FILTERS -
 ||3lau.com^$1p
 ||4thwavenow.com^$important
+||abrahamkalili.com^
 ||alchemymerch.com^
 ||alexgleason.me^$important
 ||alexiscstudio.com^$1p
@@ -122,8 +123,10 @@
 ||dailycaller.com^$important
 ||dailymail.co.uk^$1p
 ||dailywire.com^$important
+||decentraland.org^
 ||defectivebydesign.org^
 ||denfur.org^
+||designdrop.github.io^
 ||di.sn^
 ||diablo3.com^
 ||dilcdn.com^
@@ -205,6 +208,7 @@
 ||mayormcgee.com^
 ||meatcanyon.shop^$1p
 ||messenger.com^
+||metaversebook.com^
 ||miles-df.artstation.com^
 ||mountains.studio^
 ||mtgdao.org^
@@ -259,6 +263,7 @@
 ||reclaimthenet.org^
 ||reference.pictures^
 ||repology.org^
+||riaevangelist.github.io^
 ||roadtrip.fm^
 ||roblox.com^
 ||rodscontracts.com^$important
@@ -275,6 +280,7 @@
 ||sincitymurrcon.com^
 ||slbtty.info^
 ||slimesunday.com^$1p
+||sourecode.de^
 ||spaceyacht.net^$1p
 ||spectator.org^$important
 ||ssx3lau.art^$1p
