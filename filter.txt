@@ -118,6 +118,7 @@
 ||cracked.com^
 ||cyberghostvpn.com^
 ||cyberghostvpnapp.com^
+||cynthia.dog^
 ||d23.com^
 ||d23expo.com^
 ||dailycaller.com^$important
@@ -142,6 +143,7 @@
 ||disneysprings.com^
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
+||droolingsimps.com^
 ||earncryptointerest.com^
 ||echoesofarcane.itch.io^
 ||embarklabs.io^
@@ -329,7 +331,6 @@
 ||washingtonexaminer.com^$important
 ||washingtontimes.com^$important
 ||washtimes.com^$important
-||web.dev^
 ||weeb.sh^
 ||weredog.co.uk^
 ||whinnycity.com^
