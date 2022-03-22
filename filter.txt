@@ -383,6 +383,8 @@ fandom.com,wikia.org##^script:has-text(function trackPageView)
 fandom.com,wikia.org##^script:has-text(var ads)
 fandom.com,wikia.org##^script:has-text(wikia_beacon_id)
 fandom.com,wikia.org##a[data-tracking="discuss"]
+fandom.com,wikia.org##.page__right-rail
+fandom.com,wikia.org##a.share-button
 ||fandom.com/f$xhr
 ||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
 ||fandom.com/wikia.php?controller=RecirculationApi$xhr
@@ -392,8 +394,6 @@ fandom.com,wikia.org##a[data-tracking="discuss"]
 ||wikia.nocookie.net/spotlightsimagestemporary/*$image,important
 @@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
 @@||fandom.com/load.php?*&modules=geo-*.js$script,1p
-fandom.com,wikia.org##.page__right-rail
-fandom.com,wikia.org##a.share-button
 
 ! furrylife.online
 furrylife.online#@#.cShareLink
@@ -475,6 +475,19 @@ steamdb.info##.panel-social
 torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.downurls > dl:has([href="/lorem2/xyy/"])
 torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.onToleratds
 
+! telegramchannels.me
+telegramchannels.me###btm-pr
+telegramchannels.me###share-it
+telegramchannels.me###show-chat
+telegramchannels.me##.is-climad.card
+telegramchannels.me##.pinterest-pin
+||telegramchannels.me/climads/view$xhr,1p
+
+! *.tumblr.com
+tumblr.com##^script
+tumblr.com##+js(refresh-defuser)
+tumblr.com##.fullscreen-background
+
 ! twitter.com
 ||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr
 
@@ -488,6 +501,9 @@ uncensorpat.ch###ad-panel-top
 ! uquiz.com
 uquiz.com##.show.trending_header
 uquiz.com##.side_bar
+
+! *.wixsite.com
+wixsite.com###WIX_ADS
 
 ! xda-developers.com
 forum.xda-developers.com##.xdaforumnews.widget
