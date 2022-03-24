@@ -103,6 +103,7 @@
 ||boysnoize.com^$1p
 ||breitbart.com^$important
 ||buzzly.art^
+||cams19.xyz^
 ||canine.equipment^$important
 ||carl.gg^
 ||cbsla.com^
@@ -292,6 +293,7 @@
 ||starcraft2.com^
 ||steveaoki.com^$1p
 ||substack.com^
+||superxwomen.xyz^
 ||swft.pro^
 ||syberwuff.com^
 ||tabletopsimulator.com^$important
@@ -334,6 +336,7 @@
 ||weeb.sh^
 ||weredog.co.uk^
 ||whinnycity.com^
+||whitewebcams.xyz^
 ||wild---life.com^
 ||winamp.com^
 ||wnd.com^$important
@@ -344,6 +347,7 @@
 ||zenmate.com^
 ||zeronet.io^
 ||zora.co^
+||zrcalo.art^
 
 ! -- SITE-SPECIFIC FILTERS --
 
@@ -508,6 +512,11 @@ wixsite.com###WIX_ADS
 ! xda-developers.com
 forum.xda-developers.com##.xdaforumnews.widget
 forum.xda-developers.com##.xdanews.widget
+
+! -- Include extra filters --
+!#if env_mobile
+!#include mobile.txt
+!#endif
 
 ! -- UNIMPORTANT/REDUNDANT FILTERS --
 ! This is for filters that are redundant with a list that uBlock provides, but
