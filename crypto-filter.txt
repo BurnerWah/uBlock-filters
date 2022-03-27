@@ -105,4 +105,4 @@
 ||zil.link^
 ||zil^
 
-! vim:ft=ublock
+! vim:ft=abp

@@ -44,4 +44,4 @@
 ||whatsapp.com^$important
 ||workplace.com^$important
 
-! vim:ft=ublock
+! vim:ft=abp

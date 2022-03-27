@@ -6,4 +6,4 @@
 
 duckduckgo.com##.open-in-app
 
-! vim:ft=ublock
+! vim:ft=abp

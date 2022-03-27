@@ -171,3 +171,5 @@ marketplace.visualstudio.com##div.row-item:has(a[href^="/items?itemName=POKER-MA
 ||marketplace.visualstudio.com/items?itemName=sensacinemax.*$document
 marketplace.visualstudio.com##div.row-item:has(a[href^="/items?itemName=sensacinemax."])
 ||sensacinemax.gallerycdn.vsassets.io^
+
+! vim:ft=abp

@@ -19,20 +19,43 @@
 /amp-story-auto-ads-
 /amp-story-auto-analytics-
 /wp-content/plugins/abc-analytics/*
+/wp-content/plugins/add-to-any/*$script
 /wp-content/plugins/easy-affiliate-links/*
 /wp-content/plugins/instagram-feed/*
 /wp-content/plugins/jnews-like/*
 /wp-content/plugins/jnews-weather/*
+/wp-content/plugins/social-warfare/*$script
 /wp-content/plugins/socialsnap-pro/*
 /wp-content/plugins/super-socializer/js/front/facebook/*$important
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
 
+||assets.pinterest.com/js/pinit.js$script
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
+||cdn-client.medium.com/lite/static/js/reporting.*$script
+||cdn.jsdelivr.net/npm/fbgraph@*$script
+||cdn.jsdelivr.net/npm/passport-facebook-token@*$script
+||cdn.jsdelivr.net/npm/passport-facebook@*$script
+||cdn.jsdelivr.net/npm/react-facebook-login@*$script
+||cdn.jsdelivr.net/npm/react-facebook-pixel@*$script
+||cdn.jsdelivr.net/npm/react-facebook@*$script
+||cdn.tinypass.com/api/*$script,3p
 ||clickhole.com/api/videoupload/video/byIds$xhr
+||discord.com/widget$subdocument,3p,redirect=click2load.html
+||discordapp.com/widget$subdocument,3p,redirect=click2load.html
 ||i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_264,q_80,w_470/*$image
 ||kinja.com/api/profile/accountwithtoken$script
+||news.google.com/swg/js/v1/swg.js$script,3p
 ||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
+||play.google.com/log$xhr
+||static.addtoany.com/menu/page.js$script,3p
 ||static.parastorage.com/services/chat-worker/*
+||track.sendlane.com/track/event$3p
+||unpkg.com/fbgraph@*$script
+||unpkg.com/passport-facebook-token@*$script
+||unpkg.com/passport-facebook@*$script
+||unpkg.com/react-facebook-login@*$script
+||unpkg.com/react-facebook-pixel@*$script
+||unpkg.com/react-facebook@*$script
 ||x.kinja-static.com/assets/new-client/category-stream~second-scroll.*$script
 ||x.kinja-static.com/assets/new-client/customHeader~header.$script
 ||x.kinja-static.com/assets/new-client/header.$script
@@ -46,6 +69,9 @@
 ||x.kinja-static.com/assets/new-client/second-scroll~special-sections-editor.*$script
 ||x.kinja-static.com/assets/new-client/subscribe.*$script
 ||x.kinja-static.com/assets/new-client/top-bar.$script
+
+||api.pinterest.com^$3p
+||smartlock.google.com^$3p
 
 ! -- STRICT BLOCKING OF ENTIRE SITES ---
 
@@ -66,21 +92,22 @@
 
 ! - CORE FILTERS -
 ||3lau.com^$1p
-||4thwavenow.com^$important
+||4thwavenow.com^
 ||abrahamkalili.com^
 ||alchemymerch.com^
-||alexgleason.me^$important
+||alexgleason.me^
 ||alexiscstudio.com^$1p
+||algop.org^
 ||annapurna.pictures^
 ||annapurnainteractive.com^
-||aogami.soup.io^$important
+||aogami.soup.io^
 ||aquatifur.com^
 ||argent.xyz^
 ||arpie.gg^
 ||artcamp.com^
-||artstation.com/miles-df^
+||artstation.com/miles-df^$document
 ||artstation.com/users/miles-df^
-||audacityteam.org^$important
+||audacityteam.org^
 ||ayana.io^
 ||battle.net^
 ||bbc.co.uk^
@@ -89,7 +116,7 @@
 ||bbcgossip.com^
 ||beeple-collect.com^
 ||beeple-crap.com^
-||benbankas.com^$important
+||benbankas.com^
 ||bizymouse.com^
 ||blenderguru.com^
 ||blick.ch^
@@ -101,20 +128,22 @@
 ||botlabs.gg^
 ||boundingintocomics.com^
 ||boysnoize.com^$1p
-||breitbart.com^$important
+||breitbart.com^
 ||buzzly.art^
 ||cams19.xyz^
-||canine.equipment^$important
+||canine.equipment^
+||canncon.locals.com^
 ||carl.gg^
 ||cbsla.com^
 ||ccxt.com^
 ||chedot.com^
-||christianpost.com^$important
+||christianpost.com^
 ||cloudy.gg^
+||clouthub.com^
 ||cnn.com^$1p
 ||cnx.srht.site^
 ||commissionpaperwings.weebly.com^
-||conservapedia.com^$important
+||conservapedia.com^
 ||corgievents.com^
 ||cracked.com^
 ||cyberghostvpn.com^
@@ -122,9 +151,9 @@
 ||cynthia.dog^
 ||d23.com^
 ||d23expo.com^
-||dailycaller.com^$important
+||dailycaller.com^
 ||dailymail.co.uk^$1p
-||dailywire.com^$important
+||dailywire.com^
 ||decentraland.org^
 ||defectivebydesign.org^
 ||denfur.org^
@@ -150,9 +179,11 @@
 ||embarklabs.io^
 ||equalityhumanrights.com^
 ||expressvpn.com^
+||falvie.art^
 ||farbeyondthe.world^
 ||farbeyondtheworld.com^
 ||fivethirtyeight.com^
+||flirtingusa.xyz^
 ||fox10phoenix.com^
 ||foxnews.com^
 ||fredboat.com^
@@ -161,28 +192,29 @@
 ||fsf.org^
 ||funomena.com^
 ||furryartpro.com^
-||gab.com^$important
+||gab.com^
 ||game.tv^
 ||gamestats.gg^
 ||gamexplain.com^
 ||ganyiao.com^
-||garyvarvel.com^$important
+||garyvarvel.com^
 ||genasys.com^
+||gettr.com^
 ||gfinityesports.com^
 ||giltroy.com^
 ||gnu.io^
 ||gnu.org^
 ||gnusocial.network^
 ||go.com^
-||grrrgraphics.com^$important
+||grrrgraphics.com^
 ||gsfurcon.com^
 ||gun.eco^
-||hannity.com^$important
+||hannity.com^
 ||hanszimmer.com^
 ||hanszimmerlive.com^
 ||helleborusflos.carrd.co^
-||heritage.org^$important
-||iankelling.org^$important
+||heritage.org^
+||iankelling.org^
 ||ib.metapix.net^
 ||ign.com^
 ||independent.co.uk^
@@ -190,15 +222,21 @@
 ||inkbunny.net^
 ||internetrevolution.co^
 ||jami.net^
-||jeffreytoobin.com^$important
-||jessesingal.com^$important
+||jasonafex.com^
+||jasonafex.itch.io^
+||jasonafex.newgrounds.com^
+||jeffreytoobin.com^
+||jessesingal.com^
 ||jnsilva.com^$1p
+||johsiecruz2020.com^
 ||justfurus.weebly.com^
+||kabscorner.newgrounds.com^
+||kandisstaylor.com^
 ||kenart.net^
 ||keplr.app^
 ||killeracid.com^$1p
 ||kiwifarms.net^
-||ko-fi.com/paperwings^
+||ko-fi.com/paperwings^$document
 ||libreboot.org^
 ||libreplanet.org^
 ||linuxreviews.org^
@@ -209,44 +247,47 @@
 ||marapets.com^
 ||marzipansmilktea.wixsite.com^
 ||mayormcgee.com^
+||mdf.gumroad.com^
 ||meatcanyon.shop^$1p
 ||messenger.com^
 ||metaversebook.com^
 ||miles-df.artstation.com^
 ||mountains.studio^
 ||mtgdao.org^
-||mu.se^$important
-||museclass.com^$important
-||musescore.com^$important
-||nationalreview.com^$important
-||naturalnews.com^$important
+||mu.se^
+||museclass.com^
+||musescore.com^
+||nationalreview.com^
+||naturalnews.com^
 ||nbcnewyork.com^
 ||neowin.net^
-||newscientist.com^$important
+||newscientist.com^
 ||nomadiconvention.org^
 ||nookazon.com^
 ||nordvpn.com^
 ||norton.com^
 ||now.gg^
 ||nymag.com^
-||nypost.com^$important
+||nypost.com^
 ||nyt.com^
 ||nytimes.com^
 ||nytimes.map.fastly.net^
 ||odesza.com^$1p
-||oneangrygamer.net^$important
+||oneangrygamer.net^
 ||opera.com^
 ||operacdn.com^
 ||opr.as^
 ||painteddesertfc.com^
 ||paperwings.store^
-||parler.com^$important
-||patreon.com/paperwings^
+||parler.com^
+||patreon.com/falvie^$document
+||patreon.com/kabscorner^$document
+||patreon.com/paperwings^$document
 ||peacewolf.carrd.co^
 ||peacewolfcreations.com^
 ||peppercoyote.bandcamp.com^
 ||peta.org^
-||phyllisschlafly.com^$important
+||phyllisschlafly.com^
 ||piggy.gg^
 ||playhearthstone.com^
 ||playoverwatch.com^
@@ -260,24 +301,27 @@
 ||privateinternetaccess.com^
 ||protocol.com^
 ||purevpn.com^
-||quillette.com^$important
+||quillette.com^
 ||rainbow.me^
 ||rarible.com^
 ||reclaimthenet.org^
+||redpills.tv^
 ||reference.pictures^
 ||repology.org^
 ||riaevangelist.github.io^
 ||roadtrip.fm^
 ||roblox.com^
-||rodscontracts.com^$important
+||rodscontracts.com^
 ||rskemono.com^
 ||rt.com^
+||rumble.com^
 ||rundisney.com^
 ||sacanime.com^
 ||sahillavingia.com^
 ||scanate.co^
 ||screenrant.com^
 ||serioustransvibes.com^
+||sexyuswomen.xyz^
 ||shaqsfunhouse.com^
 ||siamusic.net^
 ||sincitymurrcon.com^
@@ -285,61 +329,68 @@
 ||slimesunday.com^$1p
 ||sourecode.de^
 ||spaceyacht.net^$1p
-||spectator.org^$important
+||spectator.org^
 ||ssx3lau.art^$1p
-||staffpad.net^$important
+||staffpad.net^
 ||stallman.org^
 ||stallmansupport.org^
 ||starcraft2.com^
 ||steveaoki.com^$1p
+||subscribestar.adult/kabscorner^$document
 ||substack.com^
 ||superxwomen.xyz^
 ||swft.pro^
 ||syberwuff.com^
-||tabletopsimulator.com^$important
+||tabletopsimulator.com^
 ||tailbait.pw^
 ||technicallyfox.com^
 ||telegraph.co.uk^
 ||thankyoux.com^$1p
 ||the-sun.com^$1p
-||theamericanconservative.com^$important
+||theamericanconservative.com^
 ||theatlantic.com^$1p
-||theblaze.com^$important
-||thedonald.win^$important
-||thefederalist.com^$important
+||theblaze.com^
+||thedonald.win^
+||thefederalist.com^
 ||theguardian.co.uk^
 ||theguardian.com^
 ||thehill.com^$1p
 ||thelibertarianrepublic.com^
-||thepostmillennial.com^$important
-||theralphretort.com^$important
+||thepostmillennial.com^
+||theralphretort.com^
 ||thescottishsun.co.uk^$1p
 ||thesun.co.uk^$1p
 ||thesun.ie^$1p
 ||thetimes.co.uk^
 ||thewaltdisneycompany.com^
-||theworldnews.net^$important
+||theworldnews.net^
 ||thexenoforge.wixsite.com^
 ||tiny-conductor.tumblr.com^
 ||todayodious.com^$1p
-||tpusa.com^$important
-||tsr.games^$important
+||torrentsmirror.com^
+||torrentz.eu.com^
+||torrentz.pl^
+||torrentz2.eu^
+||torrentz2.is^
+||tpusa.com^
+||truthsocial.com^
+||tsr.games^
 ||twintailcreations.com^
-||ultimate-guitar.com^$important
-||unherd.com^$important
+||ultimate-guitar.com^
+||unherd.com^
 ||upi.com^
-||vaush.gg^$important
-||vdare.com^$important
-||washingtonexaminer.com^$important
-||washingtontimes.com^$important
-||washtimes.com^$important
+||vaush.gg^
+||vdare.com^
+||washingtonexaminer.com^
+||washingtontimes.com^
+||washtimes.com^
 ||weeb.sh^
 ||weredog.co.uk^
 ||whinnycity.com^
 ||whitewebcams.xyz^
 ||wild---life.com^
 ||winamp.com^
-||wnd.com^$important
+||wnd.com^
 ||wolfjlupus.com^
 ||worldofwarcraft.com^
 ||xooa.com^
@@ -351,62 +402,109 @@
 
 ! -- SITE-SPECIFIC FILTERS --
 
+! alternativeto.net
+alternativeto.net##div[data-testid="put-food-on-the-table"]
+
+! amazon.com
+amazon.com###nav-upnav
+
 ! apkmirror.com
+apkmirror.com##.listWidget > .appRow:has(.advertisement-text)
+apkmirror.com##.listWidget:has-text(Follow APK Mirror)
+apkmirror.com##.listWidget:has-text(Other downloads you might be interested in)
 apkmirror.com##.promotedApp
+apkmirror.com##.pushbullet-subscribe-widget
 apkmirror.com##^script:has-text(.fontBlue)
 
+! awesomeopensource.com
+awesomeopensource.com##.projects_list_ad_slot_native
+
 ! arstechnica.com
-arstechnica.com##^.ad
-arstechnica.com##^#recommendations-footer
 arstechnica.com##.xrail
+arstechnica.com##^#recommendations-footer
+arstechnica.com##^.ad
 ||arstechnica.com/hotzones/src/ads.js$xhr,1p
 
 ! bandcamp.com
 bandcamp.com###email-intake
+bandcamp.com##.corpbanner
+
+! bleepingcomputer.com
+bleepingcomputer.com##.bc_news_letter_sidebar
+
+! booru.org
+||booru.org/boorubock.jpg$image
+
+! cannabiswire.com
+cannabiswire.com###banner
+
+! crunchyroll.com
+crunchyroll.com###marketing_banner
+
+! botsentinel.com
+botsentinel.com##.rplm-alert
+botsentinel.com##.rplm-overlay
 
 ! derpibooru.org
 derpibooru.org##^#imagespns
 
-! fandom.com, wikia.org
-! There's a lot to filter here (including stuff that I haven't tested in a while)
-fandom.com,wikia.org###WikiaArticleFooter
-fandom.com,wikia.org###WikiaBar
-fandom.com,wikia.org###WikiaFooter
-fandom.com,wikia.org###WikiaNotifications
-fandom.com,wikia.org###WikiaRailWrapper
-fandom.com,wikia.org###WikiaTopAds
-fandom.com,wikia.org###articleComments
-fandom.com,wikia.org##.createpage.wds-is-secondary.wds-button
-fandom.com,wikia.org##.page-header__contribution
-fandom.com,wikia.org##.wds-global-footer
-fandom.com,wikia.org##.wds-global-navigation__links
-fandom.com,wikia.org##.wds-global-navigation__start-a-wiki
-fandom.com,wikia.org##.wds-global-navigation__user-menu
-fandom.com,wikia.org##.wikia-photogallery-add
-fandom.com,wikia.org##^script:has-text(function trackPageView)
-fandom.com,wikia.org##^script:has-text(var ads)
-fandom.com,wikia.org##^script:has-text(wikia_beacon_id)
-fandom.com,wikia.org##a[data-tracking="discuss"]
-fandom.com,wikia.org##.page__right-rail
-fandom.com,wikia.org##a.share-button
+! dropbox.com
+dropbox.com###eu-cookie-bar
+dropbox.com###top-notification-bar-container
+
+! educba.com
+||cdn.educba.com/academy/wp-includes/js/hoverIntent.min.js$script,1p
+
+! fandom.com
+@@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
+@@||fandom.com/load.php?*&modules=geo-*.js$script,1p
+fandom.com###WikiaArticleFooter
+fandom.com###WikiaBar
+fandom.com###WikiaFooter
+fandom.com###WikiaNotifications
+fandom.com###WikiaRailWrapper
+fandom.com###WikiaTopAds
+fandom.com###articleComments
+fandom.com##.ad-slot-placeholder
+fandom.com##.banner-notifications-placeholder
+fandom.com##.createpage.wds-is-secondary.wds-button
+fandom.com##.fandom-sticky-header:style(left: 0!important;)
+fandom.com##.global-footer
+fandom.com##.global-navigation
+fandom.com##.main-container:style(margin-left: 0!important;)
+fandom.com##.main-container:style(width: 100%!important;)
+fandom.com##.notifications-placeholder
+fandom.com##.page__right-rail
+fandom.com##.unified-search__layout__right-rail
+fandom.com##.wikia-photogallery-add
+fandom.com##^.mcf-card-related-wikis
+fandom.com##a.share-button
+fandom.com##a[data-tracking="discuss"]
 ||fandom.com/f$xhr
 ||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
 ||fandom.com/wikia.php?controller=RecirculationApi$xhr
+||services.fandom.com//event-logger/*$xhr
 ||services.fandom.com/discussion/*$xhr
 ||services.fandom.com/knowledge-graph/affiliates/*$xhr
 ||services.fandom.com/recommendations/*$xhr
+||services.fandom.com/wiki-recommendations/*$xhr
+||static.wikia.nocookie.net/silversurfer/*$script
 ||wikia.nocookie.net/spotlightsimagestemporary/*$image,important
-@@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
-@@||fandom.com/load.php?*&modules=geo-*.js$script,1p
 
-! furrylife.online
-furrylife.online#@#.cShareLink
+! fitgirl-repacks.site
+fitgirl-repacks.site###potatoid
+fitgirl-repacks.site###smart_push_smio_overlay
+fitgirl-repacks.site###smart_push_smio_window
 
 ! gamebanana.com
 gamebanana.com##.AdTagModule
 
 ! gamingonlinux.com
 gamingonlinux.com##.btn-google.btn-auth
+||gamingonlinux.com/includes/jscripts/clipboard/*$script,1p
+
+! gelbooru.com
+||gelbooru.com/extras/store/*$image,1p
 
 ! genius.com
 genius.com##apple-music-player
@@ -435,6 +533,9 @@ imgur.com##.Searchbar
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
 
+! howtogeek.com
+howtogeek.com##.adslot
+
 ! independent.co.uk
 independent.co.uk##.sticky-video
 
@@ -445,6 +546,11 @@ itch.io##.youtube_banner
 jackbox.tv##.slick
 jackbox.tv##.slick-track
 
+! kotaku.com
+kotaku.com###newsletterPromoModule
+kotaku.com##.js_commerce-inset-permalink
+kotaku.com##.js_modal_exit_intent
+
 ! limetorrents.info
 limetorrents.info###rightbar div:has-text(Advertisements)
 
@@ -453,31 +559,72 @@ metabattle.com###blockerEnabled
 metabattle.com##^script:has-text(getCookie('premiumMessage'))
 ||metabattle.com/ads.js$script,1p
 
+! merriam-webster.com
+merriam-webster.com###recirc-bar-footer
+merriam-webster.com###subscribe-overlay
+
+! myanimelist.net
+myanimelist.net##.btn-mal-service
+
+! newgrounds.com
+newgrounds.com##.ng-latest-supporter-wide
+newgrounds.com##.pod:has(.fp-promo-slot)
+newgrounds.com##.pod:has(a[href$="/supporter"]):nth-of-type(1)
+
 ! nexusmods.com
-nexusmods.com##.premium-block
-nexusmods.com##.rj-supporter-wrapper
 nexusmods.com###rj-logo-social .rj-social-wrapper
 nexusmods.com###rj-vortex
+nexusmods.com##.premium-banner
+nexusmods.com##.premium-block
+nexusmods.com##.rj-supporter-wrapper
 
 ! npmjs.com
 npmjs.com##div[data-promotion-spot="below-header"]
 
+! planetminecraft.com
+planetminecraft.com###ultra_wide
+
+! propublica.org
+||propublica.org/*/js/deploy/syndicated-newsletter-*.js$script,1p
+
 ! pypi.org
 pypi.org###sticky-notifications
+
+! readthedocs.io
+readthedocs.io##.keep-us-sustainable
 
 ! reddit.com
 reddit.com##.premium-banner-outer
 ||www.redditstatic.com/gold/premium/premium-title.png$image,domain=reddit.com
 
+! regexr.com
+regexr.com##.hello:has(.noad)
+
+! sankakucomplex.com
+chan.sankakucomplex.com###has-mail-notice
+chan.sankakucomplex.com###news-ticker
+chan.sankakucomplex.com###popular-preview
+chan.sankakucomplex.com###share
+chan.sankakucomplex.com###sp1
+chan.sankakucomplex.com##^#headerthumbs
+
 ! sofurry.com
 sofurry.com##^#sf-ads
+
+! stackexchange.com family
+stackexchange.com,stackoverflow.com##.js-consent-banner
 
 ! steamdb.info
 steamdb.info##.panel-social
 
-! torrentz2.eu + mirrors
-torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.downurls > dl:has([href="/lorem2/xyy/"])
-torrentz2.eu,torrentz2.is,torrentz.pl,torrentsmirror.com##.onToleratds
+! tapas.io
+tapas.io###gdpr-cookie-message
+tapas.io##.viewer-section--recommend
+||pixels.tapas.io/facebook/*$xhr,1p
+||tapas.io/who-am-i?$xhr,1p
+
+! toptal.com
+toptal.com##.internal-linking
 
 ! telegramchannels.me
 telegramchannels.me###btm-pr
@@ -487,13 +634,32 @@ telegramchannels.me##.is-climad.card
 telegramchannels.me##.pinterest-pin
 ||telegramchannels.me/climads/view$xhr,1p
 
-! *.tumblr.com
-tumblr.com##^script
-tumblr.com##+js(refresh-defuser)
-tumblr.com##.fullscreen-background
+! thestar.com
+thestar.com##.aggregation
+thestar.com##.right-rail-ads-container
+
+! theverge.com
+theverge.com###newsletter-signup-short-form
 
 ! twitter.com
-||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr
+! The badfilters are here so you don't make the same mistakes that I did when trying to hide topics.
+twitter.com##div[role="menu"] a[href$="/topics"]
+twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
+twitter.com##div[role="menu"] a[href="/i/newsletters"]
+twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
+||abs.twimg.com/responsive-web/client-sentry/sentry.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script
+||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.*$script
+||abs.twimg.com/responsive-web/client-web/ondemand.PagedCarouselItemHandler.*$badfilter
+||abs.twimg.com/responsive-web/client-web/ondemand.RichTimelineCarouselTombstoneHandler.*$badfilter
+||abs.twimg.com/responsive-web/client-web/ondemand.TopicFollowPromptHandler.*$badfilter
+||abs.twimg.com/responsive-web/client-web/ondemand.topicHandler.*$badfilter
+||pbs.twimg.com/amplify_video_thumb/*$image
+||twitter.com/i/api/1.1/users/recommendations.json$xhr,1p
+||twitter.com/i/api/graphql/*/TopicToFollowSidebar$xhr,1p
+||twitter.com/i/api/graphql/*/TopicsManagementPage$xhr,1p
+||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr,1p
 
 ! twofactorauth.org
 twofactorauth.org##.facebook-button
@@ -502,9 +668,28 @@ twofactorauth.org##.facebook-button
 uncensorpat.ch###ad-panel-bottom
 uncensorpat.ch###ad-panel-top
 
+! urbandictionary.com
+urbandictionary.com##.justify-center:has(> div[data-ad-slot])
+urbandictionary.com##.mug-ad
+
 ! uquiz.com
 uquiz.com##.show.trending_header
 uquiz.com##.side_bar
+
+! usatoday.com
+eu.usatoday.com##.banner
+
+! userstyles.org
+userstyles.org##.NotificationLine
+userstyles.org##.android_button_banner
+userstyles.org##.android_button_button
+userstyles.org##.walking
+
+! vox.com
+vox.com###newsletter-signup-short-form
+
+! wired.com
+wired.com##.recirc-list-wrapper
 
 ! *.wixsite.com
 wixsite.com###WIX_ADS
@@ -513,43 +698,20 @@ wixsite.com###WIX_ADS
 forum.xda-developers.com##.xdaforumnews.widget
 forum.xda-developers.com##.xdanews.widget
 
+! youtube.com
+youtube.com###voice-search-button
+youtube.com##.ytp-cards-teaser
+youtube.com##ytd-compact-movie-renderer
+youtube.com##ytd-compact-radio-renderer
+youtube.com##ytd-guide-signin-promo-renderer
+
+! zdnet.com
+zdnet.com##.breaking-news-container
+zdnet.com##.placeholder.nav-ad-plus-leader
+
 ! -- Include extra filters --
 !#if env_mobile
 !#include mobile.txt
 !#endif
 
-! -- UNIMPORTANT/REDUNDANT FILTERS --
-! This is for filters that are redundant with a list that uBlock provides, but
-! leaves off by default.
-! Anything redundant with a filter that is on by default should be removed.
-! Additionally, anything redundant with a uBlock filter should be removed.
-!
-! - adguard-annoyance -
-bleepingcomputer.com##.bc_news_letter_sidebar
-kotaku.com###newsletterPromoModule
-merriam-webster.com###recirc-bar-footer
-myanimelist.net##.btn-mal-service
-readthedocs.io##.keep-us-sustainable
-urbandictionary.com##.mug-ad
-userstyles.org##.android_button_banner
-userstyles.org##.android_button_button
-userstyles.org##.walking
-youtube.com##.ytp-cards-teaser
-
-! - fanboy-annoyance -
-amazon.com###nav-upnav
-bandcamp.com##.corpbanner
-dropbox.com###top-notification-bar-container
-eu.usatoday.com##.banner
-kotaku.com##.js_commerce-inset-permalink
-kotaku.com##.js_modal_exit_intent
-theverge.com###newsletter-signup-short-form
-
-! - adguard-annoyance & fanboy-annoyance -
-dropbox.com###eu-cookie-bar
-merriam-webster.com###subscribe-overlay
-tapas.io###gdpr-cookie-message
-userstyles.org##.NotificationLine
-vox.com###newsletter-signup-short-form
-
-! vim:ft=ublock
+! vim:ft=abp
