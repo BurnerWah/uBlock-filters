@@ -713,5 +713,6 @@ zdnet.com##.placeholder.nav-ad-plus-leader
 !#if env_mobile
 !#include mobile.txt
 !#endif
+!#include special/nuclear-facebook-filter.txt
 
 ! vim:ft=abp
