@@ -635,8 +635,6 @@ twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
 ||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
 ||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.*$script
-||abs.twimg.com/responsive-web/client-web/ondemand.PagedCarouselItemHandler.*$badfilter
-||abs.twimg.com/responsive-web/client-web/ondemand.RichTimelineCarouselTombstoneHandler.*$badfilter
 ||abs.twimg.com/responsive-web/client-web/ondemand.TopicFollowPromptHandler.*$badfilter
 ||abs.twimg.com/responsive-web/client-web/ondemand.topicHandler.*$badfilter
 ||pbs.twimg.com/amplify_video_thumb/*$image
