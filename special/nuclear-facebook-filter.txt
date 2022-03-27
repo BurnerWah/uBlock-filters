@@ -36,6 +36,7 @@
 ||instagram.com^$important
 ||instagramstatic-*.akamaihd.net.edgesuite.net^$important
 ||instagramstatic-*.akamaihd.net^$important
+||messenger.com^$important
 ||messengerkids.com^$important
 ||novi.com^$important
 ||ocul.us^$important
