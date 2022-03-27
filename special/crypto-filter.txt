@@ -1,0 +1,108 @@
+! Title: Burner's crypto uBlock filters
+! Expires: 1 week
+! Description: Hides a lot of cryptocurrency stuff because I don't care to see it
+! Homepage: https://github.com/YaBoiBurner/uBlock-filters
+! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
+! This filter will eventually be merged back into the main filters, but for the moment,
+! it's more convenient to have them in a standalone filter (I need them for research).
+! Not everything crypto-related from the main filters has been moved over, since I can't
+! check everything again.
+
+||888.link^
+||888^
+||abracadabra.money^
+||acala.network^
+||allchainbridge.com^
+||americancoinstash.com^
+||arweave.org^
+||arwiki.wiki^
+||bancor.network^
+||bigchaindb.com^
+||binance.us^
+||bitcoin.link^
+||bitcoin^
+||bitcoincore.org^
+||bitfinex.com^
+||blockchainforclimate.org^
+||blockfolio.com^
+||blockreward.app^
+||blockstack.org^
+||boredapeyachtclub.com^
+||coin.link^
+||coin^
+||coindesk.com^
+||coingecko.com^
+||coinmarketcap.com^
+||crypto.link^
+||crypto^
+||cryptocves.com^
+||cryptogeek.info^
+||cryptokitties.co^
+||cryptomator.org^
+||cryptorod.io^
+||dao.link^
+||dao^
+||defibit.io^
+||ens.domains^
+||ethereum-magicians.org^
+||ethereum.org^
+||ethereum.stackexchange.com^
+||etherscan.io^
+||ethworks.io^
+||eurus.network^
+||flipsidecrypto.com^
+||flooz.trade^
+||foam.space^
+||foundation.app^
+||freqtrade.io^
+||gemini.com^
+||gethitpiece.com^
+||godsunchained.com^
+||hitpiece.com^
+||hs-web3.readthedocs.io^
+||kusama.network^
+||metamask.io^
+||nest.land^
+||nft.link^
+||nft^
+||nftmusic.stream^
+||nfttrader.io^
+||niftygateway.com^
+||ownrwallet.com^
+||pancakeswap.finance^
+||phantom.app^
+||robonomics.network^
+||shl.capital^
+||sia.tech^
+||solana.com^
+||sorare.com^
+||squidgame-token.com^
+||squidgametoken.games^
+||squidgametokens.com^
+||superrare.co^
+||tether.to^
+||tokeninsight.com^
+||tokensquidgame.com^
+||traderjoexyz.com^
+||trustwallet.com^
+||uniswap.org^
+||unstoppable.io^
+||unstoppabledomains.com^
+||uphold.com^
+||vcc.exchange^
+||verto.exchange^
+||wallet.link^
+||wallet^
+||web3.foundation^
+||web3j.io
+||web3js.readthedocs.io^
+||web3labs.com^
+||web3py.readthedocs.io^
+||wonderland.money^
+||wonderlandforum.xyz^
+||x.link^
+||x^
+||zil.link^
+||zil^
+
+! vim:ft=abp
