@@ -5,5 +5,9 @@
 ! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
 
 duckduckgo.com##.open-in-app
+fandom.com###global-navigation-sign-in-link
+fandom.com##.mobile-global-navigation__logo
+fandom.com##.mobile-global-navigation__logomark
+fandom.com##.mobile-search-modal__links
 
 ! vim:ft=abp
