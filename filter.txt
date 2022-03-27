@@ -121,8 +121,6 @@
 ||blenderguru.com^
 ||blick.ch^
 ||blizzard.com^
-||blockchain.link^
-||blockchain^
 ||bluestacks.com^
 ||bostondynamics.com^
 ||botlabs.gg^
@@ -253,7 +251,6 @@
 ||metaversebook.com^
 ||miles-df.artstation.com^
 ||mountains.studio^
-||mtgdao.org^
 ||mu.se^
 ||museclass.com^
 ||musescore.com^
@@ -339,7 +336,6 @@
 ||subscribestar.adult/kabscorner^$document
 ||substack.com^
 ||superxwomen.xyz^
-||swft.pro^
 ||syberwuff.com^
 ||tabletopsimulator.com^
 ||tailbait.pw^

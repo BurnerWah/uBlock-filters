@@ -23,6 +23,8 @@
 ||bitcoin^
 ||bitcoincore.org^
 ||bitfinex.com^
+||blockchain.link^
+||blockchain^
 ||blockchainforclimate.org^
 ||blockfolio.com^
 ||blockreward.app^
@@ -62,6 +64,7 @@
 ||hs-web3.readthedocs.io^
 ||kusama.network^
 ||metamask.io^
+||mtgdao.org^
 ||nest.land^
 ||nft.link^
 ||nft^
@@ -80,6 +83,7 @@
 ||squidgametoken.games^
 ||squidgametokens.com^
 ||superrare.co^
+||swft.pro^
 ||tether.to^
 ||tokeninsight.com^
 ||tokensquidgame.com^
