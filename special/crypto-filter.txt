@@ -27,6 +27,7 @@
 ||blockchain.link^
 ||blockchain^
 ||blockchainforclimate.org^
+||blockchair.com^
 ||blockfolio.com^
 ||blockreward.app^
 ||blockstack.org^
@@ -41,6 +42,7 @@
 ||cryptocves.com^
 ||cryptogeek.info^
 ||cryptokitties.co^
+||cryptolens.io^
 ||cryptomator.org^
 ||cryptorod.io^
 ||dao.link^

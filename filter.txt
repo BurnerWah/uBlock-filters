@@ -69,6 +69,8 @@
 ||x.kinja-static.com/assets/new-client/second-scroll~special-sections-editor.*$script
 ||x.kinja-static.com/assets/new-client/subscribe.*$script
 ||x.kinja-static.com/assets/new-client/top-bar.$script
+||youtube.com/embed/*$subdocument,3p,redirect=click2load.html
+||kriya.ai/tracking.min.js$script
 
 ||api.pinterest.com^$3p
 ||smartlock.google.com^$3p
@@ -296,6 +298,7 @@
 ||privateinternetaccess.com^
 ||protocol.com^
 ||purevpn.com^
+||pwa.rocks^
 ||quillette.com^
 ||rainbow.me^
 ||reclaimthenet.org^
@@ -412,6 +415,9 @@ arstechnica.com##^.ad
 ! bandcamp.com
 bandcamp.com###email-intake
 bandcamp.com##.corpbanner
+
+! bestbuy.com
+bestbuy.com##.embedded-leaderboard:has(.shop-display-ad)
 
 ! bleepingcomputer.com
 bleepingcomputer.com##.bc_news_letter_sidebar
@@ -547,6 +553,9 @@ metabattle.com##^script:has-text(getCookie('premiumMessage'))
 merriam-webster.com###recirc-bar-footer
 merriam-webster.com###subscribe-overlay
 
+! monkeytype.com
+monkeytype.com###bannerCenter
+
 ! myanimelist.net
 myanimelist.net##.btn-mal-service
 
@@ -624,6 +633,13 @@ thestar.com##.right-rail-ads-container
 
 ! theverge.com
 theverge.com###newsletter-signup-short-form
+
+! tumblr.com
+media.tumblr.com##^a
+media.tumblr.com##^div:not(:has(img))
+media.tumblr.com##^head
+media.tumblr.com##^script
+media.tumblr.com##^style
 
 ! twitter.com
 ! The badfilters are here so you don't make the same mistakes that I did when trying to hide topics.
