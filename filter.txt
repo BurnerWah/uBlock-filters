@@ -39,11 +39,14 @@
 ||cdn.jsdelivr.net/npm/react-facebook-pixel@*$script
 ||cdn.jsdelivr.net/npm/react-facebook@*$script
 ||cdn.tinypass.com/api/*$script,3p
+||chancejs.com/chance.min.js$script
 ||clickhole.com/api/videoupload/video/byIds$xhr
 ||discord.com/widget$subdocument,3p,redirect=click2load.html
 ||discordapp.com/widget$subdocument,3p,redirect=click2load.html
+||gadget.pico.tools/wrapper.min.js$script
 ||i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_264,q_80,w_470/*$image
 ||kinja.com/api/profile/accountwithtoken$script
+||kriya.ai/tracking.min.js$script
 ||news.google.com/swg/js/v1/swg.js$script,3p
 ||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
 ||play.google.com/log$xhr
@@ -70,7 +73,6 @@
 ||x.kinja-static.com/assets/new-client/subscribe.*$script
 ||x.kinja-static.com/assets/new-client/top-bar.$script
 ||youtube.com/embed/*$subdocument,3p,redirect=click2load.html
-||kriya.ai/tracking.min.js$script
 
 ||api.pinterest.com^$3p
 ||smartlock.google.com^$3p
@@ -90,6 +92,7 @@
 ||momentgay.com^
 ||momentgirl.com^
 ||sexyuswomen.xyz^
+||signup-hypesquad-returns.com^
 ||superxwomen.xyz^
 ||syria.carrd.co^
 ||teechip.com^
