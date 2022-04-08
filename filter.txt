@@ -27,6 +27,7 @@
 /wp-content/plugins/social-warfare/*$script
 /wp-content/plugins/socialsnap-pro/*
 /wp-content/plugins/super-socializer/js/front/facebook/*$important
+/wp-content/themes/flex-mag/js/autoloadpost.js
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
 
 ||assets.pinterest.com/js/pinit.js$script
@@ -50,6 +51,7 @@
 ||news.google.com/swg/js/v1/swg.js$script,3p
 ||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
 ||play.google.com/log$xhr
+||playlist.megaphone.fm^$subdocument,3p,redirect=click2load.html
 ||static.addtoany.com/menu/page.js$script,3p
 ||static.parastorage.com/services/chat-worker/*
 ||track.sendlane.com/track/event$3p
@@ -91,6 +93,7 @@
 ||lincolnproject.us^
 ||momentgay.com^
 ||momentgirl.com^
+||physexy.cyou^
 ||sexyuswomen.xyz^
 ||signup-hypesquad-returns.com^
 ||superxwomen.xyz^
@@ -125,7 +128,7 @@
 ||audacityteam.org^
 ||ayana.io^
 ||battle.net^
-||bbc.co.uk^
+||bbc.co.uk^$1p
 ||bbc.com^$1p
 ||bbcamerica.com^
 ||bbcgossip.com^
@@ -211,6 +214,7 @@
 ||gnu.org^
 ||gnusocial.network^
 ||go.com^
+||gpd.hk^
 ||grrrgraphics.com^
 ||gsfurcon.com^
 ||gun.eco^
@@ -305,6 +309,7 @@
 ||quillette.com^
 ||rainbow.me^
 ||reclaimthenet.org^
+||redfish.media^
 ||redpills.tv^
 ||reference.pictures^
 ||repology.org^
@@ -532,6 +537,9 @@ howtogeek.com##.adslot
 ! independent.co.uk
 independent.co.uk##.sticky-video
 
+! isthmus.com
+||isthmus.com/api/content/*/get_related_links$xhr,1p
+
 ! itch.io
 itch.io##.youtube_banner
 
@@ -590,6 +598,7 @@ pypi.org###sticky-notifications
 readthedocs.io##.keep-us-sustainable
 
 ! reddit.com
+reddit.com###COIN_PURCHASE_DROPDOWN_ID
 reddit.com##.premium-banner-outer
 ||www.redditstatic.com/gold/premium/premium-title.png$image,domain=reddit.com
 
@@ -688,6 +697,9 @@ userstyles.org##.walking
 
 ! vox.com
 vox.com###newsletter-signup-short-form
+
+! wikihow.com
+wikihow.com##.wh_ad_spacing
 
 ! wired.com
 wired.com##.recirc-list-wrapper

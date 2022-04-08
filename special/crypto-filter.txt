@@ -15,6 +15,7 @@
 ||allchainbridge.com^
 ||americancoinstash.com^
 ||argent.xyz^
+||ark.io^
 ||arweave.org^
 ||arwiki.wiki^
 ||bancor.network^
@@ -30,6 +31,7 @@
 ||blockchair.com^
 ||blockfolio.com^
 ||blockreward.app^
+||blockscout.com^
 ||blockstack.org^
 ||boredapeyachtclub.com^
 ||coin.link^
@@ -37,6 +39,7 @@
 ||coindesk.com^
 ||coingecko.com^
 ||coinmarketcap.com^
+||cointop.sh^
 ||crypto.link^
 ||crypto^
 ||cryptocves.com^
@@ -47,6 +50,7 @@
 ||cryptorod.io^
 ||dao.link^
 ||dao^
+||dash.org^
 ||decentraland.org^
 ||defibit.io^
 ||earncryptointerest.com^
@@ -58,6 +62,7 @@
 ||etherscan.io^
 ||ethworks.io^
 ||eurus.network^
+||exodus.com^
 ||flipsidecrypto.com^
 ||flooz.trade^
 ||foam.space^
@@ -66,12 +71,14 @@
 ||gemini.com^
 ||genasys.com^
 ||gethitpiece.com^
+||getmonero.org^
 ||gfinityesports.com^
 ||godsunchained.com^
 ||hitpiece.com^
 ||hs-web3.readthedocs.io^
 ||infura.io^
 ||kusama.network^
+||mempool.space^
 ||metamask.io^
 ||metaversebook.com^
 ||mtgdao.org^
@@ -83,6 +90,7 @@
 ||niftygateway.com^
 ||ownrwallet.com^
 ||pancakeswap.finance^
+||peercoin.net^
 ||phantom.app^
 ||polkadot.network^
 ||rarible.com^
@@ -110,6 +118,7 @@
 ||verto.exchange^
 ||wallet.link^
 ||wallet^
+||wasabiwallet.io^
 ||web3.foundation^
 ||web3j.io
 ||web3js.readthedocs.io^
