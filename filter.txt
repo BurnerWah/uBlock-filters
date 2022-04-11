@@ -5,12 +5,15 @@
 ! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
 
 ! -- UNIVERSAL FILTERS --
+/amp-ad-
 /amp-addthis-
 /amp-ads-
+/amp-analytics-
 /amp-auto-ads-
 /amp-facebook-
 /amp-google-assistant-assistjs-
 /amp-instagram-
+/amp-next-page-
 /amp-onetap-google-
 /amp-pinterest-
 /amp-skimlinks-
@@ -18,6 +21,9 @@
 /amp-sticky-ad-
 /amp-story-auto-ads-
 /amp-story-auto-analytics-
+/amp-user-notification-
+/bento-facebook-*$script
+/bento-instagram-*$script
 /wp-content/plugins/abc-analytics/*
 /wp-content/plugins/add-to-any/*$script
 /wp-content/plugins/easy-affiliate-links/*
@@ -40,27 +46,39 @@
 ||cdn.jsdelivr.net/npm/react-facebook-pixel@*$script
 ||cdn.jsdelivr.net/npm/react-facebook@*$script
 ||cdn.tinypass.com/api/*$script,3p
+||cdnapisec.kaltura.com^$subdocument,3p,redirect=click2load.html
 ||chancejs.com/chance.min.js$script
-||clickhole.com/api/videoupload/video/byIds$xhr
+||cms.springboardplatform.com/embed_iframe/*$subdocument,3p,redirect=click2load.html
+||content.jwplatform.com/players/*$subdocument,3p,redirect=click2load.html
+||dailymotion.com/embed/*$subdocument,3p,redirect=click2load.html
 ||discord.com/widget$subdocument,3p,redirect=click2load.html
 ||discordapp.com/widget$subdocument,3p,redirect=click2load.html
 ||gadget.pico.tools/wrapper.min.js$script
-||i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_264,q_80,w_470/*$image
+||js.stripe.com/v3/fingerprinted/js/elements-afterpay-*$script
+||js.stripe.com/v3/m-outer-*$subdocument,3p
 ||kinja.com/api/profile/accountwithtoken$script
 ||kriya.ai/tracking.min.js$script
+||memberful.com/turbolinks_preload$subdocument,3p
 ||news.google.com/swg/js/v1/swg.js$script,3p
-||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
+||news.google.com/thank/*$script,3p
 ||play.google.com/log$xhr
+||player-cdn.beachfrontmedia.com/playerapi/*$subdocument,3p,redirect=click2load.html
+||player.vimeo.com/video/*$subdocument,3p,redirect=click2load.html
+||players.brightcove.net^$subdocument,3p,redirect=click2load.html
 ||playlist.megaphone.fm^$subdocument,3p,redirect=click2load.html
 ||static.addtoany.com/menu/page.js$script,3p
 ||static.parastorage.com/services/chat-worker/*
+||tiktok.com/embed/*$subdocument,3p,redirect=click2load.html
 ||track.sendlane.com/track/event$3p
+||twitch.tv^$subdocument,3p,redirect=click2load.html
 ||unpkg.com/fbgraph@*$script
 ||unpkg.com/passport-facebook-token@*$script
 ||unpkg.com/passport-facebook@*$script
 ||unpkg.com/react-facebook-login@*$script
 ||unpkg.com/react-facebook-pixel@*$script
 ||unpkg.com/react-facebook@*$script
+||vine.co/v/*/embed$subdocument,3p,redirect=click2load.html
+||w.soundcloud.com/player/*$subdocument,3p,redirect=click2load.html
 ||x.kinja-static.com/assets/new-client/category-stream~second-scroll.*$script
 ||x.kinja-static.com/assets/new-client/customHeader~header.$script
 ||x.kinja-static.com/assets/new-client/header.$script
@@ -402,6 +420,8 @@ alternativeto.net##div[data-testid="put-food-on-the-table"]
 
 ! amazon.com
 amazon.com###nav-upnav
+||amazon.com^$document,removeparam=qsid
+||amazon.com^$document,removeparam=sres
 
 ! apkmirror.com
 apkmirror.com##.listWidget > .appRow:has(.advertisement-text)
@@ -433,18 +453,32 @@ bleepingcomputer.com##.bc_news_letter_sidebar
 ! booru.org
 ||booru.org/boorubock.jpg$image
 
-! cannabiswire.com
-cannabiswire.com###banner
-
-! crunchyroll.com
-crunchyroll.com###marketing_banner
-
 ! botsentinel.com
 botsentinel.com##.rplm-alert
 botsentinel.com##.rplm-overlay
 
+! cannabiswire.com
+cannabiswire.com###banner
+
+! clickhole.com
+||clickhole.com/api/videoupload/video/byIds$xhr
+
+! crunchyroll.com
+crunchyroll.com###marketing_banner
+
+! dell.com
+||afcs.dellcdn.com/csb/contact-drawer/*$script
+
 ! derpibooru.org
 derpibooru.org##^#imagespns
+
+! developers.google.com
+||developers.google.com/_d/analytics-iframe$subdocument
+
+! discord.com
+@@||twitch.tv^$subdocument,domain=discord.com
+@@||w.soundcloud.com/player/*$subdocument,domain=discord.com
+@@||youtube.com/embed/*$subdocument,domain=discord.com
 
 ! dropbox.com
 dropbox.com###eu-cookie-bar
@@ -481,6 +515,7 @@ fandom.com##a[data-tracking="discuss"]
 ||fandom.com/f$xhr
 ||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
 ||fandom.com/wikia.php?controller=RecirculationApi$xhr
+||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
 ||services.fandom.com//event-logger/*$xhr
 ||services.fandom.com/discussion/*$xhr
 ||services.fandom.com/knowledge-graph/affiliates/*$xhr
@@ -498,6 +533,7 @@ fitgirl-repacks.site###smart_push_smio_window
 gamebanana.com##.AdTagModule
 
 ! gamingonlinux.com
+@@||youtube.com/embed/*$subdocument,domain=gamingonlinux.com
 gamingonlinux.com##.btn-google.btn-auth
 ||gamingonlinux.com/includes/jscripts/clipboard/*$script,1p
 
@@ -571,9 +607,11 @@ monkeytype.com###bannerCenter
 myanimelist.net##.btn-mal-service
 
 ! newgrounds.com
+newgrounds.com##.inhousepromo
 newgrounds.com##.ng-latest-supporter-wide
 newgrounds.com##.pod:has(.fp-promo-slot)
 newgrounds.com##.pod:has(a[href$="/supporter"]):nth-of-type(1)
+||img.ngfiles.com/promos/*
 
 ! nexusmods.com
 nexusmods.com###rj-logo-social .rj-social-wrapper
@@ -598,6 +636,13 @@ pypi.org###sticky-notifications
 readthedocs.io##.keep-us-sustainable
 
 ! reddit.com
+@@||dailymotion.com/embed/*$subdocument,domain=reddit.com
+@@||player.vimeo.com/video/*$subdocument,domain=reddit.com
+@@||tiktok.com/embed/*$subdocument,domain=reddit.com
+@@||twitch.tv^$subdocument,domain=reddit.com
+@@||vine.co/v/*/embed$subdocument,domain=reddit.com
+@@||w.soundcloud.com/player/*$subdocument,domain=reddit.com
+@@||youtube.com/embed/*$subdocument,domain=reddit.com
 reddit.com###COIN_PURCHASE_DROPDOWN_ID
 reddit.com##.premium-banner-outer
 ||www.redditstatic.com/gold/premium/premium-title.png$image,domain=reddit.com
@@ -628,6 +673,9 @@ tapas.io##.viewer-section--recommend
 ||pixels.tapas.io/facebook/*$xhr,1p
 ||tapas.io/who-am-i?$xhr,1p
 
+! tiktok.com
+||tiktok.com^$document,removeparam=share_link_id
+
 ! toptal.com
 toptal.com##.internal-linking
 
@@ -652,9 +700,21 @@ media.tumblr.com##^div:not(:has(img))
 media.tumblr.com##^head
 media.tumblr.com##^script
 media.tumblr.com##^style
+tumblr.com##+js(refresh-defuser)
+tumblr.com##.fullscreen-background
+tumblr.com##.like-control
+tumblr.com##.reblog-control
+tumblr.com##^.related-posts-wrapper
+||assets.tumblr.com/assets/html/iframe/login_check.html$subdocument
+||assets.tumblr.com/assets/html/like_iframe.html$subdocument
 
 ! twitter.com
 ! The badfilters are here so you don't make the same mistakes that I did when trying to hide topics.
+@@||dailymotion.com/embed/*$subdocument,domain=reddit.com
+@@||player.vimeo.com/video/*$subdocument,domain=twitter.com
+@@||twitch.tv^$subdocument,domain=twitter.com
+@@||w.soundcloud.com/player/*$subdocument,domain=twitter.com
+@@||youtube.com/embed/*$subdocument,domain=twitter.com
 twitter.com##div[role="menu"] a[href$="/topics"]
 twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
 twitter.com##div[role="menu"] a[href="/i/newsletters"]
@@ -666,6 +726,13 @@ twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
 ||abs.twimg.com/responsive-web/client-web/ondemand.TopicFollowPromptHandler.*$badfilter
 ||abs.twimg.com/responsive-web/client-web/ondemand.topicHandler.*$badfilter
 ||pbs.twimg.com/amplify_video_thumb/*$image
+||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=origin
+||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=sessionId
+||syndication.twitter.com/settings$xhr,domain=platform.twitter.com
+||twitter.com/*/status/*$document,removeparam=ref_src
+||twitter.com/*/status/*$document,removeparam=ref_url
+||twitter.com/*/status/*$document,removeparam=s
+||twitter.com/*/status/*$document,removeparam=t
 ||twitter.com/i/api/1.1/users/recommendations.json$xhr,1p
 ||twitter.com/i/api/graphql/*/TopicToFollowSidebar$xhr,1p
 ||twitter.com/i/api/graphql/*/TopicsManagementPage$xhr,1p
@@ -717,6 +784,7 @@ youtube.com##.ytp-cards-teaser
 youtube.com##ytd-compact-movie-renderer
 youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-guide-signin-promo-renderer
+||youtube.com/embed/*$subdocument,3p,removeparam=origin
 
 ! zdnet.com
 zdnet.com##.breaking-news-container
