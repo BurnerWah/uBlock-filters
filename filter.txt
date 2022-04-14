@@ -668,7 +668,8 @@ chan.sankakucomplex.com##^#headerthumbs
 sofurry.com##^#sf-ads
 
 ! stackexchange.com family
-stackexchange.com,stackoverflow.com##.js-consent-banner
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net,stackapps.com##.js-consent-banner
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net,stackapps.com##nav .js-freemium-cta
 
 ! steamdb.info
 steamdb.info##.panel-social
