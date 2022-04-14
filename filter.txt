@@ -124,6 +124,7 @@
 ||torrentz2.eu^
 ||torrentz2.is^
 ||tw33tr.com^
+||ukbating.xyz^
 ||whitewebcams.xyz^
 ||yeshentai.com^
 
@@ -486,6 +487,11 @@ dropbox.com###top-notification-bar-container
 
 ! educba.com
 ||cdn.educba.com/academy/wp-includes/js/hoverIntent.min.js$script,1p
+
+! fedscoop.com
+fedscoop.com##^script:has-text(show_welcome_ad)
+||fedscoop.com/_static/*$script,1p
+||fedscoop.com/advertising/*$subdocument,1p
 
 ! fandom.com
 @@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
