@@ -46,6 +46,7 @@
 ||cdn.jsdelivr.net/npm/react-facebook-login@*$script
 ||cdn.jsdelivr.net/npm/react-facebook-pixel@*$script
 ||cdn.jsdelivr.net/npm/react-facebook@*$script
+||cdn.pendo.io/agent/static/*$script,3p
 ||cdn.tinypass.com/api/*$script,3p
 ||cdnapisec.kaltura.com^$subdocument,3p,redirect=click2load.html
 ||chancejs.com/chance.min.js$script
@@ -54,7 +55,10 @@
 ||dailymotion.com/embed/*$subdocument,3p,redirect=click2load.html
 ||discord.com/widget$subdocument,3p,redirect=click2load.html
 ||discordapp.com/widget$subdocument,3p,redirect=click2load.html
+||disqus.com/recommendations.js$script,3p
+||disqus.com/recommendations/*$subdocument,3p
 ||gadget.pico.tools/wrapper.min.js$script
+||giphy.com/embed/*$subdocument,3p,redirect=click2load.html
 ||js.stripe.com/v3/fingerprinted/js/elements-afterpay-*$script
 ||js.stripe.com/v3/m-outer-*$subdocument,3p
 ||kinja.com/api/profile/accountwithtoken$script
@@ -67,8 +71,11 @@
 ||player.vimeo.com/video/*$subdocument,3p,redirect=click2load.html
 ||players.brightcove.net^$subdocument,3p,redirect=click2load.html
 ||playlist.megaphone.fm^$subdocument,3p,redirect=click2load.html
+||sdk.snapkit.com/js/v1/create.js$script,3p
 ||static.addtoany.com/menu/page.js$script,3p
+||static.narrativ.com/tags/*$script,3p
 ||static.parastorage.com/services/chat-worker/*
+||tempest.services.disqus.com/ads-iframe/google/*$xhr,3p
 ||tiktok.com/embed/*$subdocument,3p,redirect=click2load.html
 ||track.sendlane.com/track/event$3p
 ||twitch.tv^$subdocument,3p,redirect=click2load.html
@@ -94,12 +101,6 @@
 ||x.kinja-static.com/assets/new-client/subscribe.*$script
 ||x.kinja-static.com/assets/new-client/top-bar.$script
 ||youtube.com/embed/*$subdocument,3p,redirect=click2load.html
-||cdn.pendo.io/agent/static/*$script,3p
-||giphy.com/embed/*$subdocument,3p,redirect=click2load.html
-||static.narrativ.com/tags/*$script,3p
-||tempest.services.disqus.com/ads-iframe/google/*$xhr,3p
-||disqus.com/recommendations/*$subdocument,3p
-||disqus.com/recommendations.js$script,3p
 
 ||api.pinterest.com^$3p
 ||smartlock.google.com^$3p
@@ -662,6 +663,9 @@ merriam-webster.com###subscribe-overlay
 
 ! monkeytype.com
 monkeytype.com###bannerCenter
+
+! musicbrainz.org
+@@||127.0.0.1:8000/openalbum$domain=musicbrainz.org
 
 ! myanimelist.net
 myanimelist.net##.btn-mal-service
