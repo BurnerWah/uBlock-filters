@@ -1,23 +1,24 @@
-! Title: Burner's crypto uBlock filters
-! Expires: 1 week
+! Title: Burner's crypto uBlock filters (deprecated)
 ! Description: Hides a lot of cryptocurrency stuff because I don't care to see it
 ! Homepage: https://github.com/YaBoiBurner/uBlock-filters
 ! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
-! This filter will eventually be merged back into the main filters, but for the moment,
-! it's more convenient to have them in a standalone filter (I need them for research).
-! Not everything crypto-related from the main filters has been moved over, since I can't
-! check everything again.
+! This filter was merged back into the main filter from this repo. It will not be updaed beyond this.
 
+||3box.io^
+||3boxlabs.com^
 ||888.link^
 ||888^
 ||abracadabra.money^
 ||acala.network^
+||affogato.co^
 ||allchainbridge.com^
 ||americancoinstash.com^
 ||argent.xyz^
 ||ark.io^
 ||arweave.org^
 ||arwiki.wiki^
+||authereum.com^
+||balconydao.com^
 ||bancor.network^
 ||bigchaindb.com^
 ||binance.us^
@@ -25,6 +26,7 @@
 ||bitcoin^
 ||bitcoincore.org^
 ||bitfinex.com^
+||bitski.com^
 ||blockchain.link^
 ||blockchain^
 ||blockchainforclimate.org^
@@ -34,6 +36,9 @@
 ||blockscout.com^
 ||blockstack.org^
 ||boredapeyachtclub.com^
+||breedlove22.substack.com^
+||civfund.org^
+||clovers.network^
 ||coin.link^
 ||coin^
 ||coindesk.com^
@@ -50,6 +55,7 @@
 ||cryptorod.io^
 ||dao.link^
 ||dao^
+||daostack.io^
 ||dash.org^
 ||decentraland.org^
 ||defibit.io^
@@ -66,6 +72,7 @@
 ||flipsidecrypto.com^
 ||flooz.trade^
 ||foam.space^
+||fortmatic.com^
 ||foundation.app^
 ||freqtrade.io^
 ||gemini.com^
@@ -73,11 +80,20 @@
 ||gethitpiece.com^
 ||getmonero.org^
 ||gfinityesports.com^
+||gitcoin.co^
+||gnosis-safe.io^
 ||godsunchained.com^
 ||hitpiece.com^
+||hodlbag.org^
 ||hs-web3.readthedocs.io^
+||ineth.net^
 ||infura.io^
+||knownorigin.io^
 ||kusama.network^
+||learnweb3.io^
+||linkdrop.io^
+||login.xyz^
+||mayweverse.io^
 ||mempool.space^
 ||metamask.io^
 ||metaversebook.com^
@@ -88,11 +104,15 @@
 ||nftmusic.stream^
 ||nfttrader.io^
 ||niftygateway.com^
+||olympusdao.finance^
 ||ownrwallet.com^
 ||pancakeswap.finance^
+||parastate.io^
+||parastate.substack.com^
 ||peercoin.net^
 ||phantom.app^
 ||polkadot.network^
+||portis.io^
 ||rarible.com^
 ||robonomics.network^
 ||shl.capital^
@@ -106,8 +126,12 @@
 ||superrare.co^
 ||swft.pro^
 ||tether.to^
+||thegraph.com^
+||theunit.one^
 ||tokeninsight.com^
 ||tokensquidgame.com^
+||tor.us^
+||totle.com^
 ||traderjoexyz.com^
 ||trustwallet.com^
 ||uniswap.org^
@@ -118,12 +142,16 @@
 ||verto.exchange^
 ||wallet.link^
 ||wallet^
+||walletconnect.com^
 ||wasabiwallet.io^
 ||web3.foundation^
 ||web3j.io
 ||web3js.readthedocs.io^
 ||web3labs.com^
+||web3modal.com^
 ||web3py.readthedocs.io^
+||whatismoneypodcast.com^
+||winorlose.live^
 ||wonderland.money^
 ||wonderlandforum.xyz^
 ||x.link^

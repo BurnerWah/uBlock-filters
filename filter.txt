@@ -5,6 +5,7 @@
 ! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
 
 ! -- UNIVERSAL FILTERS --
+/adsninja_package/js/*$script
 /amp-ad-
 /amp-addthis-
 /amp-ads-
@@ -24,9 +25,16 @@
 /amp-user-notification-
 /bento-facebook-*$script
 /bento-instagram-*$script
+/content/mu-plugins/rayos-tracking/*$script
+/content/plugins/gs-facebook-comments/*$script
+/content/plugins/gs-facebook-comments/*$stylesheet
+/content/plugins/gtx-ad-manager/*$stylesheet
+/content/plugins/rayos-alerts/*$script
+/content/plugins/rayos-trending-topics/*$stylesheet
 /wp-content/plugins/abc-analytics/*
 /wp-content/plugins/add-to-any/*$script
 /wp-content/plugins/easy-affiliate-links/*
+/wp-content/plugins/easy-social-share-buttons3/*
 /wp-content/plugins/instagram-feed/*
 /wp-content/plugins/jnews-like/*
 /wp-content/plugins/jnews-weather/*
@@ -37,21 +45,31 @@
 /wp-content/themes/flex-mag/js/autoloadpost.js
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
 
+||adeptli.dev/mini-widget-mobile/*$subdocument,3p,redirect=click2load.html
+||adeptli.dev/mini-widget/*$subdocument,3p,redirect=click2load.html
+||api.secondstreetapp.com/audience_signup_widgets/*$script,3p
+||apv-launcher.minute.ly/api/launcher/*$script,3p
 ||assets.pinterest.com/js/pinit.js$script
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
 ||cdn-client.medium.com/lite/static/js/reporting.*$script
+||cdn.jsdelivr.net/npm/@portis/web3@*$script
+||cdn.jsdelivr.net/npm/@walletconnect/*$script
+||cdn.jsdelivr.net/npm/authereum@*$script
 ||cdn.jsdelivr.net/npm/fbgraph@*$script
 ||cdn.jsdelivr.net/npm/passport-facebook-token@*$script
 ||cdn.jsdelivr.net/npm/passport-facebook@*$script
 ||cdn.jsdelivr.net/npm/react-facebook-login@*$script
 ||cdn.jsdelivr.net/npm/react-facebook-pixel@*$script
 ||cdn.jsdelivr.net/npm/react-facebook@*$script
+||cdn.jsdelivr.net/npm/web3modal@*$script
 ||cdn.pendo.io/agent/static/*$script,3p
 ||cdn.tinypass.com/api/*$script,3p
 ||cdnapisec.kaltura.com^$subdocument,3p,redirect=click2load.html
+||champagne.futurecdn.net/champagne.js$script,3p
 ||chancejs.com/chance.min.js$script
 ||cms.springboardplatform.com/embed_iframe/*$subdocument,3p,redirect=click2load.html
 ||content.jwplatform.com/players/*$subdocument,3p,redirect=click2load.html
+||d35xxde4fgg0cx.cloudfront.net/assets/embedded.js$script
 ||dailymotion.com/embed/*$subdocument,3p,redirect=click2load.html
 ||discord.com/widget$subdocument,3p,redirect=click2load.html
 ||discordapp.com/widget$subdocument,3p,redirect=click2load.html
@@ -59,6 +77,7 @@
 ||disqus.com/recommendations/*$subdocument,3p
 ||gadget.pico.tools/wrapper.min.js$script
 ||giphy.com/embed/*$subdocument,3p,redirect=click2load.html
+||jetpack.wordpress.com/jetpack-comment/*$subdocument,3p,redirect=click2load.html
 ||js.stripe.com/v3/fingerprinted/js/elements-afterpay-*$script
 ||js.stripe.com/v3/m-outer-*$subdocument,3p
 ||kinja.com/api/profile/accountwithtoken$script
@@ -66,25 +85,31 @@
 ||memberful.com/turbolinks_preload$subdocument,3p
 ||news.google.com/swg/js/v1/swg.js$script,3p
 ||news.google.com/thank/*$script,3p
+||platform.twitter.com/widgets/widget_iframe.*$subdocument,3p,removeparam=origin
 ||play.google.com/log$xhr
 ||player-cdn.beachfrontmedia.com/playerapi/*$subdocument,3p,redirect=click2load.html
 ||player.vimeo.com/video/*$subdocument,3p,redirect=click2load.html
 ||players.brightcove.net^$subdocument,3p,redirect=click2load.html
 ||playlist.megaphone.fm^$subdocument,3p,redirect=click2load.html
+||reporting.services.disqus.com^$xhr,3p
 ||sdk.snapkit.com/js/v1/create.js$script,3p
 ||static.addtoany.com/menu/page.js$script,3p
 ||static.narrativ.com/tags/*$script,3p
 ||static.parastorage.com/services/chat-worker/*
-||tempest.services.disqus.com/ads-iframe/google/*$xhr,3p
+||tempest.services.disqus.com/ads-iframe/*$xhr,3p
 ||tiktok.com/embed/*$subdocument,3p,redirect=click2load.html
 ||track.sendlane.com/track/event$3p
 ||twitch.tv^$subdocument,3p,redirect=click2load.html
+||unpkg.com/@portis/web3@*$script
+||unpkg.com/@walletconnect/*$script
+||unpkg.com/authereum@*$script
 ||unpkg.com/fbgraph@*$script
 ||unpkg.com/passport-facebook-token@*$script
 ||unpkg.com/passport-facebook@*$script
 ||unpkg.com/react-facebook-login@*$script
 ||unpkg.com/react-facebook-pixel@*$script
 ||unpkg.com/react-facebook@*$script
+||unpkg.com/web3modal@*$script
 ||vine.co/v/*/embed$subdocument,3p,redirect=click2load.html
 ||w.soundcloud.com/player/*$subdocument,3p,redirect=click2load.html
 ||x.kinja-static.com/assets/new-client/category-stream~second-scroll.*$script
@@ -103,9 +128,10 @@
 ||youtube.com/embed/*$subdocument,3p,redirect=click2load.html
 
 ||api.pinterest.com^$3p
-||smartlock.google.com^$3p
-||sendbird.com^$xhr,3p
 ||sendbird.com^$websocket,3p
+||sendbird.com^$xhr,3p
+||smartlock.google.com^$3p
+||widgets.recruitology.com^$script,3p
 
 ! -- STRICT BLOCKING OF ENTIRE SITES ---
 
@@ -139,23 +165,39 @@
 ||yeshentai.com^
 
 ! - CORE FILTERS -
+||3box.io^
+||3boxlabs.com^
 ||3lau.com^
 ||4thwavenow.com^
+||888.link^
+||888^
+||abracadabra.money^
 ||abrahamkalili.com^
+||acala.network^
+||affogato.co^
 ||alchemymerch.com^
 ||alexgleason.me^
 ||alexiscstudio.com^
 ||algop.org^
+||allchainbridge.com^
+||americancoinstash.com^
 ||annapurna.pictures^
 ||annapurnainteractive.com^
 ||aogami.soup.io^
 ||aquatifur.com^
+||argent.xyz^
+||ark.io^
 ||arpie.gg^
 ||artcamp.com^
 ||artstation.com/miles-df^$document
 ||artstation.com/users/miles-df^
+||arweave.org^
+||arwiki.wiki^
 ||audacityteam.org^
+||authereum.com^
 ||ayana.io^
+||balconydao.com^
+||bancor.network^
 ||battle.net^
 ||bbc.co.uk^$1p
 ||bbc.com^$1p
@@ -164,15 +206,32 @@
 ||beeple-collect.com^
 ||beeple-crap.com^
 ||benbankas.com^
+||bigchaindb.com^
+||binance.us^
+||bitcoin.link^
+||bitcoin^
+||bitcoincore.org^
+||bitfinex.com^
+||bitski.com^
 ||bizymouse.com^
 ||blenderguru.com^
 ||blick.ch^
 ||blizzard.com^
+||blockchain.link^
+||blockchain^
+||blockchainforclimate.org^
+||blockchair.com^
+||blockfolio.com^
+||blockreward.app^
+||blockscout.com^
+||blockstack.org^
 ||bluestacks.com^
+||boredapeyachtclub.com^
 ||bostondynamics.com^
 ||botlabs.gg^
 ||boundingintocomics.com^
 ||boysnoize.com^
+||breedlove22.substack.com^
 ||breitbart.com^
 ||buzzly.art^
 ||canine.equipment^
@@ -182,14 +241,30 @@
 ||ccxt.com^
 ||chedot.com^
 ||christianpost.com^
+||civfund.org^
 ||cloudy.gg^
 ||clouthub.com^
+||clovers.network^
 ||cnn.com^$1p
 ||cnx.srht.site^
+||coin.link^
+||coin^
+||coindesk.com^
+||coingecko.com^
+||coinmarketcap.com^
+||cointop.sh^
 ||commissionpaperwings.weebly.com^
 ||conservapedia.com^
 ||corgievents.com^
 ||cracked.com^
+||crypto.link^
+||crypto^
+||cryptocves.com^
+||cryptogeek.info^
+||cryptokitties.co^
+||cryptolens.io^
+||cryptomator.org^
+||cryptorod.io^
 ||cyberghostvpn.com^
 ||cyberghostvpnapp.com^
 ||cynthia.dog^
@@ -198,7 +273,13 @@
 ||dailycaller.com^
 ||dailymail.co.uk^
 ||dailywire.com^
+||dao.link^
+||dao^
+||daostack.io^
+||dash.org^
+||decentraland.org^
 ||defectivebydesign.org^
+||defibit.io^
 ||denfur.org^
 ||designdrop.github.io^
 ||di.sn^
@@ -217,17 +298,33 @@
 ||donthugcacti.com^
 ||dreamkeeperscomic.com^
 ||droolingsimps.com^
+||earncryptointerest.com^
 ||echoesofarcane.itch.io^
+||embarklabs.io^
+||ens.domains^
 ||equalityhumanrights.com^
+||ethereum-magicians.org^
+||ethereum.org^
+||ethereum.stackexchange.com^
+||etherscan.io^
+||ethworks.io^
+||eurus.network^
+||exodus.com^
 ||expressvpn.com^
 ||falvie.art^
 ||farbeyondthe.world^
 ||farbeyondtheworld.com^
 ||fivethirtyeight.com^
+||flipsidecrypto.com^
+||flooz.trade^
+||foam.space^
+||fortmatic.com^
+||foundation.app^
 ||fox10phoenix.com^
 ||foxnews.com^
 ||fredboat.com^
 ||freenode.net^
+||freqtrade.io^
 ||fsf.org^
 ||funomena.com^
 ||furryartpro.com^
@@ -237,12 +334,20 @@
 ||gamexplain.com^
 ||ganyiao.com^
 ||garyvarvel.com^
+||gemini.com^
+||genasys.com^
+||gethitpiece.com^
+||getmonero.org^
 ||gettr.com^
+||gfinityesports.com^
 ||giltroy.com^
+||gitcoin.co^
+||gnosis-safe.io^
 ||gnu.io^
 ||gnu.org^
 ||gnusocial.network^
 ||go.com^
+||godsunchained.com^
 ||gpd.hk^
 ||grrrgraphics.com^
 ||gsfurcon.com^
@@ -253,11 +358,16 @@
 ||headsandtails.studio^
 ||helleborusflos.carrd.co^
 ||heritage.org^
+||hitpiece.com^
+||hodlbag.org^
 ||hostadvice.com^
+||hs-web3.readthedocs.io^
 ||iankelling.org^
 ||ib.metapix.net^
 ||ign.com^
 ||independent.co.uk^
+||ineth.net^
+||infura.io^
 ||inkbunny.net^
 ||internetrevolution.co^
 ||jami.net^
@@ -276,13 +386,18 @@
 ||keplr.app^
 ||killeracid.com^
 ||kiwifarms.net^
+||knownorigin.io^
 ||ko-fi.com/headsandtails^$document
 ||ko-fi.com/paperwings^$document
+||kusama.network^
+||learnweb3.io^
 ||libreboot.org^
 ||libreplanet.org^
+||linkdrop.io^
 ||linktr.ee/HeadsAndTailsStudios^$document
 ||linktr.ee/TheXenoForge^$document
 ||linuxreviews.org^
+||login.xyz^
 ||lookleft.us^
 ||losangeles.cbslocal.com^
 ||lp.org^
@@ -290,10 +405,15 @@
 ||marapets.com^
 ||marzipansmilktea.wixsite.com^
 ||mayormcgee.com^
+||mayweverse.io^
 ||mdf.gumroad.com^
 ||meatcanyon.shop^
+||mempool.space^
+||metamask.io^
+||metaversebook.com^
 ||miles-df.artstation.com^
 ||mountains.studio^
+||mtgdao.org^
 ||mu.se^
 ||museclass.com^
 ||musescore.com^
@@ -301,7 +421,13 @@
 ||naturalnews.com^
 ||nbcnewyork.com^
 ||neowin.net^
+||nest.land^
 ||newscientist.com^
+||nft.link^
+||nft^
+||nftmusic.stream^
+||nfttrader.io^
+||niftygateway.com^
 ||nomadiconvention.org^
 ||nookazon.com^
 ||nordvpn.com^
@@ -313,12 +439,17 @@
 ||nytimes.com^
 ||nytimes.map.fastly.net^
 ||odesza.com^
+||olympusdao.finance^
 ||oneangrygamer.net^
 ||opera.com^
 ||operacdn.com^
 ||opr.as^
+||ownrwallet.com^
 ||painteddesertfc.com^
+||pancakeswap.finance^
 ||paperwings.store^
+||parastate.io^
+||parastate.substack.com^
 ||parler.com^
 ||patreon.com/Bungaroo^$document
 ||patreon.com/TheXenoForge^$document
@@ -332,16 +463,20 @@
 ||patreon.com/zaush^$document
 ||peacewolf.carrd.co^
 ||peacewolfcreations.com^
+||peercoin.net^
 ||peppercoyote.bandcamp.com^
 ||peta.org^
+||phantom.app^
 ||phyllisschlafly.com^
 ||piggy.gg^
 ||playhearthstone.com^
 ||playoverwatch.com^
 ||politico.com^$1p
 ||politics.co.uk^
+||polkadot.network^
 ||ponyvilleciderfest.com^
 ||poodlewise.com^
+||portis.io^
 ||postdates.*.amazonaws.com^
 ||postdates.co^
 ||privateinternetaccess.com^
@@ -350,6 +485,7 @@
 ||pwa.rocks^
 ||quillette.com^
 ||rainbow.me^
+||rarible.com^
 ||reclaimthenet.org^
 ||redfish.media^
 ||redpills.tv^
@@ -358,6 +494,7 @@
 ||riaevangelist.github.io^
 ||roadtrip.fm^
 ||roblox.com^
+||robonomics.network^
 ||rodscontracts.com^
 ||rskemono.com^
 ||rt.com^
@@ -369,12 +506,20 @@
 ||screenrant.com^
 ||serioustransvibes.com^
 ||shaqsfunhouse.com^
+||shl.capital^
+||sia.tech^
 ||siamusic.net^
 ||sincitymurrcon.com^
 ||slbtty.info^
 ||slimesunday.com^
+||solana.com^
+||sorare.com^
 ||sourecode.de^
+||spaceyacht.net^
 ||spectator.org^
+||squidgame-token.com^
+||squidgametoken.games^
+||squidgametokens.com^
 ||ssx3lau.art^
 ||staffpad.net^
 ||stallman.org^
@@ -386,11 +531,14 @@
 ||subscribestar.adult/jaynaylor^$document
 ||subscribestar.adult/kabscorner^$document
 ||substack.com^
+||superrare.co^
+||swft.pro^
 ||syberwuff.com^
 ||tabletopsimulator.com^
 ||tailbait.pw^
 ||technicallyfox.com^
 ||telegraph.co.uk^
+||tether.to^
 ||thankyoux.com^
 ||the-sun.com^
 ||theamericanconservative.com^
@@ -398,6 +546,7 @@
 ||theblaze.com^
 ||thedonald.win^
 ||thefederalist.com^
+||thegraph.com^
 ||theguardian.co.uk^
 ||theguardian.com^
 ||thehill.com^
@@ -408,35 +557,67 @@
 ||thesun.co.uk^
 ||thesun.ie^
 ||thetimes.co.uk^
+||theunit.one^
 ||thewaltdisneycompany.com^
 ||theworldnews.net^
 ||thexenoforge.wixsite.com^
 ||tiny-conductor.tumblr.com^
 ||todayodious.com^
+||tokeninsight.com^
+||tokensquidgame.com^
+||tor.us^
+||totle.com^
 ||tpusa.com^
+||traderjoexyz.com^
+||trustwallet.com^
 ||truthsocial.com^
 ||tsr.games^
 ||twintailcreations.com^
+||twitter.com/manedwolfy^$document
 ||ultimate-guitar.com^
 ||unherd.com^
+||uniswap.org^
+||unstoppable.io^
+||unstoppabledomains.com^
+||uphold.com^
 ||upi.com^
 ||vaush.gg^
+||vcc.exchange^
 ||vdare.com^
+||verto.exchange^
+||wallet.link^
+||wallet^
+||walletconnect.com^
+||wasabiwallet.io^
 ||washingtonexaminer.com^
 ||washingtontimes.com^
 ||washtimes.com^
+||web3.foundation^
+||web3j.io
+||web3js.readthedocs.io^
+||web3labs.com^
+||web3modal.com^
+||web3py.readthedocs.io^
 ||weeb.sh^
 ||weredog.co.uk^
+||whatismoneypodcast.com^
 ||whinnycity.com^
 ||wild---life.com^
 ||winamp.com^
+||winorlose.live^
 ||wnd.com^
 ||wolfjlupus.com^
+||wonderland.money^
+||wonderlandforum.xyz^
 ||worldofwarcraft.com^
+||x.link^
+||x^
 ||xooa.com^
 ||yagpdb.xyz^
 ||zenmate.com^
 ||zeronet.io^
+||zil.link^
+||zil^
 ||zora.co^
 ||zrcalo.art^
 
@@ -451,6 +632,9 @@ amazon.com###rhf
 amazon.com###va-related-videos-widget_feature_div
 ||amazon.com^$document,removeparam=qsid
 ||amazon.com^$document,removeparam=sres
+
+! amp.dev
+||amp.dev^$xhr,1p,removeparam=__amp_source_origin
 
 ! androidpolice.com
 androidpolice.com##.sidebar-poll
@@ -478,8 +662,17 @@ arstechnica.com##^.ad
 ||arstechnica.com/hotzones/src/ads.js$xhr,1p
 
 ! bandcamp.com
+! do not removeparam label or tab
 bandcamp.com###email-intake
 bandcamp.com##.corpbanner
+||bandcamp.com^$document,removeparam=from
+||bandcamp.com^$document,removeparam=search_item_id
+||bandcamp.com^$document,removeparam=search_item_type
+||bandcamp.com^$document,removeparam=search_match_part
+||bandcamp.com^$document,removeparam=search_page_id
+||bandcamp.com^$document,removeparam=search_page_no
+||bandcamp.com^$document,removeparam=search_rank
+||bandcamp.com^$document,removeparam=search_sig
 
 ! bestbuy.com
 bestbuy.com##.embedded-leaderboard:has(.shop-display-ad)
@@ -502,6 +695,11 @@ botsentinel.com##.rplm-overlay
 
 ! cannabiswire.com
 cannabiswire.com###banner
+
+! channel3000.com
+channel3000.com##+js(aeld, pagehide)
+channel3000.com##.ssbp-list
+channel3000.com##.wpb_wrapper > .templatera_shortcode
 
 ! clickhole.com
 ||clickhole.com/api/videoupload/video/byIds$xhr
@@ -527,6 +725,7 @@ derpibooru.org##^#imagespns
 disqus.com###badges-message__container
 disqus.com##.login-overlay__wrapper
 ||c.disquscdn.com/next/recommendations/*$script
+||disqus.com/api/3.0/threadReactions/*$xhr,1p
 ||realtime.services.disqus.com/ws/2/thread/*$websocket,1p
 
 ! dropbox.com
@@ -535,6 +734,13 @@ dropbox.com###top-notification-bar-container
 
 ! educba.com
 ||cdn.educba.com/academy/wp-includes/js/hoverIntent.min.js$script,1p
+
+! e-hentai.org
+e-hentai.org##+js(set, adsbyjuicy.push, noopFunc)
+
+! eteknix.com
+eteknix.com###rightbar
+eteknix.com##+js(aeld, click)
 
 ! fedscoop.com
 fedscoop.com##^script:has-text(show_welcome_ad)
@@ -551,8 +757,11 @@ fandom.com###WikiaNotifications
 fandom.com###WikiaRailWrapper
 fandom.com###WikiaTopAds
 fandom.com###articleComments
+fandom.com###highlight__main-container
+fandom.com##+js(aeld, pointerup)
 fandom.com##.ad-slot-placeholder
 fandom.com##.banner-notifications-placeholder
+fandom.com##.bottom-ads-container
 fandom.com##.createpage.wds-is-secondary.wds-button
 fandom.com##.fandom-sticky-header:style(left: 0!important;)
 fandom.com##.global-footer
@@ -561,17 +770,21 @@ fandom.com##.main-container:style(margin-left: 0!important;)
 fandom.com##.main-container:style(width: 100%!important;)
 fandom.com##.notifications-placeholder
 fandom.com##.page__right-rail
+fandom.com##.resizable-container:style(margin: 0 auto !important)
+fandom.com##.search-modal::before:style(left: 0px !important;)
 fandom.com##.unified-search__layout__right-rail
 fandom.com##.wikia-photogallery-add
 fandom.com##^.mcf-card-related-wikis
 fandom.com##a.share-button
 fandom.com##a[data-tracking="discuss"]
+fandom.com##body:style(--desktop-global-navigation-width: 0px !important)
 ||fandom.com/f$xhr
 ||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
 ||fandom.com/wikia.php?controller=RecirculationApi$xhr
 ||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
 ||services.fandom.com//event-logger/*$xhr
 ||services.fandom.com/discussion/*$xhr
+||services.fandom.com/geoip/*$xhr
 ||services.fandom.com/knowledge-graph/affiliates/*$xhr
 ||services.fandom.com/recommendations/*$xhr
 ||services.fandom.com/wiki-recommendations/*$xhr
@@ -693,6 +906,12 @@ npmjs.com##div[data-promotion-spot="below-header"]
 ! planetminecraft.com
 planetminecraft.com###ultra_wide
 
+! pornhub.com
+||phncdn.com/www-static/js/premium/premium-modals.js$script
+||phncdn.com/www-static/js/promo-banner.js$script
+||phncdn.com/www-static/js/widgets-live-popup.js$script
+||pornhub.com/front/menu_livesex$xhr,1p
+
 ! propublica.org
 ||propublica.org/*/js/deploy/syndicated-newsletter-*.js$script,1p
 
@@ -758,8 +977,14 @@ thestar.com##.right-rail-ads-container
 ! theverge.com
 theverge.com###newsletter-signup-short-form
 
+! theintercept.com
+theintercept.com##+js(set, tp.push, noopFunc)
+
 ! tiktok.com
 ||tiktok.com^$document,removeparam=share_link_id
+
+! tomshardware.com
+tomshardware.com##.socialite-widget
 
 ! toptal.com
 toptal.com##.internal-linking
@@ -850,6 +1075,19 @@ wixsite.com###WIX_ADS
 ! xda-developers.com
 forum.xda-developers.com##.xdaforumnews.widget
 forum.xda-developers.com##.xdanews.widget
+xda-developers.com##+js(set, adUnitBidderConfigs, null)
+xda-developers.com##+js(set, adsNinjaDefineSlots, noopFunc)
+xda-developers.com##+js(set, gamAdSlots.push, noopFunc)
+xda-developers.com##+js(set, uuidProfileCall, noopFunc)
+||xda-developers.com/app/plugins/xda-kco-affiliate/*$script,1p
+
+! xhamster.com
+xhamster.com##+js(aeld, click, GEOonVPN)
+xhamster.com##+js(aeld, click, geoPicker)
+xhamster.com##+js(aeld, click, mobile-video-thumb)
+xhamster.com##+js(aeld, click, recomm-promo-hub-dialog-trigger)
+xhamster.com##+js(aopw, history)
+xhamster.com##+js(disable-newtab-links)
 
 ! youtube.com
 youtube.com###voice-search-button
