@@ -307,10 +307,11 @@
 ||upi.com^
 ||zenmate.com^
 
-!#include sections/brands.txt
 !#include sections/crypto.txt
 !#include sections/fash-disinfo.txt
 !#include sections/furry.txt
+
+!#include sections/brands.txt
 
 ! -- SITE-SPECIFIC FILTERS --
 
