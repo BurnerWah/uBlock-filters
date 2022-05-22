@@ -62,6 +62,8 @@
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
 
 ##.hustle-slidein
+##.pinterest-button-colorbox
+##.facebook-button-colorbox
 
 ||accounts.google.com/gsi/*$script,3p
 ||accounts.google.com/o/oauth2/*$subdocument,3p
@@ -625,6 +627,9 @@ monkeytype.com###bannerCenter
 
 ! myanimelist.net
 myanimelist.net##.btn-mal-service
+
+! namecheap.com
+namecheap.com##.nc-search-picks
 
 ! newgrounds.com
 newgrounds.com##.inhousepromo
