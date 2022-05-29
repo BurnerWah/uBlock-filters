@@ -121,6 +121,7 @@
 ||dash.org^
 ||decentraland.org^
 ||defibit.io^
+||defipro.dev^
 ||desci.berlin^
 ||earn.com^
 ||earncryptointerest.com^
@@ -155,6 +156,7 @@
 ||fredboat.com^
 ||freqtrade.io^
 ||fuel.network^
+||furucombo.app^
 ||game.tv^
 ||gamestats.gg^
 ||gem.co^
@@ -198,6 +200,7 @@
 ||messari.io^
 ||metamask.io^
 ||metaversebook.com^
+||milliontoken.org^
 ||mirror.xyz^
 ||mtgdao.org^
 ||nest.land^
@@ -256,6 +259,7 @@
 ||squidgametokens.com^
 ||superrare.co^
 ||swft.pro^
+||tech3.dev^
 ||tendermint.com^
 ||tether.to^
 ||thegraph.com^
@@ -296,6 +300,7 @@
 ||whatismoneypodcast.com^
 ||winamp.com^
 ||winorlose.live^
+||wolframblockchainlabs.com^
 ||wonderland.money^
 ||wonderlandforum.xyz^
 ||x.link^

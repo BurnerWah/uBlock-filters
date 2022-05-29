@@ -178,6 +178,7 @@
 ||signup-hypesquad-returns.com^
 ||superxwomen.xyz^
 ||syria.carrd.co^
+||techinterviewpro.com^
 ||teechip.com^
 ||teechip.us^
 ||torrentsmirror.com^
@@ -195,38 +196,26 @@
 ||alchemymerch.com^
 ||alexgleason.me^
 ||alexiscstudio.com^
-||amyklobuchar.com^
 ||annapurna.pictures^
 ||annapurnainteractive.com^
 ||anthem.foundation^
 ||antheminc.com^
 ||artcamp.com^
-||bbc.co.uk^$1p
-||bbc.com^$1p
-||bbcamerica.com^
-||bbcgossip.com^
 ||benbankas.com^
-||bennet.senate.gov^
 ||blick.ch^
-||booker.senate.gov^
 ||bostondynamics.com^
 ||boundingintocomics.com^
 ||buzzly.art^
 ||canncon.locals.com^
 ||cbsla.com^
 ||chedot.com^
-||christinepelosi.com^
 ||cnx.srht.site^
 ||cracked.com^
 ||cyberghostvpn.com^
 ||cyberghostvpnapp.com^
 ||defectivebydesign.org^
-||democrats.org^
-||democrats.senate.gov^
 ||designdrop.github.io^
-||durbin.senate.gov^
 ||expressvpn.com^
-||fivethirtyeight.com^
 ||freenode.net^
 ||fsf.org^
 ||gamexplain.com^
@@ -243,11 +232,9 @@
 ||iankelling.org^
 ||ign.com^
 ||ignite.com^
-||independent.co.uk^
 ||jami.net^
 ||jeffreytoobin.com^
 ||killeracid.com^
-||klobuchar.senate.gov^
 ||libreboot.org^
 ||libreplanet.org^
 ||linuxreviews.org^
@@ -258,16 +245,14 @@
 ||makanipower.com^
 ||meatcanyon.shop^
 ||mountains.studio^
-||murray.senate.gov^
 ||nationwide.com^
 ||nbcnewyork.com^
 ||neowin.net^
-||nookazon.com^
 ||nordvpn.com^
 ||norton.com^
-||occupydemocrats.com^
 ||odesza.com^
 ||peta.org^
+||pfizer^
 ||politics.co.uk^
 ||postdates.*.amazonaws.com^
 ||postdates.co^
@@ -282,10 +267,8 @@
 ||sacanime.com^
 ||sahillavingia.com^
 ||scanate.co^
-||schumer.senate.gov^
 ||scotusblog.com^
 ||screenrant.com^
-||secure.actblue.com/donate/jwh-soc^$document
 ||serioustransvibes.com^
 ||shaqsfunhouse.com^
 ||siamusic.net^
@@ -294,16 +277,12 @@
 ||sneed.shop^
 ||sourecode.de^
 ||ssx3lau.art^
-||staffpad.net^
 ||stallman.org^
 ||stallmansupport.org^
 ||steveaoki.com^
 ||tabletopsimulator.com^
-||telegraph.co.uk^
 ||thankyoux.com^
 ||theatlantic.com^
-||theguardian.co.uk^
-||theguardian.com^
 ||thehill.com^
 ||tsr.games^
 ||upi.com^
@@ -393,6 +372,11 @@ bandcamp.com##.corpbanner
 
 ! bestbuy.com
 bestbuy.com##.embedded-leaderboard:has(.shop-display-ad)
+||bestbuy.com/services/conversation/*$xhr,1p
+||bestbuy.com/site/canopy/component/shop/location-persistence/*$xhr,1p
+||bestbuy.com/~assets/bby/_com/shop/location-card/*$script,1p
+||bestbuy.com/~assets/bby/_com/shop/location-persistence/*$script,1p
+||bestbuy.com/~assets/bby/_com/shop/location-tooltip/*$script,1p
 
 ! bleepingcomputer.com
 bleepingcomputer.com##.bc_news_letter_sidebar
@@ -423,11 +407,15 @@ channel3000.com##.wpb_wrapper > .templatera_shortcode
 
 ! cloudflare.com
 dash.cloudflare.com##a[aria-label="Zone Web3 Page"]:upward(li)
+developers.cloudflare.com##a.ProductGrid--link[href="/web3/"]
 
 ! cnn.com
 cnn.com##+js(rc, geolocation, html)
 cnn.com##+js(rc, no-gdpr, html)
 cnn.com##+js(rc, userconsent-cntry-us, html)
+
+! code-boost.com
+code-boost.com###mailer-lite-form
 
 ! crunchyroll.com
 crunchyroll.com###marketing_banner
@@ -603,6 +591,9 @@ kotaku.com##.js_commerce-inset-permalink
 kotaku.com##.js_modal_exit_intent
 ||kotaku.com^$document,removeparam=rev
 
+! lenovo.com
+lenovo.com##.bottomStickyDock
+
 ! listland.com
 ||disqus.com^$script,domain=listland.com
 ||paypal.com^$script,domain=listland.com
@@ -630,12 +621,15 @@ myanimelist.net##.btn-mal-service
 
 ! namecheap.com
 namecheap.com##.nc-search-picks
+namecheap.com##.search-tabs > button:has-text(Handshake)
 
 ! newgrounds.com
+newgrounds.com##.header-deck > .pod:has(a[href="https://www.newgrounds.com/supporter"])
 newgrounds.com##.inhousepromo
 newgrounds.com##.ng-latest-supporter-wide
 newgrounds.com##.pod:has(.fp-promo-slot)
 newgrounds.com##.pod:has(a[href$="/supporter"]):nth-of-type(1)
+newgrounds.com##div[class^="ng-ad-container-"]
 ||img.ngfiles.com/promos/*
 
 ! nexusmods.com
@@ -766,8 +760,8 @@ tumblr.com##^.related-posts-wrapper
 ! tutorialspoint.com
 ||tutorialspoint.com/images/top-banner.jpg$image
 
-! twitter.com
 ! The badfilters are here so you don't make the same mistakes that I did when trying to hide topics.
+! twitter.com
 @@||dailymotion.com/embed/*$subdocument,domain=reddit.com
 @@||player.vimeo.com/video/*$subdocument,domain=twitter.com
 @@||twitch.tv^$subdocument,domain=twitter.com
@@ -782,6 +776,8 @@ twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
 ||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.*$script
 ||abs.twimg.com/responsive-web/client-web/ondemand.TopicFollowPromptHandler.*$badfilter
+||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$script
+||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$xhr
 ||abs.twimg.com/responsive-web/client-web/ondemand.topicHandler.*$badfilter
 ||pbs.twimg.com/amplify_video_thumb/*$image
 ||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=origin
@@ -835,6 +831,10 @@ wired.com##.recirc-list-wrapper
 
 ! *.wixsite.com
 wixsite.com###WIX_ADS
+
+! wolframalpha.com
+wolframalpha.com##div:has(> a > img[src^="https://www.wolframcdn.com/side-images/"]):remove()
+||wolframcdn.com/side-images/*$image
 
 ! xda-developers.com
 forum.xda-developers.com##.xdaforumnews.widget
