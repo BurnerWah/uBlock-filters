@@ -10,8 +10,10 @@
 ||affogato.co^
 ||akasha.org^
 ||akasha.world^
+||alchemymerch.com^
 ||aleo-token.org^
 ||aleo.org^
+||alexiscstudio.com^
 ||allchainbridge.com^
 ||americancoinstash.com^
 ||argent.xyz^
@@ -102,6 +104,7 @@
 ||cosmos.network^
 ||cosmwasm.com^
 ||cr.yp.to^
+||cryga.com^
 ||crypto.link^
 ||crypto^
 ||cryptocoinjs.com^
@@ -257,6 +260,8 @@
 ||squidgame-token.com^
 ||squidgametoken.games^
 ||squidgametokens.com^
+||stellar.org^
+||stellarport.io^
 ||superrare.co^
 ||swft.pro^
 ||tech3.dev^

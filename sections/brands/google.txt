@@ -192,6 +192,7 @@
 ||pvademo.goog^
 ||quantumai.google^
 ||readalong.google^
+||readaloud.googleapis.com^
 ||registry.google^
 ||remotedesktop.google.com^
 ||research.google^

@@ -100,6 +100,7 @@
 ||disqus.com/recommendations/*$subdocument,3p
 ||gadget.pico.tools/wrapper.min.js$script
 ||giphy.com/embed/*$subdocument,3p,redirect=click2load.html
+||google.com/maps/embed/*$subdocument,3p,redirect=click2load.html
 ||jetpack.wordpress.com/jetpack-comment/*$subdocument,3p,redirect=click2load.html
 ||js.stripe.com/v3/fingerprinted/js/elements-afterpay-*$script
 ||js.stripe.com/v3/m-outer-*$subdocument,3p
@@ -170,7 +171,6 @@
 ||freerobux.best^
 ||helpsyria.carrd.co^
 ||joy-penguin.com^
-||lincolnproject.us^
 ||momentgay.com^
 ||momentgirl.com^
 ||physexy.cyou^
@@ -193,9 +193,6 @@
 
 ! - CORE FILTERS -
 ||abrahamkalili.com^
-||alchemymerch.com^
-||alexgleason.me^
-||alexiscstudio.com^
 ||annapurna.pictures^
 ||annapurnainteractive.com^
 ||anthem.foundation^
@@ -204,18 +201,11 @@
 ||benbankas.com^
 ||blick.ch^
 ||bostondynamics.com^
-||boundingintocomics.com^
 ||buzzly.art^
-||canncon.locals.com^
-||cbsla.com^
-||chedot.com^
 ||cnx.srht.site^
 ||cracked.com^
-||cyberghostvpn.com^
-||cyberghostvpnapp.com^
 ||defectivebydesign.org^
 ||designdrop.github.io^
-||expressvpn.com^
 ||freenode.net^
 ||fsf.org^
 ||gamexplain.com^
@@ -230,7 +220,6 @@
 ||hardhat.org^
 ||hostadvice.com^
 ||iankelling.org^
-||ign.com^
 ||ignite.com^
 ||jami.net^
 ||jeffreytoobin.com^
@@ -239,7 +228,6 @@
 ||libreplanet.org^
 ||linuxreviews.org^
 ||lookleft.us^
-||losangeles.cbslocal.com^
 ||lp.org^
 ||lx.com^
 ||makanipower.com^
@@ -248,16 +236,11 @@
 ||nationwide.com^
 ||nbcnewyork.com^
 ||neowin.net^
-||nordvpn.com^
-||norton.com^
 ||odesza.com^
 ||peta.org^
 ||pfizer^
-||politics.co.uk^
 ||postdates.*.amazonaws.com^
 ||postdates.co^
-||privateinternetaccess.com^
-||purevpn.com^
 ||reference.pictures^
 ||repology.org^
 ||riaevangelist.github.io^
@@ -267,14 +250,11 @@
 ||sacanime.com^
 ||sahillavingia.com^
 ||scanate.co^
-||scotusblog.com^
-||screenrant.com^
 ||serioustransvibes.com^
 ||shaqsfunhouse.com^
 ||siamusic.net^
 ||slbtty.info^
 ||smartbit.com.au^
-||sneed.shop^
 ||sourecode.de^
 ||ssx3lau.art^
 ||stallman.org^
@@ -282,8 +262,6 @@
 ||steveaoki.com^
 ||tabletopsimulator.com^
 ||thankyoux.com^
-||theatlantic.com^
-||thehill.com^
 ||tsr.games^
 ||upi.com^
 ||zenmate.com^
@@ -291,6 +269,7 @@
 !#include sections/crypto.txt
 !#include sections/fash-disinfo.txt
 !#include sections/furry.txt
+!#include sections/risky.txt
 
 !#include sections/brands.txt
 
@@ -742,6 +721,7 @@ tomshardware.com##.socialite-widget
 
 ! toptal.com
 toptal.com##.internal-linking
+||toptal.com/developers/gitignore/img/toptal-logo-wordmark.svg$image,1p
 
 ! tumblr.com
 media.tumblr.com##^a
@@ -783,11 +763,14 @@ twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
 ||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=origin
 ||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=sessionId
 ||syndication.twitter.com/settings$xhr,domain=platform.twitter.com
+||twitter.com/*/status/*$document,removeparam=cxt
 ||twitter.com/*/status/*$document,removeparam=ref_src
 ||twitter.com/*/status/*$document,removeparam=ref_url
 ||twitter.com/*/status/*$document,removeparam=s
 ||twitter.com/*/status/*$document,removeparam=t
 ||twitter.com/i/api/1.1/account/settings.json$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
+||twitter.com/i/api/1.1/branch/init.json$xhr,1p
+||twitter.com/i/api/1.1/jot/ces/p2$xhr,1p
 ||twitter.com/i/api/1.1/users/recommendations.json$xhr,1p
 ||twitter.com/i/api/fleets/*$xhr,1p
 ||twitter.com/i/api/graphql/*/TopicFollow$xhr,1p
@@ -822,6 +805,9 @@ userstyles.org##.walking
 
 ! vox.com
 vox.com###newsletter-signup-short-form
+
+! vuetelescope.com
+vuetelescope.com##+js(set, localStorage.collections-feature-seen, true)
 
 ! wikihow.com
 wikihow.com##.wh_ad_spacing
@@ -867,6 +853,7 @@ youtube.com##ytd-button-renderer:has-text(Clip)
 youtube.com##ytd-compact-movie-renderer
 youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-guide-signin-promo-renderer
+youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
 ||youtube.com/embed/*$subdocument,3p,removeparam=origin
 
 ! zdnet.com
