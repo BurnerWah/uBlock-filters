@@ -11,6 +11,7 @@
 ||americanexpress^
 ||amex^
 ||anncoulter.com^
+||armed-services.senate.gov
 ||army.mil^
 ||asda.com^
 ||asda^
@@ -21,7 +22,6 @@
 ||bbcgossip.com^
 ||beaufort.nc.gop^
 ||bible^
-||bioware.com^
 ||blackburn.senate.gov^
 ||blenderguru.com^
 ||blunt.senate.gov^
@@ -36,6 +36,7 @@
 ||cabarrus.nc.gop^
 ||caldwell.nc.gop^
 ||carteret.nc.gop^
+||carusocan.com^
 ||cassidy.senate.gov^
 ||catawba.nc.gop^
 ||champaign.gop^
@@ -61,14 +62,11 @@
 ||dailywire.com^
 ||dare.nc.gop^
 ||davidson.nc.gop^
-||dice.se^
 ||dilbert.com^
 ||disclose.tv^
 ||district6.nc.gop^
 ||douglascounty.gop^
 ||durham.nc.gop^
-||ea.com^
-||easports.com^
 ||equalityhumanrights.com^
 ||ernst.senate.gov^
 ||events.fox^
@@ -83,6 +81,7 @@
 ||gab.com^
 ||garyvarvel.com^
 ||gaston.nc.gop^
+||gbnews.uk^
 ||george^
 ||gettr.com^
 ||giltroy.com^
@@ -108,7 +107,6 @@
 ||highlandscounty.gop^
 ||hoeven.senate.gov^
 ||hoke.nc.gop^
-||http://www.armed-services.senate.gov/
 ||hydesmith.senate.gov^
 ||illinois.gop^
 ||indiana.gop^
@@ -164,7 +162,6 @@
 ||orange.nc.gop^
 ||oregon.gop^
 ||oregonsenate.gop^
-||origin.com^
 ||parler.com^
 ||pender.nc.gop^
 ||person.nc.gop^
@@ -184,7 +181,6 @@
 ||redfish.media^
 ||redpills.tv^
 ||republican^
-||respawn.com^
 ||ri.gop^
 ||rickscott.senate.gov^
 ||risch.senate.gov^
@@ -198,6 +194,7 @@
 ||rt.com^
 ||rubio.senate.gov^
 ||rumble.com^
+||salon.com^
 ||sampson.nc.gop^
 ||samsclub.com^
 ||samsclub^
@@ -212,10 +209,12 @@
 ||stanly.gop^
 ||stokes.nc.gop^
 ||sullivan.senate.gov^
+||supremecourt.gov^
 ||surry.nc.gop^
 ||t-mo.co^
 ||t-mobile.com^
 ||telegraph.co.uk^
+||texasattorneygeneral.gov^
 ||the-lies-they-tell.org^
 ||the-sun.com^
 ||theamericanconservative.com^

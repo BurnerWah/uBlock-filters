@@ -198,6 +198,8 @@
 ||anthem.foundation^
 ||antheminc.com^
 ||artcamp.com^
+||axon.com^
+||axonrick.com^
 ||benbankas.com^
 ||blick.ch^
 ||bostondynamics.com^
@@ -262,6 +264,7 @@
 ||steveaoki.com^
 ||tabletopsimulator.com^
 ||thankyoux.com^
+||trevoke.net^
 ||tsr.games^
 ||upi.com^
 ||zenmate.com^
@@ -412,6 +415,8 @@ derpibooru.org##^#imagespns
 @@||twitch.tv^$subdocument,domain=discord.com
 @@||w.soundcloud.com/player/*$subdocument,domain=discord.com
 @@||youtube.com/embed/*$subdocument,domain=discord.com
+discord.com##div[class^="packActions-"] > button[class^="shinyButton-"]
+discord.com##p[class^="packDescription-"]:has-text(Get Nitro)
 
 ! disqus.com (iframes)
 disqus.com###badges-message__container
@@ -683,6 +688,7 @@ chan.sankakucomplex.com##^#headerthumbs
 sofurry.com##^#sf-ads
 
 ! stackexchange.com family
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net,stackapps.com###sidebar > .s-sidebarwidget__yellow
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net,stackapps.com##.js-consent-banner
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net,stackapps.com##nav .js-freemium-cta
 
@@ -840,10 +846,18 @@ xhamster.com##+js(aopw, history)
 xhamster.com##+js(disable-newtab-links)
 
 ! yiffer.xyz
+yiffer.xyz##.comic-card:has([href="/artist/Adam%20Wan"])
+yiffer.xyz##.comic-card:has([href="/artist/Atrolux"])
+yiffer.xyz##.comic-card:has([href="/artist/Fuf"])
+yiffer.xyz##.comic-card:has([href="/artist/Kabier"])
 yiffer.xyz##.dyingAndPaidImgContainer
 yiffer.xyz##.paidImageTextContainer:upward(.comic-card)
 ||static.yiffer.xyz/pi/*$image,1p
 ||static.yiffer.xyz/pi/*$media,1p
+||yiffer.xyz/api/artists/Adam%20Wan$xhr,1p
+||yiffer.xyz/api/artists/Atrolux$xhr,1p
+||yiffer.xyz/api/artists/Fuf$xhr,1p
+||yiffer.xyz/api/artists/Kabier$xhr,1p
 ||yiffer.xyz/api/log-*$xhr,1p
 
 ! youtube.com

@@ -25,6 +25,7 @@
 ||ayana.io^
 ||balconydao.com^
 ||bancor.network^
+||basicappleguy.com^
 ||bcoin.io^
 ||beeple-collect.com^
 ||beeple-crap.com^

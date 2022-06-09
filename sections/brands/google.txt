@@ -55,6 +55,7 @@
 ||crisisresponse.google^
 ||cursive.apps.chrome^
 ||dad^
+||datastudio.google.com^
 ||dataviewerexperience.goog^
 ||dclk^
 ||deck.new^
