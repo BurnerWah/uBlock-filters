@@ -2,6 +2,7 @@
 ||accountability.gop^
 ||adl.org^
 ||advaaccess.gop^
+||aflac.com^
 ||airforce^
 ||alamance.nc.gop^
 ||alexander.nc.gop^
@@ -15,6 +16,9 @@
 ||army.mil^
 ||asda.com^
 ||asda^
+||att.com.mx^
+||att.com^
+||att.jobs^
 ||barrasso.senate.gov^
 ||bbc.co.uk^
 ||bbc.com^
@@ -24,6 +28,7 @@
 ||bible^
 ||blackburn.senate.gov^
 ||blenderguru.com^
+||bluejeans.com^
 ||blunt.senate.gov^
 ||boozman.senate.gov^
 ||braun.senate.gov^
@@ -40,6 +45,7 @@
 ||cassidy.senate.gov^
 ||catawba.nc.gop^
 ||champaign.gop^
+||charter.com^
 ||chriscoons.com^
 ||christianpost.com^
 ||clouthub.com^
@@ -57,12 +63,19 @@
 ||cruz.senate.gov^
 ||ct.gop^
 ||cumberland.nc.gop^
+||cvs.co^
+||cvshealth.com^
 ||dailycaller.com^
 ||dailymail.co.uk^
 ||dailywire.com^
 ||dare.nc.gop^
 ||davidson.nc.gop^
+||dell.to^
+||delltechnologies.com^
+||deloi.tt^
+||deloitte.com^
 ||dilbert.com^
+||directv.com^
 ||disclose.tv^
 ||district6.nc.gop^
 ||douglascounty.gop^
@@ -70,7 +83,9 @@
 ||equalityhumanrights.com^
 ||ernst.senate.gov^
 ||events.fox^
+||exxonmobil.co^
 ||fanmosaic.fox^
+||fedex.com^
 ||fischer.senate.gov^
 ||florida.gop^
 ||forsyth.nc.gop^
@@ -107,6 +122,7 @@
 ||highlandscounty.gop^
 ||hoeven.senate.gov^
 ||hoke.nc.gop^
+||homedepot.com^
 ||hydesmith.senate.gov^
 ||illinois.gop^
 ||indiana.gop^
@@ -171,6 +187,8 @@
 ||pogo.com^
 ||portfolioportal.fox^
 ||portman.senate.gov^
+||pwc.com^
+||pwc.to^
 ||pwcgop.gop^
 ||quillette.com^
 ||reclaimthenet.org^
@@ -181,6 +199,7 @@
 ||redfish.media^
 ||redpills.tv^
 ||republican^
+||rga.org^
 ||ri.gop^
 ||rickscott.senate.gov^
 ||risch.senate.gov^
@@ -203,9 +222,11 @@
 ||scott.senate.gov^
 ||screeners.fox^
 ||shelby.senate.gov^
+||shipt.com^
 ||sinema.senate.gov^
 ||sneed.shop^
 ||spectator.org^
+||spectrum.net^
 ||stanly.gop^
 ||stokes.nc.gop^
 ||sullivan.senate.gov^
@@ -213,8 +234,10 @@
 ||surry.nc.gop^
 ||t-mo.co^
 ||t-mobile.com^
+||target.com^
 ||telegraph.co.uk^
 ||texasattorneygeneral.gov^
+||thd.co^
 ||the-lies-they-tell.org^
 ||the-sun.com^
 ||theamericanconservative.com^
@@ -235,6 +258,7 @@
 ||tillis.senate.gov^
 ||toomey.senate.gov^
 ||tpusa.com^
+||tracfonewirelessinc.com^
 ||truthsocial.com^
 ||tuberville.senate.gov^
 ||uber.com^
@@ -244,7 +268,10 @@
 ||vance.nc.gop^
 ||vaush.gg^
 ||vdare.com^
+||verizon.com^
 ||virginia.gop^
+||visible.com^
+||vz.to^
 ||walmart.ca^
 ||walmart.com^
 ||walmart^
@@ -263,5 +290,6 @@
 ||wnd.com^
 ||womensrights.network^
 ||wyoming.gop^
+||xandr.com^
 ||yamhill.gop^
 ||young.senate.gov^

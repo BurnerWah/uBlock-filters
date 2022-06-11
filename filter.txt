@@ -307,12 +307,18 @@ androidpolice.com##.w-article-related
 ||androidpolice.com^$inline-script
 
 ! apkmirror.com - fuck you
+apkmirror.com##.advertisement-text
+apkmirror.com##.ai-track
+apkmirror.com##.ains-apkm_outbrain_ad
 apkmirror.com##.listWidget > .appRow:has(.advertisement-text)
 apkmirror.com##.listWidget:has-text(Follow APK Mirror)
 apkmirror.com##.listWidget:has-text(Other downloads you might be interested in)
 apkmirror.com##.promotedApp
 apkmirror.com##.pushbullet-subscribe-widget
+apkmirror.com##.searchbox
+apkmirror.com##[href="/premium/"]
 apkmirror.com##^script:has-text(.fontBlue)
+apkmirror.com##div.listWidget:has(#disqus_thread)
 ||apkmirror.com^$inline-script
 ||apkmirror.disqus.com^
 
@@ -645,6 +651,11 @@ phptutorial.net##div.ad
 ! planetminecraft.com
 planetminecraft.com###ultra_wide
 
+! popular.info
+popular.info##+js(rc, has-intro-popup, html)
+popular.info##+js(rc, show-intro-popup, html)
+popular.info##.intro-popup
+
 ! pornhub.com
 ||phncdn.com/www-static/js/premium/premium-modals.js$script
 ||phncdn.com/www-static/js/promo-banner.js$script
@@ -764,6 +775,7 @@ twitter.com##div[role="menu"] a[href$="/topics"]
 twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
 twitter.com##div[role="menu"] a[href="/i/newsletters"]
 twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
+twitter.com##nav > a[data-testid="AppTabBar_Explore_Link"]
 ||abs.twimg.com/responsive-web/client-sentry/sentry.*$script
 ||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
 ||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script
