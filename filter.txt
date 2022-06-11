@@ -208,6 +208,7 @@
 ||cracked.com^
 ||defectivebydesign.org^
 ||designdrop.github.io^
+||financetldrblog.substack.com^
 ||freenode.net^
 ||fsf.org^
 ||gamexplain.com^
@@ -289,6 +290,7 @@ alternativeto.net##div[data-testid="put-food-on-the-table"]
 amazon.com###nav-upnav
 amazon.com###rhf
 amazon.com###va-related-videos-widget_feature_div
+amazon.com##^.a-dynamic-image
 ||amazon.com^$document,removeparam=qsid
 ||amazon.com^$document,removeparam=sres
 
@@ -299,17 +301,20 @@ amazon.com###va-related-videos-widget_feature_div
 advocate.com##+js(set, history.pushState, noopFunc)
 advocate.com##.footer.sticky
 
-! androidpolice.com
+! androidpolice.com - fuck you
 androidpolice.com##.sidebar-poll
 androidpolice.com##.w-article-related
+||androidpolice.com^$inline-script
 
-! apkmirror.com
+! apkmirror.com - fuck you
 apkmirror.com##.listWidget > .appRow:has(.advertisement-text)
 apkmirror.com##.listWidget:has-text(Follow APK Mirror)
 apkmirror.com##.listWidget:has-text(Other downloads you might be interested in)
 apkmirror.com##.promotedApp
 apkmirror.com##.pushbullet-subscribe-widget
 apkmirror.com##^script:has-text(.fontBlue)
+||apkmirror.com^$inline-script
+||apkmirror.disqus.com^
 
 ! aptnnews.ca
 aptnnews.ca##.topics-nav
@@ -416,6 +421,7 @@ derpibooru.org##^#imagespns
 @@||twitch.tv^$subdocument,domain=discord.com
 @@||w.soundcloud.com/player/*$subdocument,domain=discord.com
 @@||youtube.com/embed/*$subdocument,domain=discord.com
+discord.com##button[aria-label="Send a gift"]
 discord.com##div[class^="packActions-"] > button[class^="shinyButton-"]
 discord.com##p[class^="packDescription-"]:has-text(Get Nitro)
 
@@ -778,6 +784,7 @@ twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
 ||twitter.com/i/api/1.1/account/settings.json$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
 ||twitter.com/i/api/1.1/branch/init.json$xhr,1p
 ||twitter.com/i/api/1.1/jot/ces/p2$xhr,1p
+||twitter.com/i/api/1.1/promoted_content/log.json$xhr,1p
 ||twitter.com/i/api/1.1/users/recommendations.json$xhr,1p
 ||twitter.com/i/api/fleets/*$xhr,1p
 ||twitter.com/i/api/graphql/*/TopicFollow$xhr,1p
@@ -785,6 +792,9 @@ twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
 ||twitter.com/i/api/graphql/*/TopicsManagementPage$xhr,1p
 ||twitter.com/i/api/graphql/*/TopicsPickerPage$xhr,1p
 ||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr,1p
+
+! twitchquotes.com
+twitchquotes.com##^aside[id^="financetldr-top-bar-"]
 
 ! twofactorauth.org
 twofactorauth.org##.facebook-button
@@ -815,6 +825,9 @@ vox.com###newsletter-signup-short-form
 
 ! vuetelescope.com
 vuetelescope.com##+js(set, localStorage.collections-feature-seen, true)
+
+! wikidot.com
+wikidot.com###footer-bar:remove()
 
 ! wikihow.com
 wikihow.com##.wh_ad_spacing
@@ -848,17 +861,40 @@ xhamster.com##+js(disable-newtab-links)
 
 ! yiffer.xyz
 yiffer.xyz##.comic-card:has([href="/artist/Adam%20Wan"])
+yiffer.xyz##.comic-card:has([href="/artist/Aogami"])
 yiffer.xyz##.comic-card:has([href="/artist/Atrolux"])
+yiffer.xyz##.comic-card:has([href="/artist/Frisky%20Ferals"])
 yiffer.xyz##.comic-card:has([href="/artist/Fuf"])
+yiffer.xyz##.comic-card:has([href="/artist/GrimArt"])
+yiffer.xyz##.comic-card:has([href="/artist/Hammytoy"])
 yiffer.xyz##.comic-card:has([href="/artist/Kabier"])
+yiffer.xyz##.comic-card:has([href="/artist/Kayla-Na"])
+yiffer.xyz##.comic-card:has([href="/artist/Miles-DF"])
+yiffer.xyz##.comic-card:has([href="/artist/Milkytiger1145"])
+yiffer.xyz##.comic-card:has([href="/artist/Paper-Wings"])
+yiffer.xyz##.comic-card:has([href="/artist/Ratcha"])
+yiffer.xyz##.comic-card:has([href="/artist/Seth-Iova"])
+yiffer.xyz##.comic-card:has([href="/artist/Sethpup"])
 yiffer.xyz##.dyingAndPaidImgContainer
 yiffer.xyz##.paidImageTextContainer:upward(.comic-card)
+yiffer.xyz##a:has(> video)
 ||static.yiffer.xyz/pi/*$image,1p
 ||static.yiffer.xyz/pi/*$media,1p
 ||yiffer.xyz/api/artists/Adam%20Wan$xhr,1p
+||yiffer.xyz/api/artists/Aogami$xhr,1p
 ||yiffer.xyz/api/artists/Atrolux$xhr,1p
+||yiffer.xyz/api/artists/Frisky%20Ferals$xhr,1p
 ||yiffer.xyz/api/artists/Fuf$xhr,1p
+||yiffer.xyz/api/artists/GrimArt$xhr,1p
+||yiffer.xyz/api/artists/Hammytoy$xhr,1p
 ||yiffer.xyz/api/artists/Kabier$xhr,1p
+||yiffer.xyz/api/artists/Kayla-Na$xhr,1p
+||yiffer.xyz/api/artists/Miles-DF$xhr,1p
+||yiffer.xyz/api/artists/Milkytiger1145$xhr,1p
+||yiffer.xyz/api/artists/Paper-Wings$xhr,1p
+||yiffer.xyz/api/artists/Ratcha$xhr,1p
+||yiffer.xyz/api/artists/Seth-Iova$xhr,1p
+||yiffer.xyz/api/artists/Sethpup$xhr,1p
 ||yiffer.xyz/api/log-*$xhr,1p
 
 ! youtube.com
@@ -870,6 +906,7 @@ youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
 ||youtube.com/embed/*$subdocument,3p,removeparam=origin
+||youtube.com/embed/*$subdocument,3p,removeparam=widget_referrer
 
 ! zdnet.com
 zdnet.com##.breaking-news-container

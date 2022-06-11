@@ -47,6 +47,7 @@
 ||bitcoincore.org^
 ||bitcoincore.tech^
 ||bitcoinj.org^
+||bitcoinnote.com^
 ||bitcointechtalk.com^
 ||bitcore.io^
 ||bitfinex.com^
