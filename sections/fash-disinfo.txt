@@ -48,6 +48,9 @@
 ||charter.com^
 ||chriscoons.com^
 ||christianpost.com^
+||christopherrufo.com^
+||city-journal.org^
+||cityjourn.al^
 ||clouthub.com^
 ||codemasters.com^
 ||collins.senate.gov^
@@ -86,6 +89,7 @@
 ||exxonmobil.co^
 ||fanmosaic.fox^
 ||fedex.com^
+||fina.org^
 ||fischer.senate.gov^
 ||florida.gop^
 ||forsyth.nc.gop^
@@ -99,6 +103,8 @@
 ||gbnews.uk^
 ||george^
 ||gettr.com^
+||gfuel.com^
+||gfuel.ly^
 ||giltroy.com^
 ||gist.github.com/alexgleason^$document
 ||github.com/alexgleason^$document
@@ -127,6 +133,7 @@
 ||illinois.gop^
 ||indiana.gop^
 ||inhofe.senate.gov^
+||jamespatterson.com^
 ||jcor.gop^
 ||jessesingal.com^
 ||johnston.nc.gop^
@@ -148,6 +155,7 @@
 ||live.fox^
 ||lummis.senate.gov^
 ||manchin.senate.gov^
+||manhattan-institute.org^
 ||marapets.com^
 ||marshall.senate.gov^
 ||maskyourself.fox^
@@ -173,6 +181,8 @@
 ||northumberland.gop^
 ||nymag.com^
 ||nypost.com^
+||nyti.ms^
+||nytimes.com^
 ||odysee.com^
 ||oneangrygamer.net^
 ||orange.nc.gop^
@@ -289,6 +299,7 @@
 ||win.gs^
 ||wnd.com^
 ||womensrights.network^
+||wsj.com^
 ||wyoming.gop^
 ||xandr.com^
 ||yamhill.gop^

@@ -26,6 +26,7 @@
 ||farbeyondthe.world^
 ||farbeyondtheworld.com^
 ||fluffpunk.shop^
+||frosstfursuits.com^
 ||funomena.com^
 ||furaffinity.net/*/dreamkeepers^$document
 ||furaffinity.net/*/falvie^$document
@@ -48,6 +49,7 @@
 ||ib.metapix.net^
 ||inkbunny.net^
 ||instagram.com/creativemochi^$document
+||instagram.com/jessefrosst^$document
 ||jasonafex.com^
 ||jasonafex.itch.io^
 ||jasonafex.newgrounds.com^
@@ -73,6 +75,7 @@
 ||paradigmfursuits.com^
 ||patreon.com/Bungaroo^$document
 ||patreon.com/ChangelingGamingStudios^$document
+||patreon.com/FrosstFursuits^$document
 ||patreon.com/Jasonafex^$document
 ||patreon.com/MarbIesodazzz^$document
 ||patreon.com/TheXenoForge^$document
@@ -116,6 +119,7 @@
 ||t.me/OP_Buster^$document
 ||tailbait.pw^
 ||technicallyfox.com^
+||thefurryfandom.co^
 ||thexenoforge.wixsite.com^
 ||tiny-conductor.tumblr.com^
 ||twintailcreations.com^

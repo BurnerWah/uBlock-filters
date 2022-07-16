@@ -228,8 +228,6 @@
 ||thinkwithgoogle.com^
 ||tiltbrush.com^
 ||tools.google.com^
-||translate.goog^
-||translate.google.com^
 ||tv.google^
 ||tv.youtube.com^
 ||userresearch.google.com^

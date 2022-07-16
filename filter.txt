@@ -125,6 +125,7 @@
 ||tempest.services.disqus.com/ads-iframe/*$xhr,3p
 ||tiktok.com/embed/*$subdocument,3p,redirect=click2load.html
 ||track.sendlane.com/track/event$3p
+||trends.google.com/trends/embed/*$subdocument,3p,redirect=click2load.html
 ||twitch.tv^$subdocument,3p,redirect=click2load.html
 ||unpkg.com/@bitauth/*$script
 ||unpkg.com/@portis/web3@*$script
@@ -139,6 +140,7 @@
 ||unpkg.com/web3modal@*$script
 ||vine.co/v/*/embed$subdocument,3p,redirect=click2load.html
 ||w.soundcloud.com/player/*$subdocument,3p,redirect=click2load.html
+||widget.trustpilot.com/trustboxes/*$subdocument,3p,redirect=click2load.html
 ||x.kinja-static.com/assets/new-client/category-stream~second-scroll.*$script
 ||x.kinja-static.com/assets/new-client/customHeader~header.$script
 ||x.kinja-static.com/assets/new-client/header.$script
@@ -163,33 +165,229 @@
 
 ! - Spam, scams, etc. -
 ! Try to make shre this doesn't have any redundancies with easylist
+||13-inch-cock.club^
+||2nch.host^
+||a-no.name^
 ||albacams.xyz^
+||amogus.host^
+||amongusfreedownload.club^
+||anarchy.surf^
+||anus.fishing^
+||ate-me-out.wtf^
+||ate-my-home.work^
 ||betterhelp.com^
+||bombed.email^
+||bruh.uno^
+||bruhbot.wtf^
 ||cams19.xyz^
+||candice.asia^
+||charlotte-nude.pics^
+||child-for.sale^
+||child-porn.store^
+||clippy.gg^
+||cloudflare.gay^
+||cock.solutions^
+||combolist.email^
+||cortex.gay^
+||cortex.sh^
+||crack-is.fun^
+||crato.gg^
+||crato.gift^
+||crazy.rip^
+||cum.beer^
+||cummed-to.me^
+||dababy.sexy^
+||dababy.surf^
+||dank.gay^
+||depression-is.fun^
+||discordsupport.team^
+||doing-your.mom^
 ||donkeyfun.net^
+||downed-me.wtf^
+||downed-my.ovh^
+||downed-your.website^
+||downed.host^
+||downed.network^
+||downloadram.online^
+||downloadvirus.club^
+||downloadvirus.online^
+||doxbin.gay^
+||doxxing-is.cool^
+||doxxing.fun^
+||drinks-too-much.monster^
+||e-girl.digital^
+||eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.club^
+||elon.sexy^
+||en.help.roblox.com^
+||end-my.life^
+||fag.monster^
+||false.gay^
+||feedback.minecraft.net^
+||femboy.group^
+||femboy.video^
+||femboys.city^
+||filthy--capitali.st^
 ||flirtingusa.xyz^
+||flooded.email^
+||floppa-is.cool^
+||floppa.website^
+||forged.cash^
+||free-malware.download^
+||free-spam.email^
 ||freerobux.best^
+||fuck-my.life^
+||fucking-ur.mom^
+||fucks.rocks^
+||gadient.club^
+||gaming.surf^
+||gdfjsodiskfkscoakdfoanfoskgosnvjwuroxksjidjcodkcodivmdjvkdjfg.asia^
+||girlfriend-is.digital^
+||got-your.email^
+||grablfy.link^
+||hacked-your.email^
+||hacked-your.website^
+||hacked.creditcard^
+||hacking-is.fun^
+||has-bitco.in^
+||hashtag-metoo.club^
+||hasyour.email^
+||help.pornhub.com^
 ||helpsyria.carrd.co^
+||herr-katze-is-a-loser.wtf^
+||herrkatzeisapedo.live^
+||homophobic.online^
+||hypixel.gg^
+||i-cant-fucking.cyou^
+||i-live-in.space^
+||imagisum.cc^
+||iplogger.website^
+||is-a-simp-for.me^
+||is-a-waste-of.space^
+||is-bri-i.sh^
+||is-completely.gay^
+||is-currently-inside.me^
+||is-not.cool^
+||is-on-suicide.watch^
+||is-on-top-of.me^
+||is-pinging.me^
+||is-sexy.dev^
+||is-too.gay^
+||is-weird.wtf^
+||isis.associates^
+||isis.solutions^
+||joe-mama.org^
+||joes.host^
 ||joy-penguin.com^
+||ketamine-rape.date^
+||kissing-homies-goodnight-isnt.gay^
+||kkk-is-cool.club^
+||kool-kids.club^
+||less-g.ooo^
+||linus.tips^
+||methamphetamine.cooking^
+||minecoins.cc^
 ||momentgay.com^
 ||momentgirl.com^
+||money-laundering.work^
+||monitored.site^
+||needs.help ^
+||nigga-sex.download^
+||nigga.pet^
+||niggas.cloud^
+||niggas.host^
+||nobody-car.es^
+||ofwa.host^
+||on-your-cock.exposed^
+||osu.guru^
+||otters.shop^
+||owfa.gay^
+||owns-a-slave.shop^
 ||physexy.cyou^
+||pinged.wtf^
+||pirate-direct.download^
+||pornhub.actor^
+||psyche.wtf^
+||racism.fun^
+||rape.business^
+||rape.dating^
+||rapes-wo.men^
+||raping-women.club^
+||raping.email^
+||rapist.pro^
+||ratted-me.wtf^
+||retard.solutions^
+||rivage.gay^
+||sakamoto.rocks^
+||screenshot.surf^
+||seggy.cc^
+||send-money-to.me^
+||sexy-dev.club^
 ||sexyuswomen.xyz^
+||shit-and-f.art^
+||shit-doman.club^
+||shitty-dev.club^
+||shots-is.sexy^
+||shots-isaskid.dev^
+||show-me-your.webcam^
+||sigma.sexy^
+||sigmas.pics^
 ||signup-hypesquad-returns.com^
+||sis-lovesme.net^
+||sit-on-my-face-and-f.art^
+||skeeet.cc^
+||skeet.gay^
+||skidded.host^
+||skidding.today^
+||slavery.works^
+||sleepish.wtf^
+||smelling-f.art^
+||spiked.beer^
+||stinky-fart.cloud^
 ||superxwomen.xyz^
+||support.discord.com^
+||support.virustotal.com^
+||support.zoom.us^
+||sus-domain.club^
+||sush.photos^
+||synapse.gay^
 ||syria.carrd.co^
+||taha.sexy^
 ||techinterviewpro.com^
 ||teechip.com^
 ||teechip.us^
+||terrible.host^
+||terrorism.works^
+||terrorist.cloud^
+||terrorist.work^
+||terrorist.wtf^
+||tesla-on.top^
+||tesla.sexy^
+||thighs.photos^
 ||torrentsmirror.com^
 ||torrentz.eu.com^
 ||torrentz.pl^
 ||torrentz2.eu^
 ||torrentz2.is^
+||transgender.school^
+||trashy.design^
 ||tw33tr.com^
+||type.computer^
 ||ukbating.xyz^
+||upload.toys^
+||uploaded.photos^
+||uses-discord.com^
+||uses-wixsite.com^
+||uses-word.press^
+||virus-tech.support^
+||waste-of-ti.me^
+||watches-loli-ani.me^
+||we-do-a-little-trolling.club^
+||webhooksender.buzz^
 ||whitewebcams.xyz^
 ||yeshentai.com^
+||you-should-use-imagisum.buzz^
+||your-mom-died.today^
+||your-parents-are-not-a.live^
 
 ! - CORE FILTERS -
 ||abrahamkalili.com^
@@ -203,6 +401,7 @@
 ||benbankas.com^
 ||blick.ch^
 ||bostondynamics.com^
+||bugcrowd.com^
 ||buzzly.art^
 ||cnx.srht.site^
 ||cracked.com^
@@ -560,6 +759,7 @@ imgur.com##.Searchbar
 ||api.imgur.com/post/v1/posts$xhr,1p
 
 ! github.com
+github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refined-github/blob/main/source/features/"]:has-text(via Refined GitHub)
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
 
@@ -581,6 +781,18 @@ jackbox.tv##.slick-track
 
 ! knowledgehut.com
 ||api.knowledgehut.com/v1/*/offers$xhr,1p
+
+! knowyourmeme.com
+knowyourmeme.com###leaderboard
+knowyourmeme.com###news_feeds
+knowyourmeme.com###related-entries
+knowyourmeme.com###videos
+knowyourmeme.com##.entry-sections-container:style(grid-template-columns: 2fr !important;)
+knowyourmeme.com##.related-news
+knowyourmeme.com##.related_memes
+knowyourmeme.com##.side-rail-ads-container
+knowyourmeme.com##.top-entries
+knowyourmeme.com##^#infinite-scrolling
 
 ! kotaku.com
 kotaku.com###newsletterPromoModule
@@ -655,6 +867,10 @@ planetminecraft.com###ultra_wide
 popular.info##+js(rc, has-intro-popup, html)
 popular.info##+js(rc, show-intro-popup, html)
 popular.info##.intro-popup
+
+! porkbun.com
+porkbun.com##.searchResultRow:has(img[src="/images/handshake-icon.svg"]):upward(div):remove()
+porkbun.com##.searchResultsTldLetterBox:has(+ .searchResultsTldLetterBox)
 
 ! pornhub.com
 ||phncdn.com/www-static/js/premium/premium-modals.js$script
@@ -780,6 +996,8 @@ twitter.com##nav > a[data-testid="AppTabBar_Explore_Link"]
 ||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
 ||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.*$script
+||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$script
+||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$xhr
 ||abs.twimg.com/responsive-web/client-web/ondemand.TopicFollowPromptHandler.*$badfilter
 ||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$script
 ||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$xhr

@@ -3,6 +3,7 @@
 ||cyberghostvpnapp.com^
 ||expressvpn.com^
 ||nordvpn.com^
+||northhouston.regency.hyatt.com^
 ||norton.com^
 ||privateinternetaccess.com^
 ||purevpn.com^
