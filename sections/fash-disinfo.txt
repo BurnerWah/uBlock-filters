@@ -6,6 +6,7 @@
 ||airforce^
 ||alamance.nc.gop^
 ||alexander.nc.gop^
+||alexgleason.github.io^
 ||alexgleason.me^
 ||algop.org^
 ||allegheny.gop^
@@ -131,6 +132,7 @@
 ||homedepot.com^
 ||hydesmith.senate.gov^
 ||illinois.gop^
+||independent.co.uk^
 ||indiana.gop^
 ||inhofe.senate.gov^
 ||jamespatterson.com^
@@ -235,6 +237,7 @@
 ||shipt.com^
 ||sinema.senate.gov^
 ||sneed.shop^
+||spectator.co.uk^
 ||spectator.org^
 ||spectrum.net^
 ||stanly.gop^

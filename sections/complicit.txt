@@ -17,7 +17,6 @@
 ||emxdgt.com^$important
 ||fivethirtyeight.com^
 ||ign.com^
-||independent.co.uk^
 ||justpremium.com^$important
 ||karenbass.com^
 ||klobuchar.senate.gov^

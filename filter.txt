@@ -118,6 +118,7 @@
 ||readthedocs.io/_/api/v2/analytics/*$xhr
 ||reporting.services.disqus.com^$xhr,3p
 ||sdk.snapkit.com/js/v1/create.js$script,3p
+||sketchfab.com/models/*/embed$subdocument,3p,redirect=click2load.html
 ||static.addtoany.com/menu/page.js$script,3p
 ||static.narrativ.com/tags/*$script,3p
 ||static.parastorage.com/services/chat-worker/*
@@ -627,8 +628,13 @@ derpibooru.org##^#imagespns
 @@||w.soundcloud.com/player/*$subdocument,domain=discord.com
 @@||youtube.com/embed/*$subdocument,domain=discord.com
 discord.com##button[aria-label="Send a gift"]
+discord.com##div[class^="ctasWithinContent-"]:has(header:has-text(Developer Newsletter))
 discord.com##div[class^="packActions-"] > button[class^="shinyButton-"]
 discord.com##p[class^="packDescription-"]:has-text(Get Nitro)
+||discord.com/api/v9/applications/detectable$xhr,1p
+||discord.com/api/v9/users/@me/billing/localized-pricing-promo$xhr,1p
+||discord.com/api/v9/users/@me/billing/payment-sources$xhr,1p
+||discord.com/api/v9/users/@me/library$xhr,1p
 
 ! disqus.com (iframes)
 disqus.com###badges-message__container

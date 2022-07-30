@@ -164,6 +164,7 @@
 ||furucombo.app^
 ||game.tv^
 ||gamestats.gg^
+||gamestop.com^
 ||gem.co^
 ||gemini.com^
 ||genasys.com^
@@ -219,6 +220,7 @@
 ||nikomatt.xyz^
 ||novicedock.com/learn/cryptocurrency^$document
 ||now.gg^
+||nymtech.net^
 ||occupydefi.money^
 ||olympusdao.finance^
 ||oncyber.io^
