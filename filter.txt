@@ -993,6 +993,13 @@ tumblr.com##^.related-posts-wrapper
 @@||twitch.tv^$subdocument,domain=twitter.com
 @@||w.soundcloud.com/player/*$subdocument,domain=twitter.com
 @@||youtube.com/embed/*$subdocument,domain=twitter.com
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2:has-text(Related Tweets))
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2:has-text(Related Tweets)) + div
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2:has-text(Related Tweets)) + div + div
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2:has-text(Related Tweets)) + div + div + div
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2:has-text(Related Tweets)) + div + div + div + div
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2:has-text(Related Tweets)) + div + div + div + div + div
+twitter.com##div[data-testid="cellInnerDiv"]:has(h2:has-text(Related Tweets)) + div + div + div + div + div + div
 twitter.com##div[role="menu"] a[href$="/topics"]
 twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
 twitter.com##div[role="menu"] a[href="/i/newsletters"]

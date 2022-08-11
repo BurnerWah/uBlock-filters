@@ -13,6 +13,7 @@
 ! I'll maybe make an exclusion if there's a safety concern stemming from a filter.
 
 ||*-facebook-production-*.intellum.com^$important
+||blenderbot.ai^$important
 ||cdninstagram.com^$important
 ||facebook-web-clients.appspot.com^$important
 ||facebook.com.edgekey.net^$important

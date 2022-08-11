@@ -99,6 +99,7 @@
 ||picarto.tv/api/channel/detail/MilesDF$xhr
 ||pixiv.net/*/users/12585534^$document
 ||pixiv.net/ajax/user/12585534/*$xhr
+||pony.town^
 ||ponyvilleciderfest.com^
 ||poodlewise.com^
 ||redbubble.com/people/Miles-DF^$document
