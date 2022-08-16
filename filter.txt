@@ -109,7 +109,6 @@
 ||memberful.com/turbolinks_preload$subdocument,3p
 ||news.google.com/swg/js/v1/swg.js$script,3p
 ||news.google.com/thank/*$script,3p
-||platform.twitter.com/widgets/widget_iframe.*$subdocument,3p,removeparam=origin
 ||play.google.com/log$xhr
 ||player-cdn.beachfrontmedia.com/playerapi/*$subdocument,3p,redirect=click2load.html
 ||player.vimeo.com/video/*$subdocument,3p,redirect=click2load.html
