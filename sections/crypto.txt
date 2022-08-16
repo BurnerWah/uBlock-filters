@@ -26,6 +26,7 @@
 ||balconydao.com^
 ||bancor.network^
 ||basicappleguy.com^
+||bcbgroup.com^
 ||bcoin.io^
 ||beeple-collect.com^
 ||beeple-crap.com^
@@ -46,6 +47,7 @@
 ||bitcoinbriefly.com^
 ||bitcoincore.org^
 ||bitcoincore.tech^
+||bitcoinhivemind.com^
 ||bitcoinj.org^
 ||bitcoinnote.com^
 ||bitcointechtalk.com^
@@ -80,6 +82,7 @@
 ||breedlove22.substack.com^
 ||btc.com^
 ||btcinformation.org^
+||cakewallet.com^
 ||carl.gg^
 ||ccxt.com^
 ||chain.com^
@@ -102,6 +105,7 @@
 ||coinmetrics.io^
 ||coinsecrets.org^
 ||cointop.sh^
+||compassmining.io^
 ||consensys.net^
 ||cosmos.network^
 ||cosmwasm.com^
@@ -128,6 +132,7 @@
 ||defibit.io^
 ||defipro.dev^
 ||desci.berlin^
+||drivechain.info^
 ||earn.com^
 ||earncryptointerest.com^
 ||edchain.io^
@@ -191,6 +196,7 @@
 ||knownorigin.io^
 ||kusama.network^
 ||learnweb3.io^
+||ledn.io^
 ||libauth.org^
 ||libbitcoin.org^
 ||linkdrop.io^
@@ -230,6 +236,7 @@
 ||opr.as^
 ||optimism.io^
 ||ownrwallet.com^
+||pacificbitcoin.com^
 ||pancakeswap.finance^
 ||parastate.io^
 ||parastate.substack.com^
@@ -267,6 +274,7 @@
 ||stellar.org^
 ||stellarport.io^
 ||superrare.co^
+||swan.com^
 ||swft.pro^
 ||tech3.dev^
 ||tendermint.com^
@@ -283,6 +291,7 @@
 ||trgc.io^
 ||trufflesuite.com^
 ||trustwallet.com^
+||truthcoin.info^
 ||uniswap.org^
 ||unstoppable.io^
 ||unstoppabledomains.com^
@@ -306,6 +315,7 @@
 ||web3py.readthedocs.io^
 ||webbtc.com^
 ||weeb.sh^
+||whatbitcoindid.com^
 ||whatismoneypodcast.com^
 ||winamp.com^
 ||winorlose.live^

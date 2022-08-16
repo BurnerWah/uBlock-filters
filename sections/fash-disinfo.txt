@@ -92,7 +92,10 @@
 ||fedex.com^
 ||fina.org^
 ||fischer.senate.gov^
+||flcourts.org^
+||fldoe.org^
 ||florida.gop^
+||flsenate.gov^
 ||forsyth.nc.gop^
 ||fox.com^
 ||fox.tv^
@@ -170,6 +173,7 @@
 ||moran.senate.gov^
 ||murkowski.senate.gov^
 ||musksocial.com^
+||myflorida.com^
 ||nationalreview.com^
 ||naturalnews.com^
 ||navy.mil^
@@ -210,6 +214,7 @@
 ||reddialer.gop^
 ||redfish.media^
 ||redpills.tv^
+||redstate.com^
 ||republican^
 ||rga.org^
 ||ri.gop^
@@ -284,6 +289,7 @@
 ||verizon.com^
 ||virginia.gop^
 ||visible.com^
+||visitflorida.com^
 ||vz.to^
 ||walmart.ca^
 ||walmart.com^

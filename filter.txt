@@ -1010,7 +1010,6 @@ twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
 ||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$xhr
 ||abs.twimg.com/responsive-web/client-web/ondemand.topicHandler.*$badfilter
 ||pbs.twimg.com/amplify_video_thumb/*$image
-||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=origin
 ||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=sessionId
 ||syndication.twitter.com/settings$xhr,domain=platform.twitter.com
 ||twitter.com/*/status/*$document,removeparam=cxt
