@@ -242,6 +242,7 @@
 ||shipt.com^
 ||sinema.senate.gov^
 ||sneed.shop^
+||social-engineer.org^
 ||spectator.co.uk^
 ||spectator.org^
 ||spectrum.net^
