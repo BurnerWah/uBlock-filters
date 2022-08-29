@@ -20,6 +20,8 @@
 ||att.com.mx^
 ||att.com^
 ||att.jobs^
+||augierfc.com^
+||augierfc.live^
 ||barrasso.senate.gov^
 ||bbc.co.uk^
 ||bbc.com^
@@ -82,6 +84,7 @@
 ||directv.com^
 ||disclose.tv^
 ||district6.nc.gop^
+||doctoroz.com^
 ||douglascounty.gop^
 ||durham.nc.gop^
 ||equalityhumanrights.com^
@@ -129,6 +132,7 @@
 ||haywood.nc.gop^
 ||henderson.nc.gop^
 ||heritage.org^
+||hern.house.gov^
 ||highlandscounty.gop^
 ||hoeven.senate.gov^
 ||hoke.nc.gop^
@@ -147,6 +151,7 @@
 ||judges.nc.gop^
 ||kandisstaylor.com^
 ||kansas.gop^
+||kathysalvi.com^
 ||kennedy.senate.gov^
 ||kiwifarms.net^
 ||kochind.com^
@@ -168,6 +173,7 @@
 ||mecklenburg.nc.gop^
 ||mediacloud.fox^
 ||mediadock.fox^
+||metapcs.com^
 ||mil^
 ||militaryonesource.mil^
 ||moran.senate.gov^

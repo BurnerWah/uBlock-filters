@@ -46,7 +46,6 @@
 ||cloudonair.withgoogle.com^
 ||cloudskillsboost.google^
 ||cobalt.foo^
-||codelabs.developers.google.com^
 ||codingwithchrome.foo^
 ||console.cloud.google.com^
 ||contacts.google.com^
@@ -61,8 +60,6 @@
 ||deck.new^
 ||deepmind.com^
 ||design.google^
-||developer.android.com^
-||developers.google.com^
 ||diversity.google^
 ||docs.new^
 ||docs^

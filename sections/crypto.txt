@@ -166,6 +166,7 @@
 ||coinb.in^
 ||coinbase.com^
 ||coindesk.com^
+||coinflip.tech^
 ||coingecko.com^
 ||coinmarketcap.com^
 ||coinmetrics.io^
@@ -213,6 +214,7 @@
 ||embarklabs.io^
 ||emercoin.com^
 ||ens.domains^
+||eth.limo^
 ||eth.wiki^
 ||eth.xyz^
 ||ethereum-magicians.org^
@@ -331,6 +333,8 @@
 ||musanft.io^
 ||myalgo.com^
 ||mypinata.cloud^
+||namebase.io^
+||nearcon.org^
 ||nest.land^
 ||nf.domains^
 ||nft.link^
@@ -406,6 +410,7 @@
 ||ropats16.hashnode.dev^
 ||rtfkt.com^
 ||safe.global^
+||satoshiaction.io^
 ||scrt.network^
 ||serto.id^
 ||she.energy^
@@ -432,6 +437,7 @@
 ||sushi.com^
 ||swan.com^
 ||swft.pro^
+||talkingbitcoin.com^
 ||tech3.dev^
 ||tendermint.com^
 ||tether.to^
