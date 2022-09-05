@@ -155,6 +155,7 @@
 ||x.kinja-static.com/assets/new-client/subscribe.*$script
 ||x.kinja-static.com/assets/new-client/top-bar.$script
 ||youtube.com/embed/*$subdocument,3p,redirect=click2load.html
+||rest.edit.site/member-analytics-service/*$xhr,3p
 
 ||api.pinterest.com^$3p
 ||sendbird.com^$websocket,3p
@@ -590,6 +591,9 @@ botsentinel.com##.rplm-overlay
 ! cannabiswire.com
 cannabiswire.com###banner
 
+! cleverbot.com
+cleverbot.com###adabove
+
 ! channel3000.com
 channel3000.com##+js(aeld, pagehide)
 channel3000.com##.ssbp-list
@@ -601,11 +605,6 @@ channel3000.com##.wpb_wrapper > .templatera_shortcode
 ! cloudflare.com
 dash.cloudflare.com##a[aria-label="Zone Web3 Page"]:upward(li)
 developers.cloudflare.com##a.ProductGrid--link[href="/web3/"]
-
-! cnn.com
-cnn.com##+js(rc, geolocation, html)
-cnn.com##+js(rc, no-gdpr, html)
-cnn.com##+js(rc, userconsent-cntry-us, html)
 
 ! code-boost.com
 code-boost.com###mailer-lite-form
@@ -648,6 +647,7 @@ dropbox.com###top-notification-bar-container
 
 ! duckduckgo.com
 duckduckgo.com##div.nrn-react-div:has(a.assigned-label-transphobic)
+duckduckgo.com##.header__label.showcase.header--aside__item > .js-hl-button.header__clickable
 
 ! educba.com
 educba.com##+js(set, PUM.init, noopFunc)
@@ -836,6 +836,7 @@ myanimelist.net##.btn-mal-service
 ! namecheap.com
 namecheap.com##.nc-search-picks
 namecheap.com##.search-tabs > button:has-text(Handshake)
+namecheap.com##.gb-dropdown__item[href*="/domains/handshake-domains/"]
 
 ! newgrounds.com
 newgrounds.com##.header-deck > .pod:has(a[href="https://www.newgrounds.com/supporter"])
@@ -934,6 +935,9 @@ stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,
 ! steamdb.info
 steamdb.info##.panel-social
 
+! substack.com
+||substack.com/api/v1/experiment_exposure$xhr,1p
+
 ! tapas.io
 tapas.io###gdpr-cookie-message
 tapas.io##.viewer-section--recommend
@@ -954,6 +958,7 @@ thestar.com##.right-rail-ads-container
 
 ! theverge.com
 theverge.com###newsletter-signup-short-form
+theverge.com##.remixd-wrapper
 
 ! theintercept.com
 theintercept.com##+js(set, tp.push, noopFunc)

@@ -55,6 +55,7 @@
 ||city-journal.org^
 ||cityjourn.al^
 ||clouthub.com^
+||cnn.com^
 ||codemasters.com^
 ||collins.senate.gov^
 ||conservapedia.com^
@@ -76,6 +77,7 @@
 ||dailywire.com^
 ||dare.nc.gop^
 ||davidson.nc.gop^
+||ddos-guard.net^
 ||dell.to^
 ||delltechnologies.com^
 ||deloi.tt^
@@ -145,6 +147,7 @@
 ||jamespatterson.com^
 ||jcor.gop^
 ||jessesingal.com^
+||johnkblake.com^
 ||johnston.nc.gop^
 ||johsiecruz2020.com^
 ||join.gop^
@@ -154,6 +157,7 @@
 ||kathysalvi.com^
 ||kennedy.senate.gov^
 ||kiwifarms.net^
+||kiwifarms.ru^
 ||kochind.com^
 ||lankford.senate.gov^
 ||lasd.org^
@@ -164,6 +168,7 @@
 ||lincolnproject.us^
 ||live.fox^
 ||lummis.senate.gov^
+||mailsubs.co.uk^
 ||manchin.senate.gov^
 ||manhattan-institute.org^
 ||marapets.com^

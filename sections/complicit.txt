@@ -42,4 +42,5 @@
 ||trustx.org^$important
 ||vi.ai^$important
 ||videobyte.com^$important
+||washingtonpost.com^
 ||yieldmo.com^$important
