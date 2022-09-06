@@ -490,7 +490,6 @@ alternativeto.net##div[data-testid="put-food-on-the-table"]
 amazon.com###nav-upnav
 amazon.com###rhf
 amazon.com###va-related-videos-widget_feature_div
-amazon.com##^.a-dynamic-image
 ||amazon.com^$document,removeparam=qsid
 ||amazon.com^$document,removeparam=sres
 
