@@ -1082,6 +1082,7 @@ wolframalpha.com##div:has(> a > img[src^="https://www.wolframcdn.com/side-images
 ||wolframcdn.com/side-images/*$image
 
 ! xda-developers.com
+forum.xda-developers.com##.js-notices.notices--thnoticesplus_topbar.notices
 forum.xda-developers.com##.xdaforumnews.widget
 forum.xda-developers.com##.xdanews.widget
 xda-developers.com##+js(set, adUnitBidderConfigs, null)

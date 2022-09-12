@@ -77,7 +77,6 @@
 ||dailywire.com^
 ||dare.nc.gop^
 ||davidson.nc.gop^
-||ddos-guard.net^
 ||dell.to^
 ||delltechnologies.com^
 ||deloi.tt^

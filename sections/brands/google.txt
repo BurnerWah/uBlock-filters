@@ -85,7 +85,6 @@
 ||firebase.google.com^
 ||flutter.dev^
 ||fly^
-||fonts.gstatic.com/s/productsans/*$font
 ||foo^
 ||form.new^
 ||forms.new^
@@ -105,7 +104,6 @@
 ||google.com/finance^$document
 ||google.com/flights^$document
 ||google.com/keep^$document
-||google.com/photos^$document
 ||google.com/retail^$document
 ||google.com/save^$document
 ||google.com/search^$document
@@ -178,7 +176,6 @@
 ||peoplestack-pa.clients6.google.com^
 ||peoplestackwebexperiments-pa.clients6.google.com^
 ||phd^
-||photos.google.com^
 ||picasa.google.com^
 ||pixel.google^
 ||pki.goog^
@@ -232,7 +229,6 @@
 ||tv.youtube.com^
 ||userresearch.google.com^
 ||verily.com^
-||voice.google.com^
 ||vr.youtube.com^
 ||waymo.com^
 ||waze.com^
