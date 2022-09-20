@@ -392,6 +392,7 @@
 
 ! - CORE FILTERS -
 ||abrahamkalili.com^
+||androidacy.com^
 ||annapurna.pictures^
 ||annapurnainteractive.com^
 ||anthem.foundation^
