@@ -847,6 +847,9 @@ newgrounds.com##.pod:has(a[href$="/supporter"]):nth-of-type(1)
 newgrounds.com##div[class^="ng-ad-container-"]
 ||img.ngfiles.com/promos/*
 
+! nextjs.org
+nextjs.org##.sticky > .banner:has(a[href^="https://vercel.com/solutions/nextjs"])
+
 ! nexusmods.com
 nexusmods.com###rj-logo-social .rj-social-wrapper
 nexusmods.com###rj-vortex

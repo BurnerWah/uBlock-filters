@@ -36,7 +36,6 @@
 ||careers.google.com^
 ||channel^
 ||chat.google.com^
-||chrome.google.com^
 ||chrome^
 ||chromeenterprise.google^
 ||chronicle.security^
