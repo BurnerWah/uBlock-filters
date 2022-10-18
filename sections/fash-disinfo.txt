@@ -1,5 +1,6 @@
 ||4thwavenow.com^
 ||accountability.gop^
+||achievementhunter.com^
 ||adl.org^
 ||advaaccess.gop^
 ||aflac.com^
@@ -131,6 +132,11 @@
 ||harnett.nc.gop^
 ||hawley.senate.gov^
 ||haywood.nc.gop^
+||hbo.com^
+||hbo.map.fastly.net^
+||hbom.ax^
+||hbomax.com^
+||hbosouthasia.com^
 ||henderson.nc.gop^
 ||heritage.org^
 ||hern.house.gov^
@@ -143,6 +149,7 @@
 ||independent.co.uk^
 ||indiana.gop^
 ||inhofe.senate.gov^
+||itsh.bo^
 ||jamespatterson.com^
 ||jcor.gop^
 ||jessesingal.com^
@@ -211,6 +218,7 @@
 ||pickens-sc.gop^
 ||pitt.nc.gop^
 ||pogo.com^
+||polymc.org^
 ||portfolioportal.fox^
 ||portman.senate.gov^
 ||pwc.com^
@@ -233,6 +241,7 @@
 ||rockingham.nc.gop^
 ||romney.senate.gov^
 ||ronjohnson.senate.gov^
+||roosterteeth.com^
 ||rounds.senate.gov^
 ||rowan.nc.gop^
 ||rpbc.gop^
@@ -264,6 +273,7 @@
 ||t-mo.co^
 ||t-mobile.com^
 ||target.com^
+||tedbudd.com^
 ||telegraph.co.uk^
 ||texasattorneygeneral.gov^
 ||thd.co^
@@ -290,6 +300,7 @@
 ||tracfonewirelessinc.com^
 ||truthsocial.com^
 ||tuberville.senate.gov^
+||turner.com^
 ||uber.com^
 ||unherd.com^
 ||union.nc.gop^
@@ -306,6 +317,8 @@
 ||walmart.com^
 ||walmart^
 ||walmrt.us^
+||warnermedia.com^
+||warnermediacdn.com^
 ||washingtonexaminer.com^
 ||washingtontimes.com^
 ||washtimes.com^
