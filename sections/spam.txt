@@ -12,6 +12,7 @@
 ||bombed.email^
 ||bruh.uno^
 ||bruhbot.wtf^
+||buildable.dev^
 ||cams19.xyz^
 ||candice.asia^
 ||charlotte-nude.pics^

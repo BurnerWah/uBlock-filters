@@ -181,10 +181,12 @@
 ||marshall.senate.gov^
 ||maskyourself.fox^
 ||mayormcgee.com^
+||mcdrama.net^
 ||mecklenburg.nc.gop^
 ||mediacloud.fox^
 ||mediadock.fox^
 ||metapcs.com^
+||mikejohnson.house.gov^
 ||mil^
 ||militaryonesource.mil^
 ||moran.senate.gov^
@@ -260,6 +262,7 @@
 ||shelby.senate.gov^
 ||shipt.com^
 ||sinema.senate.gov^
+||sneed.church^
 ||sneed.shop^
 ||social-engineer.org^
 ||spectator.co.uk^

@@ -457,6 +457,7 @@
 ||btcbox.co.jp^
 ||btcinformation.org^
 ||btckan.com^
+||btcpayserver.org^
 ||btcpop.co^
 ||btse-official.medium.com^
 ||btse.com^
@@ -559,9 +560,9 @@
 ||coin.dance^
 ||coin.link^
 ||coin.space^
+||coin^
 ||coin98.com^
 ||coin98.net^
-||coin^
 ||coinage.media^
 ||coinb.in^
 ||coinbase.com^
