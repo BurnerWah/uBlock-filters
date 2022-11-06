@@ -215,6 +215,7 @@
 ||nbcnewyork.com^
 ||neowin.net^
 ||odesza.com^
+||palantir.com^
 ||peta.org^
 ||pfizer^
 ||postdates.*.amazonaws.com^
@@ -384,6 +385,15 @@ developers.cloudflare.com##a.ProductGrid--link[href="/web3/"]
 
 ! code-boost.com
 code-boost.com###mailer-lite-form
+
+! cohost.org
+@@||dailymotion.com/embed/*$subdocument,domain=cohost.org
+@@||player.vimeo.com/video/*$subdocument,domain=cohost.org
+@@||tiktok.com/embed/*$subdocument,domain=cohost.org
+@@||twitch.tv^$subdocument,domain=cohost.org
+@@||vine.co/v/*/embed$subdocument,domain=cohost.org
+@@||w.soundcloud.com/player/*$subdocument,domain=cohost.org
+@@||youtube.com/embed/*$subdocument,domain=cohost.org
 
 ! crunchyroll.com
 crunchyroll.com###marketing_banner
@@ -817,20 +827,6 @@ tomshardware.com##.socialite-widget
 toptal.com##.internal-linking
 ||toptal.com/developers/gitignore/img/toptal-logo-wordmark.svg$image,1p
 
-! tumblr.com
-media.tumblr.com##^a
-media.tumblr.com##^div:not(:has(img))
-media.tumblr.com##^head
-media.tumblr.com##^script
-media.tumblr.com##^style
-tumblr.com##+js(refresh-defuser)
-tumblr.com##.fullscreen-background
-tumblr.com##.like-control
-tumblr.com##.reblog-control
-tumblr.com##^.related-posts-wrapper
-||assets.tumblr.com/assets/html/iframe/login_check.html$subdocument
-||assets.tumblr.com/assets/html/like_iframe.html$subdocument
-
 ! tutorialspoint.com
 ||tutorialspoint.com/images/top-banner.jpg$image
 
@@ -843,10 +839,12 @@ tumblr.com##^.related-posts-wrapper
 @@||youtube.com/embed/*$subdocument,domain=twitter.com
 twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"])
 twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"]) ~ div
-twitter.com##div[role="menu"] a[href$="/topics"]
+twitter.com##div[data-testid="User-Names"] div:has-text(Elon Musk) + div:has(svg[aria-label="Verified account"])
+twitter.com##div[data-testid="UserName"] span:has-text(Elon Musk) + span:has(svg[aria-label="Verified account"])
 twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
 twitter.com##div[role="menu"] a[href="/i/newsletters"]
 twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
+twitter.com##div[role="menu"] a[href$="/topics"]
 ||abs.twimg.com/responsive-web/client-sentry/sentry.*$script
 ||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
 ||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script

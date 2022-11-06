@@ -51,14 +51,20 @@
 ||fluffpunk.shop^
 ||frosstfursuits.com^
 ||funomena.com^
+||furaffinity.net/*/bastion^$document
+||furaffinity.net/*/cobaltsnow^$document
 ||furaffinity.net/*/dreamkeepers^$document
 ||furaffinity.net/*/edjit7^$document
 ||furaffinity.net/*/falvie^$document
+||furaffinity.net/*/fatalfox^$document
 ||furaffinity.net/*/fiddleafox^$document
 ||furaffinity.net/*/fisk^$document
+||furaffinity.net/*/glowfox^$document
+||furaffinity.net/*/grayhoof^$document
 ||furaffinity.net/*/harmarist^$document
 ||furaffinity.net/*/hyenolf^$document
 ||furaffinity.net/*/icywaterspupper^$document
+||furaffinity.net/*/iztli^$document
 ||furaffinity.net/*/jasonafex^$document
 ||furaffinity.net/*/jaydraws^$document
 ||furaffinity.net/*/kabier^$document
@@ -74,12 +80,6 @@
 ||furaffinity.net/*/soulbriar^$document
 ||furaffinity.net/*/xenoforge^$document
 ||furaffinity.net/*/zaush^$document
-||furaffinity.net/*/bastion^$document
-||furaffinity.net/*/cobaltsnow^$document
-||furaffinity.net/*/fatalfox^$document
-||furaffinity.net/*/glowfox^$document
-||furaffinity.net/*/grayhoof^$document
-||furaffinity.net/*/iztli^$document
 ||furryartpro.com^
 ||furrynetwork.com/Dog-Bone^$document
 ||ganyiao.com^
@@ -92,6 +92,7 @@
 ||ib.metapix.net^
 ||inkbunny.net^
 ||instagram.com/creativemochi^$document
+||instagram.com/cuadraside_^$document
 ||instagram.com/jessefrosst^$document
 ||instagram.com/mangoyena100^$document
 ||jasonafex.com^
@@ -112,6 +113,7 @@
 ||ko-fi.com/paperwings^$document
 ||ko-fi.com/shardfox^$document
 ||leosaeta.sofurry.com^
+||linktr.ee/cuadra_side^$document
 ||linktr.ee/HeadsAndTailsStudios^$document
 ||linktr.ee/Lumetric^$document
 ||linktr.ee/TheXenoForge^$document
@@ -133,6 +135,7 @@
 ||patreon.com^*carnalgarden^$document
 ||patreon.com^*ChangelingGamingStudios^$document
 ||patreon.com^*CobaltSynapse^$document
+||patreon.com^*cuadraside^$document
 ||patreon.com^*edjit^$document
 ||patreon.com^*falvie^$document
 ||patreon.com^*fiddleafox^$document
