@@ -913,6 +913,7 @@
 ||exolix.com^
 ||explore.cash^
 ||explorebitsong.com^
+||explorer-topaz.vercel.app^
 ||explorers.guru^
 ||explorewanchain.org^
 ||fabric.vc^

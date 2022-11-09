@@ -11,11 +11,8 @@
 ||christinepelosi.com^
 ||dailybeanspood.com^
 ||danagoldberg.com^
-||democrats.org^
-||democrats.senate.gov^
 ||durbin.senate.gov^
 ||emxdgt.com^$important
-||fivethirtyeight.com^
 ||ign.com^
 ||justpremium.com^$important
 ||karenbass.com^
