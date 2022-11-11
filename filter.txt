@@ -111,11 +111,13 @@
 ||news.google.com/thank/*$script,3p
 ||play.google.com/log$xhr
 ||player-cdn.beachfrontmedia.com/playerapi/*$subdocument,3p,redirect=click2load.html
+||player.spooler.fm^$subdocument,3p,redirect=click2load.html
 ||player.vimeo.com/video/*$subdocument,3p,redirect=click2load.html
 ||players.brightcove.net^$subdocument,3p,redirect=click2load.html
 ||playlist.megaphone.fm^$subdocument,3p,redirect=click2load.html
 ||readthedocs.io/_/api/v2/analytics/*$xhr
 ||reporting.services.disqus.com^$xhr,3p
+||rest.edit.site/member-analytics-service/*$xhr,3p
 ||sdk.snapkit.com/js/v1/create.js$script,3p
 ||sketchfab.com/models/*/embed$subdocument,3p,redirect=click2load.html
 ||static.addtoany.com/menu/page.js$script,3p
@@ -154,8 +156,8 @@
 ||x.kinja-static.com/assets/new-client/second-scroll~special-sections-editor.*$script
 ||x.kinja-static.com/assets/new-client/subscribe.*$script
 ||x.kinja-static.com/assets/new-client/top-bar.$script
+||youtube-nocookie.com/embed/*$subdocument,3p,redirect=click2load.html
 ||youtube.com/embed/*$subdocument,3p,redirect=click2load.html
-||rest.edit.site/member-analytics-service/*$xhr,3p
 
 ||api.pinterest.com^$3p
 ||sendbird.com^$websocket,3p
@@ -621,6 +623,23 @@ howtogeek.com##.adslot
 ! independent.co.uk
 independent.co.uk##.sticky-video
 
+! insider.com (and sister sites)
+insider.com,businessinsider.com##.share-wrapper-top
+insider.com,businessinsider.com###l-rightrail
+insider.com,businessinsider.com##+js(rc, is-right-rail|with-rail-video-ad, #l-content)
+businessinsider.com##.live-updates-module-full-width
+businessinsider.com##.markets-post-border
+/chunks/scripts/components~ad-swapper-client.*$script,1p,domain=insider.com|businessinsider.com
+/chunks/scripts/components~inline-offer-client.*$script,1p,domain=insider.com|businessinsider.com
+/chunks/scripts/components~save-article-client.*$script,1p,domain=insider.com|businessinsider.com
+/chunks/scripts/components~share-buttons-client.*$script,1p,domain=insider.com|businessinsider.com
+/chunks/scripts/components~vendor-taboola-client.*$script,1p,domain=insider.com|businessinsider.com
+/chunks/scripts/piano.*$script,1p,domain=insider.com|businessinsider.com
+/cross-domain$subdocument,redirect=click2load.html,domain=insider.com|businessinsider.com
+/styles/components~save-article-client.*$stylesheet,1p,domain=insider.com|businessinsider.com
+/styles/piano.*$stylesheet,1p,domain=insider.com|businessinsider.com
+||businessinsider.com/ajax/finanzen-banner$xhr,1p
+
 ! isthmus.com
 ||isthmus.com/api/content/*/get_related_links$xhr,1p
 
@@ -661,6 +680,14 @@ lenovo.com##.bottomStickyDock
 
 ! limetorrents.info
 limetorrents.info###rightbar div:has-text(Advertisements)
+
+! litcharts.com
+litcharts.com##.banner-promo
+litcharts.com##.distance-learning-promo
+litcharts.com##.groupings
+litcharts.com##.stretch-left-promo
+litcharts.com##.user-iama
+litcharts.com###header-upgrade-link
 
 ! metabattle.com
 metabattle.com###blockerEnabled
@@ -827,16 +854,16 @@ tomshardware.com##.socialite-widget
 toptal.com##.internal-linking
 ||toptal.com/developers/gitignore/img/toptal-logo-wordmark.svg$image,1p
 
+! tumblr.com
+www.tumblr.com##div[data-timeline="/v2/timeline/dashboard"] div[tabindex="-1"]:has(div:has-text(Have you seen these lately?))
+www.tumblr.com##div[data-timeline="/v2/timeline/dashboard"] div[tabindex="-1"]:has(div:has-text(Have you seen these lately?)) + div[tabindex="-1"]:has(button[aria-label="Scroll carousel left"])
+||tumblr.com^$removeparam=_branch_referrer
+
 ! tutorialspoint.com
+tutorialspoint.com###ebooks_grid
 ||tutorialspoint.com/images/top-banner.jpg$image
 
-! The badfilters are here so you don't make the same mistakes that I did when trying to hide topics.
 ! twitter.com
-@@||dailymotion.com/embed/*$subdocument,domain=reddit.com
-@@||player.vimeo.com/video/*$subdocument,domain=twitter.com
-@@||twitch.tv^$subdocument,domain=twitter.com
-@@||w.soundcloud.com/player/*$subdocument,domain=twitter.com
-@@||youtube.com/embed/*$subdocument,domain=twitter.com
 twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"])
 twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"]) ~ div
 twitter.com##div[data-testid="User-Names"] div:has-text(Elon Musk) + div:has(svg[aria-label="Verified account"])
@@ -845,16 +872,36 @@ twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
 twitter.com##div[role="menu"] a[href="/i/newsletters"]
 twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
 twitter.com##div[role="menu"] a[href$="/topics"]
+twitter.com##nav[aria-label="Notifications timelines"] div:has(> a[href="/notifications/verified"])
 ||abs.twimg.com/responsive-web/client-sentry/sentry.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.AudioSpaceDiscovery.*$xhr
+||abs.twimg.com/responsive-web/client-web/bundle.AudioSpacePeek.*$xhr
 ||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.Topics.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.TwitterBlue.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.TwitterBlue.*$xhr
 ||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script
+||abs.twimg.com/responsive-web/client-web/early-access-feature@*$image
+||abs.twimg.com/responsive-web/client-web/less-ads-feature@*$image
+||abs.twimg.com/responsive-web/client-web/loader.AudioContextSpaceMedia.*$script
+||abs.twimg.com/responsive-web/client-web/loader.AudioDock.*$script
+||abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer.*$script
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.*$script
+||abs.twimg.com/responsive-web/client-web/longer-video-feature@*$image
 ||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$script
 ||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$xhr
+||abs.twimg.com/responsive-web/client-web/ondemand.SettingsSuperFollows.*$script
+||abs.twimg.com/responsive-web/client-web/ondemand.SettingsSuperFollows.*$xhr
 ||abs.twimg.com/responsive-web/client-web/ondemand.TopicFollowPromptHandler.*$badfilter
+||abs.twimg.com/responsive-web/client-web/ondemand.topicHandler.*$badfilter
 ||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$script
 ||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$xhr
-||abs.twimg.com/responsive-web/client-web/ondemand.topicHandler.*$badfilter
+||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsMonetization~ondemand.SettingsSuperFollows.*$script
+||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsMonetization~ondemand.SettingsSuperFollows~bundle.SuperFollowsSubscribe.*$script
+||abs.twimg.com/responsive-web/client-web/src_app_screens_BrandedLikesPreview_index_js-modules_horizon-web_src_exports_Reaction_tempAss-*$xhr
+||abs.twimg.com/responsive-web/client-web/upranked-replies-feature@*$image
+||abs.twimg.com/responsive-web/client-web/verification-card@*$image
+||abs.twimg.com/sticky/illustrations/twitter_blue_images_v2/*$image
 ||pbs.twimg.com/amplify_video_thumb/*$image
 ||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=sessionId
 ||syndication.twitter.com/settings$xhr,domain=platform.twitter.com
@@ -863,17 +910,33 @@ twitter.com##div[role="menu"] a[href$="/topics"]
 ||twitter.com/*/status/*$document,removeparam=ref_url
 ||twitter.com/*/status/*$document,removeparam=s
 ||twitter.com/*/status/*$document,removeparam=t
-||twitter.com/i/api/1.1/account/settings.json$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
+||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_has_nft_avatar
+||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_is_blue_verified
+||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
+||twitter.com/i/api/1.1/*$xhr,1p,removeparam=send_error_codes
 ||twitter.com/i/api/1.1/branch/init.json$xhr,1p
+||twitter.com/i/api/1.1/hashflags.json$xhr,1p
 ||twitter.com/i/api/1.1/jot/ces/p2$xhr,1p
 ||twitter.com/i/api/1.1/promoted_content/log.json$xhr,1p
 ||twitter.com/i/api/1.1/users/recommendations.json$xhr,1p
+||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_has_nft_avatar
+||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_is_blue_verified
+||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
+||twitter.com/i/api/2/*$xhr,1p,removeparam=send_error_codes
+||twitter.com/i/api/2/notifications/verified.json$xhr,1p
 ||twitter.com/i/api/fleets/*$xhr,1p
+||twitter.com/i/api/graphql/*/AudioSpaceById$xhr,1p
+||twitter.com/i/api/graphql/*/ContentControlToolFetchAllUserEnabled$xhr,1p
+||twitter.com/i/api/graphql/*/MonetizationSettingsQuery$xhr,1p
+||twitter.com/i/api/graphql/*/SubscriptionProductDetails$xhr,1p
+||twitter.com/i/api/graphql/*/SuperFollowsSettingsQuery$xhr,1p
 ||twitter.com/i/api/graphql/*/TopicFollow$xhr,1p
-||twitter.com/i/api/graphql/*/TopicToFollowSidebar$xhr,1p
 ||twitter.com/i/api/graphql/*/TopicsManagementPage$xhr,1p
 ||twitter.com/i/api/graphql/*/TopicsPickerPage$xhr,1p
+||twitter.com/i/api/graphql/*/TopicToFollowSidebar$xhr,1p
+||twitter.com/i/api/graphql/*/TwitterBlueSignUpV2Query$xhr,1p
 ||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr,1p
+||twitter.com/i/api/graphql/*/UsersVerifiedAvatars$xhr,1p
 
 ! twitchquotes.com
 twitchquotes.com##^aside[id^="financetldr-top-bar-"]
@@ -942,6 +1005,9 @@ xhamster.com##+js(aeld, click, recomm-promo-hub-dialog-trigger)
 xhamster.com##+js(aopw, history)
 xhamster.com##+js(disable-newtab-links)
 
+! xvideos.com
+xvideos.com##.premium-results-line
+
 ! yiffer.xyz
 yiffer.xyz##.comic-card:has([href="/artist/Adam%20Wan"])
 yiffer.xyz##.comic-card:has([href="/artist/Aogami"])
@@ -990,6 +1056,7 @@ youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
 ||youtube.com/embed/*$subdocument,3p,removeparam=origin
 ||youtube.com/embed/*$subdocument,3p,removeparam=widget_referrer
+||youtube-nocookie.com/embed/*$subdocument,removeparam=autoplay
 
 ! zdnet.com
 zdnet.com##.breaking-news-container
