@@ -1,0 +1,83 @@
+! Filters for twitter
+
+twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"])
+twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"]) ~ div
+twitter.com##div[data-testid="User-Names"] div:has-text(Elon Musk) + div:has(svg[aria-label="Verified account"])
+twitter.com##div[data-testid="UserName"] span:has-text(Elon Musk) + span:has(svg[aria-label="Verified account"])
+twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
+twitter.com##div[role="menu"] a[href="/i/newsletters"]
+twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
+twitter.com##div[role="menu"] a[href$="/topics"]
+twitter.com##nav[aria-label="Notifications timelines"] div:has(> a[href="/notifications/verified"])
+
+||abs.twimg.com/responsive-web/client-sentry/sentry.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.AudioSpaceDiscovery.*$xhr
+||abs.twimg.com/responsive-web/client-web/bundle.AudioSpacePeek.*$xhr
+||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.Topics.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.TwitterBlue.*$script
+||abs.twimg.com/responsive-web/client-web/bundle.TwitterBlue.*$xhr
+||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script
+||abs.twimg.com/responsive-web/client-web/early-access-feature@*$image
+||abs.twimg.com/responsive-web/client-web/less-ads-feature@*$image
+||abs.twimg.com/responsive-web/client-web/loader.AudioContextSpaceMedia.*$script
+||abs.twimg.com/responsive-web/client-web/loader.AudioDock.*$script
+||abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer.*$script
+||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.*$script
+||abs.twimg.com/responsive-web/client-web/longer-video-feature@*$image
+||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$script
+||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$xhr
+||abs.twimg.com/responsive-web/client-web/ondemand.SettingsSuperFollows.*$script
+||abs.twimg.com/responsive-web/client-web/ondemand.SettingsSuperFollows.*$xhr
+||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$script
+||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$xhr
+||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsMonetization~ondemand.SettingsSuperFollows.*$script
+||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsMonetization~ondemand.SettingsSuperFollows~bundle.SuperFollowsSubscribe.*$script
+||abs.twimg.com/responsive-web/client-web/src_app_screens_BrandedLikesPreview_index_js-modules_horizon-web_src_exports_Reaction_tempAss-*$xhr
+||abs.twimg.com/responsive-web/client-web/upranked-replies-feature@*$image
+||abs.twimg.com/responsive-web/client-web/verification-card@*$image
+||abs.twimg.com/sticky/illustrations/twitter_blue_images_v2/*$image
+||ads.twitter.com^$important
+||analytics.twitter.com^$important
+||api.twitter.com/1.1/jot/client_event$xhr,1p
+||business.twitter.com^
+||help.twitter.com^
+||pbs.twimg.com/amplify_video_thumb/*$image
+||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=sessionId
+||platform.twitter.com/widgets/*$subdocument,redirect=click2load.html
+||support.twitter.com^
+||syndication.twitter.com/settings$xhr,domain=platform.twitter.com
+||twitter.com/*/status/*$document,removeparam=cxt
+||twitter.com/*/status/*$document,removeparam=ref_src
+||twitter.com/*/status/*$document,removeparam=ref_url
+||twitter.com/*/status/*$document,removeparam=s
+||twitter.com/*/status/*$document,removeparam=t
+||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_has_nft_avatar
+||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_is_blue_verified
+||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
+||twitter.com/i/api/1.1/*$xhr,1p,removeparam=send_error_codes
+||twitter.com/i/api/1.1/branch/init.json$xhr,1p
+||twitter.com/i/api/1.1/hashflags.json$xhr,1p
+||twitter.com/i/api/1.1/jot/ces/p2$xhr,1p
+||twitter.com/i/api/1.1/promoted_content/log.json$xhr,1p
+||twitter.com/i/api/1.1/users/recommendations.json$xhr,1p
+||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_has_nft_avatar
+||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_is_blue_verified
+||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
+||twitter.com/i/api/2/*$xhr,1p,removeparam=send_error_codes
+||twitter.com/i/api/2/notifications/verified.json$xhr,1p
+||twitter.com/i/api/fleets/*$xhr,1p
+||twitter.com/i/api/graphql/*/AudioSpaceById$xhr,1p
+||twitter.com/i/api/graphql/*/ContentControlToolFetchAllUserEnabled$xhr,1p
+||twitter.com/i/api/graphql/*/MonetizationSettingsQuery$xhr,1p
+||twitter.com/i/api/graphql/*/QuickPromoteEligibility$xhr,1p
+||twitter.com/i/api/graphql/*/SubscriptionProductDetails$xhr,1p
+||twitter.com/i/api/graphql/*/SuperFollowsSettingsQuery$xhr,1p
+||twitter.com/i/api/graphql/*/TopicFollow$xhr,1p
+||twitter.com/i/api/graphql/*/TopicsManagementPage$xhr,1p
+||twitter.com/i/api/graphql/*/TopicsPickerPage$xhr,1p
+||twitter.com/i/api/graphql/*/TopicToFollowSidebar$xhr,1p
+||twitter.com/i/api/graphql/*/TweetActivityQuery$xhr,1p
+||twitter.com/i/api/graphql/*/TwitterBlueSignUpV2Query$xhr,1p
+||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr,1p
+||twitter.com/i/api/graphql/*/UsersVerifiedAvatars$xhr,1p

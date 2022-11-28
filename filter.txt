@@ -61,9 +61,11 @@
 /wp-content/themes/flex-mag/js/autoloadpost.js
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
 
+##.facebook-button-colorbox
 ##.hustle-slidein
 ##.pinterest-button-colorbox
-##.facebook-button-colorbox
+##.twitter-button-colorbox
+###WIX_ADS
 
 ||accounts.google.com/gsi/*$script,3p
 ||accounts.google.com/o/oauth2/*$subdocument,3p
@@ -73,6 +75,7 @@
 ||apv-launcher.minute.ly/api/launcher/*$script,3p
 ||assets.pinterest.com/js/pinit.js$script
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
+||calendar.google.com/calendar/embed$subdocument,3p,redirect=click2load.html
 ||calendly.com^$subdocument,3p,redirect=click2load.html
 ||cdn-client.medium.com/lite/static/js/reporting.*$script
 ||cdn.jsdelivr.net/npm/@portis/web3@*$script
@@ -92,12 +95,15 @@
 ||chancejs.com/chance.min.js$script
 ||cms.springboardplatform.com/embed_iframe/*$subdocument,3p,redirect=click2load.html
 ||content.jwplatform.com/players/*$subdocument,3p,redirect=click2load.html
+||cwchmb.com/im_jerky$script,3p
 ||d35xxde4fgg0cx.cloudfront.net/assets/embedded.js$script
 ||dailymotion.com/embed/*$subdocument,3p,redirect=click2load.html
 ||discord.com/widget$subdocument,3p,redirect=click2load.html
 ||discordapp.com/widget$subdocument,3p,redirect=click2load.html
 ||disqus.com/recommendations.js$script,3p
 ||disqus.com/recommendations/*$subdocument,3p
+||embed.tumblr.com^$subdocument,3p,redirect=click2load.html
+||form.jotform.com^$subdocument,3p,redirect=click2load.html
 ||gadget.pico.tools/wrapper.min.js$script
 ||giphy.com/embed/*$subdocument,3p,redirect=click2load.html
 ||google.com/maps/embed/*$subdocument,3p,redirect=click2load.html
@@ -116,6 +122,7 @@
 ||players.brightcove.net^$subdocument,3p,redirect=click2load.html
 ||playlist.megaphone.fm^$subdocument,3p,redirect=click2load.html
 ||readthedocs.io/_/api/v2/analytics/*$xhr
+||redgifs.com/ifr/*$subdocument,3p,redirect=click2load.html
 ||reporting.services.disqus.com^$xhr,3p
 ||rest.edit.site/member-analytics-service/*$xhr,3p
 ||sdk.snapkit.com/js/v1/create.js$script,3p
@@ -254,6 +261,7 @@
 !#include sections/furry.txt
 !#include sections/risky.txt
 !#include sections/spam.txt
+!#include sections/other.txt
 
 !#include sections/brands.txt
 
@@ -261,6 +269,9 @@
 
 ! 1password.com
 ||1password.com/signin/whats-new/$subdocument
+
+! allmylinks.com
+allmylinks.com##+js(rc, shaking, .shaking)
 
 ! alternativeto.net
 alternativeto.net##div[data-testid="put-food-on-the-table"]
@@ -388,15 +399,6 @@ developers.cloudflare.com##a.ProductGrid--link[href="/web3/"]
 ! code-boost.com
 code-boost.com###mailer-lite-form
 
-! cohost.org
-@@||dailymotion.com/embed/*$subdocument,domain=cohost.org
-@@||player.vimeo.com/video/*$subdocument,domain=cohost.org
-@@||tiktok.com/embed/*$subdocument,domain=cohost.org
-@@||twitch.tv^$subdocument,domain=cohost.org
-@@||vine.co/v/*/embed$subdocument,domain=cohost.org
-@@||w.soundcloud.com/player/*$subdocument,domain=cohost.org
-@@||youtube.com/embed/*$subdocument,domain=cohost.org
-
 ! crunchyroll.com
 crunchyroll.com###marketing_banner
 
@@ -463,48 +465,7 @@ fedscoop.com##^script:has-text(show_welcome_ad)
 ||fedscoop.com/advertising/*$subdocument,1p
 
 ! fandom.com
-@@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
-@@||fandom.com/load.php?*&modules=geo-*.js$script,1p
-fandom.com###WikiaArticleFooter
-fandom.com###WikiaBar
-fandom.com###WikiaFooter
-fandom.com###WikiaNotifications
-fandom.com###WikiaRailWrapper
-fandom.com###WikiaTopAds
-fandom.com###articleComments
-fandom.com###highlight__main-container
-fandom.com##+js(aeld, pointerup)
-fandom.com##.ad-slot-placeholder
-fandom.com##.banner-notifications-placeholder
-fandom.com##.bottom-ads-container
-fandom.com##.createpage.wds-is-secondary.wds-button
-fandom.com##.fandom-sticky-header:style(left: 0!important;)
-fandom.com##.global-footer
-fandom.com##.global-navigation
-fandom.com##.main-container:style(margin-left: 0!important;)
-fandom.com##.main-container:style(width: 100%!important;)
-fandom.com##.notifications-placeholder
-fandom.com##.page__right-rail
-fandom.com##.resizable-container:style(margin: 0 auto !important)
-fandom.com##.search-modal::before:style(left: 0px !important;)
-fandom.com##.unified-search__layout__right-rail
-fandom.com##.wikia-photogallery-add
-fandom.com##^.mcf-card-related-wikis
-fandom.com##a.share-button
-fandom.com##a[data-tracking="discuss"]
-fandom.com##body:style(--desktop-global-navigation-width: 0px !important)
-||fandom.com/f$xhr
-||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
-||fandom.com/wikia.php?controller=RecirculationApi$xhr
-||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
-||services.fandom.com//event-logger/*$xhr
-||services.fandom.com/discussion/*$xhr
-||services.fandom.com/geoip/*$xhr
-||services.fandom.com/knowledge-graph/affiliates/*$xhr
-||services.fandom.com/recommendations/*$xhr
-||services.fandom.com/wiki-recommendations/*$xhr
-||static.wikia.nocookie.net/silversurfer/*$script
-||wikia.nocookie.net/spotlightsimagestemporary/*$image,important
+!#include sections/sites/fandom.txt
 
 ! fitgirl-repacks.site
 fitgirl-repacks.site###potatoid
@@ -514,66 +475,12 @@ fitgirl-repacks.site###smart_push_smio_window
 ! firebase.google.com
 ||firebase.google.com/_d/alternate-gtm$subdocument
 
+! fivethirtyeight.com
+fivethirtyeight.com##.a9-sidebar-ad
+fivethirtyeight.com##.gpt-sidebar-ad
+
 ! furaffinity.net
-furaffinity.net###donation_list
-furaffinity.net##figure.u-bastion
-furaffinity.net##figure.u-cobaltsnow
-furaffinity.net##figure.u-dreamkeepers
-furaffinity.net##figure.u-edjit7
-furaffinity.net##figure.u-falvie
-furaffinity.net##figure.u-fatalfox
-furaffinity.net##figure.u-fiddleafox
-furaffinity.net##figure.u-fisk
-furaffinity.net##figure.u-glowfox
-furaffinity.net##figure.u-grayhoof
-furaffinity.net##figure.u-harmarist
-furaffinity.net##figure.u-hyenolf
-furaffinity.net##figure.u-icywaterspupper
-furaffinity.net##figure.u-iztli
-furaffinity.net##figure.u-jasonafex
-furaffinity.net##figure.u-jaydraws
-furaffinity.net##figure.u-kabier
-furaffinity.net##figure.u-mangoyena
-furaffinity.net##figure.u-marblesoda
-furaffinity.net##figure.u-miles-df
-furaffinity.net##figure.u-nyinxdelune
-furaffinity.net##figure.u-opticbuster
-furaffinity.net##figure.u-popparotzi
-furaffinity.net##figure.u-seth-iova
-furaffinity.net##figure.u-sethpup
-furaffinity.net##figure.u-shardfox
-furaffinity.net##figure.u-soulbriar
-furaffinity.net##figure.u-xenoforge
-furaffinity.net##figure.u-zaush
-furaffinity.net##figure[data-user="u-bastion"]
-furaffinity.net##figure[data-user="u-cobaltsnow"]
-furaffinity.net##figure[data-user="u-dreamkeepers"]
-furaffinity.net##figure[data-user="u-edjit7"]
-furaffinity.net##figure[data-user="u-falvie"]
-furaffinity.net##figure[data-user="u-fatalfox"]
-furaffinity.net##figure[data-user="u-fiddleafox"]
-furaffinity.net##figure[data-user="u-fisk"]
-furaffinity.net##figure[data-user="u-glowfox"]
-furaffinity.net##figure[data-user="u-grayhoof"]
-furaffinity.net##figure[data-user="u-harmarist"]
-furaffinity.net##figure[data-user="u-hyenolf"]
-furaffinity.net##figure[data-user="u-icywaterspupper"]
-furaffinity.net##figure[data-user="u-iztli"]
-furaffinity.net##figure[data-user="u-jasonafex"]
-furaffinity.net##figure[data-user="u-jaydraws"]
-furaffinity.net##figure[data-user="u-kabier"]
-furaffinity.net##figure[data-user="u-mangoyena"]
-furaffinity.net##figure[data-user="u-marblesoda"]
-furaffinity.net##figure[data-user="u-miles-df"]
-furaffinity.net##figure[data-user="u-nyinxdelune"]
-furaffinity.net##figure[data-user="u-opticbuster"]
-furaffinity.net##figure[data-user="u-popparotzi"]
-furaffinity.net##figure[data-user="u-seth-iova"]
-furaffinity.net##figure[data-user="u-sethpup"]
-furaffinity.net##figure[data-user="u-shardfox"]
-furaffinity.net##figure[data-user="u-soulbriar"]
-furaffinity.net##figure[data-user="u-xenoforge"]
-furaffinity.net##figure[data-user="u-zaush"]
+!#include sections/sites/furaffinity.txt
 
 ! gamebanana.com
 gamebanana.com##.AdTagModule
@@ -620,6 +527,16 @@ github.com##a[href^="x-github-client://openRepo/"]
 ! howtogeek.com
 howtogeek.com##.adslot
 
+! iframely.net
+@@||dailymotion.com/embed/*$subdocument,domain=iframely.net
+@@||embed.tumblr.com^$subdocument,domain=iframely.net
+@@||player.vimeo.com/video/*$subdocument,domain=iframely.net
+@@||tiktok.com/embed/*$subdocument,domain=iframely.net
+@@||twitch.tv^$subdocument,domain=iframely.net
+@@||vine.co/v/*/embed$subdocument,domain=iframely.net
+@@||w.soundcloud.com/player/*$subdocument,domain=iframely.net
+@@||youtube.com/embed/*$subdocument,domain=iframely.net
+
 ! independent.co.uk
 independent.co.uk##.sticky-video
 
@@ -635,7 +552,7 @@ businessinsider.com##.markets-post-border
 /chunks/scripts/components~share-buttons-client.*$script,1p,domain=insider.com|businessinsider.com
 /chunks/scripts/components~vendor-taboola-client.*$script,1p,domain=insider.com|businessinsider.com
 /chunks/scripts/piano.*$script,1p,domain=insider.com|businessinsider.com
-/cross-domain$subdocument,redirect=click2load.html,domain=insider.com|businessinsider.com
+/cross-domain$subdocument,domain=insider.com|businessinsider.com
 /styles/components~save-article-client.*$stylesheet,1p,domain=insider.com|businessinsider.com
 /styles/piano.*$stylesheet,1p,domain=insider.com|businessinsider.com
 ||businessinsider.com/ajax/finanzen-banner$xhr,1p
@@ -681,10 +598,14 @@ lenovo.com##.bottomStickyDock
 ! limetorrents.info
 limetorrents.info###rightbar div:has-text(Advertisements)
 
+! linktr.ee
+||linktr.ee^$document,removeparam=ltsid
+
 ! litcharts.com
 litcharts.com##.banner-promo
 litcharts.com##.distance-learning-promo
 litcharts.com##.groupings
+litcharts.com##.privacy-policy-banner
 litcharts.com##.stretch-left-promo
 litcharts.com##.user-iama
 litcharts.com###header-upgrade-link
@@ -722,7 +643,8 @@ newgrounds.com##div[class^="ng-ad-container-"]
 ||img.ngfiles.com/promos/*
 
 ! nextjs.org
-nextjs.org##.sticky > .banner:has(a[href^="https://vercel.com/solutions/nextjs"])
+nextjs.org##.banner
+nextjs.org##nav a[href^="https://vercel.com/"]
 
 ! nexusmods.com
 nexusmods.com###rj-logo-social .rj-social-wrapper
@@ -778,8 +700,15 @@ readthedocs.io##.keep-us-sustainable
 @@||vine.co/v/*/embed$subdocument,domain=reddit.com
 @@||w.soundcloud.com/player/*$subdocument,domain=reddit.com
 @@||youtube.com/embed/*$subdocument,domain=reddit.com
-reddit.com###COIN_PURCHASE_DROPDOWN_ID
 reddit.com##.premium-banner-outer
+reddit.com###change-username-tooltip-id a[aria-label="Advertise"]
+reddit.com###change-username-tooltip-id button:has-text(Open Gift)
+reddit.com###change-username-tooltip-id button:has-text(Shop Avatars)
+reddit.com###COIN_PURCHASE_DROPDOWN_ID
+reddit.com##div[aria-label="carousel"]:has(a[href="/now"]):upward(div)
+reddit.com##div[data-testid="frontpage-sidebar"] > div:has-text(Reddit Premium)
+reddit.com##div[data-testid="frontpage-sidebar"] > div:has(.SidebarAd)
+reddit.com##header a[href="/now"]
 ||redditstatic.com/desktop2x/RpanListingUnit.*$script
 ||redditstatic.com/desktop2x/chunkCSS/RpanListingUnit.*$stylesheet
 ||redditstatic.com/gold/premium/premium-title.png$image
@@ -855,8 +784,8 @@ toptal.com##.internal-linking
 ||toptal.com/developers/gitignore/img/toptal-logo-wordmark.svg$image,1p
 
 ! tumblr.com
-www.tumblr.com##div[data-timeline="/v2/timeline/dashboard"] div[tabindex="-1"]:has(div:has-text(Have you seen these lately?))
-www.tumblr.com##div[data-timeline="/v2/timeline/dashboard"] div[tabindex="-1"]:has(div:has-text(Have you seen these lately?)) + div[tabindex="-1"]:has(button[aria-label="Scroll carousel left"])
+||tumblr.com/svc/pop/exceptions$xhr,1p
+||tumblr.com/svc/pop/performance$xhr,1p
 ||tumblr.com^$removeparam=_branch_referrer
 
 ! tutorialspoint.com
@@ -864,79 +793,7 @@ tutorialspoint.com###ebooks_grid
 ||tutorialspoint.com/images/top-banner.jpg$image
 
 ! twitter.com
-twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"])
-twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"]) ~ div
-twitter.com##div[data-testid="User-Names"] div:has-text(Elon Musk) + div:has(svg[aria-label="Verified account"])
-twitter.com##div[data-testid="UserName"] span:has-text(Elon Musk) + span:has(svg[aria-label="Verified account"])
-twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
-twitter.com##div[role="menu"] a[href="/i/newsletters"]
-twitter.com##div[role="menu"] a[href="/i/twitter_blue_sign_up"]
-twitter.com##div[role="menu"] a[href$="/topics"]
-twitter.com##nav[aria-label="Notifications timelines"] div:has(> a[href="/notifications/verified"])
-||abs.twimg.com/responsive-web/client-sentry/sentry.*$script
-||abs.twimg.com/responsive-web/client-web/bundle.AudioSpaceDiscovery.*$xhr
-||abs.twimg.com/responsive-web/client-web/bundle.AudioSpacePeek.*$xhr
-||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
-||abs.twimg.com/responsive-web/client-web/bundle.Topics.*$script
-||abs.twimg.com/responsive-web/client-web/bundle.TwitterBlue.*$script
-||abs.twimg.com/responsive-web/client-web/bundle.TwitterBlue.*$xhr
-||abs.twimg.com/responsive-web/client-web/bundle.UserNft.*$script
-||abs.twimg.com/responsive-web/client-web/early-access-feature@*$image
-||abs.twimg.com/responsive-web/client-web/less-ads-feature@*$image
-||abs.twimg.com/responsive-web/client-web/loader.AudioContextSpaceMedia.*$script
-||abs.twimg.com/responsive-web/client-web/loader.AudioDock.*$script
-||abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer.*$script
-||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.*$script
-||abs.twimg.com/responsive-web/client-web/longer-video-feature@*$image
-||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$script
-||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$xhr
-||abs.twimg.com/responsive-web/client-web/ondemand.SettingsSuperFollows.*$script
-||abs.twimg.com/responsive-web/client-web/ondemand.SettingsSuperFollows.*$xhr
-||abs.twimg.com/responsive-web/client-web/ondemand.TopicFollowPromptHandler.*$badfilter
-||abs.twimg.com/responsive-web/client-web/ondemand.topicHandler.*$badfilter
-||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$script
-||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$xhr
-||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsMonetization~ondemand.SettingsSuperFollows.*$script
-||abs.twimg.com/responsive-web/client-web/shared~ondemand.SettingsMonetization~ondemand.SettingsSuperFollows~bundle.SuperFollowsSubscribe.*$script
-||abs.twimg.com/responsive-web/client-web/src_app_screens_BrandedLikesPreview_index_js-modules_horizon-web_src_exports_Reaction_tempAss-*$xhr
-||abs.twimg.com/responsive-web/client-web/upranked-replies-feature@*$image
-||abs.twimg.com/responsive-web/client-web/verification-card@*$image
-||abs.twimg.com/sticky/illustrations/twitter_blue_images_v2/*$image
-||pbs.twimg.com/amplify_video_thumb/*$image
-||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=sessionId
-||syndication.twitter.com/settings$xhr,domain=platform.twitter.com
-||twitter.com/*/status/*$document,removeparam=cxt
-||twitter.com/*/status/*$document,removeparam=ref_src
-||twitter.com/*/status/*$document,removeparam=ref_url
-||twitter.com/*/status/*$document,removeparam=s
-||twitter.com/*/status/*$document,removeparam=t
-||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_has_nft_avatar
-||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_is_blue_verified
-||twitter.com/i/api/1.1/*$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
-||twitter.com/i/api/1.1/*$xhr,1p,removeparam=send_error_codes
-||twitter.com/i/api/1.1/branch/init.json$xhr,1p
-||twitter.com/i/api/1.1/hashflags.json$xhr,1p
-||twitter.com/i/api/1.1/jot/ces/p2$xhr,1p
-||twitter.com/i/api/1.1/promoted_content/log.json$xhr,1p
-||twitter.com/i/api/1.1/users/recommendations.json$xhr,1p
-||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_has_nft_avatar
-||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_is_blue_verified
-||twitter.com/i/api/2/*$xhr,1p,removeparam=include_ext_sharing_audiospaces_listening_data_with_followers
-||twitter.com/i/api/2/*$xhr,1p,removeparam=send_error_codes
-||twitter.com/i/api/2/notifications/verified.json$xhr,1p
-||twitter.com/i/api/fleets/*$xhr,1p
-||twitter.com/i/api/graphql/*/AudioSpaceById$xhr,1p
-||twitter.com/i/api/graphql/*/ContentControlToolFetchAllUserEnabled$xhr,1p
-||twitter.com/i/api/graphql/*/MonetizationSettingsQuery$xhr,1p
-||twitter.com/i/api/graphql/*/SubscriptionProductDetails$xhr,1p
-||twitter.com/i/api/graphql/*/SuperFollowsSettingsQuery$xhr,1p
-||twitter.com/i/api/graphql/*/TopicFollow$xhr,1p
-||twitter.com/i/api/graphql/*/TopicsManagementPage$xhr,1p
-||twitter.com/i/api/graphql/*/TopicsPickerPage$xhr,1p
-||twitter.com/i/api/graphql/*/TopicToFollowSidebar$xhr,1p
-||twitter.com/i/api/graphql/*/TwitterBlueSignUpV2Query$xhr,1p
-||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr,1p
-||twitter.com/i/api/graphql/*/UsersVerifiedAvatars$xhr,1p
+!#include sections/sites/twitter.txt
 
 ! twitchquotes.com
 twitchquotes.com##^aside[id^="financetldr-top-bar-"]
@@ -947,6 +804,19 @@ twofactorauth.org##.facebook-button
 ! uncensorpat.ch
 uncensorpat.ch###ad-panel-bottom
 uncensorpat.ch###ad-panel-top
+
+! unsplash.com
+unsplash.com##div[data-test="photos-route"] p:has-text(Browse premium related images on iStock)
+unsplash.com##div[data-test="search-route"] > div:has(> div > div[data-test="AffiliatesGrid-Content"])
+unsplash.com##figure[data-test="photo-grid-multi-col-figure"]:has(a[href^="/plus?"])
+unsplash.com##h2:has-text(20% off at iStock)
+unsplash.com##nav > ul > li > a[href="/advertise"]
+unsplash.com##nav > ul > li > a[href="/plus"]
+||media.istockphoto.com^$image,domain=unsplash.com
+||plus.unsplash.com/premium_photo-*$image,1p
+||unsplash-video-ads.imgix.video^$media,domain=unsplash.com
+||unsplash.com/direct-ads-videos/*$media,1p
+||unsplash.com/ngetty/v3/search/*$xhr,1p
 
 ! urbandictionary.com
 urbandictionary.com##.justify-center:has(> div[data-ad-slot])
@@ -965,6 +835,10 @@ userstyles.org##.android_button_banner
 userstyles.org##.android_button_button
 userstyles.org##.walking
 
+! vercel.com & related sites
+/va/script.js$script,1p,domain=nextjs.org|vercel.com|turbo.build
+/va/view$xhr,1p,domain=nextjs.org|vercel.com|turbo.build
+
 ! vox.com
 vox.com###newsletter-signup-short-form
 
@@ -979,9 +853,6 @@ wikihow.com##.wh_ad_spacing
 
 ! wired.com
 wired.com##.recirc-list-wrapper
-
-! *.wixsite.com
-wixsite.com###WIX_ADS
 
 ! wolframalpha.com
 wolframalpha.com##div:has(> a > img[src^="https://www.wolframcdn.com/side-images/"]):remove()
@@ -1009,42 +880,7 @@ xhamster.com##+js(disable-newtab-links)
 xvideos.com##.premium-results-line
 
 ! yiffer.xyz
-yiffer.xyz##.comic-card:has([href="/artist/Adam%20Wan"])
-yiffer.xyz##.comic-card:has([href="/artist/Aogami"])
-yiffer.xyz##.comic-card:has([href="/artist/Atrolux"])
-yiffer.xyz##.comic-card:has([href="/artist/Frisky%20Ferals"])
-yiffer.xyz##.comic-card:has([href="/artist/Fuf"])
-yiffer.xyz##.comic-card:has([href="/artist/GrimArt"])
-yiffer.xyz##.comic-card:has([href="/artist/Hammytoy"])
-yiffer.xyz##.comic-card:has([href="/artist/Kabier"])
-yiffer.xyz##.comic-card:has([href="/artist/Kayla-Na"])
-yiffer.xyz##.comic-card:has([href="/artist/Miles-DF"])
-yiffer.xyz##.comic-card:has([href="/artist/Milkytiger1145"])
-yiffer.xyz##.comic-card:has([href="/artist/Paper-Wings"])
-yiffer.xyz##.comic-card:has([href="/artist/Ratcha"])
-yiffer.xyz##.comic-card:has([href="/artist/Seth-Iova"])
-yiffer.xyz##.comic-card:has([href="/artist/Sethpup"])
-yiffer.xyz##.dyingAndPaidImgContainer
-yiffer.xyz##.paidImageTextContainer:upward(.comic-card)
-yiffer.xyz##a:has(> video)
-||static.yiffer.xyz/pi/*$image,1p
-||static.yiffer.xyz/pi/*$media,1p
-||yiffer.xyz/api/artists/Adam%20Wan$xhr,1p
-||yiffer.xyz/api/artists/Aogami$xhr,1p
-||yiffer.xyz/api/artists/Atrolux$xhr,1p
-||yiffer.xyz/api/artists/Frisky%20Ferals$xhr,1p
-||yiffer.xyz/api/artists/Fuf$xhr,1p
-||yiffer.xyz/api/artists/GrimArt$xhr,1p
-||yiffer.xyz/api/artists/Hammytoy$xhr,1p
-||yiffer.xyz/api/artists/Kabier$xhr,1p
-||yiffer.xyz/api/artists/Kayla-Na$xhr,1p
-||yiffer.xyz/api/artists/Miles-DF$xhr,1p
-||yiffer.xyz/api/artists/Milkytiger1145$xhr,1p
-||yiffer.xyz/api/artists/Paper-Wings$xhr,1p
-||yiffer.xyz/api/artists/Ratcha$xhr,1p
-||yiffer.xyz/api/artists/Seth-Iova$xhr,1p
-||yiffer.xyz/api/artists/Sethpup$xhr,1p
-||yiffer.xyz/api/log-*$xhr,1p
+!#include sections/sites/yiffer.txt
 
 ! youtube.com
 youtube.com###voice-search-button

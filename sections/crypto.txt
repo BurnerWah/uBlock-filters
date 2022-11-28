@@ -985,6 +985,7 @@
 ||fountainhead.cash^
 ||fractal.id^
 ||fractional.art^
+||fragment.com^
 ||frame.sh^
 ||framework.ventures^
 ||fredboat.com^
@@ -1110,6 +1111,7 @@
 ||hecochain.com^
 ||hedera.com^
 ||helium.com^
+||helladoge.com^
 ||helpme.cash^
 ||hextrust.com^
 ||heylayer.com^
@@ -1234,6 +1236,7 @@
 ||kava.io^
 ||keep.network^
 ||kenart.net^
+||kenhbit.com^
 ||kepler.xyz^
 ||keplr.app^
 ||keyless.io^
@@ -1981,6 +1984,7 @@
 ||socean.fi^
 ||socios.com^
 ||socket.tech^
+||solagg.com^
 ||solana.com^
 ||solblaze.org^
 ||solidified.io^
@@ -2132,6 +2136,7 @@
 ||tangoswap.cash^
 ||tapx.link^
 ||tari.com^
+||tea.xyz^
 ||teamdao.com^
 ||tech3.dev^
 ||techbullion.com^
@@ -2162,6 +2167,7 @@
 ||thebifrost.io^
 ||theblock.co^
 ||thecapital.io^
+||thecitadel.social^
 ||thecoinrise.com^
 ||thecoinshark.net^
 ||thecrypt.game^

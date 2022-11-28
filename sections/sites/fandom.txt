@@ -1,0 +1,46 @@
+! Fandom filters
+
+@@||fandom.com/load.php?*&modules=AuthModal-*.js$script,1p
+@@||fandom.com/load.php?*&modules=geo-*.js$script,1p
+
+fandom.com##.ad-slot-placeholder
+fandom.com##.banner-notifications-placeholder
+fandom.com##.bottom-ads-container
+fandom.com##.createpage.wds-is-secondary.wds-button
+fandom.com##.fandom-sticky-header:style(left: 0!important;)
+fandom.com##.global-footer
+fandom.com##.global-navigation
+fandom.com##.main-container:style(margin-left: 0!important;)
+fandom.com##.main-container:style(width: 100%!important;)
+fandom.com##.notifications-placeholder
+fandom.com##.page__right-rail
+fandom.com##.resizable-container:style(margin: 0 auto !important)
+fandom.com##.search-modal::before:style(left: 0px !important;)
+fandom.com##.unified-search__layout__right-rail
+fandom.com##.wikia-photogallery-add
+fandom.com###articleComments
+fandom.com###highlight__main-container
+fandom.com###WikiaArticleFooter
+fandom.com###WikiaBar
+fandom.com###WikiaFooter
+fandom.com###WikiaNotifications
+fandom.com###WikiaRailWrapper
+fandom.com###WikiaTopAds
+fandom.com##^.mcf-card-related-wikis
+fandom.com##+js(aeld, pointerup)
+fandom.com##a.share-button
+fandom.com##a[data-tracking="discuss"]
+fandom.com##body:style(--desktop-global-navigation-width: 0px !important)
+
+||fandom.com/f$xhr
+||fandom.com/wikia.php?controller=ArticleCommentsController$xhr
+||fandom.com/wikia.php?controller=RecirculationApi$xhr
+||origin-images.wikia.com/fandom-ae-assets/tracking-opt-in/*$script
+||services.fandom.com//event-logger/*$xhr
+||services.fandom.com/discussion/*$xhr
+||services.fandom.com/geoip/*$xhr
+||services.fandom.com/knowledge-graph/affiliates/*$xhr
+||services.fandom.com/recommendations/*$xhr
+||services.fandom.com/wiki-recommendations/*$xhr
+||static.wikia.nocookie.net/silversurfer/*$script
+||wikia.nocookie.net/spotlightsimagestemporary/*$image,important
