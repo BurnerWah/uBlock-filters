@@ -1,8 +1,8 @@
 ! Title: Burner's mobile uBlock filters
 ! Expires: 1 week
 ! Description: Supplemental filters targeting uBlock origin & mobile devices.
-! Homepage: https://github.com/YaBoiBurner/uBlock-filters
-! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
+! Homepage: https://github.com/BurnerWah/uBlock-filters
+! Licence: https://github.com/BurnerWah/uBlock-filters/blob/master/LICENSE
 
 duckduckgo.com##.open-in-app
 fandom.com###global-navigation-sign-in-link

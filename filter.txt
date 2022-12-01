@@ -1,8 +1,8 @@
 ! Title: Burner's uBlock filters
 ! Expires: 1 week
 ! Description: Supplemental filters targeting uBlock origin
-! Homepage: https://github.com/YaBoiBurner/uBlock-filters
-! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
+! Homepage: https://github.com/BurnerWah/uBlock-filters
+! Licence: https://github.com/BurnerWah/uBlock-filters/blob/master/LICENSE
 
 ! -- UNIVERSAL FILTERS --
 /_/api/v2/analytics/?project$xhr,1p

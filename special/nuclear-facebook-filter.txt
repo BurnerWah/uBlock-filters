@@ -1,8 +1,8 @@
 ! Title: Nuclear Anti-Facebook
 ! Description: An expremely aggressive anti-facebook filter.
 ! Expires: 4 weeks
-! Homepage: https://github.com/YaBoiBurner/uBlock-filters
-! Licence: https://github.com/YaBoiBurner/uBlock-filters/blob/master/LICENSE
+! Homepage: https://github.com/BurnerWah/uBlock-filters
+! Licence: https://github.com/BurnerWah/uBlock-filters/blob/master/LICENSE
 !
 ! Warning
 ! This filter will break things.
