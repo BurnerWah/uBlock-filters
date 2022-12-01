@@ -523,6 +523,7 @@ imgur.com##.Searchbar
 github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refined-github/blob/main/source/features/"]:has-text(via Refined GitHub)
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
+@@||github.com/GoogleChrome/web-vitals/*$xhr,1p
 
 ! howtogeek.com
 howtogeek.com##.adslot
@@ -599,6 +600,7 @@ lenovo.com##.bottomStickyDock
 limetorrents.info###rightbar div:has-text(Advertisements)
 
 ! linktr.ee
+linktr.ee##div[data-testid="SignupCta"]
 ||linktr.ee^$document,removeparam=ltsid
 
 ! litcharts.com
@@ -609,6 +611,22 @@ litcharts.com##.privacy-policy-banner
 litcharts.com##.stretch-left-promo
 litcharts.com##.user-iama
 litcharts.com###header-upgrade-link
+litcharts.com##+js(nostif, registration-modal)
+
+! marvelousessay.org
+marvelousessay.org##.essay-bnr.top-writers-block
+marvelousessay.org##.phones-chat
+marvelousessay.org##.price-bnr
+marvelousessay.org##.prices-quote
+marvelousessay.org##.timer-bnr.essay-bnr
+marvelousessay.org##.vip-services-block-wrapper
+marvelousessay.org###callback_wrapper:remove()
+marvelousessay.org###chat_wrapper:remove()
+marvelousessay.org##+js(set, chat, undefined)
+marvelousessay.org##+js(set, is_timer_on, false)
+||marvelousessay.org/files/errorlog.js$script,1p
+||marvelousessay.org/views/mini-calc.php$xhr,1p
+||marvelousessay.org/views/sample_popular_orders.php$xhr,1p
 
 ! metabattle.com
 metabattle.com###blockerEnabled
@@ -842,8 +860,8 @@ userstyles.org##.walking
 ! vox.com
 vox.com###newsletter-signup-short-form
 
-! vuetelescope.com
-vuetelescope.com##+js(set, localStorage.collections-feature-seen, true)
+! web.dev
+web.dev##share-action
 
 ! wikidot.com
 wikidot.com###footer-bar:remove()

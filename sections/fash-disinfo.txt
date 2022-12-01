@@ -20,6 +20,7 @@
 ||americanexpress^
 ||amex^
 ||ancreport.com^
+||andrewsullivan.com^
 ||animalliberation.social^
 ||anime.website^
 ||anncoulter.com^
@@ -37,6 +38,7 @@
 ||augierfc.live^
 ||bae.st^
 ||banana.dog^
+||bariweiss.com^
 ||barrasso.senate.gov^
 ||based.directory^
 ||bbc.co.uk^
@@ -50,6 +52,7 @@
 ||beepboop.ga^
 ||bible^
 ||bigguys.club^
+||billmaher.com^
 ||binex-dsk.github.io^
 ||bitcoinhackers.org^
 ||bittube.video^
@@ -211,6 +214,7 @@
 ||guilford.nc.gop^
 ||hagerty.senate.gov^
 ||halifax.nc.gop^
+||hamishmckenzie.com^
 ||handholding.io^
 ||hannity.com^
 ||harnett.nc.gop^
@@ -265,6 +269,7 @@
 ||leafposter.club^
 ||lee.senate.gov^
 ||lennymclennington.github.io^
+||letter.wiki^
 ||lgraham.senate.gov^
 ||libre.video^
 ||ligma.pro^
@@ -442,6 +447,8 @@
 ||stokes.nc.gop^
 ||strelizia.net^
 ||stupid.moe^
+||substack.com^
+||substackcdn.com^
 ||sullivan.senate.gov^
 ||supes.com^
 ||supremecourt.gov^
@@ -449,6 +456,7 @@
 ||swurl.xyz^
 ||t-mo.co^
 ||t-mobile.com^
+||tabletmag.com^
 ||target.com^
 ||tastingtraffic.net^
 ||teci.world^
