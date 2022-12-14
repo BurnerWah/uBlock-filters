@@ -16,9 +16,13 @@
 ||blenderbot.ai^$important
 ||cdninstagram.com^$important
 ||facebook-web-clients.appspot.com^$important
+||facebook.cl^$important
+||facebook.cm^$important
 ||facebook.com.edgekey.net^$important
 ||facebook.com.edgesuite.net^$important
+||facebook.com.pl^$important
 ||facebook.com^$important
+||facebook.fr^$important
 ||facebook.net.edgekey.net^$important
 ||facebook.net^$important
 ||facebookblueprint.com^$important

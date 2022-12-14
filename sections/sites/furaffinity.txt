@@ -2,6 +2,8 @@
 
 furaffinity.net###donation_list
 
+furaffinity.net##figure.u-antidev
+furaffinity.net##figure.u-arcarc
 furaffinity.net##figure.u-bastion
 furaffinity.net##figure.u-cobaltsnow
 furaffinity.net##figure.u-dreamkeepers
@@ -29,8 +31,11 @@ furaffinity.net##figure.u-seth-iova
 furaffinity.net##figure.u-sethpup
 furaffinity.net##figure.u-shardfox
 furaffinity.net##figure.u-soulbriar
+furaffinity.net##figure.u-tslof
 furaffinity.net##figure.u-xenoforge
 furaffinity.net##figure.u-zaush
+furaffinity.net##figure[data-user="u-antidev"]
+furaffinity.net##figure[data-user="u-arcarc"]
 furaffinity.net##figure[data-user="u-bastion"]
 furaffinity.net##figure[data-user="u-cobaltsnow"]
 furaffinity.net##figure[data-user="u-dreamkeepers"]
@@ -58,5 +63,6 @@ furaffinity.net##figure[data-user="u-seth-iova"]
 furaffinity.net##figure[data-user="u-sethpup"]
 furaffinity.net##figure[data-user="u-shardfox"]
 furaffinity.net##figure[data-user="u-soulbriar"]
+furaffinity.net##figure[data-user="u-tslof"]
 furaffinity.net##figure[data-user="u-xenoforge"]
 furaffinity.net##figure[data-user="u-zaush"]

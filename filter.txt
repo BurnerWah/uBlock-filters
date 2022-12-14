@@ -71,12 +71,15 @@
 ||accounts.google.com/o/oauth2/*$subdocument,3p
 ||adeptli.dev/mini-widget-mobile/*$subdocument,3p,redirect=click2load.html
 ||adeptli.dev/mini-widget/*$subdocument,3p,redirect=click2load.html
+||anchor.fm/*/embed/*$subdocument,3p,redirect=click2load.html
 ||api.secondstreetapp.com/audience_signup_widgets/*$script,3p
 ||apv-launcher.minute.ly/api/launcher/*$script,3p
 ||assets.pinterest.com/js/pinit.js$script
 ||assets.readthedocs.org/static/javascript/readthedocs-analytics.js$script
+||bandcamp.com/EmbeddedPlayer/*$subdocument,3p,redirect=click2load.html
 ||calendar.google.com/calendar/embed$subdocument,3p,redirect=click2load.html
 ||calendly.com^$subdocument,3p,redirect=click2load.html
+||canva.com/design/*/view$subdocument,3p,redirect=click2load.html
 ||cdn-client.medium.com/lite/static/js/reporting.*$script
 ||cdn.jsdelivr.net/npm/@portis/web3@*$script
 ||cdn.jsdelivr.net/npm/@walletconnect/*$script
@@ -88,6 +91,7 @@
 ||cdn.jsdelivr.net/npm/react-facebook-pixel@*$script
 ||cdn.jsdelivr.net/npm/react-facebook@*$script
 ||cdn.jsdelivr.net/npm/web3modal@*$script
+||cdn.livechatinc.com/tracking.js$script,3p
 ||cdn.pendo.io/agent/static/*$script,3p
 ||cdn.tinypass.com/api/*$script,3p
 ||cdnapisec.kaltura.com^$subdocument,3p,redirect=click2load.html
@@ -95,6 +99,7 @@
 ||chancejs.com/chance.min.js$script
 ||cms.springboardplatform.com/embed_iframe/*$subdocument,3p,redirect=click2load.html
 ||content.jwplatform.com/players/*$subdocument,3p,redirect=click2load.html
+||coub.com/embed/*$subdocument,3p,redirect=click2load.html
 ||cwchmb.com/im_jerky$script,3p
 ||d35xxde4fgg0cx.cloudfront.net/assets/embedded.js$script
 ||dailymotion.com/embed/*$subdocument,3p,redirect=click2load.html
@@ -102,39 +107,64 @@
 ||discordapp.com/widget$subdocument,3p,redirect=click2load.html
 ||disqus.com/recommendations.js$script,3p
 ||disqus.com/recommendations/*$subdocument,3p
+||docs.google.com/document/d/*/preview$subdocument,3p,redirect=click2load.html
+||embed.acast.com^$subdocument,3p,redirect=click2load.html
+||embed.music.apple.com^$subdocument,3p,redirect=click2load.html
+||embed.nicovideo.jp/watch/*$subdocument,3p,redirect=click2load.html
+||embed.ted.com^$subdocument,3p,redirect=click2load.html
+||embed.tidal.com^$subdocument,3p,redirect=click2load.html
 ||embed.tumblr.com^$subdocument,3p,redirect=click2load.html
+||figma.com/embed$subdocument,3p,redirect=click2load.html
 ||form.jotform.com^$subdocument,3p,redirect=click2load.html
 ||gadget.pico.tools/wrapper.min.js$script
 ||giphy.com/embed/*$subdocument,3p,redirect=click2load.html
+||google.com/maps/d/embed$subdocument,3p,redirect=click2load.html
 ||google.com/maps/embed/*$subdocument,3p,redirect=click2load.html
+||html5-player.libsyn.com/embed/*$subdocument,3p,redirect=click2load.html
 ||jetpack.wordpress.com/jetpack-comment/*$subdocument,3p,redirect=click2load.html
+||js.driftt.com^$script,3p
 ||js.stripe.com/v3/fingerprinted/js/elements-afterpay-*$script
 ||js.stripe.com/v3/m-outer-*$subdocument,3p
 ||kinja.com/api/profile/accountwithtoken$script
 ||kriya.ai/tracking.min.js$script
+||loom.com/embed/*$subdocument,3p,redirect=click2load.html
+||lucid.app/documents/embeddedchart/*$subdocument,3p,redirect=click2load.html
 ||memberful.com/turbolinks_preload$subdocument,3p
 ||news.google.com/swg/js/v1/swg.js$script,3p
 ||news.google.com/thank/*$script,3p
-||play.google.com/log$xhr
+||ok.ru/videoembed/*$subdocument,3p,redirect=click2load.html
+||omny.fm/shows/*/embed$subdocument,3p,redirect=click2load.html
+||open.spotify.com/embed/*$subdocument,3p,redirect=click2load.html
+||pitch.com/embed/*$subdocument,3p,redirect=click2load.html
+||platform.linkedin.com/in.js$script,3p
 ||player-cdn.beachfrontmedia.com/playerapi/*$subdocument,3p,redirect=click2load.html
 ||player.spooler.fm^$subdocument,3p,redirect=click2load.html
 ||player.vimeo.com/video/*$subdocument,3p,redirect=click2load.html
 ||players.brightcove.net^$subdocument,3p,redirect=click2load.html
 ||playlist.megaphone.fm^$subdocument,3p,redirect=click2load.html
+||prezi.com/embed/*$subdocument,3p,redirect=click2load.html
 ||readthedocs.io/_/api/v2/analytics/*$xhr
 ||redgifs.com/ifr/*$subdocument,3p,redirect=click2load.html
 ||reporting.services.disqus.com^$xhr,3p
 ||rest.edit.site/member-analytics-service/*$xhr,3p
+||screencast.com/*/embed$subdocument,3p,redirect=click2load.html
+||scribd.com/embeds/*$subdocument,3p,redirect=click2load.html
 ||sdk.snapkit.com/js/v1/create.js$script,3p
+||shorts.flipgrid.com/watch/*$subdocument,3p,redirect=click2load.html
+||sidecar.gitter.im/dist/*$script,3p
 ||sketchfab.com/models/*/embed$subdocument,3p,redirect=click2load.html
+||slideshare.net/slideshow/embed_code/*$subdocument,redirect=click2load.html
 ||static.addtoany.com/menu/page.js$script,3p
 ||static.narrativ.com/tags/*$script,3p
 ||static.parastorage.com/services/chat-worker/*
 ||static.parastorage.com/services/wix-thunderbolt/dist/reporter-api.*$script
+||static.zdassets.com/ekr/snippet.js$script,3p
+||streamable.com/o/*$subdocument,3p,redirect=click2load.html
 ||tempest.services.disqus.com/ads-iframe/*$xhr,3p
 ||tiktok.com/embed/*$subdocument,3p,redirect=click2load.html
 ||track.sendlane.com/track/event$3p
 ||trends.google.com/trends/embed/*$subdocument,3p,redirect=click2load.html
+||tv.naver.com/embed/*$subdocument,3p,redirect=click2load.html
 ||twitch.tv^$subdocument,3p,redirect=click2load.html
 ||unpkg.com/@bitauth/*$script
 ||unpkg.com/@portis/web3@*$script
@@ -680,6 +710,10 @@ npmjs.com##div[data-promotion-spot="below-header"]
 ! phoenixnap.com
 phoenixnap.com##.live-chat-btn
 
+! phoronix.com
+phoronix.com###searchbox
+||google.com/coop/cse/*$script,domain=phoronix.com
+
 ! phptutorial.net
 phptutorial.net##div.ad
 
@@ -727,8 +761,10 @@ reddit.com##div[aria-label="carousel"]:has(a[href="/now"]):upward(div)
 reddit.com##div[data-testid="frontpage-sidebar"] > div:has-text(Reddit Premium)
 reddit.com##div[data-testid="frontpage-sidebar"] > div:has(.SidebarAd)
 reddit.com##header a[href="/now"]
-||redditstatic.com/desktop2x/RpanListingUnit.*$script
+||reddit.com/account/sso/one_tap/*$subdocument,1p
+||reddit.com/errors$xhr,1p
 ||redditstatic.com/desktop2x/chunkCSS/RpanListingUnit.*$stylesheet
+||redditstatic.com/desktop2x/RpanListingUnit.*$script
 ||redditstatic.com/gold/premium/premium-title.png$image
 
 ! regexr.com
@@ -750,6 +786,9 @@ chan.sankakucomplex.com##^#headerthumbs
 
 ! sofurry.com
 sofurry.com##^#sf-ads
+
+! soundcloud.com
+soundcloud.com##.l-product-banners
 
 ! stackexchange.com family
 stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com,serverfault.com,mathoverflow.net,stackapps.com###sidebar > .s-sidebarwidget__yellow
@@ -862,6 +901,9 @@ vox.com###newsletter-signup-short-form
 
 ! web.dev
 web.dev##share-action
+
+! whats.new - has severe performance issues due to constnat calls to requestAnimationFrame
+whats.new##+js(norafif, window.requestAnimationFrame)
 
 ! wikidot.com
 wikidot.com###footer-bar:remove()

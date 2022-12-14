@@ -31,6 +31,7 @@
 ||asda.com^
 ||asda^
 ||asimon.org^
+||astro-pi.org^
 ||att.com.mx^
 ||att.com^
 ||att.jobs^
@@ -60,6 +61,7 @@
 ||blenderguru.com^
 ||bluejeans.com^
 ||blunt.senate.gov^
+||bodybuilding.im^
 ||boozman.senate.gov^
 ||braun.senate.gov^
 ||breakthroughgmc.fox^
@@ -90,10 +92,14 @@
 ||clouthub.com^
 ||clubcyberia.co^
 ||cnn.com^
+||codeclub.org^
+||codeclubworld.org^
 ||codemasters.com^
+||coderdojo.com^
 ||collins.senate.gov^
 ||conservapedia.com^
 ||consider.fox^
+||coolestprojects.org^
 ||cornyn.senate.gov^
 ||cotton.senate.gov^
 ||counter.fedi.live^
@@ -132,6 +138,7 @@
 ||directv.com^
 ||disclose.tv^
 ||district6.nc.gop^
+||djitter.com^
 ||dobbs.town^
 ||doctoroz.com^
 ||douglascounty.gop^
@@ -158,6 +165,7 @@
 ||flsenate.gov^
 ||fluf.club^
 ||forsyth.nc.gop^
+||fourthestate.social^
 ||fox.com^
 ||fox.tv^
 ||fox10phoenix.com^
@@ -175,10 +183,12 @@
 ||freezepeach.xyz^
 ||frennet.link^
 ||froth.zone^
+||gab.ai^
 ||gab.com^
 ||gabfed.com^
 ||gameliberty.club^
 ||garyvarvel.com^
+||gasthe.lgbt^
 ||gaston.nc.gop^
 ||gbnews.uk^
 ||gearlandia.haus^
@@ -216,6 +226,7 @@
 ||halifax.nc.gop^
 ||hamishmckenzie.com^
 ||handholding.io^
+||handicapped.tk^
 ||hannity.com^
 ||harnett.nc.gop^
 ||hawley.senate.gov^
@@ -254,11 +265,13 @@
 ||kandisstaylor.com^
 ||kansas.gop^
 ||kathysalvi.com^
+||kazvam.com^
 ||kcl.academy^
 ||kenfm.de^
 ||kennedy.senate.gov^
 ||kitsunemimi.club^
 ||kiwifarms.cc^
+||kiwifarms.is^
 ||kiwifarms.net^
 ||kiwifarms.ru^
 ||kochind.com^
@@ -372,8 +385,12 @@
 ||querdenken-711.de^
 ||quillette.com^
 ||quodverum.com^
+||quto.org^
 ||rage.lol^
 ||rakket.app^
+||raspberrypi.com^
+||raspberrypi.org^
+||raspberrypi.social^
 ||rayn.bo^
 ||rdrama.cc^
 ||reclaimthenet.org^
@@ -411,6 +428,7 @@
 ||santsenques.cat^
 ||sasse.senate.gov^
 ||sayit.world^
+||saynoto.lgbt^
 ||sc.gop^
 ||scott.senate.gov^
 ||screeners.fox^
@@ -485,6 +503,7 @@
 ||thj.no^
 ||thune.senate.gov^
 ||tillis.senate.gov^
+||tmediatech.io^
 ||toomey.senate.gov^
 ||tpusa.com^
 ||traboone.com^
@@ -496,6 +515,8 @@
 ||tucson.claims^
 ||turner.com^
 ||uber.com^
+||ufoi.gitlab.io^
+||ufoi.org^
 ||unherd.com^
 ||union.nc.gop^
 ||urspringer.de^

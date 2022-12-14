@@ -1,7 +1,11 @@
 ||0r0ch1.newgrounds.com^
+||antidev.tumblr.com^
 ||aogami.soup.io^
 ||applecorn-art.tumblr.com^
 ||aquatifur.com^
+||arcarc.sofurry.com^
+||arcarc.tumblr.com^
+||arcarcnsfw.tumblr.com^
 ||artfight.net/~mangoyena^$document
 ||artstation.com/miles-df^$document
 ||artstation.com/users/miles-df^
@@ -46,11 +50,14 @@
 ||falvie.art^
 ||farbeyondthe.world^
 ||farbeyondtheworld.com^
+||feral.cafe^
 ||fiddleafox.tumblr.com^
 ||floof.uk^
 ||fluffpunk.shop^
 ||frosstfursuits.com^
 ||funomena.com^
+||furaffinity.net/*/antidev^$document
+||furaffinity.net/*/arcarc^$document
 ||furaffinity.net/*/bastion^$document
 ||furaffinity.net/*/cobaltsnow^$document
 ||furaffinity.net/*/dreamkeepers^$document
@@ -78,6 +85,7 @@
 ||furaffinity.net/*/sethpup^$document
 ||furaffinity.net/*/shardfox^$document
 ||furaffinity.net/*/soulbriar^$document
+||furaffinity.net/*/tslof^$document
 ||furaffinity.net/*/xenoforge^$document
 ||furaffinity.net/*/zaush^$document
 ||furryartpro.com^
@@ -131,6 +139,7 @@
 ||painteddesertfc.com^
 ||paperwings.store^
 ||paradigmfursuits.com^
+||patreon.com^*anti_dev^$document
 ||patreon.com^*Bungaroo^$document
 ||patreon.com^*carnalgarden^$document
 ||patreon.com^*ChangelingGamingStudios^$document
@@ -168,6 +177,7 @@
 ||picarto.tv/MilesDF^$document
 ||picarto.tv/OPBuster^$document
 ||piczel.tv/watch/Bungaroo^$document
+||pillowfort.social/Anti_dev^$document
 ||pillowfort.social/CobaltSnow^$document
 ||pixiv.net/*/users/12585534^$document
 ||pixiv.net/ajax/user/12585534/*$xhr
@@ -204,9 +214,13 @@
 ||throne.me/u/lumetric^$document
 ||tiktok.com/@fiddleafox^$document
 ||tiny-conductor.tumblr.com^
+||tumblr.com/antidev^$document
+||tumblr.com/arcarc^$document
+||tumblr.com/arcarcnsfw^$document
 ||twitch.tv/cyberspacecat^$document
 ||twitch.tv/lumetric^$document
 ||twitch.tv/Nyinx^$document
+||twitter.com/anti_developmnt^$document
 ||twitter.com/creativemochi^$document
 ||twitter.com/manedwolfy^$document
 ||twitter.com/NyinxDeLune^$document

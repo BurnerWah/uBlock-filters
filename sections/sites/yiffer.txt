@@ -7,6 +7,7 @@ yiffer.xyz##a:has(> video)
 ||yiffer.xyz/api/log-*$xhr,1p
 
 yiffer.xyz##.comic-card:has([href="/artist/Adam%20Wan"])
+yiffer.xyz##.comic-card:has([href="/artist/Anti-Dev"])
 yiffer.xyz##.comic-card:has([href="/artist/Aogami"])
 yiffer.xyz##.comic-card:has([href="/artist/Atrolux"])
 yiffer.xyz##.comic-card:has([href="/artist/Frisky%20Ferals"])
@@ -23,6 +24,7 @@ yiffer.xyz##.comic-card:has([href="/artist/Seth-Iova"])
 yiffer.xyz##.comic-card:has([href="/artist/Sethpup"])
 
 ||yiffer.xyz/api/artists/Adam%20Wan$xhr,1p
+||yiffer.xyz/api/artists/Anti-Dev$xhr,1p
 ||yiffer.xyz/api/artists/Aogami$xhr,1p
 ||yiffer.xyz/api/artists/Atrolux$xhr,1p
 ||yiffer.xyz/api/artists/Frisky%20Ferals$xhr,1p

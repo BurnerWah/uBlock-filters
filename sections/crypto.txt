@@ -943,6 +943,7 @@
 ||filecoin.energy^
 ||filecoin.io^
 ||filecoinproject.slack.com^
+||filscan.io^
 ||fingerprintsdao.xyz^
 ||finnexus.io^
 ||fioprotocol.io^
@@ -1051,6 +1052,7 @@
 ||gitcoin.co^
 ||givecrypto.org^
 ||giveth.io^
+||glif.io^
 ||glitterfinance.org^
 ||gnosis-safe.io^
 ||gnosis.io^
@@ -1061,6 +1063,7 @@
 ||gocrypto.com^
 ||godex.io^
 ||godsunchained.com^
+||goerli-infura.brave.com^
 ||goldfinch.finance^
 ||golem.network^
 ||golemproject.net^
@@ -1359,6 +1362,10 @@
 ||magmo.com^
 ||maicapital.io^
 ||maicoin.com^
+||mainnet-aurora.brave.com^
+||mainnet-beta-solana.brave.com^
+||mainnet-optimism.brave.com^
+||mainnet-polygon.brave.com^
 ||makerdao.com^
 ||makersplace.com^
 ||mandala.exchange^
@@ -1914,6 +1921,7 @@
 ||sendwyre.com^
 ||sense.finance^
 ||sentinel.co^
+||sepolia-infura.brave.com^
 ||sequence.app^
 ||sequence.build^
 ||sequence.info^
