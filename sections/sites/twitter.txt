@@ -1,8 +1,11 @@
-! Filters for twitter
+! Title: Burner's filters for twitter
+! Homepage: https://github.com/BurnerWah/uBlock-filters
+! Licence: https://github.com/BurnerWah/uBlock-filters/blob/master/LICENSE
 
 twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"])
 twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"]) ~ div
 twitter.com##a[href="/i/twitter_blue_sign_up"]
+twitter.com##a[role="link"][href*="/quick_promote_web/intro"]
 twitter.com##div[data-testid="User-Names"] div:has-text(Elon Musk) + div:has(svg[aria-label="Verified account"])
 twitter.com##div[data-testid="UserName"] span:has-text(Elon Musk) + span:has(svg[aria-label="Verified account"])
 twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
@@ -12,6 +15,7 @@ twitter.com##nav[aria-label="Notifications timelines"] div:has(> a[href="/notifi
 twitter.com##section[aria-label="Section navigation"] > div > div > div:has(> a[href="/settings/monetization"])
 
 ||abs.twimg.com/responsive-web/client-sentry/sentry.*$script
+||abs.twimg.com/responsive-web/client-serviceworker/*$script
 ||abs.twimg.com/responsive-web/client-web/bundle.AudioSpaceDiscovery.*$xhr
 ||abs.twimg.com/responsive-web/client-web/bundle.AudioSpacePeek.*$xhr
 ||abs.twimg.com/responsive-web/client-web/bundle.Newsletters.*$script
@@ -41,11 +45,13 @@ twitter.com##section[aria-label="Section navigation"] > div > div > div:has(> a[
 ||ads.twitter.com^$important
 ||analytics.twitter.com^$important
 ||api.twitter.com/1.1/jot/client_event$xhr,1p
+||api.twitter.com/1.1/jot/error_log.json$xhr,1p
 ||business.twitter.com^
 ||getrevue.co^
 ||help.twitter.com^
 ||pbs.twimg.com/amplify_video_thumb/*$image
 ||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=sessionId
+||platform.twitter.com/widgets.js$script,3p
 ||platform.twitter.com/widgets/*$subdocument,redirect=click2load.html
 ||support.twitter.com^
 ||syndication.twitter.com/settings$xhr,domain=platform.twitter.com
