@@ -2,6 +2,7 @@
 ||101010.pl^
 ||10minutepleroma.com^
 ||4thwavenow.com^
+||530s.cf^
 ||69.mu^
 ||90.gripe^
 ||accountability.gop^
@@ -23,6 +24,7 @@
 ||andrewsullivan.com^
 ||animalliberation.social^
 ||anime.website^
+||animesexual.community^
 ||anncoulter.com^
 ||anon-kenkai.com^
 ||anti-degeneracy.club^
@@ -37,6 +39,7 @@
 ||att.jobs^
 ||augierfc.com^
 ||augierfc.live^
+||avps.gq^
 ||bae.st^
 ||banana.dog^
 ||bariweiss.com^
@@ -83,6 +86,7 @@
 ||cawfee.club^
 ||champaign.gop^
 ||charter.com^
+||chatto.tk^
 ||chriscoons.com^
 ||christianpost.com^
 ||christopherrufo.com^
@@ -110,6 +114,7 @@
 ||creativeservices.fox^
 ||criteriongames.com^
 ||cruz.senate.gov^
+||csys64.com^
 ||ct.gop^
 ||cum.salon^
 ||cumberland.nc.gop^
@@ -145,6 +150,8 @@
 ||durham.nc.gop^
 ||eatthebugs.social^
 ||eientei.org^
+||eov2.com^
+||eox2.com^
 ||equalityhumanrights.com^
 ||ernst.senate.gov^
 ||etiketi.de^
@@ -183,6 +190,7 @@
 ||freezepeach.xyz^
 ||frennet.link^
 ||froth.zone^
+||fubuki.bar^
 ||gab.ai^
 ||gab.com^
 ||gabfed.com^
@@ -200,6 +208,7 @@
 ||gfuel.com^
 ||gfuel.ly^
 ||giltroy.com^
+||gitea.moe^
 ||github.com/alexgleason^$document
 ||github.com/binex-dsk^$document
 ||github.com/LennyMcLennington^$document
@@ -241,6 +250,7 @@
 ||hern.house.gov^
 ||highlandscounty.gop^
 ||hitchhiker.social^
+||hmbp.gq^
 ||hoeven.senate.gov^
 ||hoke.nc.gop^
 ||homedepot.com^
@@ -252,6 +262,7 @@
 ||independent.co.uk^
 ||indiana.gop^
 ||inhofe.senate.gov^
+||ipv6-only.site^
 ||itsh.bo^
 ||jamespatterson.com^
 ||jcor.gop^
@@ -275,11 +286,19 @@
 ||kiwifarms.net^
 ||kiwifarms.ru^
 ||kochind.com^
+||kusoda.net^
 ||lain.com^
 ||lain.sh^
+||lamp.cf^
+||lamp.ga^
+||lamp.gq^
+||lamp.ml^
+||lamp.tk^
+||lamp.wtf^
 ||lankford.senate.gov^
 ||lasd.org^
 ||leafposter.club^
+||ledlamp89.repl.co^
 ||lee.senate.gov^
 ||lennymclennington.github.io^
 ||letter.wiki^
@@ -304,6 +323,7 @@
 ||masthead.social^
 ||mastodon.city^
 ||mastodon.se^
+||mastodong.lol^
 ||mayormcgee.com^
 ||mcdrama.net^
 ||mecklenburg.nc.gop^
@@ -315,10 +335,13 @@
 ||metapcs.com^
 ||midnightride.rs^
 ||mikejohnson.house.gov^
+||miku-enthusiast.club^
+||miku.pics^
 ||mil^
 ||militaryonesource.mil^
 ||moggy.xyz^
 ||moran.senate.gov^
+||moth.zone^
 ||mouse.services^
 ||mulmeyun.church^
 ||murkowski.senate.gov^
@@ -357,6 +380,7 @@
 ||oregon.gop^
 ||oregonsenate.gop^
 ||oursocialism.today^
+||owo69.me^
 ||parler.com^
 ||pawlicker.com^
 ||paypig.org^
@@ -366,6 +390,7 @@
 ||pickens-sc.gop^
 ||pieville.net^
 ||pitt.nc.gop^
+||pleroma.host^
 ||pleroma.us^
 ||pmth.us^
 ||poa.st^
@@ -380,6 +405,8 @@
 ||pwc.com^
 ||pwc.to^
 ||pwcgop.gop^
+||pximg-proxy.cf^
+||qonq.gq^
 ||qoto.org^
 ||quanta.wiki^
 ||querdenken-711.de^
@@ -402,6 +429,7 @@
 ||redpills.tv^
 ||redstate.com^
 ||redxen.eu^
+||replit.com/@ledlamp89^$document
 ||republican^
 ||rga.org^
 ||ri.gop^
@@ -545,6 +573,7 @@
 ||wayne.nc.gop^
 ||weblate.org/projects/polymc^$document
 ||wells.gop^
+||whateven.ga^
 ||wicker.senate.gov^
 ||wideboys.org^
 ||wiki-tube.de^
@@ -559,8 +588,11 @@
 ||wurm.host^
 ||wyoming.gop^
 ||xandr.com^
+||xn--7ckep0i.cf^
+||xn--7ckep0i.tk^
 ||yamhill.gop^
 ||yggdrasil.social^
 ||young.senate.gov^
+||ytdlh.cf^
 ||zefirchik.xyz^
 ||срёт.онлайн^

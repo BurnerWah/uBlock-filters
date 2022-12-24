@@ -2,6 +2,7 @@
 ||cyberghostvpn.com^
 ||cyberghostvpnapp.com^
 ||expressvpn.com^
+||lastpass.com^
 ||malwarefox.com^
 ||nordvpn.com^
 ||northhouston.regency.hyatt.com^

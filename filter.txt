@@ -137,6 +137,7 @@
 ||open.spotify.com/embed/*$subdocument,3p,redirect=click2load.html
 ||pitch.com/embed/*$subdocument,3p,redirect=click2load.html
 ||platform.linkedin.com/in.js$script,3p
+||platform.twitter.com^$3p
 ||player-cdn.beachfrontmedia.com/playerapi/*$subdocument,3p,redirect=click2load.html
 ||player.spooler.fm^$subdocument,3p,redirect=click2load.html
 ||player.vimeo.com/video/*$subdocument,3p,redirect=click2load.html
@@ -195,6 +196,7 @@
 ||x.kinja-static.com/assets/new-client/top-bar.$script
 ||youtube-nocookie.com/embed/*$subdocument,3p,redirect=click2load.html
 ||youtube.com/embed/*$subdocument,3p,redirect=click2load.html
+||youtube.com/subscribe_embed$subdocument,3p,redirect=click2load.html
 
 ||api.pinterest.com^$3p
 ||sendbird.com^$websocket,3p

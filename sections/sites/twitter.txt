@@ -6,6 +6,7 @@ twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Re
 twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"]) ~ div
 twitter.com##a[href="/i/twitter_blue_sign_up"]
 twitter.com##a[role="link"][href*="/quick_promote_web/intro"]
+twitter.com##div:has(> a[aria-label$="View Tweet analytics"])
 twitter.com##div[data-testid="User-Names"] div:has-text(Elon Musk) + div:has(svg[aria-label="Verified account"])
 twitter.com##div[data-testid="UserName"] span:has-text(Elon Musk) + span:has(svg[aria-label="Verified account"])
 twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
@@ -46,6 +47,10 @@ twitter.com##section[aria-label="Section navigation"] > div > div > div:has(> a[
 ||analytics.twitter.com^$important
 ||api.twitter.com/1.1/jot/client_event$xhr,1p
 ||api.twitter.com/1.1/jot/error_log.json$xhr,1p
+||api.twitter.com/1.1/users/recommendations.json$xhr,1p
+||api.twitter.com/2/badge_count/badge_count.json$xhr,1p
+||api.twitter.com/graphql/*/FetchDraftTweets$xhr,1p
+||api.twitter.com/graphql/*/FetchScheduledTweets$xhr,1p
 ||business.twitter.com^
 ||getrevue.co^
 ||help.twitter.com^

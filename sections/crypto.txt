@@ -660,6 +660,7 @@
 ||cryptocoinjs.com^
 ||cryptocompare.com^
 ||cryptocves.com^
+||cryptodon.lol^
 ||cryptogeek.info^
 ||cryptoid.info^
 ||cryptojobslist.com^
@@ -1382,6 +1383,7 @@
 ||marmalade.art^
 ||marsecosystem.com^
 ||mask.io^
+||mastodon.cloud^
 ||matcha.xyz^
 ||matchboxdao.com^
 ||mathwallet.org^
@@ -1481,6 +1483,7 @@
 ||moralis.io^
 ||morpho.best^
 ||morpho.xyz^
+||mstdn.jp^
 ||mtgdao.org^
 ||mtpelerin.com^
 ||mudit.blog^
@@ -1677,6 +1680,7 @@
 ||paribu.com^
 ||parity.io^
 ||parsiq.net^
+||pawoo.net^
 ||paxos.com^
 ||paybutton.org^
 ||paytaca.com^
