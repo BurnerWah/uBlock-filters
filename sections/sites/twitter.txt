@@ -6,14 +6,22 @@ twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Re
 twitter.com##[aria-label="Timeline: Conversation"] h2 > div > span:has-text(/^Related Tweets$/):upward([style^="transform"]) ~ div
 twitter.com##a[href="/i/twitter_blue_sign_up"]
 twitter.com##a[role="link"][href*="/quick_promote_web/intro"]
+twitter.com##article[data-testid="tweet"] a[role="link"] ~ span:has-text(Views)
 twitter.com##div:has(> a[aria-label$="View Tweet analytics"])
+twitter.com##div:has(> div > a[href$="/analytics"]:has-text(Views))
+twitter.com##div[aria-label="Timeline: Conversation"] div[data-testid="cellInnerDiv"]:has(h2:has-text(More Tweets))
+twitter.com##div[aria-label="Timeline: Conversation"] div[data-testid="cellInnerDiv"]:has(h2:has-text(More Tweets)) ~ div
+twitter.com##div[data-testid="BottomBar"]
 twitter.com##div[data-testid="User-Names"] div:has-text(Elon Musk) + div:has(svg[aria-label="Verified account"])
 twitter.com##div[data-testid="UserName"] span:has-text(Elon Musk) + span:has(svg[aria-label="Verified account"])
+twitter.com##div[role="group"]:has(> div > div > div > a[href$="/analytics"])
 twitter.com##div[role="menu"] a[href="/i/flow/convert_to_professional"]
 twitter.com##div[role="menu"] a[href="/i/newsletters"]
 twitter.com##div[role="menu"] a[href$="/topics"]
 twitter.com##nav[aria-label="Notifications timelines"] div:has(> a[href="/notifications/verified"])
 twitter.com##section[aria-label="Section navigation"] > div > div > div:has(> a[href="/settings/monetization"])
+twitter.com##section[aria-label="Sign up"] div[data-testid="apple_sign_in_button"]
+twitter.com##section[aria-label="Sign up"] div[role="progressbar"]
 
 ||abs.twimg.com/responsive-web/client-sentry/sentry.*$script
 ||abs.twimg.com/responsive-web/client-serviceworker/*$script
@@ -30,9 +38,11 @@ twitter.com##section[aria-label="Section navigation"] > div > div > div:has(> a[
 ||abs.twimg.com/responsive-web/client-web/loader.AudioDock.*$script
 ||abs.twimg.com/responsive-web/client-web/loader.AudioOnlyVideoPlayer.*$script
 ||abs.twimg.com/responsive-web/client-web/loader.ExploreSidebar.*$script
+||abs.twimg.com/responsive-web/client-web/loader.LoggedOutNotifications.*$script
 ||abs.twimg.com/responsive-web/client-web/longer-video-feature@*$image
 ||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$script
 ||abs.twimg.com/responsive-web/client-web/ondemand.BranchSdk.*$xhr
+||abs.twimg.com/responsive-web/client-web/ondemand.ScoreEventSummaryHandler.*$script
 ||abs.twimg.com/responsive-web/client-web/ondemand.SettingsSuperFollows.*$script
 ||abs.twimg.com/responsive-web/client-web/ondemand.SettingsSuperFollows.*$xhr
 ||abs.twimg.com/responsive-web/client-web/ondemand.TrendHandler.*$script
@@ -45,19 +55,25 @@ twitter.com##section[aria-label="Section navigation"] > div > div > div:has(> a[
 ||abs.twimg.com/sticky/illustrations/twitter_blue_images_v2/*$image
 ||ads.twitter.com^$important
 ||analytics.twitter.com^$important
+||api.twitter.com/1.1/hashflags.json$xhr,1p
+||api.twitter.com/1.1/jot/ces/p2$xhr,1p
 ||api.twitter.com/1.1/jot/client_event$xhr,1p
 ||api.twitter.com/1.1/jot/error_log.json$xhr,1p
 ||api.twitter.com/1.1/users/recommendations.json$xhr,1p
 ||api.twitter.com/2/badge_count/badge_count.json$xhr,1p
+||api.twitter.com/graphql/*/CommunitiesTabBarItemQuery$xhr,1p
 ||api.twitter.com/graphql/*/FetchDraftTweets$xhr,1p
 ||api.twitter.com/graphql/*/FetchScheduledTweets$xhr,1p
 ||business.twitter.com^
 ||getrevue.co^
 ||help.twitter.com^
+||pay.twitter.com^
 ||pbs.twimg.com/amplify_video_thumb/*$image
+||pbs.twimg.com/semantic_core_img/*$image
 ||platform.twitter.com/embed/Tweet.html$subdocument,3p,removeparam=sessionId
 ||platform.twitter.com/widgets.js$script,3p
 ||platform.twitter.com/widgets/*$subdocument,redirect=click2load.html
+||pscp.tv^
 ||support.twitter.com^
 ||syndication.twitter.com/settings$xhr,domain=platform.twitter.com
 ||twitter.com/*/status/*$document,removeparam=cxt
@@ -94,3 +110,6 @@ twitter.com##section[aria-label="Section navigation"] > div > div > div:has(> a[
 ||twitter.com/i/api/graphql/*/TwitterBlueSignUpV2Query$xhr,1p
 ||twitter.com/i/api/graphql/*/userNftContainer_Query$xhr,1p
 ||twitter.com/i/api/graphql/*/UsersVerifiedAvatars$xhr,1p
+||twitter.com^$csp=frame-src 'none'
+||twitter.com^$csp=manifest-src 'none'
+||twitter.com^$csp=worker-src 'none'

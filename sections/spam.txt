@@ -11,6 +11,9 @@
 ||ate-my-home.work^
 ||betterhelp.com^
 ||bombed.email^
+||bonzamate.com.au^
+||boyter.github.io^
+||boyter.org^
 ||bruh.uno^
 ||bruhbot.wtf^
 ||buildable.dev^
@@ -77,6 +80,7 @@
 ||gaming.surf^
 ||gdfjsodiskfkscoakdfoanfoskgosnvjwuroxksjidjcodkcodivmdjvkdjfg.asia^
 ||girlfriend-is.digital^
+||github.com/boyter^$document
 ||got-your.email^
 ||grablfy.link^
 ||hacked-your.email^
@@ -117,8 +121,12 @@
 ||kissing-homies-goodnight-isnt.gay^
 ||kkk-is-cool.club^
 ||kool-kids.club^
+||leanpub.com/decodingcaptchas^$document
+||leanpub.com/expertexcusesfornotwritingunittests^$document
+||leanpub.com/u/boyter^$document
 ||less-g.ooo^
 ||linus.tips^
+||mastinator.com^
 ||methamphetamine.cooking^
 ||minecoins.cc^
 ||momentgay.com^
@@ -155,6 +163,8 @@
 ||rivage.gay^
 ||sakamoto.rocks^
 ||screenshot.surf^
+||searchcode.com^
+||searchcodeserver.com^
 ||seggy.cc^
 ||send-money-to.me^
 ||sexy-dev.club^
@@ -207,6 +217,7 @@
 ||transgender.school^
 ||trashy.design^
 ||tw33tr.com^
+||twitter.com/boyter^$document
 ||type.computer^
 ||ukbating.xyz^
 ||upload.toys^

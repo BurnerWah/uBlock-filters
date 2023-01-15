@@ -66,6 +66,7 @@
 ||blunt.senate.gov^
 ||bodybuilding.im^
 ||boozman.senate.gov^
+||boringcompany.com^
 ||braun.senate.gov^
 ||breakthroughgmc.fox^
 ||breitbart.com^
@@ -312,6 +313,7 @@
 ||lolicon.rocks^
 ||lovingexpressions.net^
 ||lummis.senate.gov^
+||macmillan.com/books/*/permanentrecord^$document
 ||mailsubs.co.uk^
 ||manchin.senate.gov^
 ||manhattan-institute.org^
@@ -357,6 +359,7 @@
 ||ne.gop^
 ||neckbeard.xyz^
 ||neenster.org^
+||neuralink.com^
 ||newscientist.com^
 ||nic.fox^
 ||nicecrew.digital^
@@ -484,12 +487,14 @@
 ||social-engineer.org^
 ||societal.co^
 ||soykaf.com^
+||spacex.com^
 ||spectator.co.uk^
 ||spectator.org^
 ||spectrum.net^
 ||spinster.xyz^
 ||springbo.cc^
 ||stanly.gop^
+||starlink.com^
 ||stokes.nc.gop^
 ||strelizia.net^
 ||stupid.moe^
@@ -508,6 +513,7 @@
 ||teci.world^
 ||tedbudd.com^
 ||telegraph.co.uk^
+||tesla.com^
 ||texasattorneygeneral.gov^
 ||thd.co^
 ||the-lies-they-tell.org^

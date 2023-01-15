@@ -39,6 +39,7 @@
 /wp-content/plugins/instagram-feed/*
 /wp-content/plugins/jnews-like/*
 /wp-content/plugins/jnews-weather/*
+/wp-content/plugins/new-infinite-scroll/*
 /wp-content/plugins/pmc-plugins/onesignal-free-web-push-notifications/*$script
 /wp-content/plugins/pmc-plugins/pmc-automated-related-links/*$script
 /wp-content/plugins/pmc-plugins/pmc-automated-related-links/*$stylesheet
@@ -66,6 +67,7 @@
 ##.pinterest-button-colorbox
 ##.twitter-button-colorbox
 ###WIX_ADS
+##.twitter-share-button
 
 ||accounts.google.com/gsi/*$script,3p
 ||accounts.google.com/o/oauth2/*$subdocument,3p
@@ -306,6 +308,7 @@
 allmylinks.com##+js(rc, shaking, .shaking)
 
 ! alternativeto.net
+alternativeto.net##.undefined:has(> div[class^="AdsenseAd_putFood__"])
 alternativeto.net##div[data-testid="put-food-on-the-table"]
 
 ! amazon.com
@@ -604,16 +607,19 @@ jackbox.tv##.slick-track
 ||api.knowledgehut.com/v1/*/offers$xhr,1p
 
 ! knowyourmeme.com
+knowyourmeme.com##.entry-sections-container:style(grid-template-columns: 2fr !important;)
+knowyourmeme.com##.related_memes
+knowyourmeme.com##.related-news
+knowyourmeme.com##.side-rail-ads-container
+knowyourmeme.com##.top-entries
+knowyourmeme.com###global-message
 knowyourmeme.com###leaderboard
 knowyourmeme.com###news_feeds
 knowyourmeme.com###related-entries
+knowyourmeme.com###spp-gallery
 knowyourmeme.com###videos
-knowyourmeme.com##.entry-sections-container:style(grid-template-columns: 2fr !important;)
-knowyourmeme.com##.related-news
-knowyourmeme.com##.related_memes
-knowyourmeme.com##.side-rail-ads-container
-knowyourmeme.com##.top-entries
 knowyourmeme.com##^#infinite-scrolling
+knowyourmeme.com##+js(set, history.pushState, noopFunc)
 
 ! kotaku.com
 kotaku.com###newsletterPromoModule
@@ -955,6 +961,9 @@ youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
 ||youtube.com/embed/*$subdocument,3p,removeparam=origin
 ||youtube.com/embed/*$subdocument,3p,removeparam=widget_referrer
 ||youtube-nocookie.com/embed/*$subdocument,removeparam=autoplay
+
+! z2u.com
+||z2u.com/notic.wav$media,1p
 
 ! zdnet.com
 zdnet.com##.breaking-news-container

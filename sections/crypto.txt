@@ -678,6 +678,7 @@
 ||cryptor.at^
 ||cryptorod.io^
 ||cryptorubic.medium.com^
+||cryptotalks.social^
 ||cryptotask.org^
 ||cryptowisser.com^
 ||cryptozombies.io^

@@ -225,6 +225,7 @@
 ||twitter.com/manedwolfy^$document
 ||twitter.com/NyinxDeLune^$document
 ||twitter.com/paradigmsuits^$document
+||velvscom.carrd.co^
 ||vtubie.com/lumetric^$document
 ||weasyl.com/~derpah^$document
 ||weasyl.com/~dogbone^$document
