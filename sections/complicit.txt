@@ -11,6 +11,7 @@
 ||christinepelosi.com^
 ||dailybeanspood.com^
 ||danagoldberg.com^
+||devilmayquake.com^
 ||durbin.senate.gov^
 ||emxdgt.com^$important
 ||ign.com^
@@ -21,6 +22,8 @@
 ||meister4weho.com^
 ||mullershewrote.com^
 ||murray.senate.gov^
+||newblood.games^
+||newbloodstore.com^
 ||occupydemocrats.com^
 ||outbrain.com^$important
 ||pixfuture.com^$important

@@ -1,6 +1,7 @@
 ||076.ne.jp^
 ||101010.pl^
 ||10minutepleroma.com^
+||2f30.org^
 ||4thwavenow.com^
 ||530s.cf^
 ||69.mu^
@@ -190,6 +191,7 @@
 ||freewahaextremist.wtf^
 ||freezepeach.xyz^
 ||frennet.link^
+||frign.de^
 ||froth.zone^
 ||fubuki.bar^
 ||gab.ai^
@@ -255,6 +257,7 @@
 ||hoeven.senate.gov^
 ||hoke.nc.gop^
 ||homedepot.com^
+||hunhold.de^
 ||hunk.city^
 ||hydesmith.senate.gov^
 ||i2p.rocks^
@@ -500,6 +503,7 @@
 ||stupid.moe^
 ||substack.com^
 ||substackcdn.com^
+||suckless.org^
 ||sullivan.senate.gov^
 ||supes.com^
 ||supremecourt.gov^

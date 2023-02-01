@@ -535,6 +535,20 @@ genius.com##recirculated-content
 ! giphy.com
 ||api.giphy.com/v1/gifs/related$xhr,1p
 
+! hackster.io
+||hackster.io/users/api_token$xhr,1p
+||prod.hackster-cdn.online/assets/bundles/analytics.*$script
+hackster.io##.hckui__buttons__xs:has-text(Follow)
+hackster.io##.hckui__layout__hiddenMedDown.hckui__util__borderLeft
+hackster.io###articleStickySidebar
+hackster.io##+js(cookie-remover, hck.sssn)
+hackster.io##+js(set, Bugsnag, {})
+hackster.io##+js(set, HAnalyticsGlobalData, {})
+hackster.io##a[href^="/users/sign_in"]
+hackster.io##a[href^="/users/sign_up"]
+hackster.io##div.hckui__layout__fullWidth.hckui__layout__marginBottom30.hckui__layout__marginTop60
+hackster.io##div[class^="article_layout__sidebar__"]
+
 ! housepetscomic.com
 housepetscomic.com##.popmake
 ||housepetscomic.com/wp-content/plugins/popup-maker/*$script,1p
@@ -553,6 +567,9 @@ imgur.com##.ProfileNavbar-loggedOut
 imgur.com##.Searchbar
 ||api.imgur.com/comment/v1/comments$xhr,1p
 ||api.imgur.com/post/v1/posts$xhr,1p
+
+! indeed.com
+indeed.com##.google-Only-Modal
 
 ! github.com
 github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refined-github/blob/main/source/features/"]:has-text(via Refined GitHub)
@@ -615,8 +632,10 @@ knowyourmeme.com##.top-entries
 knowyourmeme.com###global-message
 knowyourmeme.com###leaderboard
 knowyourmeme.com###news_feeds
+knowyourmeme.com###popular_galleries
 knowyourmeme.com###related-entries
 knowyourmeme.com###spp-gallery
+knowyourmeme.com###top-entries-sidebar
 knowyourmeme.com###videos
 knowyourmeme.com##^#infinite-scrolling
 knowyourmeme.com##+js(set, history.pushState, noopFunc)
@@ -639,6 +658,7 @@ limetorrents.info###rightbar div:has-text(Advertisements)
 
 ! linktr.ee
 linktr.ee##div[data-testid="SignupCta"]
+linktr.ee##div[data-testid="StyledContainer"]:style(animation: none !important)
 ||linktr.ee^$document,removeparam=ltsid
 
 ! litcharts.com
@@ -714,6 +734,9 @@ npmjs.com##div[data-promotion-spot="below-header"]
 
 ! patreon.com
 @@||youtube.com/embed/*$subdocument,domain=patreon.com
+
+! pcgamer.com
+||pcgamer.com/api/article/related$xhr,1p
 
 ! phoenixnap.com
 phoenixnap.com##.live-chat-btn
@@ -814,6 +837,16 @@ tapas.io###gdpr-cookie-message
 tapas.io##.viewer-section--recommend
 ||pixels.tapas.io/facebook/*$xhr,1p
 ||tapas.io/who-am-i?$xhr,1p
+
+! techcrunch.com
+||techcrunch.com/wp-content/themes/techcrunch-2017/features/analytics/adblocker/*$script,1p
+techcrunch.com##.article__floating-wrap
+techcrunch.com##.feature-island
+techcrunch.com##+js(set, history.pushState, noopFunc)
+techcrunch.com##article.post-block
+
+! telegram.org
+||telegram.org/js/tgsticker.js$script,1p
 
 ! telegramchannels.me
 telegramchannels.me###btm-pr

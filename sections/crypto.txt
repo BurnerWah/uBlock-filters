@@ -1446,6 +1446,7 @@
 ||milliontoken.org^
 ||minaexplorer.com^
 ||minaprotocol.com^
+||minds.com^
 ||minermonitoring.com^
 ||minerstat.com^
 ||mining-coins.com^
