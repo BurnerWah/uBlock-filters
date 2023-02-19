@@ -214,9 +214,11 @@
 ||gitea.moe^
 ||github.com/alexgleason^$document
 ||github.com/binex-dsk^$document
+||github.com/hyprwm^$document
 ||github.com/LennyMcLennington^$document
 ||github.com/PolyMC^$document
 ||github.com/Sneedplex^$document
+||github.com/vaxerski^$document
 ||gitlab.com/alexgleason^$document
 ||gitmo.life^
 ||gleasonator.com^
@@ -255,11 +257,14 @@
 ||hitchhiker.social^
 ||hmbp.gq^
 ||hoeven.senate.gov^
+||hogwartslegacy.com^
 ||hoke.nc.gop^
 ||homedepot.com^
 ||hunhold.de^
 ||hunk.city^
 ||hydesmith.senate.gov^
+||hyprland.org^
+||hyprwm.github.io^
 ||i2p.rocks^
 ||iddqd.social^
 ||illinois.gop^
@@ -562,6 +567,8 @@
 ||vance.nc.gop^
 ||varishangout.net^
 ||vaush.gg^
+||vaxerski.github.io^
+||vaxry.net^
 ||vdare.com^
 ||verizon.com^
 ||virginia.gop^

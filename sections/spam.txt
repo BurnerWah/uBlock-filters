@@ -76,14 +76,11 @@
 ||fuck-my.life^
 ||fucking-ur.mom^
 ||fucks.rocks^
-||fyne.io^
-||fynelabs.com^
 ||gadient.club^
 ||gaming.surf^
 ||gdfjsodiskfkscoakdfoanfoskgosnvjwuroxksjidjcodkcodivmdjvkdjfg.asia^
 ||girlfriend-is.digital^
 ||github.com/boyter^$document
-||github.com/fyne-io^$document
 ||got-your.email^
 ||grablfy.link^
 ||hacked-your.email^
