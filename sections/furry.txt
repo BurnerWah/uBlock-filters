@@ -12,6 +12,7 @@
 ||askarkani-blog.tumblr.com^
 ||askvaporeon.tumblr.com^
 ||baraag.net^
+||barq.app^
 ||bizymouse.com^
 ||braixendaily.tumblr.com^
 ||canine.equipment^
@@ -86,6 +87,7 @@
 ||furaffinity.net/*/shardfox^$document
 ||furaffinity.net/*/soulbriar^$document
 ||furaffinity.net/*/tslof^$document
+||furaffinity.net/*/woutske^$document
 ||furaffinity.net/*/xenoforge^$document
 ||furaffinity.net/*/zaush^$document
 ||furryartpro.com^
@@ -190,6 +192,7 @@
 ||refsheet.net/fiddleafox^$document
 ||rskemono.com^
 ||schecterphotography.com^
+||shiftyrp.com^
 ||sincitymurrcon.com^
 ||skyecabbitart.weebly.com^
 ||steamcommunity.com/id/ChangelingGamingStudios^$document

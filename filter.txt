@@ -301,6 +301,13 @@
 
 ! -- SITE-SPECIFIC FILTERS --
 
+! 1337x.to
+1337x.to##.vpn-info-wrap:remove-class(vpn-info-wrap)
+1337x.to##^script:has-text(data:image)
+1337x.to##+js(set, vpn_height, noopFunc)
+1337x.to##center + br
+1337x.to##center:has-text(ISP)
+
 ! 1password.com
 ||1password.com/signin/whats-new/$subdocument
 
@@ -309,6 +316,7 @@ allmylinks.com##+js(rc, shaking, .shaking)
 
 ! alternativeto.net
 alternativeto.net##.undefined:has(> div[class^="AdsenseAd_putFood__"])
+alternativeto.net##div[class^="AdsenseAd_"]
 alternativeto.net##div[data-testid="put-food-on-the-table"]
 
 ! amazon.com
@@ -653,8 +661,11 @@ lenovo.com##.bottomStickyDock
 ||disqus.com^$script,domain=listland.com
 ||paypal.com^$script,domain=listland.com
 
-! limetorrents.info
-limetorrents.info###rightbar div:has-text(Advertisements)
+! limetorrents.lol
+limetorrents.lol##.torrentinfo > div:has(> div > [href^="/leet/"])
+
+! linkr.bio
+linkr.bio##.land-claim
 
 ! linktr.ee
 linktr.ee##div[data-testid="SignupCta"]
@@ -717,6 +728,9 @@ newgrounds.com##.pod:has(.fp-promo-slot)
 newgrounds.com##.pod:has(a[href$="/supporter"]):nth-of-type(1)
 newgrounds.com##div[class^="ng-ad-container-"]
 ||img.ngfiles.com/promos/*
+
+! newsweek.com
+newsweek.com###block-ibtmedia-facebook-facebook-comment
 
 ! nextjs.org
 nextjs.org##.banner
@@ -984,16 +998,17 @@ xvideos.com##.premium-results-line
 !#include sections/sites/yiffer.txt
 
 ! youtube.com
-youtube.com###voice-search-button
+||youtube-nocookie.com/embed/*$subdocument,removeparam=autoplay
+||youtube.com/embed/*$subdocument,3p,removeparam=origin
+||youtube.com/embed/*$subdocument,3p,removeparam=widget_referrer
+||youtube.com^$document,removeparam=sub_confirmation
 youtube.com##.ytp-cards-teaser
+youtube.com###voice-search-button
 youtube.com##ytd-button-renderer:has-text(Clip)
 youtube.com##ytd-compact-movie-renderer
 youtube.com##ytd-compact-radio-renderer
 youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
-||youtube.com/embed/*$subdocument,3p,removeparam=origin
-||youtube.com/embed/*$subdocument,3p,removeparam=widget_referrer
-||youtube-nocookie.com/embed/*$subdocument,removeparam=autoplay
 
 ! z2u.com
 ||z2u.com/notic.wav$media,1p

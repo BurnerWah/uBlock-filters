@@ -21,6 +21,7 @@
 ||allegheny.gop^
 ||americanexpress^
 ||amex^
+||anatidaephoby.tumblr.com^
 ||ancreport.com^
 ||andrewsullivan.com^
 ||animalliberation.social^
@@ -66,6 +67,7 @@
 ||bluejeans.com^
 ||blunt.senate.gov^
 ||bodybuilding.im^
+||booploops.github.io^
 ||boozman.senate.gov^
 ||boringcompany.com^
 ||braun.senate.gov^
@@ -93,6 +95,9 @@
 ||christianpost.com^
 ||christopherrufo.com^
 ||chudbuds.lol^
+||cider.sh^
+||ciderapp.github.io^
+||ciderapp.workers.dev^
 ||city-journal.org^
 ||cityjourn.al^
 ||clouthub.com^
@@ -106,6 +111,8 @@
 ||conservapedia.com^
 ||consider.fox^
 ||coolestprojects.org^
+||coredev-uk.github.io^
+||coredev.uk^
 ||cornyn.senate.gov^
 ||cotton.senate.gov^
 ||counter.fedi.live^
@@ -116,6 +123,8 @@
 ||creativeservices.fox^
 ||criteriongames.com^
 ||cruz.senate.gov^
+||cryptofyre.github.io^
+||cryptofyre.org^
 ||csys64.com^
 ||ct.gop^
 ||cum.salon^
@@ -144,6 +153,7 @@
 ||dilbert.com^
 ||directv.com^
 ||disclose.tv^
+||discord.gg/applemusic^$document
 ||district6.nc.gop^
 ||djitter.com^
 ||dobbs.town^
@@ -151,7 +161,10 @@
 ||douglascounty.gop^
 ||durham.nc.gop^
 ||eatthebugs.social^
+||eeeeeeeee.eu^
 ||eientei.org^
+||elliotjarnit.dev^
+||elliotjarnit.xyz^
 ||eov2.com^
 ||eox2.com^
 ||equalityhumanrights.com^
@@ -167,7 +180,8 @@
 ||firedragonstudios.com^
 ||fischer.senate.gov^
 ||fiume.club^
-||flathub.org/apps/details/org.polymc.*^$document
+||flathub.org/*/org.polymc.*^$document
+||flathub.org/*/sh.cider.*^$document
 ||flcourts.org^
 ||fldoe.org^
 ||florida.gop^
@@ -214,10 +228,19 @@
 ||gitea.moe^
 ||github.com/alexgleason^$document
 ||github.com/binex-dsk^$document
+||github.com/booploops^$document
+||github.com/ciderapp^$document
+||github.com/coredev-uk^$document
+||github.com/cryptofyre^$document
 ||github.com/hyprwm^$document
 ||github.com/LennyMcLennington^$document
+||github.com/lockieluke^$document
+||github.com/maikirakiwi^$document
+||github.com/Monochromish^$document
 ||github.com/PolyMC^$document
+||github.com/quacksire^$document
 ||github.com/Sneedplex^$document
+||github.com/Swiftzerr^$document
 ||github.com/vaxerski^$document
 ||gitlab.com/alexgleason^$document
 ||gitmo.life^
@@ -236,6 +259,7 @@
 ||grocery^
 ||grrrgraphics.com^
 ||guilford.nc.gop^
+||haeder.net^
 ||hagerty.senate.gov^
 ||halifax.nc.gop^
 ||hamishmckenzie.com^
@@ -280,6 +304,7 @@
 ||johnston.nc.gop^
 ||johsiecruz2020.com^
 ||join.gop^
+||jointhefedi.com^
 ||judges.nc.gop^
 ||justicewarrior.social^
 ||kandisstaylor.com^
@@ -294,6 +319,7 @@
 ||kiwifarms.is^
 ||kiwifarms.net^
 ||kiwifarms.ru^
+||ko-fi.com/quacksire^$document
 ||kochind.com^
 ||kusoda.net^
 ||lain.com^
@@ -318,10 +344,14 @@
 ||lincolncountyoregon.gop^
 ||lincolnproject.us^
 ||live.fox^
+||lockieluke.github.io^
 ||lolicon.rocks^
 ||lovingexpressions.net^
 ||lummis.senate.gov^
 ||macmillan.com/books/*/permanentrecord^$document
+||mai.kiwi^
+||mai.ne.jp^
+||maikirakiwi.github.io^
 ||mailsubs.co.uk^
 ||manchin.senate.gov^
 ||manhattan-institute.org^
@@ -386,6 +416,7 @@
 ||obo.sh^
 ||odysee.com^
 ||oneangrygamer.net^
+||opencollective.com/ciderapp^$document
 ||opencollective.com/polymc^$document
 ||orange.nc.gop^
 ||oregon.gop^
@@ -397,6 +428,7 @@
 ||paypig.org^
 ||pender.nc.gop^
 ||person.nc.gop^
+||personal-website-monochromish.vercel.app^
 ||phyllisschlafly.com^
 ||pickens-sc.gop^
 ||pieville.net^
@@ -419,6 +451,8 @@
 ||pximg-proxy.cf^
 ||qonq.gq^
 ||qoto.org^
+||quacksire.dev^
+||quacksire.github.io^
 ||quanta.wiki^
 ||querdenken-711.de^
 ||quillette.com^
@@ -474,6 +508,7 @@
 ||seal.cafe^
 ||sharivegas.com^
 ||shelby.senate.gov^
+||shiftyrp.com^
 ||shipt.com^
 ||shitpost.cloud^
 ||shitposter.club^
@@ -496,6 +531,7 @@
 ||societal.co^
 ||soykaf.com^
 ||spacex.com^
+||spaghettimonster.church^
 ||spectator.co.uk^
 ||spectator.org^
 ||spectrum.net^
@@ -513,6 +549,7 @@
 ||supes.com^
 ||supremecourt.gov^
 ||surry.nc.gop^
+||swiftzerr.github.io^
 ||swurl.xyz^
 ||t-mo.co^
 ||t-mobile.com^
@@ -556,7 +593,9 @@
 ||truthsocial.com^
 ||tuberville.senate.gov^
 ||tucson.claims^
+||tumblr.com/anatidaephoby^$document
 ||turner.com^
+||twitch.tv/duckdoquack^$document
 ||uber.com^
 ||ufoi.gitlab.io^
 ||ufoi.org^

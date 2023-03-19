@@ -139,6 +139,7 @@
 ||niggas.cloud^
 ||niggas.host^
 ||nobody-car.es^
+||notbird.site^
 ||ofwa.host^
 ||on-your-cock.exposed^
 ||osu.guru^

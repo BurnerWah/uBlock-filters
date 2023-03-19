@@ -528,6 +528,7 @@
 ||changelly.com^
 ||changenow.io^
 ||channels.finance^
+||charliebitme.com^
 ||cheapair.com^
 ||checkbook.cash^
 ||cheqd.net^
@@ -787,6 +788,7 @@
 ||diemscan.io^
 ||digchain.org^
 ||digifinex.com^
+||digimonrabbit.com^
 ||dimo.zone^
 ||dinoswap.exchange^
 ||dipdup.net^
@@ -1153,6 +1155,8 @@
 ||hyperlinq.io^
 ||hypermint.com^
 ||hyperpay.tech^
+||hyperplay.xyz^
+||hyperplaygaming.com^
 ||hypersea.com^
 ||iamnotabot.com^
 ||ichi.org^
@@ -1750,6 +1754,7 @@
 ||poocoin.app^
 ||pooltogether-api.com^
 ||pooltogether.com^
+||portaldefi.com^
 ||porter.finance^
 ||portis.io^
 ||portto.com^
