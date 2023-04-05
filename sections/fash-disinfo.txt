@@ -71,6 +71,7 @@
 ||boozman.senate.gov^
 ||boringcompany.com^
 ||braun.senate.gov^
+||brave.com^
 ||breakthroughgmc.fox^
 ||breitbart.com^
 ||brighteon.social^
@@ -514,6 +515,7 @@
 ||shitposter.club^
 ||shitposting.agency^
 ||shortstackran.ch^
+||shrimpposter.club^
 ||silkhe.art^
 ||sinema.senate.gov^
 ||skins.gay^
@@ -604,6 +606,7 @@
 ||urspringer.de^
 ||uschamber.com^
 ||vance.nc.gop^
+||varishangout.net^
 ||varishangout.net^
 ||vaush.gg^
 ||vaxerski.github.io^

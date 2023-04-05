@@ -2410,6 +2410,7 @@
 ||wonderlandforum.xyz^
 ||woo.org^
 ||woorton.com^
+||worldcoin.global^
 ||worldcoin.org^
 ||wormhole.com^
 ||wormholecrypto.medium.com^

@@ -191,9 +191,6 @@
 ||spiked.beer^
 ||stinky-fart.cloud^
 ||superxwomen.xyz^
-||support.discord.com^
-||support.virustotal.com^
-||support.zoom.us^
 ||sus-domain.club^
 ||sush.photos^
 ||synapse.gay^
