@@ -110,6 +110,7 @@
 ||alphapoint.com^
 ||alphaventuredao.io^
 ||alphawallet.com^
+||altumbase.com^
 ||am.is^
 ||ambcrypto.com^
 ||amberdata.io^
@@ -540,6 +541,7 @@
 ||chronicled.com^
 ||cimg.co^
 ||cipholio.com^
+||circleit.app^
 ||citadel.one^
 ||citizencosmos.space^
 ||citycoins.co^
@@ -561,9 +563,9 @@
 ||coin.dance^
 ||coin.link^
 ||coin.space^
-||coin^
 ||coin98.com^
 ||coin98.net^
+||coin^
 ||coinage.media^
 ||coinb.in^
 ||coinbase.com^
@@ -783,6 +785,7 @@
 ||diadata.org^
 ||dialect.to^
 ||dialectic.ch^
+||diamondapp.com^
 ||did.id^
 ||diem.com^
 ||diemscan.io^
@@ -1218,6 +1221,7 @@
 ||joystick.club^
 ||jpg.space^
 ||jpool.one^
+||jsonpreet.xyz^
 ||jswap.finance^
 ||jumpcrypto.com^
 ||juno.finance^
@@ -1716,6 +1720,7 @@
 ||pillarproject.io^
 ||pinata.cloud^
 ||ping.pub^
+||pinsta.xyz^
 ||pionex.com^
 ||pipeline-ui.com^
 ||pixelynx.io^
@@ -2227,6 +2232,7 @@
 ||tinyrebelgames.com^
 ||tinyworlds.io^
 ||tipbot.tips^
+||tipdeso.com^
 ||titan.io^
 ||titi.finance^
 ||todayodious.com^

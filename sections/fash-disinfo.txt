@@ -8,6 +8,7 @@
 ||90.gripe^
 ||accountability.gop^
 ||achievementhunter.com^
+||acpeds.org^
 ||adl.org^
 ||advaaccess.gop^
 ||aflac.com^
@@ -174,6 +175,7 @@
 ||eveningzoo.club^
 ||events.fox^
 ||exxonmobil.co^
+||factsaboutyouth.com^
 ||fanmosaic.fox^
 ||fbxl.net^
 ||fedex.com^
@@ -606,7 +608,6 @@
 ||urspringer.de^
 ||uschamber.com^
 ||vance.nc.gop^
-||varishangout.net^
 ||varishangout.net^
 ||vaush.gg^
 ||vaxerski.github.io^

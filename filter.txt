@@ -682,6 +682,9 @@ litcharts.com##.user-iama
 litcharts.com###header-upgrade-link
 litcharts.com##+js(nostif, registration-modal)
 
+! malwarebytes.com
+||malwarebytes.com/mwb-uninstall$document
+
 ! marvelousessay.org
 marvelousessay.org##.essay-bnr.top-writers-block
 marvelousessay.org##.phones-chat
