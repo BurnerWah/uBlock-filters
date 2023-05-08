@@ -626,6 +626,7 @@
 ||warnermedia.com^
 ||warnermediacdn.com^
 ||washingtonexaminer.com^
+||washingtonpost.com^
 ||washingtontimes.com^
 ||washtimes.com^
 ||watauga.nc.gop^

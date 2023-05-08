@@ -219,6 +219,7 @@
 ||b.tc^
 ||b1.com^
 ||b2bx.exchange^
+||b7b.xyz^
 ||baby-upload.s3.amazonaws.com^
 ||babyswap.finance^
 ||babyswap.info^
@@ -251,6 +252,9 @@
 ||beam4.me^
 ||beamoutreach.club^
 ||beaxy.com^
+||beb.domains^
+||beb.xyz^
+||beb^
 ||beefy.finance^
 ||beeple-collect.com^
 ||beeple-crap.com^
@@ -563,9 +567,9 @@
 ||coin.dance^
 ||coin.link^
 ||coin.space^
+||coin^
 ||coin98.com^
 ||coin98.net^
-||coin^
 ||coinage.media^
 ||coinb.in^
 ||coinbase.com^
@@ -1469,6 +1473,7 @@
 ||mistswap.fi^
 ||mixbytes.io^
 ||mixmob.io^
+||miy.com^
 ||mizar.com^
 ||mobi.me^
 ||modern-fairies.online^
@@ -1635,6 +1640,7 @@
 ||ont.id^
 ||ont.io^
 ||onto.app^
+||openfund.com^
 ||openguild.finance^
 ||opensea.io^
 ||openseauserdata.com^
