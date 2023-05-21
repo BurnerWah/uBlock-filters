@@ -99,8 +99,6 @@
 ||headsandtails.studio^
 ||helleborusflos.carrd.co^
 ||hentai-foundry.com/*/JayNaylor^$document
-||ib.metapix.net^
-||inkbunny.net^
 ||instagram.com/creativemochi^$document
 ||instagram.com/cuadraside_^$document
 ||instagram.com/jessefrosst^$document

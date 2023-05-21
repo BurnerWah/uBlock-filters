@@ -8,6 +8,7 @@
 ||1hive.org^
 ||1inch.exchange^
 ||1inch.io^
+||1rpc.io^
 ||3box.io^
 ||3boxlabs.com^
 ||3lau.com^
@@ -60,7 +61,10 @@
 ||alchemyapi.io^
 ||alchemymerch.com^
 ||aleo-token.org^
+||aleo.academy^
 ||aleo.org^
+||aleo.studio^
+||alephzero.org^
 ||alethea.ai^
 ||alexablockchain.com^
 ||alexgo.io^
@@ -139,6 +143,7 @@
 ||anyhedge.com^
 ||anyswap.exchange^
 ||anyswap.net^
+||anytype.io^
 ||aorist.art^
 ||ape-swap-api.herokuapp.com^
 ||apeswap-strapi.herokuapp.com^
@@ -155,6 +160,7 @@
 ||arc3.xyz^
 ||arcade.xyz^
 ||arcadeum.net^
+||arcana.network^
 ||arcanum.capital^
 ||archax.com^
 ||archway.io^
@@ -169,6 +175,7 @@
 ||arkane.network^
 ||arkhivist.io^
 ||armors.io^
+||arpanetwork.io^
 ||arpie.gg^
 ||arrow.markets^
 ||arweave.net^
@@ -202,6 +209,7 @@
 ||aurorascan.dev^
 ||authereum.com^
 ||autographnft.io^
+||automata-network.github.io^
 ||ava.do^
 ||avalabs.org^
 ||avax-test.network^
@@ -211,6 +219,7 @@
 ||awesomebitcoin.cash^
 ||awesomenear.com^
 ||axelar.network^
+||axiatel.co^
 ||axieinfinity.com^
 ||axietree.com^
 ||ayana.io^
@@ -240,7 +249,9 @@
 ||bandprotocol.com^
 ||barnbridge.com^
 ||basicappleguy.com^
+||basicattentiontoken.org^
 ||basicblockradio.com^
+||basicswapdex.com^
 ||bbydao.xyz^
 ||bca.network^
 ||bcbgroup.com^
@@ -258,6 +269,7 @@
 ||beefy.finance^
 ||beeple-collect.com^
 ||beeple-crap.com^
+||beldex.io^
 ||belt.fi^
 ||benchmarkprotocol.finance^
 ||benderlabs.io^
@@ -381,6 +393,8 @@
 ||bitwiseinvestments.com^
 ||bkex.com^
 ||bkexapi.github.io^
+||blackbox.cash^
+||blackhatco.in^
 ||blackpool.finance^
 ||blastapi.io^
 ||block.io^
@@ -438,11 +452,14 @@
 ||boardroom.io^
 ||boba.network^
 ||bobwallet.io^
+||bohemiandao.cz^
 ||boltlabs.tech^
+||boltz.exchange^
 ||bonfida.org^
 ||boom.money^
 ||boredapeyachtclub.com^
 ||boringdao.com^
+||boringprotocol.io^
 ||botlabs.gg^
 ||bounce.finance^
 ||boysnoize.com^
@@ -476,6 +493,7 @@
 ||buni.finance^
 ||burrata.xyz^
 ||burrow.cash^
+||burstiq.com^
 ||buyxrp.net^
 ||bw.com^
 ||bwarelabs.com^
@@ -484,6 +502,9 @@
 ||c29r3.xyz^
 ||c3.io^
 ||cakewallet.com^
+||calamari.network^
+||calamari.systems^
+||calimero.network^
 ||canto.io^
 ||carbon.network^
 ||carl.gg^
@@ -513,6 +534,7 @@
 ||certus.one^
 ||cex.io^
 ||chadscan.com^
+||chain-reaction.io^
 ||chain.com^
 ||chain.link^
 ||chain.so^
@@ -543,6 +565,7 @@
 ||chiliz.net^
 ||chorus.one^
 ||chronicled.com^
+||ciaprotocol.com^
 ||cimg.co^
 ||cipholio.com^
 ||circleit.app^
@@ -563,6 +586,7 @@
 ||codefi.network^
 ||codementor.io/learn/blockchain^$document
 ||codius.org^
+||cogfi.org^
 ||coin-stats.com^
 ||coin.dance^
 ||coin.link^
@@ -573,6 +597,7 @@
 ||coinage.media^
 ||coinb.in^
 ||coinbase.com^
+||coinbook.app^
 ||coinbooks.xyz^
 ||coincalculators.io^
 ||coincap.io^
@@ -596,6 +621,7 @@
 ||coinidol.com^
 ||coinlist.co^
 ||coinmarketcap.com^
+||coinmarketstats.online^
 ||coinmetrics.io^
 ||coinomi.com^
 ||coinone.co.kr^
@@ -616,11 +642,15 @@
 ||colizeum.com^
 ||collider.vc^
 ||colony.io^
+||colossusxt.io^
 ||comdex.one^
+||common.fi^
 ||commonwealth.im^
 ||communitygaming.io^
 ||compassmining.io^
 ||compound.finance^
+||conceal.network^
+||concordium.com^
 ||conet.de^
 ||conflux.fun^
 ||confluxnetwork.org^
@@ -653,6 +683,7 @@
 ||crescent.network^
 ||crescentnetwork.medium.com^
 ||cronos.org^
+||cronoslabs.com^
 ||crust.network^
 ||crustcode.com^
 ||cryga.com^
@@ -728,9 +759,11 @@
 ||dappnode.io^
 ||dappradar.com^
 ||dappsguru.com^
+||dark.fi^
 ||darkblock.io^
 ||dartroom.xyz^
 ||dash.org^
+||davidfurlong.me^
 ||dcentwallet.com^
 ||dclimate.net^
 ||dcoin.com^
@@ -745,10 +778,13 @@
 ||deepdao.io^
 ||deeper.network^
 ||deepnftvalue.com^
+||deeponion.org^
 ||defialliance.co^
 ||defibit.io^
 ||defiexplore.com^
 ||defillama.com^
+||defined.fi^
+||definer.org^
 ||definix.com^
 ||defipie.com^
 ||defiprime.com^
@@ -768,11 +804,13 @@
 ||dem.exchange^
 ||deribit.com^
 ||derivadex.com^
+||dero.io^
 ||dersecur.com^
 ||desci.berlin^
 ||desmos.network^
 ||deso.org^
 ||detoken.net^
+||devfolio.co^
 ||dework.xyz^
 ||deworkxyz.com^
 ||dex-trade.com^
@@ -799,9 +837,12 @@
 ||dimo.zone^
 ||dinoswap.exchange^
 ||dipdup.net^
+||discove.xyz^
+||discreet.net^
 ||disperze.network^
 ||distributedlab.com^
 ||district0x.io^
+||diva.exchange^
 ||dlt-academy.com^
 ||dmgblockchain.com^
 ||dodoex.io^
@@ -821,12 +862,14 @@
 ||dune.com^
 ||dune.xyz^
 ||duneanalytics.com^
+||dusk.network^
 ||dvision.network^
 ||dx.app^
 ||dxsale.app^
 ||dydx.exchange^
 ||dynastystudios.io^
 ||e-money.com^
+||e.cash^
 ||earn.com^
 ||earncryptointerest.com^
 ||easycrypto.ai^
@@ -841,6 +884,7 @@
 ||edchain.io^
 ||edennetwork.io^
 ||edge.app^
+||edge.network^
 ||eggschain.com^
 ||egifter.com^
 ||eidoo.app^
@@ -852,9 +896,11 @@
 ||elephant.money^
 ||elevenews.com^
 ||elrond.com^
+||elusiv.io^
 ||embarklabs.io^
 ||emberfund.io^
 ||emberswap.com^
+||embr.org^
 ||emercoin.com^
 ||emeris.com^
 ||emptyset.finance^
@@ -872,9 +918,11 @@
 ||enzyme.finance^
 ||eos.io^
 ||eosio.stackexchange.com^
+||epic.tech^
 ||epicenter.tv^
 ||epns.io^
 ||equilibretechnologies.com^
+||espressosys.com^
 ||essentia.one^
 ||eth.events^
 ||eth.limo^
@@ -882,6 +930,7 @@
 ||eth.wiki^
 ||eth.xyz^
 ||ethanglia.org^
+||ethbrno.cz^
 ||ethereum-magicians.org^
 ||ethereum.github.io^
 ||ethereum.meta.stackexchange.com^
@@ -896,6 +945,7 @@
 ||ethers.io^
 ||ethers.org^
 ||etherscan.io^
+||ethevents.club^
 ||ethfiddle.com^
 ||ethhub-io.github.io^
 ||ethhub.io^
@@ -908,6 +958,7 @@
 ||etoro.com^
 ||euler.finance^
 ||eurus.network^
+||evanesco.org^
 ||evercoin.com^
 ||everipedia.org^
 ||everledger.io^
@@ -915,6 +966,7 @@
 ||eversol.one^
 ||everstake.one^
 ||everyrealm.com^
+||evolution-network.org^
 ||evolution.land^
 ||exa.finance^
 ||exeedme.com^
@@ -937,12 +989,16 @@
 ||fantiger.com^
 ||fantom.foundation^
 ||fantom.network^
+||farcaster.dev^
 ||fatcatbch.com^
 ||fates.world^
 ||fbg.capital^
 ||fearnft.games^
+||fedi.xyz^
+||fedimint.org^
 ||fei.money^
 ||fenbushicapital.vc^
+||ferran.cc^
 ||ferrum.network^
 ||fetch-ai.com^
 ||fetch-ai.network^
@@ -955,12 +1011,15 @@
 ||filecoin.io^
 ||filecoinproject.slack.com^
 ||filscan.io^
+||findora.org^
+||findorascan.io^
 ||fingerprintsdao.xyz^
 ||finnexus.io^
 ||fioprotocol.io^
 ||firefly.exchange^
 ||firmachain.dev^
 ||firmachain.org^
+||firn.cash^
 ||firo.org^
 ||flair.finance^
 ||flashbots.net^
@@ -994,6 +1053,7 @@
 ||fortmatic.com^
 ||forum.ax^
 ||foundation.app^
+||foundationdevices.com^
 ||fountainhead.cash^
 ||fractal.id^
 ||fractional.art^
@@ -1031,6 +1091,7 @@
 ||gate.io^
 ||gate.us^
 ||gatedata.org^
+||gatefi.com^
 ||gatehub.net^
 ||gateio.live^
 ||gateio.ws^
@@ -1057,6 +1118,7 @@
 ||getmonero.org^
 ||getroundtable.xyz^
 ||gfinityesports.com^
+||ghostbyjohnmcafee.com^
 ||gifeconomy.com^
 ||giganode.io^
 ||giottus.com^
@@ -1093,6 +1155,7 @@
 ||greenwood.finance^
 ||greyh.at^
 ||greymass.com^
+||grin.mw^
 ||gro.xyz^
 ||groestlcoin.org^
 ||gsr.io^
@@ -1101,6 +1164,7 @@
 ||guildfi.com^
 ||gumi-cryptos.com^
 ||gunstar.io^
+||gwei.cz^
 ||gymnetwork.io^
 ||gysr.io^
 ||hack.bg^
@@ -1108,6 +1172,7 @@
 ||hackenfoundation.com^
 ||hackenproof.com^
 ||halborn.com^
+||hana.network^
 ||handle.fi^
 ||handshake.org^
 ||harbor.com^
@@ -1118,6 +1183,7 @@
 ||hashquark.io^
 ||hashrabbit.com^
 ||hats.finance^
+||havenprotocol.org^
 ||hawku.com^
 ||headline-inc.com^
 ||headline.dev^
@@ -1125,6 +1191,8 @@
 ||hecochain.com^
 ||hedera.com^
 ||helium.com^
+||helius.dev^
+||helius.xyz^
 ||helladoge.com^
 ||helpme.cash^
 ||hextrust.com^
@@ -1134,6 +1202,7 @@
 ||highfidelity.com^
 ||highstreet.market^
 ||himegamiprotocol.org^
+||hinkal.pro^
 ||hiro.so^
 ||hitbtc.com^
 ||hitpiece.com^
@@ -1146,6 +1215,7 @@
 ||hoo.com^
 ||hop.cash^
 ||hoprnet.org^
+||horizen.io^
 ||horizon.io^
 ||horizonprotocol.com^
 ||hotbit.io^
@@ -1157,6 +1227,8 @@
 ||humanprotocol.org^
 ||huobi.com^
 ||huobigroup.com^
+||hurricane.money^
+||hush.is^
 ||hypergate.com^
 ||hyperithm.com^
 ||hyperlinq.io^
@@ -1173,6 +1245,7 @@
 ||icowallet.net^
 ||idex.io^
 ||idle.finance^
+||iex.ec^
 ||ignitetournaments.com^
 ||illuvium-game.io^
 ||illuvium.io^
@@ -1194,6 +1267,8 @@
 ||infura.io^
 ||injective.com^
 ||injective.network^
+||inosaramet.art^
+||inosaramet.xyz^
 ||insidebitcoins.com^
 ||insight.is^
 ||instadapp.io^
@@ -1219,9 +1294,11 @@
 ||ixo.world^
 ||jaxx.io^
 ||jelly.market^
+||jet.tf^
 ||jfswap.com^
 ||jnsilva.com^
 ||joincircles.net^
+||joinembr.com^
 ||joystick.club^
 ||jpg.space^
 ||jpool.one^
@@ -1252,6 +1329,7 @@
 ||kattana.trade^
 ||kava.io^
 ||keep.network^
+||kelvpn.com^
 ||kenart.net^
 ||kenhbit.com^
 ||kepler.xyz^
@@ -1273,6 +1351,7 @@
 ||kosen.ai^
 ||koshex.com^
 ||kraken.com^
+||kreatorhood.com^
 ||kriptomat.io^
 ||krystal.app^
 ||kth.cash^
@@ -1296,6 +1375,7 @@
 ||lattice.exchange^
 ||latticex.foundation^
 ||launchub.com^
+||layerx.co.jp^
 ||layerzero.network^
 ||lazyfox.io^
 ||lbank.info^
@@ -1313,6 +1393,7 @@
 ||lens.dev^
 ||lens.xyz^
 ||lenster.xyz^
+||leo.app^
 ||leonicornswap.com^
 ||letsexchange.io^
 ||letsexchange.quora.com^
@@ -1325,6 +1406,7 @@
 ||lightning.engineering^
 ||lightninglabs.substack.com^
 ||lightnode-mainnet.herokuapp.com^
+||lightprotocol.com^
 ||like.co^
 ||linear.finance^
 ||link3.to^
@@ -1334,6 +1416,7 @@
 ||lisk.com^
 ||lisk.foundation^
 ||lisk.io^
+||lite-cash.com^
 ||litebit.eu^
 ||litecoin-foundation.org^
 ||litecoin.info^
@@ -1341,7 +1424,9 @@
 ||litecoin.org^
 ||litecointalk.io^
 ||litentry.com^
+||litgateway.com^
 ||lith.finance^
+||litprotocol.com^
 ||livecoinwatch.com^
 ||livepeer.org^
 ||livingroomofsatoshi.com^
@@ -1356,6 +1441,7 @@
 ||loda.finance^
 ||lofty.ai^
 ||login.xyz^
+||lokinet.org^
 ||longhashventures.com^
 ||looksrare.org^
 ||loopring.org^
@@ -1384,6 +1470,7 @@
 ||makersplace.com^
 ||mandala.exchange^
 ||mangata.finance^
+||manta.network^
 ||maonft.com^
 ||maple.finance^
 ||mapofzones-wrong.com^
@@ -1396,11 +1483,14 @@
 ||marmalade.art^
 ||marsecosystem.com^
 ||mask.io^
+||masq.ai^
 ||mastodon.cloud^
 ||matcha.xyz^
 ||matchboxdao.com^
+||mathnodes.com^
 ||mathwallet.org^
 ||matic.network^
+||maticvigil.com^
 ||matrixport.com^
 ||matrixtechfin.com^
 ||matrixworld.org^
@@ -1419,6 +1509,7 @@
 ||mekabot.com^
 ||mekabotz.com^
 ||melis.io^
+||melproject.org^
 ||member.cash^
 ||meme.sx^
 ||memecoin.wtf^
@@ -1434,6 +1525,7 @@
 ||mesh.xyz^
 ||meson.network^
 ||messari.io^
+||messier.gitbook.io^
 ||metacartel.org^
 ||metaengine.gg^
 ||metaestate.com^
@@ -1476,6 +1568,7 @@
 ||miy.com^
 ||mizar.com^
 ||mobi.me^
+||mobilecoin.com^
 ||modern-fairies.online^
 ||molecule.to^
 ||molochdao.com^
@@ -1498,6 +1591,8 @@
 ||moralis.io^
 ||morpho.best^
 ||morpho.xyz^
+||motherbored.limited^
+||mpcexplorer.com^
 ||mstdn.jp^
 ||mtgdao.org^
 ||mtpelerin.com^
@@ -1516,22 +1611,28 @@
 ||mycryptoapi.com^
 ||mycryptopedia.com^
 ||myetherwallet.com^
+||myghost.org^
 ||mykey.org^
+||mymonero.com^
 ||mynft-api.com^
 ||mynft.com^
 ||mynft.io^
 ||mypinata.cloud^
 ||myso.finance^
 ||mystenlabs.com^
+||mysterium.network^
+||mystiko.network^
 ||mythical.games^
 ||mythicalgames.com^
 ||mytrade.org^
+||namada.net^
 ||namebase.io^
 ||namebazaar.io^
 ||nameless.io^
 ||nansen.ai^
 ||naos.finance^
 ||nascent.xyz^
+||navcoin.org^
 ||ndapp.org^
 ||near-in-minutes.com^
 ||near.academy^
@@ -1539,6 +1640,7 @@
 ||near.university^
 ||nearcon.org^
 ||nearsighted.news^
+||nebkas.ro^
 ||neo.org^
 ||neodyme.io^
 ||neon-labs.org^
@@ -1572,7 +1674,9 @@
 ||ngc.fund^
 ||nicehash.com^
 ||niftygateway.com^
+||nighthawkwallet.com^
 ||nikomatt.xyz^
+||nillion.com^
 ||nimiq-network.com^
 ||nimiq.com^
 ||nine-chronicles.com^
@@ -1600,6 +1704,7 @@
 ||nownodes.io^
 ||nowpayments.io^
 ||nucypher.com^
+||nulink.org^
 ||nymtech.net^
 ||o1labs.org^
 ||o3.network^
@@ -1612,6 +1717,7 @@
 ||oasisscan.com^
 ||objkt.com^
 ||obol.tech^
+||obscu.ro^
 ||occupydefi.money^
 ||oceanacademy.io^
 ||oceanprotocol.com^
@@ -1621,11 +1727,13 @@
 ||odsy.xyz^
 ||off.live^
 ||offchainlabs.com^
+||offshift.io^
 ||oiler.network^
 ||okex.org^
 ||okx.com^
 ||olympusdao.finance^
 ||omgfin.com^
+||omniatech.io^
 ||omniflix.co^
 ||omniflix.network^
 ||omniflix.studio^
@@ -1636,6 +1744,7 @@
 ||oneplanetnft.io^
 ||onfinality.io^
 ||onflow.org^
+||onino.io^
 ||onlycoins.com^
 ||ont.id^
 ||ont.io^
@@ -1672,6 +1781,7 @@
 ||owl.link^
 ||owlting.com^
 ||ownrwallet.com^
+||oxen.io^
 ||oxio.com^
 ||p.network^
 ||p2p.org^
@@ -1684,10 +1794,13 @@
 ||pandaland.cash^
 ||pandora.digital^
 ||panteracapital.com^
+||pantherprotocol.io^
 ||papers.ch^
 ||paradigm.co^
 ||parafi.com^
 ||parallel.fi^
+||parallelchain.io^
+||parami.io^
 ||parastate.io^
 ||parastate.substack.com^
 ||paraswap.io^
@@ -1696,6 +1809,8 @@
 ||paribu.com^
 ||parity.io^
 ||parsiq.net^
+||particl.io^
+||partisiablockchain.com^
 ||pawoo.net^
 ||paxos.com^
 ||paybutton.org^
@@ -1708,6 +1823,7 @@
 ||peerion.io^
 ||peernova.com^
 ||pendle.finance^
+||penumbra.zone^
 ||perawallet.app^
 ||perawallet.s3.amazonaws.com^
 ||perion.gg^
@@ -1718,6 +1834,7 @@
 ||phantom.app^
 ||phemex.cloud^
 ||phemex.com^
+||phoenix.global^
 ||phuture.finance^
 ||pianity.com^
 ||piedao.org^
@@ -1729,6 +1846,8 @@
 ||pinsta.xyz^
 ||pionex.com^
 ||pipeline-ui.com^
+||pirate.black^
+||pivx.org^
 ||pixelynx.io^
 ||planbetter.org^
 ||planetariumhq.com^
@@ -1737,6 +1856,7 @@
 ||playmining.com^
 ||playmint.com^
 ||pleasr.org^
+||plebble.net^
 ||plenty.network^
 ||plentydefi.com^
 ||plexnode.org^
@@ -1751,6 +1871,7 @@
 ||polkadot.network^
 ||polkamarkets.com^
 ||polkapet.world^
+||pollenmobile.io^
 ||poloniex.com^
 ||poly.network^
 ||polychainmonsters.com^
@@ -1779,6 +1900,9 @@
 ||primetrust.com^
 ||primitive.xyz^
 ||prismic-io.s3.amazonaws.com^
+||privacy-scaling-explorations.github.io^
+||privasea.ai^
+||privatixy.io^
 ||probit.com^
 ||programmingblockchain.gitbook.io^
 ||projectserum.com^
@@ -1834,6 +1958,8 @@
 ||radicle.xyz^
 ||radion.fm^
 ||raiden.network^
+||railgun.org^
+||railway.xyz^
 ||rain.bh^
 ||rain.com^
 ||rainbow.me^
@@ -1852,6 +1978,7 @@
 ||rated.network^
 ||ravenprotocol.com^
 ||raydium.io^
+||raze.network^
 ||razor.network^
 ||rbf.capital^
 ||reach.sh^
@@ -1905,17 +2032,22 @@
 ||rtfkt.com^
 ||rubic.exchange^
 ||rubic.finance^
+||ruby.xyz^
 ||runonflux.io^
 ||runtimeverification.com^
 ||ryder.id^
 ||saber.so^
+||sacred.finance^
 ||saddle.finance^
 ||safe.global^
 ||safepal.com^
 ||sagamarket.io^
+||sahara.network^
 ||salad.ventures^
 ||salamantex.com^
 ||saldo.mx^
+||samourai.email^
+||samouraiwallet.com^
 ||sandbox.game^
 ||sarcophagus.io^
 ||sardine.ai^
@@ -1926,21 +2058,28 @@
 ||satoshibles.com^
 ||satoshidice.com^
 ||satoshisangels.com^
+||scalaproject.io^
 ||scalara.xyz^
 ||scientix.finance^
 ||scientix.medium.com^
 ||scrt.network^
+||seabird.systems^
 ||seadn.io^
+||seanbonner.com^
 ||seascape.network^
+||sebacestaro.com^
 ||secretkeylabs.com^
 ||secureth.org^
 ||securities.io^
 ||securitize.io^
 ||seedclub.xyz^
+||seedsigner.com^
+||selfcustody.github.io^
 ||semantic.vc^
 ||sender.org^
 ||sendstx.com^
 ||sendwyre.com^
+||seneca.tech^
 ||sense.finance^
 ||sentinel.co^
 ||sepolia-infura.brave.com^
@@ -1953,6 +2092,7 @@
 ||sfox.com^
 ||sg-1.online^
 ||sgtstake.com^
+||shadeprotocol.io^
 ||shadowlabs.tech^
 ||shapeshift.com^
 ||shapeshift.io^
@@ -1968,6 +2108,7 @@
 ||shoyunft.com^
 ||sia.tech^
 ||sideshift.ai^
+||sienna.network^
 ||sifchain-changes-server.vercel.app^
 ||sifchain-dex.redstarling.com^
 ||sifchain.finance^
@@ -1977,6 +2118,7 @@
 ||signal.contact^
 ||signal.vc^
 ||signup.cash^
+||silentprotocol.org^
 ||simplefx.com^
 ||simplehold.io^
 ||simpleledger.info^
@@ -2016,6 +2158,7 @@
 ||socket.tech^
 ||solagg.com^
 ||solana.com^
+||solarlabs.ee^
 ||solblaze.org^
 ||solidified.io^
 ||solidity.finance^
@@ -2028,6 +2171,7 @@
 ||sommelier.finance^
 ||sommscan.io^
 ||sonar.cash^
+||sonsofcrypto.com^
 ||sorare.com^
 ||sound.xyz^
 ||sovryn.app^
@@ -2039,7 +2183,9 @@
 ||sparkblox.com^
 ||sparkdigitalcapital.com^
 ||sparrowexchange.com^
+||sparrowwallet.com^
 ||spearbit.com^
+||specter.solutions^
 ||spedn.io^
 ||speed-spend.org^
 ||spheron.network^
@@ -2047,6 +2193,7 @@
 ||spirewallet.com^
 ||splinterlands.com^
 ||spooky.fi^
+||sporran.org^
 ||springlabs.com^
 ||spruceid.com^
 ||sputnik.exchange^
@@ -2095,6 +2242,7 @@
 ||status.im^
 ||stcscan.io^
 ||stealthex.io^
+||stealthpay.cash^
 ||stellar.org^
 ||stellarport.io^
 ||step.finance^
@@ -2117,6 +2265,7 @@
 ||subsocial.network^
 ||subspace.network^
 ||sui.io^
+||sunscreen.tech^
 ||superdao.co^
 ||superfandom.io^
 ||superfarm.com^
@@ -2127,6 +2276,7 @@
 ||suprnova.cc^
 ||sushi.com^
 ||sustainablebtc.org^
+||suterusu.io^
 ||swan.com^
 ||swapin.com^
 ||swapspace.co^
@@ -2226,6 +2376,7 @@
 ||thorchain.org^
 ||thorswap.finance^
 ||thorswap.net^
+||threshold.network^
 ||thrones.cash^
 ||thundercore.com^
 ||tierion.com^
@@ -2251,6 +2402,7 @@
 ||tokensquidgame.com^
 ||tokenterminal.com^
 ||tokocrypto.com^
+||tomochain.com^
 ||tor.us^
 ||tornado.cash^
 ||torque.loans^
@@ -2267,6 +2419,7 @@
 ||trisolaris.io^
 ||triton.one^
 ||trmlabs.com^
+||trocador.app^
 ||tropical.finance^
 ||truefi.io^
 ||trufflesuite.com^
@@ -2286,8 +2439,10 @@
 ||tzkt.io^
 ||tzstats.com^
 ||tzwrap.com^
+||u.is^
 ||u.today^
 ||uat.cash^
+||uatvo.com^
 ||ufo-gaming.gitbook.io^
 ||ufogaming.io^
 ||ufometaverse.io^
@@ -2296,6 +2451,7 @@
 ||umamiwallet.com^
 ||umaproject.org^
 ||umb.network^
+||umbra.cash^
 ||umee.cc^
 ||unagii.com^
 ||unbanked.com^
@@ -2305,9 +2461,11 @@
 ||unistex.com^
 ||uniswap.org^
 ||uniswap.workers.dev^
+||unlimint.com^
 ||unlock-protocol.com^
 ||unmarshal.io^
 ||unn.finance^
+||unova.io^
 ||unslashed.finance^
 ||unstake.it^
 ||unstoppable.io^
@@ -2319,7 +2477,9 @@
 ||uport.me^
 ||upshot.xyz^
 ||usebraintrust.com^
+||useorbis.com^
 ||utu.io^
+||utxo.cz^
 ||uxd.fi^
 ||vagmi.vercel.app^
 ||valhalla.game^
@@ -2347,6 +2507,7 @@
 ||venly.io^
 ||venly.market^
 ||veramo.io^
+||verida.io^
 ||vertices.network^
 ||verto.exchange^
 ||veworld.com^
@@ -2365,6 +2526,7 @@
 ||vtokens.fi^
 ||vulkania.io^
 ||vulpem.com^
+||vvs.finance^
 ||vybenetwork.com^
 ||vyper.readthedocs.io^
 ||waellet.com^
@@ -2392,7 +2554,9 @@
 ||web3js.readthedocs.io^
 ||web3labs.com^
 ||web3modal.com^
+||web3privacy.info^
 ||web3py.readthedocs.io^
+||webb.tools^
 ||webbtc.com^
 ||webr3.org^
 ||weeb.sh^
@@ -2429,7 +2593,9 @@
 ||x.link^
 ||x^
 ||xapo.com^
+||xata.fi^
 ||xbts.io^
+||xcash.foundation^
 ||xceldefi.com^
 ||xcellab.com^
 ||xcelpay.io^
@@ -2478,16 +2644,20 @@
 ||yogh.io^
 ||yolorekt.finance^
 ||yop.finance^
+||ys.finance^
 ||yuga.com^
 ||yup.io^
+||ywallet.app^
 ||z.cash^
 ||zaap.art^
 ||zabo.com^
+||zano.org^
 ||zapit.io^
 ||zapper.fi^
 ||zb.com^
 ||zcashcommunitygrants.org^
 ||zcloak.network^
+||zeal.app^
 ||zebedee.io^
 ||zecrey.com^
 ||zeeprime.capital^
@@ -2495,11 +2665,14 @@
 ||zelcore.workers.dev^
 ||zengo.com^
 ||zenlink.pro^
+||zensystem.io^
 ||zergpool.com^
 ||zerion.io^
+||zero.directory^
 ||zerodao.com^
 ||zerohash.com^
 ||zeronet.io^
+||zeropool.network^
 ||zestbloom.com^
 ||zestprotocol.com^
 ||zfnd.org^
@@ -2509,9 +2682,12 @@
 ||zipmex.com^
 ||zipmex.net^
 ||zk.money^
+||zkbob.com^
+||zkchaos.com^
 ||zkcross.org^
 ||zkscan.io^
 ||zksync.io^
+||zkvalidator.com^
 ||zokyo.io^
 ||zora.co^
 ||zpool.ca^

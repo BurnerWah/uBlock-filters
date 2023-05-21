@@ -18,6 +18,7 @@
 ||boyter.org^
 ||bruh.uno^
 ||bruhbot.wtf^
+||bs-days.com^
 ||buildable.dev^
 ||cams19.xyz^
 ||candice.asia^
@@ -99,6 +100,7 @@
 ||herr-katze-is-a-loser.wtf^
 ||herrkatzeisapedo.live^
 ||homophobic.online^
+||hrhsmuczer.com^
 ||hypixel.gg^
 ||i-cant-fucking.cyou^
 ||i-live-in.space^
@@ -217,6 +219,7 @@
 ||tesla.sexy^
 ||thighs.photos^
 ||thomaspockrandt.com^
+||tolgamert.nl^
 ||torrentsmirror.com^
 ||torrentz.eu.com^
 ||torrentz.pl^
@@ -240,6 +243,7 @@
 ||webhooksender.buzz^
 ||whitewebcams.xyz^
 ||yeshentai.com^
+||yos.xyz^
 ||you-should-use-imagisum.buzz^
 ||your-mom-died.today^
 ||your-parents-are-not-a.live^

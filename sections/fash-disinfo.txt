@@ -48,6 +48,7 @@
 ||bariweiss.com^
 ||barrasso.senate.gov^
 ||based.directory^
+||basicattentiontoken.org^
 ||bbc.co.uk^
 ||bbc.com^
 ||bbcamerica.com^

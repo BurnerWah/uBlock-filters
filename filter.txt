@@ -527,6 +527,7 @@ fivethirtyeight.com##.gpt-sidebar-ad
 
 ! gamebanana.com
 gamebanana.com##.AdTagModule
+gamebanana.com##+js(set, vSiteRefresher, noopFunc)
 
 ! gamingonlinux.com
 @@||youtube.com/embed/*$subdocument,domain=gamingonlinux.com
