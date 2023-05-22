@@ -9,6 +9,8 @@
 ||canncon.locals.com^
 ||cbsla.com^
 ||christinepelosi.com^
+||codeberg.org/Hyperpipe^$document
+||codeberg.org/snematoda^$document
 ||dailybeanspood.com^
 ||danagoldberg.com^
 ||devilmayquake.com^
@@ -39,6 +41,7 @@
 ||screenrant.com^
 ||secure.actblue.com/donate/jwh-soc^$document
 ||sharethrough.com^$important
+||snematoda.codeberg.page^
 ||sonobi.com^$important
 ||taboola.com^$important
 ||theatlantic.com^
