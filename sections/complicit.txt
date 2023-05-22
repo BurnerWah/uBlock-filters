@@ -16,6 +16,10 @@
 ||emxdgt.com^$important
 ||engadget.com^
 ||engt.co^
+||gothub.app^
+||hyperpipe.codeberg.page^
+||hyperpipe.surge.sh^
+||hyperpipeapi.onrender.com^
 ||ign.com^
 ||justpremium.com^$important
 ||karenbass.com^
