@@ -106,6 +106,7 @@
 ||clouthub.com^
 ||clubcyberia.co^
 ||cnn.com^
+||codeberg.org/esmailelbob^$document
 ||codeberg.org/zortazert^$document
 ||codeclub.org^
 ||codeclubworld.org^
@@ -174,7 +175,10 @@
 ||equalityhumanrights.com^
 ||ernst.senate.gov^
 ||esmail.xyz^
+||esmailelbob.codeberg.page^
 ||esmailelbob.xyz^
+||esmailelbobdev2.github.io^
+||esmailelbobdev2.gitlab.io^
 ||etiketi.de^
 ||eveningzoo.club^
 ||events.fox^
@@ -239,6 +243,7 @@
 ||github.com/ciderapp^$document
 ||github.com/coredev-uk^$document
 ||github.com/cryptofyre^$document
+||github.com/EsmailELBoBDev2^$document
 ||github.com/hyprwm^$document
 ||github.com/LennyMcLennington^$document
 ||github.com/lockieluke^$document
@@ -250,6 +255,7 @@
 ||github.com/Swiftzerr^$document
 ||github.com/vaxerski^$document
 ||gitlab.com/alexgleason^$document
+||gitlab.com/EsmailELBoBDev2^$document
 ||gitmo.life^
 ||gleasonator.com^
 ||gleasonator.dev^
