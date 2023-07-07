@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "lint": "aglint"
+  },
+  "devDependencies": {
+    "@adguard/aglint": "^1.0.11"
+  }
+}
