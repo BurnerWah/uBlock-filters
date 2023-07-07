@@ -162,6 +162,7 @@
 ||discord.gg/applemusic^$document
 ||district6.nc.gop^
 ||djitter.com^
+||dlang.org^
 ||dobbs.town^
 ||doctoroz.com^
 ||douglascounty.gop^
@@ -184,6 +185,7 @@
 ||eveningzoo.club^
 ||events.fox^
 ||exxonmobil.co^
+||fabricmc.net^
 ||factsaboutyouth.com^
 ||fanmosaic.fox^
 ||fbxl.net^
@@ -244,12 +246,15 @@
 ||github.com/ciderapp^$document
 ||github.com/coredev-uk^$document
 ||github.com/cryptofyre^$document
+||github.com/dlang^$document
 ||github.com/EsmailELBoBDev2^$document
+||github.com/FabricMC^$document
 ||github.com/hyprwm^$document
 ||github.com/LennyMcLennington^$document
 ||github.com/lockieluke^$document
 ||github.com/maikirakiwi^$document
 ||github.com/Monochromish^$document
+||github.com/nim-lang^$document
 ||github.com/PolyMC^$document
 ||github.com/quacksire^$document
 ||github.com/Sneedplex^$document
@@ -415,6 +420,7 @@
 ||newscientist.com^
 ||nic.fox^
 ||nicecrew.digital^
+||nim-lang.org^
 ||noagenda.social^
 ||noagendasocial.com^
 ||nobodyhasthe.biz^

@@ -38,15 +38,20 @@
 ||fbexternal-*.akamaihd.net^$important
 ||fbsbx.com.online-metrix.net^$important
 ||fbsbx.com^$important
+||ff.im^$important
+||ig.me^$important
 ||instagram.com^$important
 ||instagramstatic-*.akamaihd.net.edgesuite.net^$important
 ||instagramstatic-*.akamaihd.net^$important
+||m.me^$important
 ||messenger.com^$important
 ||messengerkids.com^$important
+||meta.com^$important
 ||novi.com^$important
 ||ocul.us^$important
 ||oculus.com^$important
 ||tfbnw.net^$important
+||threads.net^$important
 ||whatsapp.com^$important
 ||workplace.com^$important
 

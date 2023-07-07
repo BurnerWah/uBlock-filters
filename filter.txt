@@ -83,6 +83,7 @@
 ||calendly.com^$subdocument,3p,redirect=click2load.html
 ||canva.com/design/*/view$subdocument,3p,redirect=click2load.html
 ||cdn-client.medium.com/lite/static/js/reporting.*$script
+||cdn.jsdelivr.net/gh/ethereum/*$script
 ||cdn.jsdelivr.net/npm/@portis/web3@*$script
 ||cdn.jsdelivr.net/npm/@walletconnect/*$script
 ||cdn.jsdelivr.net/npm/authereum@*$script
@@ -451,6 +452,10 @@ crunchyroll.com###marketing_banner
 ! derpibooru.org
 derpibooru.org##^#imagespns
 
+! developer.mozilla.org
+developer.mozilla.org##.fallback.top-banner
+developer.mozilla.org##.menu-link.top-level-entry[href$="/plus/ai-help/"]
+
 ! developers.google.com
 ||developers.google.com/_d/analytics-iframe$subdocument
 
@@ -485,6 +490,10 @@ dropbox.com###top-notification-bar-container
 duckduckgo.com##div.nrn-react-div:has(a.assigned-label-transphobic)
 duckduckgo.com##.header__label.showcase.header--aside__item > .js-hl-button.header__clickable
 
+! dynadot.com
+||dynadot.com/chat/*$script,1p
+dynadot.com##.chatbot-fixed-bubble
+
 ! educba.com
 educba.com##+js(set, PUM.init, noopFunc)
 educba.com##.code-block:has(> div > .sale-bf)
@@ -501,6 +510,12 @@ e-hentai.org##+js(set, adsbyjuicy.push, noopFunc)
 ! eteknix.com
 eteknix.com###rightbar
 eteknix.com##+js(aeld, click)
+
+! exercism.org
+||exercism.org/tracks/d^$document,1p
+||exercism.org/tracks/nim$document,1p
+exercism.org##a.e-hover-grow.--track[href="https://exercism.org/tracks/d"]
+exercism.org##a.e-hover-grow.--track[href="https://exercism.org/tracks/nim"]
 
 ! fedscoop.com
 fedscoop.com##^script:has-text(show_welcome_ad)
