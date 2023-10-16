@@ -693,6 +693,7 @@
 ||crypto.org^
 ||crypto^
 ||cryptoadventure.com^
+||cryptoavatars.io^
 ||cryptoblades.io^
 ||cryptocoin.news^
 ||cryptocoinjs.com^
@@ -1572,6 +1573,8 @@
 ||modern-fairies.online^
 ||molecule.to^
 ||molochdao.com^
+||mona.ghost.io^
+||monaverse.com^
 ||monero.com^
 ||monero.observer^
 ||moneybutton.com^
@@ -2264,6 +2267,7 @@
 ||subscan.io^
 ||subsocial.network^
 ||subspace.network^
+||substrata.info^
 ||sui.io^
 ||sunscreen.tech^
 ||superdao.co^
@@ -2516,6 +2520,7 @@
 ||viabtc.github.io^
 ||viawallet.com^
 ||vidulum.app^
+||vipe.io^
 ||visionati.com^
 ||vitadao.com^
 ||vitalik.ca^

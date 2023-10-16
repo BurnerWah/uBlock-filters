@@ -153,6 +153,7 @@
 ||delltechnologies.com^
 ||deloi.tt^
 ||deloitte.com^
+||delsdoodles.com^
 ||desupost.soy^
 ||detroitriotcity.com^
 ||dev-wiki.de^
@@ -165,6 +166,7 @@
 ||dlang.org^
 ||dobbs.town^
 ||doctoroz.com^
+||dotart.blog^
 ||douglascounty.gop^
 ||durham.nc.gop^
 ||eatthebugs.social^
@@ -191,6 +193,7 @@
 ||fbxl.net^
 ||fedex.com^
 ||fina.org^
+||fipamo.blog^
 ||firedragonstudios.com^
 ||fischer.senate.gov^
 ||fiume.club^
@@ -268,6 +271,7 @@
 ||glindr.org^
 ||glowers.club^
 ||godspeed.moe^
+||gofundme.com/f/a-new-way-to-social-media^$document
 ||goochland.gop^
 ||gop.com^
 ||gop^
@@ -339,6 +343,7 @@
 ||kiwifarms.net^
 ||kiwifarms.ru^
 ||ko-fi.com/quacksire^$document
+||ko-fi.com/welshpixie^$document
 ||kochind.com^
 ||kusoda.net^
 ||lain.com^
@@ -380,6 +385,7 @@
 ||maskyourself.fox^
 ||masochi.st^
 ||masthead.social^
+||mastodon.art^
 ||mastodon.city^
 ||mastodon.se^
 ||mastodong.lol^
@@ -438,12 +444,14 @@
 ||oneangrygamer.net^
 ||opencollective.com/ciderapp^$document
 ||opencollective.com/polymc^$document
+||opensuse.org^
 ||orange.nc.gop^
 ||oregon.gop^
 ||oregonsenate.gop^
 ||oursocialism.today^
 ||owo69.me^
 ||parler.com^
+||patreon.com/Are0h^$document
 ||pawlicker.com^
 ||paypig.org^
 ||pender.nc.gop^
@@ -479,6 +487,7 @@
 ||quodverum.com^
 ||quto.org^
 ||rage.lol^
+||rage.love^
 ||rakket.app^
 ||raspberrypi.com^
 ||raspberrypi.org^
@@ -501,6 +510,7 @@
 ||rickscott.senate.gov^
 ||risch.senate.gov^
 ||rockingham.nc.gop^
+||roiskinda.cool^
 ||rojogato.com^
 ||romney.senate.gov^
 ||ronjohnson.senate.gov^
@@ -536,6 +546,7 @@
 ||shortstackran.ch^
 ||shrimpposter.club^
 ||silkhe.art^
+||simcha.lgbt^
 ||sinema.senate.gov^
 ||skins.gay^
 ||skippers-bin.com^
@@ -570,6 +581,7 @@
 ||supes.com^
 ||supremecourt.gov^
 ||surry.nc.gop^
+||suse.com^
 ||swiftzerr.github.io^
 ||swurl.xyz^
 ||t-mo.co^
@@ -586,6 +598,7 @@
 ||the-lies-they-tell.org^
 ||the-sun.com^
 ||theamericanconservative.com^
+||thebad.space^
 ||theblaze.com^
 ||theburning.world^
 ||thedonald.win^
@@ -618,6 +631,7 @@
 ||turner.com^
 ||twitch.tv/duckdoquack^$document
 ||uber.com^
+||ubiqueros.com^
 ||ufoi.gitlab.io^
 ||ufoi.org^
 ||unherd.com^
@@ -651,6 +665,7 @@
 ||wayne.nc.gop^
 ||weblate.org/projects/polymc^$document
 ||wells.gop^
+||welshpixie.rocks^
 ||whateven.ga^
 ||wicker.senate.gov^
 ||wideboys.org^

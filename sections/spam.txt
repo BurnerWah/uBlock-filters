@@ -248,3 +248,5 @@
 ||you-should-use-imagisum.buzz^
 ||your-mom-died.today^
 ||your-parents-are-not-a.live^
+||aify.co^
+||howstuffworks.com^
