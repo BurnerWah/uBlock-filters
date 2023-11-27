@@ -31,8 +31,6 @@
 ||meister4weho.com^
 ||mullershewrote.com^
 ||murray.senate.gov^
-||newblood.games^
-||newbloodstore.com^
 ||nitter.net^
 ||occupydemocrats.com^
 ||outbrain.com^$important
