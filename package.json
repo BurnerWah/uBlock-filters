@@ -3,6 +3,6 @@
     "lint": "aglint"
   },
   "devDependencies": {
-    "@adguard/aglint": "^1.0.11"
+    "@adguard/aglint": "^2.0.6"
   }
 }
