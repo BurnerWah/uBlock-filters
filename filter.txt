@@ -1072,10 +1072,16 @@ youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scop
 youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(People also watched))
 youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(Previously watched))
 youtube.com##.ytp-cards-teaser
+youtube.com###mealbar-promo-renderer
 youtube.com###voice-search-button
+youtube.com##yt-share-target-renderer:not(:has(button[title="Embed"]))
 youtube.com##ytd-button-renderer:has-text(Clip)
+youtube.com##ytd-button-renderer:has(a[aria-label="Promote"])
 youtube.com##ytd-compact-movie-renderer
 youtube.com##ytd-compact-radio-renderer
+youtube.com##ytd-guide-entry-renderer:has-text(Your movies and TV)
+youtube.com##ytd-guide-section-renderer:has(> h3:has-text(Explore))
+youtube.com##ytd-guide-section-renderer:has(> h3:has-text(More from YouTube))
 youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
 
