@@ -2,7 +2,7 @@
 ! Expires: 1 week
 ! Description: Supplemental filters targeting uBlock origin
 ! Homepage: https://github.com/BurnerWah/uBlock-filters
-! Licence: https://github.com/BurnerWah/uBlock-filters/blob/master/LICENSE
+! Licence: https://github.com/BurnerWah/uBlock-filters/blob/main/LICENSE
 
 ! -- UNIVERSAL FILTERS --
 /_/api/v2/analytics/?project$xhr,1p
@@ -205,6 +205,7 @@
 ||sendbird.com^$websocket,3p
 ||sendbird.com^$xhr,3p
 ||widgets.recruitology.com^$script,3p
+||platform.twitter.com^$3p
 
 ! -- STRICT BLOCKING OF ENTIRE SITES ---
 
@@ -482,6 +483,11 @@ disqus.com##.login-overlay__wrapper
 ! dototot.com
 dototot.com##div[class^="styles-module--puppetPatterns--"]
 
+! drbuho.com
+||drbuho.com^$document,removeparam=source
+||drbuho.com^$document,removeparam=uid
+||drbuho.com^$document,removeparam=ver
+
 ! dropbox.com
 dropbox.com###eu-cookie-bar
 dropbox.com###top-notification-bar-container
@@ -536,6 +542,10 @@ fitgirl-repacks.site###smart_push_smio_window
 ! fivethirtyeight.com
 fivethirtyeight.com##.a9-sidebar-ad
 fivethirtyeight.com##.gpt-sidebar-ad
+
+! flathub.org
+flathub.org##div:has(> a[href^="/apps/org.polymc."])
+flathub.org##div:has(> a[href^="/apps/sh.cider."])
 
 ! furaffinity.net
 !#include sections/sites/furaffinity.txt
@@ -594,6 +604,9 @@ imgur.com##.Searchbar
 
 ! indeed.com
 indeed.com##.google-Only-Modal
+
+! github.blog
+github.blog##nav .btn-mktg
 
 ! github.com
 github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refined-github/blob/main/source/features/"]:has-text(via Refined GitHub)
@@ -698,6 +711,10 @@ litcharts.com##.user-iama
 litcharts.com###header-upgrade-link
 litcharts.com##+js(nostif, registration-modal)
 
+! macosicons.com
+macosicons.com##.announcement-top-banner
+macosicons.com###stickyBanner
+
 ! malwarebytes.com
 ||malwarebytes.com/mwb-uninstall$document
 
@@ -727,6 +744,9 @@ merriam-webster.com###subscribe-overlay
 
 ! monkeytype.com
 monkeytype.com###bannerCenter
+
+! mui.com
+mui.com##span[data-ga-event-category="ad"]
 
 ! musicbrainz.org
 @@||127.0.0.1:8000/openalbum$domain=musicbrainz.org
@@ -762,8 +782,15 @@ nexusmods.com##.premium-banner
 nexusmods.com##.premium-block
 nexusmods.com##.rj-supporter-wrapper
 
+! nodejs.org
+||i.imgur.com^$image,domain=nodejs.org
+
 ! npmjs.com
 npmjs.com##div[data-promotion-spot="below-header"]
+
+! owler.com
+owler.com##.signup-banner
+owler.com###usercentrics-root
 
 ! patreon.com
 @@||youtube.com/embed/*$subdocument,domain=patreon.com
@@ -798,6 +825,9 @@ porkbun.com##.searchResultsTldLetterBox:has(+ .searchResultsTldLetterBox)
 ||phncdn.com/www-static/js/promo-banner.js$script
 ||phncdn.com/www-static/js/widgets-live-popup.js$script
 ||pornhub.com/front/menu_livesex$xhr,1p
+
+! privacy.com
+app.privacy.com##.banner-extension-install
 
 ! propublica.org
 ||propublica.org/*/js/deploy/syndicated-newsletter-*.js$script,1p
@@ -848,6 +878,10 @@ chan.sankakucomplex.com###share
 chan.sankakucomplex.com###sp1
 chan.sankakucomplex.com##^#headerthumbs
 
+! setapp.com
+setapp.com##.app-in-setapp-illustration__arrow
+setapp.com##.jumbotron__content
+
 ! sofurry.com
 sofurry.com##^#sf-ads
 
@@ -893,6 +927,12 @@ telegramchannels.me##.pinterest-pin
 ||thedailybeast.com^$document,removeparam=/^tdb_/
 ||thedailybeast.com^$document,removeparam=via
 
+! thehackernews.com
+thehackernews.com##.babsi.sidefix.bb-side-box-1.clear
+thehackernews.com##.babsi.zz-box-1.clear
+thehackernews.com##.cf.gg-2
+thehackernews.com##[href^="https://thn.news/"]
+
 ! thestar.com
 thestar.com##.aggregation
 thestar.com##.right-rail-ads-container
@@ -906,6 +946,10 @@ theintercept.com##+js(set, tp.push, noopFunc)
 
 ! tiktok.com
 ||tiktok.com^$document,removeparam=share_link_id
+
+! tld-list.com
+||tld-list.com/img/a/$image
+tld-list.com##a[rel*="sponsored"]
 
 ! tomshardware.com
 tomshardware.com##.socialite-widget
@@ -973,6 +1017,9 @@ userstyles.org##.walking
 ! vox.com
 vox.com###newsletter-signup-short-form
 
+! vuejs.org
+||vueschool.io/banners/main.js$script,domain=vuejs.org
+
 ! web.dev
 web.dev##share-action
 
@@ -1021,6 +1068,9 @@ xvideos.com##.premium-results-line
 ||youtube.com/embed/*$subdocument,3p,removeparam=origin
 ||youtube.com/embed/*$subdocument,3p,removeparam=widget_referrer
 ||youtube.com^$document,removeparam=sub_confirmation
+youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(For you))
+youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(People also watched))
+youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(Previously watched))
 youtube.com##.ytp-cards-teaser
 youtube.com###voice-search-button
 youtube.com##ytd-button-renderer:has-text(Clip)
