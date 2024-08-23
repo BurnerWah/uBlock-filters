@@ -700,6 +700,7 @@
 ||cryptocompare.com^
 ||cryptocves.com^
 ||cryptodon.lol^
+||cryptoflies.com^
 ||cryptogeek.info^
 ||cryptoid.info^
 ||cryptojobslist.com^

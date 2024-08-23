@@ -32,7 +32,6 @@
 ||deviantart.com/miles-df^$document
 ||deviantart.com/nyinxdelune^$document
 ||deviantart.com/rainbowjokerhound^$document
-||deviantart.com/seth-iova^$document
 ||deviantart.com/zaush^$document
 ||discord.gg/Avali-Fleet^$document
 ||discord.gg/cryoden^$document
@@ -80,7 +79,6 @@
 ||furaffinity.net/*/nyinxdelune^$document
 ||furaffinity.net/*/opticbuster^$document
 ||furaffinity.net/*/popparotzi^$document
-||furaffinity.net/*/seth-iova^$document
 ||furaffinity.net/*/sethpup^$document
 ||furaffinity.net/*/shardfox^$document
 ||furaffinity.net/*/soulbriar^$document
@@ -118,7 +116,6 @@
 ||ko-fi.com/headsandtails^$document
 ||ko-fi.com/paperwings^$document
 ||ko-fi.com/shardfox^$document
-||leosaeta.sofurry.com^
 ||linktr.ee/cuadra_side^$document
 ||linktr.ee/HeadsAndTailsStudios^$document
 ||linktr.ee/Lumetric^$document
