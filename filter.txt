@@ -614,6 +614,11 @@ github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refi
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
 @@||github.com/GoogleChrome/web-vitals/*$xhr,1p
+||github.com/_jobs/copilot-completion:*$xhr,1p
+||github.com/*/copilot/completions/$xhr,1p
+||github.com/dashboard/changelog$xhr,1p
+||github.com/github-copilot/chat$xhr,1p
+||github.com/search/warm_blackbird_caches$xhr,1p
 
 ! howtogeek.com
 howtogeek.com##.adslot
