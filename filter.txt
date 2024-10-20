@@ -207,6 +207,7 @@
 ||sendbird.com^$xhr,3p
 ||widgets.recruitology.com^$script,3p
 ||platform.twitter.com^$3p
+||install.doctor^$important
 
 ! -- STRICT BLOCKING OF ENTIRE SITES ---
 
