@@ -206,7 +206,6 @@
 ||sendbird.com^$websocket,3p
 ||sendbird.com^$xhr,3p
 ||widgets.recruitology.com^$script,3p
-||platform.twitter.com^$3p
 ||install.doctor^$important
 
 ! -- STRICT BLOCKING OF ENTIRE SITES ---
@@ -973,9 +972,6 @@ toptal.com##.internal-linking
 ! tutorialspoint.com
 tutorialspoint.com###ebooks_grid
 ||tutorialspoint.com/images/top-banner.jpg$image
-
-! twitter.com
-!#include sections/sites/twitter.txt
 
 ! twitchquotes.com
 twitchquotes.com##^aside[id^="financetldr-top-bar-"]

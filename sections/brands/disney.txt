@@ -1,9 +1,4 @@
 ||20thtv.com^
-||abc.com^
-||abc.es^
-||abc.go.com^
-||abc^
-||abcnews.go.com^
 ||d23.com^
 ||d23expo.com^
 ||dgepress.com^
@@ -23,11 +18,9 @@
 ||freeform.com^
 ||fxnetworks.com^
 ||fxnetworkspressroom.com^
-||go.com^
 ||hulu.com^
 ||ironworksproductions.ca^
 ||marvel.com^
 ||nationalgeographicpartners.com^
-||nic.abc^
 ||rundisney.com^
 ||thewaltdisneycompany.com^
