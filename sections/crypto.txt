@@ -477,6 +477,7 @@
 ||bsnbase.io^
 ||btc.com^
 ||btcbox.co.jp^
+||btchd.org^
 ||btcinformation.org^
 ||btckan.com^
 ||btcpayserver.org^
@@ -975,6 +976,7 @@
 ||exmo.com^
 ||exmo.me^
 ||exodus.com^
+||exodus.io^
 ||exolix.com^
 ||explore.cash^
 ||explorebitsong.com^
@@ -1026,6 +1028,18 @@
 ||flair.finance^
 ||flashbots.net^
 ||flashift.app^
+||flathub.org/*/com.ownrwallet.*^$document
+||flathub.org/*/io.exodus.*^$document
+||flathub.org/*/net.peercoin.*^$document
+||flathub.org/*/network.loki.*^$document
+||flathub.org/*/org.bitcoincore.*^$document
+||flathub.org/*/org.btchd.*^$document
+||flathub.org/*/org.dash.*^$document
+||flathub.org/*/org.electrum.*^$document
+||flathub.org/*/org.getmonero.*^$document
+||flathub.org/*/org.groestlcoin.*^$document
+||flathub.org/*/org.vergecurrency.*^$document
+||flathub.org/*/org.vertcoin.*^$document
 ||flatternft.com^
 ||fleek.co^
 ||flexa.network^
@@ -1443,6 +1457,7 @@
 ||loda.finance^
 ||lofty.ai^
 ||login.xyz^
+||loki.network^
 ||lokinet.org^
 ||longhashventures.com^
 ||looksrare.org^
@@ -2512,7 +2527,9 @@
 ||venly.io^
 ||venly.market^
 ||veramo.io^
+||vergecurrency.org^
 ||verida.io^
+||vertcoin.org^
 ||vertices.network^
 ||verto.exchange^
 ||veworld.com^
