@@ -78,6 +78,7 @@
 ||cawfee.club^
 ||cdninstagram.com^
 ||charter.com^
+||chatgpt.com^
 ||chatto.tk^
 ||chriscoons.com^
 ||christianpost.com^
@@ -88,6 +89,7 @@
 ||ciderapp.workers.dev^
 ||city-journal.org^
 ||cityjourn.al^
+||clinicaltrials.gov^
 ||clouthub.com^
 ||clubcyberia.co^
 ||codeberg.org/crow__bar^$document
@@ -140,6 +142,8 @@
 ||dlang.org^
 ||dobbs.town^
 ||doctoroz.com^
+||doge.gov^
+||doi.gov^
 ||dotart.blog^
 ||eatthebugs.social^
 ||eeeeeeeee.eu^
@@ -186,6 +190,7 @@
 ||fbxl.net^
 ||ff.im^
 ||fina.org^
+||findstarlink.com^
 ||fipamo.blog^
 ||firedragonstudios.com^
 ||fischer.senate.gov^
@@ -323,6 +328,7 @@
 ||kiwifarms.is^
 ||kiwifarms.net^
 ||kiwifarms.ru^
+||kiwifarms.st^
 ||ko-fi.com/quacksire^$document
 ||ko-fi.com/welshpixie^$document
 ||kochind.com^
@@ -392,6 +398,7 @@
 ||murky.club^
 ||musksocial.com^
 ||myflorida.com^
+||nahb.org^
 ||narrativerry.xyz^
 ||nationalreview.com^
 ||naturalnews.com^
@@ -419,9 +426,11 @@
 ||oculus.com^
 ||odysee.com^
 ||oneangrygamer.net^
+||openai.com^
 ||opencollective.com/ciderapp^$document
 ||opencollective.com/polymc^$document
 ||opensuse.org^
+||opm.gov^
 ||oursocialism.today^
 ||owo69.me^
 ||parler.com^
@@ -429,6 +438,7 @@
 ||pawlicker.com^
 ||paypig.org^
 ||personal-website-monochromish.vercel.app^
+||phoronix.com^
 ||phyllisschlafly.com^
 ||pieville.net^
 ||pleroma.host^
@@ -585,6 +595,7 @@
 ||tpusa.com^
 ||traboone.com^
 ||tracfonewirelessinc.com^
+||treasury.gov^
 ||trumpislovetrumpis.life^
 ||truthsocial.co.in^
 ||truthsocial.com^
@@ -600,7 +611,9 @@
 ||ufoi.org^
 ||unherd.com^
 ||urspringer.de^
+||usajobs.gov^
 ||uschamber.com^
+||va.gov^
 ||varishangout.net^
 ||vaush.gg^
 ||vaxerski.github.io^

@@ -63,11 +63,15 @@
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
 
 ##.facebook-button-colorbox
+##.fb-share
 ##.hustle-slidein
+##.messenger.rounded-share-item
 ##.pinterest-button-colorbox
 ##.twitter-button-colorbox
-###WIX_ADS
 ##.twitter-share-button
+##.twitter.rounded-share-item
+##.whatsapp.rounded-share-item
+###WIX_ADS
 
 ||accounts.google.com/gsi/*$script,3p
 ||accounts.google.com/o/oauth2/*$subdocument,3p
@@ -494,12 +498,22 @@ dropbox.com###eu-cookie-bar
 dropbox.com###top-notification-bar-container
 
 ! duckduckgo.com
-duckduckgo.com##div.nrn-react-div:has(a.assigned-label-transphobic)
+||duckduckgo.com/dist/wpm.duckassist-ia.*$1p
 duckduckgo.com##.header__label.showcase.header--aside__item > .js-hl-button.header__clickable
+duckduckgo.com##.js-zci-link--chat
+duckduckgo.com##.nav-menu__item:has(> a[href*="://duckduckgo.com/aichat"])
+duckduckgo.com##.privacy-reminder
+duckduckgo.com##.text_promo
+duckduckgo.com###features
+duckduckgo.com##div.nrn-react-div:has(a.assigned-label-transphobic)
 
 ! dynadot.com
 ||dynadot.com/chat/*$script,1p
 dynadot.com##.chatbot-fixed-bubble
+
+! ebay.com
+||shoplive.cloud^$xhr,domain=ebay.com
+www.ebay.com##.LIVE_EVENTS_VIDEO_CAROUSEL
 
 ! educba.com
 educba.com##+js(set, PUM.init, noopFunc)
@@ -549,6 +563,7 @@ flathub.org##div:has(> a[href^="/apps/org.polymc."])
 flathub.org##div:has(> a[href^="/apps/sh.cider."])
 
 ! furaffinity.net
+www.furaffinity.net##.user-contact-item:has(> .user-contact-seperator > .contact-icon-twitter)
 !#include sections/sites/furaffinity.txt
 
 ! gamebanana.com
@@ -610,15 +625,28 @@ indeed.com##.google-Only-Modal
 github.blog##nav .btn-mktg
 
 ! github.com
+github.com##.ActionListItem > a[href="/copilot"]
+github.com##.AppHeader-CopilotChat
+github.com##.copilotPreview__container
 github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refined-github/blob/main/source/features/"]:has-text(via Refined GitHub)
+github.com###repos-sticky-header > div > div > div > div:has(svg.octicon-copilot)
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
+github.com##button[class*="Copilot"]
+github.com##li.ActionListItem:has(> a[href^="/github-copilot/"])
+github.com##ul#query-builder-test-results > li.ActionList-sectionDivider:has(> h3[aria-hidden="true"]:has-text(Copilot))
 @@||github.com/GoogleChrome/web-vitals/*$xhr,1p
 ||github.com/_jobs/copilot-completion:*$xhr,1p
 ||github.com/*/copilot/completions/$xhr,1p
 ||github.com/dashboard/changelog$xhr,1p
 ||github.com/github-copilot/chat$xhr,1p
 ||github.com/search/warm_blackbird_caches$xhr,1p
+||github.githubassets.com/assets/chunk-ui_packages_copilot-dashboard-entrypoint-element_copilot-dashboard-entrypoint-element_ts-*$script,domain=github.com
+||github.githubassets.com/assets/copilot-chat-*$script,domain=github.com
+||github.githubassets.com/assets/global-copilot-menu-*$script,domain=github.com
+||github.githubassets.com/assets/ui_packages_analytics-provider_*$script,domain=github.com
+||github.githubassets.com/assets/ui_packages_copilot-chat_*$script,domain=github.com
+||github.githubassets.com/assets/ui_packages_test-id-props_test-id-props_ts-ui_packages_copilot-markdown_MarkdownRenderer_tsx-*$script,domain=github.com
 
 ! howtogeek.com
 howtogeek.com##.adslot
@@ -965,6 +993,12 @@ toptal.com##.internal-linking
 ||toptal.com/developers/gitignore/img/toptal-logo-wordmark.svg$image,1p
 
 ! tumblr.com
+www.tumblr.com##[href="/settings/domains"]
+www.tumblr.com##a[href="/settings/ad-free-browsing"]
+www.tumblr.com##li[title="Get a domain"]
+www.tumblr.com##li[title="Go Ad-Free"]
+www.tumblr.com##li[title="Live"]
+www.tumblr.com##li[title="TumblrMart"]
 ||tumblr.com/svc/pop/exceptions$xhr,1p
 ||tumblr.com/svc/pop/performance$xhr,1p
 ||tumblr.com^$removeparam=_branch_referrer
@@ -982,6 +1016,10 @@ twofactorauth.org##.facebook-button
 ! uncensorpat.ch
 uncensorpat.ch###ad-panel-bottom
 uncensorpat.ch###ad-panel-top
+
+! unity.com
+||assetstore.unity.com/decentralization-hub$document
+assetstore.unity.com##div.main-nav-element:has-text(Decentralization)
 
 ! unsplash.com
 unsplash.com##div[data-test="photos-route"] p:has-text(Browse premium related images on iStock)
@@ -1077,6 +1115,7 @@ youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scop
 youtube.com##.ytp-cards-teaser
 youtube.com###mealbar-promo-renderer
 youtube.com###voice-search-button
+youtube.com##segmented-like-dislike-button-view-model > yt-smartimation > div.smartimation__border
 youtube.com##yt-share-target-renderer:not(:has(button[title="Embed"]))
 youtube.com##ytd-button-renderer:has-text(Clip)
 youtube.com##ytd-button-renderer:has(a[aria-label="Promote"])
