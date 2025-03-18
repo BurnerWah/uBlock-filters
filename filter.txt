@@ -499,6 +499,7 @@ dropbox.com###top-notification-bar-container
 
 ! duckduckgo.com
 ||duckduckgo.com/dist/wpm.duckassist-ia.*$1p
+duckduckgo.com##.footer section ul > li:has(> a[href="https://duckduckgo.com/compare-privacy"])
 duckduckgo.com##.header__label.showcase.header--aside__item > .js-hl-button.header__clickable
 duckduckgo.com##.js-zci-link--chat
 duckduckgo.com##.nav-menu__item:has(> a[href*="://duckduckgo.com/aichat"])
@@ -506,6 +507,9 @@ duckduckgo.com##.privacy-reminder
 duckduckgo.com##.text_promo
 duckduckgo.com###features
 duckduckgo.com##div.nrn-react-div:has(a.assigned-label-transphobic)
+duckduckgo.com##nav > div:has([data-testid="privacy-reminder"])
+duckduckgo.com##nav > ul > li:has(a[href*="&assist"])
+duckduckgo.com##nav > ul > li:has(a[href$="&ia=chat"])
 
 ! dynadot.com
 ||dynadot.com/chat/*$script,1p
@@ -828,6 +832,10 @@ owler.com###usercentrics-root
 
 ! patreon.com
 @@||youtube.com/embed/*$subdocument,domain=patreon.com
+
+! payhip.com
+payhip.com##button.js-trigger-social-media[data-type="twitter"]
+payhip.com##button.js-trigger-social-media[data-type="facebook"]
 
 ! pcgamer.com
 ||pcgamer.com/api/article/related$xhr,1p
