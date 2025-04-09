@@ -451,6 +451,8 @@ channel3000.com##.wpb_wrapper > .templatera_shortcode
 
 ! cloudflare.com
 dash.cloudflare.com##a[aria-label="Zone Web3 Page"]:upward(li)
+dash.cloudflare.com##li[data-testid="sidenav-ai-link"]
+dash.cloudflare.com##li[data-testid="sidenav-ai-zones"]
 developers.cloudflare.com##a.ProductGrid--link[href="/web3/"]
 
 ! code-boost.com
@@ -515,6 +517,17 @@ dototot.com##div[class^="styles-module--puppetPatterns--"]
 ||drbuho.com^$document,removeparam=uid
 ||drbuho.com^$document,removeparam=ver
 
+! drive.google.com
+drive.google.com##button[aria-label="Ask Gemini"]
+drive.google.com##div[role="button"][aria-label="Summarise this file"]
+drive.google.com##div[role="button"][aria-label="Summarise this folder"]
+drive.google.com##div[role="button"][aria-label="Unsupported item selected"]:has-text(Summarise)
+drive.google.com##div[role="menu"] > div[role="presentation"] > div[role="menuitem"]:has-text("Summarise this file")
+drive.google.com##div[role="menu"] > div[role="presentation"] > div[role="menuitem"]:has-text("Summarise this folder")
+drive.google.com##div[role="menu"] > div[role="presentation"] > div[role="menuitem"]:has(span[aria-label="Unsupported item selected"]:has-text(Summarise))
+drive.google.com##header button[aria-label="Ask Gemini"]:upward(div[jsaction])
+drive.google.com##ul[aria-label="list of Gemini prompts"]
+
 ! dropbox.com
 dropbox.com###eu-cookie-bar
 dropbox.com###top-notification-bar-container
@@ -529,6 +542,7 @@ duckduckgo.com##.privacy-reminder
 duckduckgo.com##.text_promo
 duckduckgo.com###features
 duckduckgo.com##div.nrn-react-div:has(a.assigned-label-transphobic)
+duckduckgo.com##div.react-module[data-react-module-id="about"] > div > div > section > div > a[href^="https://twitter.com/"]
 duckduckgo.com##nav > div:has([data-testid="privacy-reminder"])
 duckduckgo.com##nav > ul > li:has(a[href*="&assist"])
 duckduckgo.com##nav > ul > li:has(a[href$="&ia=chat"])
