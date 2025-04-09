@@ -499,6 +499,7 @@ docs.google.com##.ai-standard-menu-item
 docs.google.com##.FormulaBarContainerGeminiSummarizeButton
 docs.google.com##.goog-menuitem.apps-menuitem:has-text(AI summary)
 docs.google.com##.goog-menuitem.apps-menuitem:has-text(Help me create an image)
+docs.google.com##.goog-menuitem.apps-menuitem:has-text(Help me create)
 docs.google.com##.goog-menuitem.apps-menuitem:has-text(Help me write)
 docs.google.com##.goog-menuitem.apps-menuitem:has-text(Refine the selected text)
 docs.google.com##.goog-menuitem.apps-menuitem:has-text(Save to Keep)
@@ -506,6 +507,7 @@ docs.google.com##.goog-menuitem.apps-menuitem:has(> .goog-menuitem-content > .go
 docs.google.com##.inlineFabBubbleContainer:has(> .docs-ai-text-generator-bubble-usecase-menu)
 docs.google.com##.superfab-aitextgeneratormenu-button
 docs.google.com###ai-rail-group
+docs.google.com###docs-sidekick-button-container
 docs.google.com###openSidekickForSlideGenerationButton
 docs.google.com###summary-block
 
