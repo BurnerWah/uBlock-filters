@@ -62,6 +62,7 @@
 /wp-content/themes/flex-mag/js/autoloadpost.js
 /x-kinja-static/assets/new-client/runtime~trackers.*$script,1p
 
+##.fa-x-twitter
 ##.facebook-button-colorbox
 ##.fb-share
 ##.hustle-slidein
@@ -340,12 +341,18 @@ amazon.com###va-related-videos-widget_feature_div
 advocate.com##+js(set, history.pushState, noopFunc)
 advocate.com##.footer.sticky
 
-! androidpolice.com - fuck you
+! androidpolice.com
 androidpolice.com##.sidebar-poll
 androidpolice.com##.w-article-related
 ||androidpolice.com^$inline-script
 
-! apkmirror.com - fuck you
+! allthings.how
+allthings.how##.navigation-wrap
+allthings.how##.post-share
+allthings.how##.post-sidebar
+allthings.how##.special-section
+
+! apkmirror.com
 apkmirror.com##.advertisement-text
 apkmirror.com##.ai-track
 apkmirror.com##.ains-apkm_outbrain_ad
@@ -485,6 +492,21 @@ disqus.com##.login-overlay__wrapper
 ||disqus.com/api/3.0/threadReactions/*$xhr,1p
 ||realtime.services.disqus.com/ws/2/thread/*$websocket,1p
 
+! docs.google.com
+docs.google.com##.ai-standard-menu-item
+docs.google.com##.FormulaBarContainerGeminiSummarizeButton
+docs.google.com##.goog-menuitem.apps-menuitem:has-text(AI summary)
+docs.google.com##.goog-menuitem.apps-menuitem:has-text(Help me create an image)
+docs.google.com##.goog-menuitem.apps-menuitem:has-text(Help me write)
+docs.google.com##.goog-menuitem.apps-menuitem:has-text(Refine the selected text)
+docs.google.com##.goog-menuitem.apps-menuitem:has-text(Save to Keep)
+docs.google.com##.goog-menuitem.apps-menuitem:has(> .goog-menuitem-content > .goog-menuitem-label[aria-label="Gemini 2"])
+docs.google.com##.inlineFabBubbleContainer:has(> .docs-ai-text-generator-bubble-usecase-menu)
+docs.google.com##.superfab-aitextgeneratormenu-button
+docs.google.com###ai-rail-group
+docs.google.com###openSidekickForSlideGenerationButton
+docs.google.com###summary-block
+
 ! dototot.com
 dototot.com##div[class^="styles-module--puppetPatterns--"]
 
@@ -588,6 +610,13 @@ genius.com##recirculated-content
 
 ! giphy.com
 ||api.giphy.com/v1/gifs/related$xhr,1p
+
+! gumroad.com
+||gumroad.com^$doc,removeparam=a
+||gumroad.com^$doc,removeparam=layout
+||gumroad.com^$doc,removeparam=recommended_by
+||gumroad.com^$doc,removeparam=recommender_model_name
+||gumroad.com^$doc,removeparam=referrer
 
 ! hackster.io
 ||hackster.io/users/api_token$xhr,1p
@@ -825,6 +854,10 @@ nexusmods.com##.rj-supporter-wrapper
 
 ! npmjs.com
 npmjs.com##div[data-promotion-spot="below-header"]
+
+! nx.dev
+nx.dev###short-embed
+nx.dev##a[href="/ai-chat"]
 
 ! owler.com
 owler.com##.signup-banner
@@ -1134,6 +1167,7 @@ youtube.com##ytd-guide-section-renderer:has(> h3:has-text(Explore))
 youtube.com##ytd-guide-section-renderer:has(> h3:has-text(More from YouTube))
 youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
+youtube.com##ytd-search ytd-shelf-renderer:has(h2:has-text(Explore more))
 
 ! z2u.com
 ||z2u.com/notic.wav$media,1p
