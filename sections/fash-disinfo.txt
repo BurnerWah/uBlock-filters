@@ -158,6 +158,7 @@
 ||doge.gov^
 ||doi.gov^
 ||dotart.blog^
+||durbin.senate.gov^
 ||eatthebugs.social^
 ||ed.gov^
 ||edcase.com^

@@ -674,16 +674,6 @@ indeed.com##.google-Only-Modal
 github.blog##nav .btn-mktg
 
 ! github.com
-github.com##.ActionListItem > a[href="/copilot"]
-github.com##.AppHeader-CopilotChat
-github.com##.copilotPreview__container
-github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refined-github/blob/main/source/features/"]:has-text(via Refined GitHub)
-github.com###repos-sticky-header > div > div > div > div:has(svg.octicon-copilot)
-github.com##a[href^="git-client://clone?repo="]
-github.com##a[href^="x-github-client://openRepo/"]
-github.com##button[class*="Copilot"]
-github.com##li.ActionListItem:has(> a[href^="/github-copilot/"])
-github.com##ul#query-builder-test-results > li.ActionList-sectionDivider:has(> h3[aria-hidden="true"]:has-text(Copilot))
 @@||github.com/GoogleChrome/web-vitals/*$xhr,1p
 ||github.com/_jobs/copilot-completion:*$xhr,1p
 ||github.com/*/copilot/completions/$xhr,1p
@@ -696,6 +686,17 @@ github.com##ul#query-builder-test-results > li.ActionList-sectionDivider:has(> h
 ||github.githubassets.com/assets/ui_packages_analytics-provider_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_copilot-chat_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_test-id-props_test-id-props_ts-ui_packages_copilot-markdown_MarkdownRenderer_tsx-*$script,domain=github.com
+github.com##.ActionListItem > a[href="/copilot"]
+github.com##.AppHeader-CopilotChat
+github.com##.copilotPreview__container
+github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refined-github/blob/main/source/features/"]:has-text(via Refined GitHub)
+github.com###repos-sticky-header > div > div > div > div:has(svg.octicon-copilot)
+github.com##a[href^="git-client://clone?repo="]
+github.com##a[href^="x-github-client://openRepo/"]
+github.com##button[class*="Copilot"]
+github.com##div[data-testid="issue-viewer-metadata-pane"] > div[data-testid="sidebar-section"]:has(h3:has-text(Development))
+github.com##li.ActionListItem:has(> a[href^="/github-copilot/"])
+github.com##ul#query-builder-test-results > li.ActionList-sectionDivider:has(> h3[aria-hidden="true"]:has-text(Copilot))
 
 ! howtogeek.com
 howtogeek.com##.adslot
