@@ -11,6 +11,7 @@ if (import.meta.dirname) {
   const stream = ReadableStream.from([
     ...users.map((user) => `furaffinity.net##figure.u-${user}\n`),
     ...users.map((user) => `furaffinity.net##figure[data-user="u-${user}"]\n`),
+    ...users.map((user) => `||furaffinity.net/*/${user}^$document\n`),
   ])
 
   await Deno.writeTextFile(
