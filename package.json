@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "aglint"
+    "lint:aglint": "aglint"
   },
   "devDependencies": {
     "@adguard/aglint": "^2.1.4"
