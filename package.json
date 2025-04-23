@@ -4,6 +4,5 @@
   },
   "devDependencies": {
     "@adguard/aglint": "^2.1.4"
-  },
-  "packageManager": "pnpm@10.9.0"
+  }
 }

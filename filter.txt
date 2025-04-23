@@ -606,8 +606,9 @@ flathub.org##div:has(> a[href^="/apps/org.polymc."])
 flathub.org##div:has(> a[href^="/apps/sh.cider."])
 
 ! furaffinity.net
-www.furaffinity.net##.user-contact-item:has(> .user-contact-seperator > .contact-icon-twitter)
-!#include sections/sites/furaffinity.txt
+furaffinity.net##.user-contact-item:has(> .user-contact-seperator > .contact-icon-twitter)
+furaffinity.net###donation_list
+!#include generated/furaffinity.txt
 
 ! gamebanana.com
 gamebanana.com##.AdTagModule

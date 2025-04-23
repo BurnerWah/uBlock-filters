@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "generate:furaffinity": "deno run --allow-read --allow-write scripts/gen-furaffinity.ts"
+  },
+  "imports": {
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "@std/toml": "jsr:@std/toml@^1.0.4"
+  }
+}

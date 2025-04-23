@@ -1,7 +1,3 @@
-! Furaffinity filters
-
-furaffinity.net###donation_list
-
 furaffinity.net##figure.u-antidev
 furaffinity.net##figure.u-arcarc
 furaffinity.net##figure.u-bastion
