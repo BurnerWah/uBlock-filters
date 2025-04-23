@@ -190,6 +190,7 @@
 ||w.soundcloud.com/player/*$subdocument,3p,redirect=click2load.html
 ||widget.kapa.ai^$script,3p
 ||widget.trustpilot.com/trustboxes/*$subdocument,3p,redirect=click2load.html
+||malwarebytes.com/mwb-uninstall$document
 ||x.kinja-static.com/assets/new-client/category-stream~second-scroll.*$script
 ||x.kinja-static.com/assets/new-client/customHeader~header.$script
 ||x.kinja-static.com/assets/new-client/header.$script
