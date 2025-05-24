@@ -37,6 +37,8 @@
 /wp-content/plugins/easy-affiliate-links/*
 /wp-content/plugins/easy-social-share-buttons3/*
 /wp-content/plugins/instagram-feed/*
+/wp-content/plugins/jetpack/_inc/build/sharedaddy/*$script
+/wp-content/plugins/jetpack/modules/sharedaddy/*$stylesheet
 /wp-content/plugins/jnews-like/*
 /wp-content/plugins/jnews-weather/*
 /wp-content/plugins/new-infinite-scroll/*
@@ -68,6 +70,11 @@
 ##.hustle-slidein
 ##.messenger.rounded-share-item
 ##.pinterest-button-colorbox
+##.sd-sharing-enabled.sharedaddy
+##.share-facebook
+##.share-linkedin
+##.share-reddit
+##.share-twitter
 ##.twitter-button-colorbox
 ##.twitter-share-button
 ##.twitter.rounded-share-item
@@ -117,6 +124,7 @@
 ||disqus.com/recommendations/*$subdocument,3p
 ||docs.google.com/document/d/*/preview$subdocument,3p,redirect=click2load.html
 ||embed.acast.com^$subdocument,3p,redirect=click2load.html
+||embed.bsky.app/static/embed.js$script,3p
 ||embed.bsky.app/static/embed.js$script,3p
 ||embed.music.apple.com^$subdocument,3p,redirect=click2load.html
 ||embed.nicovideo.jp/watch/*$subdocument,3p,redirect=click2load.html
@@ -543,6 +551,7 @@ duckduckgo.com##.header__label.showcase.header--aside__item > .js-hl-button.head
 duckduckgo.com##.js-zci-link--chat
 duckduckgo.com##.nav-menu__item:has(> a[href*="://duckduckgo.com/aichat"])
 duckduckgo.com##.privacy-reminder
+duckduckgo.com##.react-results--main .react-module[data-react-module-id="news"] ol > li:has(a[href^="https://www.msn.com/"])
 duckduckgo.com##.text_promo
 duckduckgo.com###features
 duckduckgo.com##div.nrn-react-div:has(a.assigned-label-transphobic)
