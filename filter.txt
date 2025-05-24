@@ -1163,6 +1163,8 @@ xhamster.com##+js(disable-newtab-links)
 xvideos.com##.premium-results-line
 
 ! yiffer.xyz
+||pics.yiffer.xyz/pi/$image
+yiffer.xyz##div.undefined.relative.flex-col.flex.overflow-hidden:has(label:has-text(AD))
 !#include sections/sites/yiffer.txt
 
 ! youtube.com
