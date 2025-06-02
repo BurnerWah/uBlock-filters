@@ -1,4 +1,7 @@
 {
   "editor.renderFinalNewline": "off",
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.ublacklist.txt": "plaintext"
+  }
 }
