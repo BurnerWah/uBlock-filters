@@ -615,6 +615,11 @@ fivethirtyeight.com##.gpt-sidebar-ad
 flathub.org##div:has(> a[href^="/apps/org.polymc."])
 flathub.org##div:has(> a[href^="/apps/sh.cider."])
 
+! fly.io
+||fly.io/blog/$document,1p
+||fly.io/blog/$image,1p
+fly.io##a[href="/blog/"]
+
 ! furaffinity.net
 furaffinity.net##.user-contact-item:has(> .user-contact-seperator > .contact-icon-twitter)
 furaffinity.net###donation_list
