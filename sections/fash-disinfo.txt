@@ -31,6 +31,7 @@
 ||anti-degeneracy.club^
 ||armed-services.senate.gov
 ||army.mil^
+||arturo-lang.io^
 ||asda.com^
 ||asda^
 ||asimon.org^
@@ -131,6 +132,7 @@
 ||cunny.finance^
 ||cybercrusade.xyz^
 ||cyberfuck.club^
+||czechgames.com^
 ||dailycaller.com^
 ||dailymail.co.uk^
 ||dailywire.com^
@@ -205,6 +207,7 @@
 ||fbsbx.com.online-metrix.net^
 ||fbsbx.com^
 ||fbxl.net^
+||fera.ai^
 ||ff.im^
 ||fina.org^
 ||findstarlink.com^
@@ -223,6 +226,8 @@
 ||fldoe.org^
 ||flsenate.gov^
 ||fluf.club^
+||fomo.com^
+||founderhacker.com^
 ||fourthestate.social^
 ||fox.com^
 ||fox.tv^
@@ -256,6 +261,7 @@
 ||genitalia.observer^
 ||george^
 ||getgle.org^
+||getreviews.ai^
 ||gettr.com^
 ||gfuel.com^
 ||gfuel.ly^
@@ -419,6 +425,7 @@
 ||mcdrama.net^
 ||megamast.io^
 ||memehub.eu^
+||mergefreeze.com^
 ||messenger.com^
 ||messengerkids.com^
 ||meta-tube.de^
@@ -429,6 +436,7 @@
 ||miku-enthusiast.club^
 ||miku.pics^
 ||mil^
+||min-lang.org^
 ||moggy.xyz^
 ||moran.senate.gov^
 ||moskowitz.house.gov^
@@ -451,6 +459,10 @@
 ||neenster.org^
 ||neuralink.com^
 ||newscientist.com^
+||newsweek.com^
+||newsweek.ro^
+||newsweek.us^
+||newsweek.world^
 ||nicecrew.digital^
 ||nih.gov^
 ||nim-lang.org^
@@ -473,6 +485,7 @@
 ||oculus.com^
 ||odysee.com^
 ||oneangrygamer.net^
+||ooju.xyz^
 ||openai.com^
 ||opencollective.com/ciderapp^$document
 ||opencollective.com/polymc^$document
@@ -494,6 +507,7 @@
 ||pmth.us^
 ||poa.st^
 ||pogo.com^
+||polychrom.ing^
 ||polymc.github.io^
 ||polymc.org^
 ||pooper.social^
@@ -538,6 +552,7 @@
 ||rga.org^
 ||rickscott.senate.gov^
 ||ricochet.com^
+||rigd.ai^
 ||right.wtf^
 ||risch.senate.gov^
 ||roiskinda.cool^
@@ -550,6 +565,7 @@
 ||rubio.senate.gov^
 ||rumble.com^
 ||rusoc.xyz^
+||ryanckulp.com^
 ||ryona.agency^
 ||salon.com^
 ||samsclub.com^
@@ -655,6 +671,7 @@
 ||traboone.com^
 ||tracfonewirelessinc.com^
 ||treasury.gov^
+||trmnl.ink^
 ||trumpislovetrumpis.life^
 ||truthsocial.co.in^
 ||truthsocial.com^
@@ -675,6 +692,7 @@
 ||uschamber.com^
 ||uscis.gov^
 ||uscourts.gov^
+||usetrmnl.com^
 ||va.gov^
 ||varishangout.net^
 ||vaush.gg^

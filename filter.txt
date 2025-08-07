@@ -505,8 +505,20 @@ disqus.com##.login-overlay__wrapper
 ||realtime.services.disqus.com/ws/2/thread/*$websocket,1p
 
 ! docs.google.com
+||docs.google.com/static/document/client/js/*-client_js_prod_kix_companion__*$script,1p
+||docs.google.com/static/document/client/js/*-client_js_prod_kix_companion__*$xhr,1p
+||docs.google.com/static/spreadsheets2/client/js/*-waffle_js_prod_assistant__*$script,1p
+||docs.google.com/static/spreadsheets2/client/js/*-waffle_js_prod_columnsmith__*$script,1p
+||docs.google.com/static/spreadsheets2/client/js/*-waffle_js_prod_companion__*$script,1p
+||docs.google.com/static/spreadsheets2/client/js/*-waffle_js_prod_sidekick__*$script,1p
+||ssl.gstatic.com/docs/documents/images/kix-docgen-*$image,domain=docs.google.com
+||www.gstatic.com/companion/$image,domain=docs.google.com
 docs.google.com##.ai-standard-menu-item
+docs.google.com##.extendTableControlsOverlayColumn
+docs.google.com##.extendTableControlsOverlayColumnsmithIcon
+docs.google.com##.extendTableControlsOverlayRow
 docs.google.com##.FormulaBarContainerGeminiSummarizeButton
+docs.google.com##.goog-menuitem:has(.docs-icon > .docs-icon-spark-18x18)
 docs.google.com##.goog-menuitem.apps-menuitem:has-text(AI summary)
 docs.google.com##.goog-menuitem.apps-menuitem:has-text(Help me create an image)
 docs.google.com##.goog-menuitem.apps-menuitem:has-text(Help me create)
@@ -516,6 +528,11 @@ docs.google.com##.goog-menuitem.apps-menuitem:has-text(Save to Keep)
 docs.google.com##.goog-menuitem.apps-menuitem:has(> .goog-menuitem-content > .goog-menuitem-label[aria-label="Gemini 2"])
 docs.google.com##.inlineFabBubbleContainer:has(> .docs-ai-text-generator-bubble-usecase-menu)
 docs.google.com##.superfab-aitextgeneratormenu-button
+docs.google.com##.waffle-ac-row:has(.waffle-function-autocomplete-row-description:has-text(with Gemini))
+docs.google.com##.waffle-insert-function-row[aria-label="ai"]
+docs.google.com##.waffle-namedtable-gridpill-table-proactive-suggestion-wrapper
+docs.google.com##.waffle-unified-formula-help-columnsmith-container
+docs.google.com##.waffle-unified-formula-help-gemini-container
 docs.google.com###ai-rail-group
 docs.google.com###docs-sidekick-button-container
 docs.google.com###openSidekickForSlideGenerationButton
@@ -700,8 +717,12 @@ github.blog##nav .btn-mktg
 ||github.githubassets.com/assets/chunk-ui_packages_copilot-dashboard-entrypoint-element_copilot-dashboard-entrypoint-element_ts-*$script,domain=github.com
 ||github.githubassets.com/assets/copilot-chat-*$script,domain=github.com
 ||github.githubassets.com/assets/global-copilot-menu-*$script,domain=github.com
+||github.githubassets.com/assets/ui_packages_agent-sessions_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_analytics-provider_*$script,domain=github.com
+||github.githubassets.com/assets/ui_packages_copilot-auth-token_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_copilot-chat_*$script,domain=github.com
+||github.githubassets.com/assets/ui_packages_copilot-markdown_*$script,domain=github.com
+||github.githubassets.com/assets/ui_packages_global-copilot-menu_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_test-id-props_test-id-props_ts-ui_packages_copilot-markdown_MarkdownRenderer_tsx-*$script,domain=github.com
 github.com##.ActionListItem > a[href="/copilot"]
 github.com##.AppHeader-CopilotChat
@@ -711,8 +732,11 @@ github.com###repos-sticky-header > div > div > div > div:has(svg.octicon-copilot
 github.com##a[href^="git-client://clone?repo="]
 github.com##a[href^="x-github-client://openRepo/"]
 github.com##button[class*="Copilot"]
+github.com##command-palette-item-group[data-group-id="pages"] command-palette-item[data-item-title="Copilot"]
+github.com##command-palette-item[data-item-title="Copilot"]:has(.octicon-copilot)
 github.com##div[data-testid="issue-viewer-metadata-pane"] > div[data-testid="sidebar-section"]:has(h3:has-text(Development))
 github.com##li.ActionListItem:has(> a[href^="/github-copilot/"])
+github.com##li[class^="prc-ActionList-ActionListItem-"]:has-text(GitHub MCP Server)
 github.com##ul#query-builder-test-results > li.ActionList-sectionDivider:has(> h3[aria-hidden="true"]:has-text(Copilot))
 
 ! howtogeek.com
@@ -1182,6 +1206,7 @@ yiffer.xyz##div.undefined.relative.flex-col.flex.overflow-hidden:has(label:has-t
 !#include sections/sites/yiffer.txt
 
 ! youtube.com
+||www.gstatic.com/youtube/img/promos/$image,domain=youtube.com
 ||youtube-nocookie.com/embed/*$subdocument,removeparam=autoplay
 ||youtube.com/embed/*$subdocument,3p,removeparam=origin
 ||youtube.com/embed/*$subdocument,3p,removeparam=widget_referrer
