@@ -727,6 +727,7 @@ github.blog##nav .btn-mktg
 github.com##.ActionListItem > a[href="/copilot"]
 github.com##.AppHeader-CopilotChat
 github.com##.copilotPreview__container
+github.com##.rgh-sticky-sidebar-container div[data-testid="sidebar-section"]:has(.octicon-copilot)
 github.com##.TimelineItem-body > a[href^="https://github.com/refined-github/refined-github/blob/main/source/features/"]:has-text(via Refined GitHub)
 github.com###repos-sticky-header > div > div > div > div:has(svg.octicon-copilot)
 github.com##a[href^="git-client://clone?repo="]
