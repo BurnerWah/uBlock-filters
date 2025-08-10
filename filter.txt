@@ -571,6 +571,9 @@ duckduckgo.com##.privacy-reminder
 duckduckgo.com##.react-results--main .react-module[data-react-module-id="news"] ol > li:has(a[href^="https://www.msn.com/"])
 duckduckgo.com##.text_promo
 duckduckgo.com###features
+duckduckgo.com##+js(set-cookie, be, 0)
+duckduckgo.com##+js(set-cookie, bg, -1)
+duckduckgo.com##+js(set-cookie, bj, 1)
 duckduckgo.com##div.nrn-react-div:has(a.assigned-label-transphobic)
 duckduckgo.com##div.react-module[data-react-module-id="about"] > div > div > section > div > a[href^="https://twitter.com/"]
 duckduckgo.com##nav > div:has([data-testid="privacy-reminder"])
