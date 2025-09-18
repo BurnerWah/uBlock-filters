@@ -2,11 +2,14 @@
 ||076.ne.jp^
 ||101010.pl^
 ||10minutepleroma.com^
+||20thtv.com^
 ||2f30.org^
 ||4thwavenow.com^
 ||530s.cf^
 ||69.mu^
 ||90.gripe^
+||abc.com^
+||abcnews.com^
 ||achievementhunter.com^
 ||acpeds.org^
 ||adl.org^
@@ -75,6 +78,8 @@
 ||brave.com^
 ||breitbart.com^
 ||brighteon.social^
+||bun.com^
+||bun.sh^
 ||burr.senate.gov^
 ||busshi.moe^
 ||cachapa.moe^
@@ -133,6 +138,8 @@
 ||cybercrusade.xyz^
 ||cyberfuck.club^
 ||czechgames.com^
+||d23.com^
+||d23expo.com^
 ||dailycaller.com^
 ||dailymail.co.uk^
 ||dailywire.com^
@@ -146,13 +153,27 @@
 ||delsdoodles.com^
 ||desupost.soy^
 ||determinate.systems^
+||detpress.com^
 ||detroitriotcity.com^
 ||dev-wiki.de^
+||dgepress.com^
 ||dhs.gov^
+||di.sn^
 ||dilbert.com^
+||dilcdn.com^
 ||directv.com^
 ||disclose.tv^
 ||discord.gg/applemusic^$document
+||disney.io^
+||disneycareers.com^
+||disneycruise.com^
+||disneydreamersacademy.com^
+||disneyland.com^
+||disneylandparis.com^
+||disneymusic.co^
+||disneyparksblog.com^
+||disneyplus.com^
+||disneysprings.com^
 ||djitter.com^
 ||dlang.org^
 ||dobbs.town^
@@ -177,6 +198,7 @@
 ||esmailelbob.xyz^
 ||esmailelbobdev2.github.io^
 ||esmailelbobdev2.gitlab.io^
+||espn.com^
 ||etiketi.de^
 ||eveningzoo.club^
 ||exxonmobil.co^
@@ -236,6 +258,7 @@
 ||freeatlantis.com^
 ||freecumextremist.com^
 ||freedomofpress.rocks^
+||freeform.com^
 ||freespeech.group^
 ||freespeechextremist.com^
 ||freetalklive.com^
@@ -248,6 +271,8 @@
 ||frign.de^
 ||froth.zone^
 ||fubuki.bar^
+||fxnetworks.com^
+||fxnetworkspressroom.com^
 ||gab.ai^
 ||gab.com^
 ||gabfed.com^
@@ -296,6 +321,7 @@
 ||glindr.org^
 ||glowers.club^
 ||gluesenkampperez.house.gov^
+||go.com^
 ||godspeed.moe^
 ||gofundme.com/f/a-new-way-to-social-media^$document
 ||golden.house.gov^
@@ -329,6 +355,7 @@
 ||hogwartslegacy.com^
 ||homedepot.com^
 ||houlahan.house.gov^
+||hulu.com^
 ||hunhold.de^
 ||hunk.city^
 ||hydesmith.senate.gov^
@@ -345,6 +372,7 @@
 ||instagramstatic-*.akamaihd.net.edgesuite.net^
 ||instagramstatic-*.akamaihd.net^
 ||ipv6-only.site^
+||ironworksproductions.ca^
 ||itsh.bo^
 ||jamespatterson.com^
 ||jaredforflorida.com^
@@ -414,6 +442,7 @@
 ||marieforcongress.com^
 ||marshall.senate.gov^
 ||martinezperspective.org^
+||marvel.com^
 ||masochi.st^
 ||masthead.social^
 ||mastodon.art^
@@ -449,6 +478,7 @@
 ||myflorida.com^
 ||nahb.org^
 ||narrativerry.xyz^
+||nationalgeographicpartners.com^
 ||nationalhealthfreedom.org^
 ||nationalhealthfreedomaction.org^
 ||nationalreview.com^
@@ -457,12 +487,14 @@
 ||nchg.org^
 ||neckbeard.xyz^
 ||neenster.org^
+||neighcon.net^
 ||neuralink.com^
 ||newscientist.com^
 ||newsweek.com^
 ||newsweek.ro^
 ||newsweek.us^
 ||newsweek.world^
+||nexstar.tv^
 ||nicecrew.digital^
 ||nih.gov^
 ||nim-lang.org^
@@ -492,6 +524,7 @@
 ||opensuse.org^
 ||opm.gov^
 ||oursocialism.today^
+||oven.sh^
 ||owo69.me^
 ||parler.com^
 ||patreon.com/Are0h^$document
@@ -564,6 +597,7 @@
 ||rt.com^
 ||rubio.senate.gov^
 ||rumble.com^
+||rundisney.com^
 ||rusoc.xyz^
 ||ryanckulp.com^
 ||ryona.agency^
@@ -635,6 +669,7 @@
 ||tastingtraffic.net^
 ||teci.world^
 ||tedbudd.com^
+||teddyfresh.com^
 ||telegraph.co.uk^
 ||tesla.com^
 ||texas.gov^
@@ -660,6 +695,7 @@
 ||thesun.co.uk^
 ||thesun.ie^
 ||thetimes.co.uk^
+||thewaltdisneycompany.com^
 ||thj.no^
 ||threads.net^
 ||thune.senate.gov^
