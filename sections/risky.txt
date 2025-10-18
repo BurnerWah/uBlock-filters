@@ -15,5 +15,6 @@
 ||privateinternetaccess.com^
 ||purevpn.com^
 ||robertrmorris.org^
+||rubycentral.org^
 ||softonic.com^
 ||threema.ch^
