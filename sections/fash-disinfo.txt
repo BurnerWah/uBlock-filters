@@ -732,7 +732,7 @@
 ||suse.com^
 ||swiftzerr.github.io^
 ||swurl.xyz^
-||t.co^
+||t.co^$important
 ||tabletmag.com^
 ||tailwindcss-forms.vercel.app^
 ||tailwindcss-typography.vercel.app^
