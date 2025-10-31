@@ -1974,7 +1974,6 @@
 ||rabbithole.gg^
 ||rabby.io^
 ||radar.tech^
-||radicle.xyz^
 ||radion.fm^
 ||raiden.network^
 ||railgun.org^

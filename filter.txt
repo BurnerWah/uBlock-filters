@@ -75,6 +75,12 @@
 ##.share-linkedin
 ##.share-reddit
 ##.share-twitter
+##.social-share-widget > .sb-facebook
+##.social-share-widget > .sb-twitter
+##.ssb_fbshare-icon
+##.ssb_linkedin-icon
+##.ssb_reddit-icon
+##.ssb_tweet-icon
 ##.twitter-button-colorbox
 ##.twitter-share-button
 ##.twitter.rounded-share-item
@@ -124,7 +130,6 @@
 ||disqus.com/recommendations/*$subdocument,3p
 ||docs.google.com/document/d/*/preview$subdocument,3p,redirect=click2load.html
 ||embed.acast.com^$subdocument,3p,redirect=click2load.html
-||embed.bsky.app/static/embed.js$script,3p
 ||embed.bsky.app/static/embed.js$script,3p
 ||embed.music.apple.com^$subdocument,3p,redirect=click2load.html
 ||embed.nicovideo.jp/watch/*$subdocument,3p,redirect=click2load.html
@@ -531,6 +536,7 @@ docs.google.com##.waffle-namedtable-gridpill-table-proactive-suggestion-wrapper
 docs.google.com##.waffle-unified-formula-help-columnsmith-container
 docs.google.com##.waffle-unified-formula-help-gemini-container
 docs.google.com###ai-rail-group
+docs.google.com###docs-gemini-menu
 docs.google.com###docs-sidekick-button-container
 docs.google.com###openSidekickForSlideGenerationButton
 docs.google.com###summary-block
@@ -709,6 +715,12 @@ github.blog##nav .btn-mktg
 
 ! github.com
 @@||github.com/GoogleChrome/web-vitals/*$xhr,1p
+@@||github.githubassets.com/assets/ui_packages_agent-sessions_components_NewTaskChatInput_tsx-ui_packages_agent-sessions_compone-*$script,domain=github.com
+@@||github.githubassets.com/assets/ui_packages_agent-sessions_utils_elapsed-time-util_ts-ui_packages_copilot-chat_utils_copilot-*$script,domain=github.com
+@@||github.githubassets.com/assets/ui_packages_copilot-chat_components_ModelPicker_tsx-*$script,domain=github.com
+@@||github.githubassets.com/assets/ui_packages_copilot-chat_utils_copilot-chat-helpers_ts-*$script,domain=github.com
+@@||github.githubassets.com/assets/ui_packages_copilot-chat_utils_CopilotChatContext_tsx-*$script,domain=github.com
+@@||github.githubassets.com/assets/ui_packages_copilot-markdown_MarkdownRenderer_tsx-*$script,domain=github.com
 ||github.com/_jobs/copilot-completion:*$xhr,1p
 ||github.com/*/copilot/completions/$xhr,1p
 ||github.com/dashboard/changelog$xhr,1p
@@ -717,11 +729,8 @@ github.blog##nav .btn-mktg
 ||github.githubassets.com/assets/chunk-ui_packages_copilot-dashboard-entrypoint-element_copilot-dashboard-entrypoint-element_ts-*$script,domain=github.com
 ||github.githubassets.com/assets/copilot-chat-*$script,domain=github.com
 ||github.githubassets.com/assets/global-copilot-menu-*$script,domain=github.com
-||github.githubassets.com/assets/ui_packages_agent-sessions_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_analytics-provider_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_copilot-auth-token_*$script,domain=github.com
-||github.githubassets.com/assets/ui_packages_copilot-chat_*$script,domain=github.com
-||github.githubassets.com/assets/ui_packages_copilot-markdown_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_global-copilot-menu_*$script,domain=github.com
 ||github.githubassets.com/assets/ui_packages_test-id-props_test-id-props_ts-ui_packages_copilot-markdown_MarkdownRenderer_tsx-*$script,domain=github.com
 github.com##.ActionListItem > a[href="/copilot"]
@@ -818,6 +827,10 @@ lenovo.com##.bottomStickyDock
 
 ! limetorrents.lol
 limetorrents.lol##.torrentinfo > div:has(> div > [href^="/leet/"])
+
+! linkedin.com
+linkedin.com##.social-share__item:has-text(Facebook)
+linkedin.com##.social-share__item:has-text(Twitter)
 
 ! linkr.bio
 linkr.bio##.land-claim
@@ -1072,8 +1085,9 @@ thestar.com##.aggregation
 thestar.com##.right-rail-ads-container
 
 ! theverge.com
-theverge.com###newsletter-signup-short-form
 theverge.com##.remixd-wrapper
+theverge.com###newsletter-signup-short-form
+theverge.com##button[aria-label="Share on Threads"]
 
 ! theintercept.com
 theintercept.com##+js(set, tp.push, noopFunc)
@@ -1091,6 +1105,9 @@ tomshardware.com##.socialite-widget
 ! toptal.com
 toptal.com##.internal-linking
 ||toptal.com/developers/gitignore/img/toptal-logo-wordmark.svg$image,1p
+
+! translate.google.com
+translate.google.com##button[aria-label="Search with Google"]
 
 ! tumblr.com
 www.tumblr.com##[href="/settings/domains"]
