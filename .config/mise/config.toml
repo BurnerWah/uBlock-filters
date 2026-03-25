@@ -2,3 +2,10 @@
 deno = "latest"
 node = "latest"
 tombi = "latest"
+
+[prepare.deno]
+auto = true
+run = "deno install"
+depends = ["deno"]
+sources = ["deno.json*", "deno.lock", "package.json"]
+outputs = ["node_modules"]
