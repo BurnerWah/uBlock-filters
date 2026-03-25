@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@std/path": "jsr:@std/path@^1.0.8",
-    "@std/toml": "jsr:@std/toml@^1.0.4"
+    "@std/path": "jsr:@std/path@^1.1.4",
+    "@std/toml": "jsr:@std/toml@^1.0.11"
   }
 }
