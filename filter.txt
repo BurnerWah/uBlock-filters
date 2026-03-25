@@ -688,6 +688,9 @@ hackster.io##a[href^="/users/sign_up"]
 hackster.io##div.hckui__layout__fullWidth.hckui__layout__marginBottom30.hckui__layout__marginTop60
 hackster.io##div[class^="article_layout__sidebar__"]
 
+! helpnetsecurity.com
+helpnetsecurity.com##^noscript:has(> style:has-text(noScriptAlert))
+
 ! housepetscomic.com
 housepetscomic.com##.popmake
 ||housepetscomic.com/wp-content/plugins/popup-maker/*$script,1p
@@ -1013,6 +1016,7 @@ regexr.com##.hello:has(.noad)
 
 ! reuters.com
 reuters.com##div[class^="regular-article-layout__right-rail__"]
+reuters.com##button[aria-label="Share article on X"]
 
 ! rollingstone.com
 ||lightboxapi.azurewebsites.net/*/*/www.rollingstone.com/jsonp/z$script,domain=rollingstone.com
@@ -1247,6 +1251,7 @@ youtube.com##ytd-guide-section-renderer:has(> h3:has-text(More from YouTube))
 youtube.com##ytd-guide-signin-promo-renderer
 youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
 youtube.com##ytd-search ytd-shelf-renderer:has(h2:has-text(Explore more))
+www.youtube.com###video-summary
 
 ! z2u.com
 ||z2u.com/notic.wav$media,1p

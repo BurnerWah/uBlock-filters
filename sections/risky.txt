@@ -1,3 +1,4 @@
+||adafruit.com^
 ||chedot.com^
 ||cyberghostvpn.com^
 ||cyberghostvpnapp.com^
