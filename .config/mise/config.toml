@@ -1,4 +1,4 @@
 [tools]
 deno = "latest"
 node = "latest"
-taplo = "latest"
+tombi = "latest"
