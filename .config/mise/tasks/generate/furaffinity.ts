@@ -1,9 +1,12 @@
+#!/usr/bin/env -S deno run --allow-read=. --allow-write=generated --allow-env=MISE_*
+//MISE description="Generate filters for FurAffinity"
 import { join as joinPath } from '@std/path'
 import { parse } from '@std/toml'
 
-if (import.meta.dirname) {
+const project_root = Deno.env.get('MISE_PROJECT_ROOT')
+if (project_root) {
   const configData = await Deno.readTextFile(
-    joinPath(import.meta.dirname, 'settings.toml'),
+    joinPath(project_root, '.config/filter-settings.toml'),
   )
   const config = parse(configData)
   const users: string[] = config.generators?.lists.furaffinity
@@ -15,7 +18,7 @@ if (import.meta.dirname) {
   ])
 
   await Deno.writeTextFile(
-    joinPath(import.meta.dirname, '../generated/furaffinity.txt'),
+    joinPath(project_root, 'generated/furaffinity.txt'),
     stream,
   )
 
