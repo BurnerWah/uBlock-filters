@@ -425,6 +425,7 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,node,linux,visualstudiocode,macos,windows,python
 
+/.mise/deps-state.toml
 /.mise/prepare-state.toml
 
 /.config/mise.local.toml

@@ -3,7 +3,7 @@ deno = "latest"
 node = "latest"
 tombi = "latest"
 
-[prepare.deno]
+[deps.deno]
 auto = true
 run = "deno install"
 depends = ["deno"]
