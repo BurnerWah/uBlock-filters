@@ -1,4 +1,3 @@
-
 ||*-facebook-production-*.intellum.com^
 ||076.ne.jp^
 ||10.com.au^
@@ -35,6 +34,7 @@
 ||anncoulter.com^
 ||anon-kenkai.com^
 ||anti-degeneracy.club^
+||appimage.org^
 ||armed-services.senate.gov
 ||army.mil^
 ||arturo-lang.io^
@@ -93,6 +93,7 @@
 ||burr.senate.gov^
 ||busshi.moe^
 ||cachapa.moe^
+||cachyos.org^
 ||canberrasocial.net^
 ||carusocan.com^
 ||case.house.gov^
@@ -138,6 +139,7 @@
 ||comedycentral.co.il^
 ||conservapedia.com^
 ||conservativebrief.com^
+||consumerrights.wiki^
 ||coolestprojects.org^
 ||copyright.gov^
 ||coredev-uk.github.io^
@@ -216,6 +218,7 @@
 ||elliotjarnit.xyz^
 ||eov2.com^
 ||eox2.com^
+||epa.gov^
 ||equalityhumanrights.com^
 ||ernst.senate.gov^
 ||esmail.xyz^
@@ -240,6 +243,7 @@
 ||facebook.net^
 ||facebookblueprint.com^
 ||facebookcorewwwi.onion^
+||facepunch.com^
 ||factsaboutyouth.com^
 ||fb.com^
 ||fb.gg^
@@ -386,6 +390,7 @@
 ||hoeven.senate.gov^
 ||hogwartslegacy.com^
 ||homedepot.com^
+||hootsuite.com^
 ||houlahan.house.gov^
 ||hulu.com^
 ||hunhold.de^
@@ -398,6 +403,7 @@
 ||ic3.gov^
 ||iddqd.social^
 ||ig.me^
+||iisu.network^
 ||independent.co.uk^
 ||inhofe.senate.gov^
 ||instagram.com^
@@ -405,6 +411,8 @@
 ||instagramstatic-*.akamaihd.net^
 ||ipv6-only.site^
 ||ironworksproductions.ca^
+||itsfoss.com^
+||itsfoss.community^
 ||itsh.bo^
 ||j-one.com^
 ||jamespatterson.com^
@@ -473,6 +481,7 @@
 ||mailsubs.co.uk^
 ||manchin.senate.gov^
 ||manhattan-institute.org^
+||manuelmoreale.com^
 ||marapets.com^
 ||marcykaptur.com^
 ||marieforcongress.com^
@@ -594,6 +603,7 @@
 ||phoronix.com^
 ||phyllisschlafly.com^
 ||pieville.net^
+||pinknews.co.uk^
 ||pjmedia.com^
 ||playfirst.com^
 ||pleroma.host^
@@ -632,8 +642,11 @@
 ||raspberrypi.org^
 ||raspberrypi.social^
 ||rayn.bo^
+||razer.com^
 ||rdrama.cc^
+||realfood.gov^
 ||realhimes.com^
+||reason.com^
 ||reclaimthenet.org^
 ||redbull.com^
 ||redbull.in^
@@ -656,6 +669,7 @@
 ||romney.senate.gov^
 ||ronjohnson.senate.gov^
 ||roosterteeth.com^
+||rossmanngroup.com^
 ||rounds.senate.gov^
 ||rt.com^
 ||rubio.senate.gov^
@@ -672,11 +686,13 @@
 ||sayit.world^
 ||saynoto.lgbt^
 ||sbgi.net^
+||sbox.game^
 ||scholar.social^
 ||schumer.senate.gov^
 ||scott.senate.gov^
 ||seal.cafe^
 ||sec.gov^
+||secretservice.gov^
 ||sharivegas.com^
 ||shelby.senate.gov^
 ||shiftyrp.com^
@@ -760,6 +776,7 @@
 ||theguardian.com^
 ||thejuliebindel.com^
 ||thelibertarianrepublic.com^
+||thepinknews.com^
 ||thepostmillennial.com^
 ||theralphretort.com^
 ||theres.life^
@@ -819,6 +836,7 @@
 ||walmart.com^
 ||walmart^
 ||walmrt.us^
+||war.gov^
 ||warnermedia.com^
 ||warnermediacdn.com^
 ||washingtonexaminer.com^
