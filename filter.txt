@@ -145,6 +145,7 @@
 ||html5-player.libsyn.com/embed/*$subdocument,3p,redirect=click2load.html
 ||jetpack.wordpress.com/jetpack-comment/*$subdocument,3p,redirect=click2load.html
 ||js.driftt.com^$script,3p
+||js.stripe.com/v3/elements-inner-payment-method-messaging-$subdocument,3p,redirect=click2load.html
 ||js.stripe.com/v3/fingerprinted/js/elements-afterpay-*$script
 ||js.stripe.com/v3/m-outer-*$subdocument,3p
 ||kinja.com/api/profile/accountwithtoken$script
@@ -1233,25 +1234,25 @@ yiffer.xyz##div.undefined.relative.flex-col.flex.overflow-hidden:has(label:has-t
 ||youtube.com/embed/*$subdocument,3p,removeparam=origin
 ||youtube.com/embed/*$subdocument,3p,removeparam=widget_referrer
 ||youtube.com^$document,removeparam=sub_confirmation
-youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(For you))
-youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(People also watched))
-youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(Previously watched))
-youtube.com##.ytp-cards-teaser
-youtube.com###mealbar-promo-renderer
-youtube.com###voice-search-button
-youtube.com##segmented-like-dislike-button-view-model > yt-smartimation > div.smartimation__border
-youtube.com##yt-share-target-renderer:not(:has(button[title="Embed"]))
-youtube.com##ytd-button-renderer:has-text(Clip)
-youtube.com##ytd-button-renderer:has(a[aria-label="Promote"])
-youtube.com##ytd-compact-movie-renderer
-youtube.com##ytd-compact-radio-renderer
-youtube.com##ytd-guide-entry-renderer:has-text(Your movies and TV)
-youtube.com##ytd-guide-section-renderer:has(> h3:has-text(Explore))
-youtube.com##ytd-guide-section-renderer:has(> h3:has-text(More from YouTube))
-youtube.com##ytd-guide-signin-promo-renderer
-youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
-youtube.com##ytd-search ytd-shelf-renderer:has(h2:has-text(Explore more))
+www.youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(For you))
+www.youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(People also watched))
+www.youtube.com##.ytd-search ytd-shelf-renderer.ytd-item-section-renderer.style-scope:has(h2:has-text(Previously watched))
+www.youtube.com##.ytp-cards-teaser
+www.youtube.com###mealbar-promo-renderer
 www.youtube.com###video-summary
+www.youtube.com###voice-search-button
+www.youtube.com##segmented-like-dislike-button-view-model > yt-smartimation > div.smartimation__border
+www.youtube.com##yt-share-target-renderer:not(:has(button[title="Embed"]))
+www.youtube.com##ytd-button-renderer:has-text(Clip)
+www.youtube.com##ytd-button-renderer:has(a[aria-label="Promote"])
+www.youtube.com##ytd-compact-movie-renderer
+www.youtube.com##ytd-compact-radio-renderer
+www.youtube.com##ytd-guide-entry-renderer:has-text(Your movies and TV)
+www.youtube.com##ytd-guide-section-renderer:has(> h3:has-text(Explore))
+www.youtube.com##ytd-guide-section-renderer:has(> h3:has-text(More from YouTube))
+www.youtube.com##ytd-guide-signin-promo-renderer
+www.youtube.com##ytd-rich-item-renderer:has(.assigned-label-transphobic)
+www.youtube.com##ytd-search ytd-shelf-renderer:has(h2:has-text(Explore more))
 
 ! z2u.com
 ||z2u.com/notic.wav$media,1p
